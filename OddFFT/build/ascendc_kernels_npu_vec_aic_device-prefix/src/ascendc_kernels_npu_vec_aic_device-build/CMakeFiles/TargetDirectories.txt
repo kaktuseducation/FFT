@@ -1,0 +1,2 @@
+/home/ma-user/work/OddFFT/build/ascendc_kernels_npu_vec_aic_device-prefix/src/ascendc_kernels_npu_vec_aic_device-build/CMakeFiles/rebuild_cache.dir
+/home/ma-user/work/OddFFT/build/ascendc_kernels_npu_vec_aic_device-prefix/src/ascendc_kernels_npu_vec_aic_device-build/CMakeFiles/edit_cache.dir

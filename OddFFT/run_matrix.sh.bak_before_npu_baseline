@@ -1,0 +1,447 @@
+#!/bin/bash
+# OddFFT — the full comparison matrix.
+#
+#   variants (radix x butterfly x scheme x granularity x layout x cores)
+#     x N x tile
+#
+# WHY THE N LIST IS PER RADIX
+# In the power-of-two project every radix shared N = 2^(6k), so one N list
+# served all of them and every cross-radix comparison was paired at identical
+# N. No N above 1 is simultaneously a power of 3, of 5 and of 7, so that is
+# impossible here. Each radix therefore gets its own list, chosen so the
+# entries line up as closely as sizes of this shape can:
+#
+#     radix 3:   243    2187    19683
+#     radix 5:   125    3125    15625
+#     radix 7:   343    2401    16807
+#              (small)  (mid)   (large)
+#
+# The mid row spans 1.43x and the large row 1.26x. Any conclusion drawn ACROSS
+# radices has to go through the ns_per_pt column (total_us*1000 / (N*log2 N)),
+# which output/matrix.csv carries for exactly this reason, and has to state
+# that spread. Comparisons WITHIN a radix stay paired at identical N and are
+# the strong ones.
+#
+# Usage:
+#   bash run_matrix.sh                      # the default grid
+#   bash run_matrix.sh -t "64 512"          # tiles only
+#   bash run_matrix.sh -c "r3/sym_psm_xs"   # specific variants
+#   bash run_matrix.sh -B "720 1331" -R "101 1009"   # arbitrary-length N lists
+#   bash run_matrix.sh -c "$(./build/oddfft --list | tail -n +2 \
+#        | awk -F, '/^blu|^rad/{print $1"/"$2}' | tr '\n' ' ')"   # those only
+#   bash run_matrix.sh -w 1 -b 3            # fewer runs, quicker
+#   bash run_matrix.sh -O 24 -P close       # threads and placement, explicit
+#   bash run_matrix.sh -P false             # placement off, for comparison
+#
+# HOW TO STOP A RUN IN PROGRESS: create the file ./STOP in the project
+# directory —
+#     touch ~/work/OddFFT/STOP
+# It is checked at every cell boundary. Ctrl-C is NOT reliable here: SIGINT
+# does not reach a process sitting inside an NPU driver call, and bash then
+# carries on to the next cell. That was learnt the hard way in the
+# power-of-two project; the STOP file is the mechanism that was actually
+# verified to work.
+
+set -u
+CURRENT_DIR=$(cd "$(dirname "${BASH_SOURCE:-$0}")" && pwd)
+cd "$CURRENT_DIR"
+
+RUN_MODE="npu"
+SOC_VERSION="Ascend910B4"
+N_LIST_R3="243 2187 19683"
+N_LIST_R5="125 3125 15625"
+N_LIST_R7="343 2401 16807"
+N_LIST_R2="256 4096 32768"
+N_LIST_R4="256 4096 65536"
+# The combined transform takes any N factorisable over {2,3,5,7}. These are
+# chosen to be genuinely mixed (no pure powers) and to bracket the sizes above,
+# so frank can be compared against the single-radix variants at nearby N.
+N_LIST_MIX="720 3600 30240 100800"
+# Bluestein takes ANY N. Half this list is deliberately {2,3,5,7}-smooth so the
+# same N also runs on mix/frank_*, which is the only way to price Bluestein's
+# generality: at N = 720 and 3600 the two can be compared directly, and the
+# ratio says what the detour through a length-M convolution costs when a direct
+# plan existed. The other half is what Bluestein is actually for -- 1331 = 11^3
+# and 10007 prime have no plan at all in the odd-radix path.
+N_LIST_BLU="720 3600 1331 10007"
+# Rader needs a PRIME N. 1009 and 10007 bracket the mid and large rows above;
+# 101 and 211 are small enough that the host prefix still dominates, which is
+# where the minT axis has something to say.
+N_LIST_RAD="101 211 1009 10007"
+TILE_LIST="8 64 352"   # 352 = ODDFFT_MAX_TILE; a larger request clamps to it
+# The smallest operand distance t that still runs on the DEVICE.
+#   1  every stage on the device. Possible because DataCopyPad was measured
+#      correct below the 32-byte granule; whether it is FASTER is the question
+#      this axis exists to answer, since a transfer costs about the same
+#      whatever its length and a t=1 stage moves one float per run
+#   8  the plain-DataCopy granule, where the floor used to sit
+#   64 a comparison point: an earlier version passed the tile width here by
+#      mistake, and the difference turned out to be most of the runtime
+MINT_LIST="1 8 64"
+WARMUP=2
+BENCH_RUNS=5
+VARIANTS=""
+TIMEOUT_S=600
+
+# ---------------------------------------------------------------------------
+# OpenMP: thread count and thread PLACEMENT, both set here rather than left to
+# the operator's shell, so the log records what the table was measured under.
+#
+# WHY PLACEMENT IS NOT OPTIONAL. Measured at N = 100800, tile 64, minT 64, five
+# repeats of the identical cell:
+#     unbound   mean 1738.73 us, cv 15.6%, spread 1.47x
+#     bound     mean 1121.24 us, cv  2.8%, spread 1.08x
+# Binding is 1.55x faster AND removes five sixths of the variance, because most
+# of what looked like noise was threads migrating across a quota-limited CPU
+# set. Unbound, 53% of the stage-order comparisons and 56% of the tile
+# comparisons fell inside the run-to-run spread and could not be decided.
+#
+# WHY THE DEFAULT THREAD COUNT COMES FROM THE CGROUP. nproc reports 192 on this
+# host; the container's quota is 24. A sweep found the knee at exactly 24, and
+# measured 3.05x at 192 threads against 14.55x at 24 -- that is
+# oversubscription, not memory bandwidth. Reading the quota is more reliable
+# than reading nproc and more honest than hardcoding one machine's number.
+OMP_THREADS=""
+if [ -r /sys/fs/cgroup/cpu.max ]; then
+    read -r _q _p < /sys/fs/cgroup/cpu.max
+    if [ "$_q" != "max" ]; then OMP_THREADS=$(( _q / _p )); fi
+elif [ -r /sys/fs/cgroup/cpu/cpu.cfs_quota_us ]; then
+    _q=$(cat /sys/fs/cgroup/cpu/cpu.cfs_quota_us)
+    _p=$(cat /sys/fs/cgroup/cpu/cpu.cfs_period_us)
+    if [ "$_q" -gt 0 ] 2>/dev/null; then OMP_THREADS=$(( _q / _p )); fi
+fi
+if [ -z "$OMP_THREADS" ] || [ "$OMP_THREADS" -lt 1 ] 2>/dev/null; then
+    OMP_THREADS=$(nproc)
+fi
+# DEFAULT OFF. Binding was defaulted ON in an earlier version on the strength
+# of one experiment: five repeats of one cell went from 1738.73 us (cv 15.6%)
+# to 1121.24 us (cv 2.8%), a 1.55x gain. That measurement was real and it did
+# not generalise. On the next run the container reported nproc=24 where it had
+# reported 192, and with OMP_PLACES=cores built from that changed view the
+# cells WITH host stages degraded by 1.09x to 20.88x while the cells with none
+# stayed identical to within 1% -- the signature of threads being stacked onto
+# the same physical core. So the default is the unbound behaviour, and binding
+# is decided per run by CALIBRATE_BIND below, by measurement, on the machine
+# as it is at that moment. -P forces a value and skips the calibration.
+OMP_BIND=""
+CALIBRATE_BIND=1
+
+while getopts "r:v:3:5:7:2:4:m:B:R:t:M:w:b:c:T:O:P:" opt; do
+    case "$opt" in
+        r) RUN_MODE="$OPTARG" ;;
+        v) SOC_VERSION="$OPTARG" ;;
+        3) N_LIST_R3="$OPTARG" ;;
+        5) N_LIST_R5="$OPTARG" ;;
+        7) N_LIST_R7="$OPTARG" ;;
+        2) N_LIST_R2="$OPTARG" ;;
+        4) N_LIST_R4="$OPTARG" ;;
+        m) N_LIST_MIX="$OPTARG" ;;
+        B) N_LIST_BLU="$OPTARG" ;;
+        R) N_LIST_RAD="$OPTARG" ;;
+        t) TILE_LIST="$OPTARG" ;;
+        M) MINT_LIST="$OPTARG" ;;
+        w) WARMUP="$OPTARG" ;;
+        b) BENCH_RUNS="$OPTARG" ;;
+        c) VARIANTS="$OPTARG" ;;
+        T) TIMEOUT_S="$OPTARG" ;;
+        O) OMP_THREADS="$OPTARG" ;;
+        P) OMP_BIND="$OPTARG"; CALIBRATE_BIND=0 ;;
+        *) echo "[ERROR] unknown option: -$OPTARG"; exit 1 ;;
+    esac
+done
+
+mkdir -p ./output ./logs
+LOG="./logs/matrix_$(date +%Y%m%d_%H%M%S).log"
+exec > >(tee "$LOG") 2>&1
+echo "[INFO] run_matrix.sh started, log=$LOG"
+rm -f ./STOP
+
+if [ -n "${ASCEND_INSTALL_PATH:-}" ]; then
+    _ASCEND_INSTALL_PATH=$ASCEND_INSTALL_PATH
+elif [ -n "${ASCEND_HOME_PATH:-}" ]; then
+    _ASCEND_INSTALL_PATH=$ASCEND_HOME_PATH
+elif [ -d "$HOME/Ascend/ascend-toolkit/latest" ]; then
+    _ASCEND_INSTALL_PATH=$HOME/Ascend/ascend-toolkit/latest
+else
+    _ASCEND_INSTALL_PATH=/usr/local/Ascend/ascend-toolkit/latest
+fi
+echo "[INFO] ASCEND install path: ${_ASCEND_INSTALL_PATH}"
+set +e
+source "${_ASCEND_INSTALL_PATH}/bin/setenv.bash"
+set -e
+set +e
+
+# One matrix run = one clean table, for the reason given in run.sh.
+_ts="$(date +%Y%m%d_%H%M%S)"
+for _csv in matrix results validation; do
+    if [ -s "./output/${_csv}.csv" ]; then
+        mv "./output/${_csv}.csv" "./output/${_csv}.csv.bak_${_ts}"
+    fi
+done
+
+echo "[INFO] building once (RUN_MODE=${RUN_MODE})"
+rm -rf build
+cmake -B build \
+    -DRUN_MODE=${RUN_MODE} \
+    -DSOC_VERSION=${SOC_VERSION} \
+    -DASCEND_CANN_PACKAGE_PATH=${_ASCEND_INSTALL_PATH} > ./logs/cmake_cfg.log 2>&1
+cmake --build build -j > ./logs/cmake_build.log 2>&1
+if [ ! -x ./build/oddfft ]; then
+    echo "[ERROR] build failed — see logs/cmake_build.log"
+    tail -40 ./logs/cmake_build.log
+    exit 1
+fi
+export LD_LIBRARY_PATH="${CURRENT_DIR}/build/lib:${LD_LIBRARY_PATH:-}"
+BIN=./build/oddfft
+
+# The variant list comes from the binary, so the axes are not duplicated here.
+LIST=$($BIN --list | tail -n +2)
+if [ -z "$VARIANTS" ]; then
+    VARIANTS=$(echo "$LIST" | awk -F, '{print $1"/"$2}' | tr '\n' ' ')
+fi
+echo "[INFO] variants: $VARIANTS"
+echo "[INFO] tiles:    $TILE_LIST"
+echo "[INFO] minT:     $MINT_LIST"
+echo "[INFO] N  r2=$N_LIST_R2 | r3=$N_LIST_R3 | r4=$N_LIST_R4"
+echo "[INFO] N  r5=$N_LIST_R5 | r7=$N_LIST_R7 | mix=$N_LIST_MIX"
+echo "[INFO] N  blu=$N_LIST_BLU | rad=$N_LIST_RAD"
+# Exported once, so every cell is measured under the same setting and the log
+# says which. -O overrides the count, -P the binding; -P false disables it,
+# which is the configuration the 1.47x spread above was measured with.
+export OMP_NUM_THREADS="$OMP_THREADS"
+echo "[INFO] OpenMP: threads=$OMP_NUM_THREADS (nproc=$(nproc), count from the "\
+     "cgroup quota unless -O given); binding decided below by measurement"
+
+# ---------------------------------------------------------------------------
+# Decide the thread binding by measuring it, here, now.
+#
+# Two runs of one representative cell -- unbound and bound -- and whichever is
+# faster is used for the whole table. The cell is chosen to HAVE host stages
+# (minT=8), because a cell without them is insensitive to this setting and
+# would calibrate nothing.
+#
+# This exists because the setting is not a property of the code or of the
+# chip; it is a property of how the container's CPU set looks when the run
+# happens, and that was observed to change between two runs an hour apart.
+# Recording the decision and the two times it rests on costs twenty seconds
+# and makes the table self-explanatory.
+calibrate_binding() {
+    local v n
+    # The first variant that is not a chk/* diagnostic. Those are device-only
+    # and write no output, so they SKIP -- calibrating on one would measure
+    # nothing and fall back, and whether one is first depends only on the order
+    # the registry happens to hand back.
+    v=$(echo "$VARIANTS" | tr ' ' '\n' | grep -v '^chk/' | grep -v '^$' | head -1)
+    [ -z "$v" ] && { OMP_BIND="false"; return; }
+    # The LARGEST N of the list, not the first. The whole point of this cell is
+    # to be sensitive to the setting, and the host stages are what the setting
+    # acts on: at the small end of the list they are a few per cent of the
+    # runtime, the two measurements differ by less than the noise, and the
+    # decision becomes a coin flip dressed up as a measurement.
+    n=$(n_list_for "$v" "$(radix_of "$v")" | awk '{print $NF}')
+    [ -z "$n" ] && { OMP_BIND="false"; return; }
+    rm -f ./input/input_x.bin ./output/golden.bin
+    if ! python3 scripts/gen_data.py -N "$n" $(gen_flags_for "$v") \
+            --input-dir ./input --output-dir ./output > /dev/null 2>&1; then
+        echo "[CALIB] gen_data failed for N=$n -- leaving binding off"
+        OMP_BIND="false"; return
+    fi
+
+    # The calibration's own runs append rows to the tables, exactly like any
+    # other run of the binary -- it IS the same binary. Those rows are not
+    # cells of the matrix, and in v9 two of them got counted: the summary read
+    # 146 PASS against 144 cells actually run. So the sizes are recorded here
+    # and the files are cut back to them afterwards. Truncation and not
+    # deletion, because the rotation above may have left a header line behind
+    # and the header has to survive.
+    # tr -d ' ': some wc implementations pad the count, and " 1234" would be
+    # passed on to head -c as an argument with a space in it.
+    local _sz_matrix=0 _sz_results=0 _sz_valid=0
+    [ -f ./output/matrix.csv ]     && _sz_matrix=$(wc -c < ./output/matrix.csv | tr -d ' ')
+    [ -f ./output/results.csv ]    && _sz_results=$(wc -c < ./output/results.csv | tr -d ' ')
+    [ -f ./output/validation.csv ] && _sz_valid=$(wc -c < ./output/validation.csv | tr -d ' ')
+
+    local off on
+    off=$(calib_run_us false "$v")
+    on=$(calib_run_us close "$v")
+
+    _calib_truncate ./output/matrix.csv     "$_sz_matrix"
+    _calib_truncate ./output/results.csv    "$_sz_results"
+    _calib_truncate ./output/validation.csv "$_sz_valid"
+
+    if [ -z "$off" ] || [ -z "$on" ]; then
+        echo "[CALIB] no usable [RESULT] line from a calibration run -- leaving binding off"
+        echo "[CALIB] unbound='${off}' bound='${on}'; the tail of the unbound run follows,"
+        echo "[CALIB] so that this cannot fail silently a second time:"
+        tail -6 ./logs/calib_false.log 2>/dev/null | sed 's/^/[CALIB]   /'
+        OMP_BIND="false"; return
+    fi
+    # Binding has to win by more than 5% to be worth the risk of a bad
+    # placement; a coin-flip difference is not evidence.
+    if awk -v a="$on" -v b="$off" 'BEGIN{exit !(a < b*0.95)}'; then
+        OMP_BIND="close"
+    else
+        OMP_BIND="false"
+    fi
+    echo "[CALIB] $v N=$n tile=64 minT=8: unbound=${off} us  bound=${on} us"
+    echo "[CALIB] -> OMP_PROC_BIND=$OMP_BIND"
+}
+
+# One calibration run. $1 = the OMP_PROC_BIND value, $2 = the variant.
+#
+# The number is taken from the [RESULT] line and only from it, by field, with
+# awk. v9 used
+#     sed -n 's/.*total_us=\([0-9.]*\).*/\1/p' | head -1
+# and it returned nothing on every single run. The harness prints total_us
+# twice, and the first of the two is the per-run line, where the format is
+# %10.2f -- so after `total_us=` come SPACES, `[0-9.]*` matches the empty
+# string, sed prints an empty line, and head -1 faithfully returns it. The
+# pattern had been written against output I never looked at. Anchoring on
+# [RESULT] and splitting into fields removes the padding problem and the
+# wrong-line problem at once.
+calib_run_us() {
+    local bind="$1" v="$2" out="./logs/calib_${1}.log"
+    if [ "$bind" = "close" ]; then
+        OMP_NUM_THREADS=$OMP_THREADS OMP_PROC_BIND=close OMP_PLACES=cores \
+            timeout "${TIMEOUT_S}" $BIN "$v" 64 1 3 8 > "$out" 2>&1 || true
+    else
+        OMP_NUM_THREADS=$OMP_THREADS OMP_PROC_BIND=false \
+            timeout "${TIMEOUT_S}" $BIN "$v" 64 1 3 8 > "$out" 2>&1 || true
+    fi
+    awk '/^\[RESULT\]/ {
+             for (i = 1; i <= NF; i++)
+                 if ($i ~ /^total_us=[0-9]/) { sub(/^total_us=/, "", $i); print $i; exit }
+         }' "$out"
+}
+
+# Cut a table back to the byte count it had before the calibration ran.
+_calib_truncate() {
+    local f="$1" sz="$2"
+    [ -f "$f" ] || return 0
+    if [ "$sz" -eq 0 ] 2>/dev/null; then rm -f "$f"; return 0; fi
+    local now
+    now=$(wc -c < "$f" | tr -d ' ')
+    [ "$now" -le "$sz" ] 2>/dev/null && return 0
+    head -c "$sz" "$f" > "${f}.calib_tmp" && mv "${f}.calib_tmp" "$f"
+    echo "[CALIB] dropped the calibration's own rows from $(basename "$f")"
+}
+
+radix_of() {   # radix of a full variant name, read from --list
+    echo "$LIST" | awk -F, -v v="$1" '{ if ($1"/"$2 == v) print $3 }'
+}
+
+# Dispatch on the IMPL first, then on the radix. blu/*, rad/* and mix/* all
+# report radix 0 -- radix 0 is what tells main() that N need not be a power of
+# anything -- so the radix alone cannot pick their N list, and Rader in
+# particular would be handed composite sizes it must refuse.
+n_list_for() {   # $1 = full variant name, $2 = its radix
+    case "${1%%/*}" in
+        blu) echo "$N_LIST_BLU"; return ;;
+        rad) echo "$N_LIST_RAD"; return ;;
+        mix) echo "$N_LIST_MIX"; return ;;
+    esac
+    case "$2" in
+        0) echo "$N_LIST_MIX" ;;
+        2) echo "$N_LIST_R2" ;;
+        3) echo "$N_LIST_R3" ;;
+        4) echo "$N_LIST_R4" ;;
+        5) echo "$N_LIST_R5" ;;
+        7) echo "$N_LIST_R7" ;;
+        *) echo "" ;;
+    esac
+}
+
+# Only the arbitrary-length families get gen_data's {2,3,5,7} check switched
+# off. Everywhere else a mistyped N must still fail loudly rather than quietly
+# produce data no variant can plan.
+gen_flags_for() {
+    case "${1%%/*}" in
+        blu|rad) echo "--any" ;;
+        *)       echo "" ;;
+    esac
+}
+
+if [ "$CALIBRATE_BIND" = "1" ]; then
+    calibrate_binding
+else
+    echo "[CALIB] skipped: -P set the binding to '$OMP_BIND' explicitly"
+fi
+export OMP_PROC_BIND="$OMP_BIND"
+[ "$OMP_BIND" = "false" ] && unset OMP_PLACES || export OMP_PLACES="cores"
+echo "[INFO] OpenMP as used for this table: threads=$OMP_NUM_THREADS "\
+     "bind=$OMP_PROC_BIND places=${OMP_PLACES:-<unset>}"
+
+PASS=0; FAIL=0; SKIP=0; ERR=0; TMO=0; CELLS=0
+STOPPED=0
+
+for v in $VARIANTS; do
+    r=$(radix_of "$v")
+    if [ -z "$r" ]; then
+        echo "[ERROR] variant $v is not in --list"
+        ERR=$((ERR+1)); continue
+    fi
+    # radix 0 is the combined transform; everything else is a single radix.
+    NS=$(n_list_for "$v" "$r")
+    GEN_FLAGS=$(gen_flags_for "$v")
+    for n in $NS; do
+        # The data is regenerated per N, not per cell: it depends only on N.
+        #
+        # The old files are DELETED first and the exit code is CHECKED. Both
+        # matter. If generation fails and the previous N's input_x.bin and
+        # golden.bin are still lying there, the binary runs on the wrong N and
+        # the verification PASSES -- input and golden are stale together, so
+        # they agree with each other. That is a false PASS on a size that was
+        # never tested, and it is invisible in the results table. It happened
+        # once during development and is exactly the kind of thing that must
+        # not reach a thesis.
+        rm -f ./input/input_x.bin ./output/golden.bin
+        if ! python3 scripts/gen_data.py -N "$n" $GEN_FLAGS --input-dir ./input \
+                --output-dir ./output > /dev/null 2>&1; then
+            echo "[ERROR] gen_data failed for N=$n -- skipping, NOT running on stale data"
+            ERR=$((ERR+1))
+            continue
+        fi
+        for t in $TILE_LIST; do
+         for mt in $MINT_LIST; do
+            if [ -f ./STOP ]; then
+                echo ""
+                echo "[STOP] ./STOP found — stopping at the cell boundary."
+                STOPPED=1; break 4
+            fi
+            CELLS=$((CELLS+1))
+            printf "[CELL ] %-18s radix=%s N=%-7s tile=%-4s minT=%-3s ... " \
+                   "$v" "$r" "$n" "$t" "$mt"
+            rc=0
+            timeout "${TIMEOUT_S}" $BIN "$v" "$t" "$WARMUP" "$BENCH_RUNS" "$mt" \
+                > "./logs/cell_${v//\//_}_N${n}_t${t}_m${mt}.log" 2>&1 || rc=$?
+            case $rc in
+                0)   echo "PASS"; PASS=$((PASS+1)) ;;
+                2)   echo "SKIP (no output)"; SKIP=$((SKIP+1)) ;;
+                3)   echo "FAIL (verification)"; FAIL=$((FAIL+1)) ;;
+                124) echo "TIMEOUT (${TIMEOUT_S}s)"; TMO=$((TMO+1)) ;;
+                *)   echo "ERROR rc=$rc"; ERR=$((ERR+1)) ;;
+            esac
+         done
+        done
+    done
+done
+
+echo ""
+echo "[INFO] NumPy baselines for every N that was used"
+for n in $N_LIST_R2 $N_LIST_R3 $N_LIST_R4 $N_LIST_R5 $N_LIST_R7 $N_LIST_MIX \
+         $N_LIST_BLU $N_LIST_RAD; do
+    rm -f ./input/input_x.bin ./output/golden.bin
+    # --any throughout here: this loop only needs the data to exist so NumPy
+    # has something to time, and a non-smooth N is legitimate for blu/rad.
+    python3 scripts/gen_data.py -N "$n" --any --input-dir ./input --output-dir ./output > /dev/null 2>&1 || continue
+    python3 scripts/bench_numpy.py --input ./input/input_x.bin --csv ./output/numpy_baseline.csv > /dev/null
+done
+
+echo ""
+echo "================================================================"
+echo "[DONE ] cells=$CELLS  PASS=$PASS  FAIL=$FAIL  SKIP=$SKIP  TIMEOUT=$TMO  ERROR=$ERR"
+[ "$STOPPED" = "1" ] && echo "[DONE ] the run was stopped early by ./STOP"
+echo "[DONE ] table: output/matrix.csv   log: $LOG"
+echo "================================================================"
+echo ""
+python3 scripts/analyze_matrix.py

@@ -1,0 +1,13 @@
+# Target labels
+ ascendc_kernels_npu_vec_aic_device
+# Source files and their labels
+/home/ma-user/work/OddFFT/build/CMakeFiles/ascendc_kernels_npu_vec_aic_device
+/home/ma-user/work/OddFFT/build/CMakeFiles/ascendc_kernels_npu_vec_aic_device.rule
+/home/ma-user/work/OddFFT/build/CMakeFiles/ascendc_kernels_npu_vec_aic_device-complete.rule
+/home/ma-user/work/OddFFT/build/ascendc_kernels_npu_vec_aic_device-prefix/src/ascendc_kernels_npu_vec_aic_device-stamp/ascendc_kernels_npu_vec_aic_device-install.rule
+/home/ma-user/work/OddFFT/build/ascendc_kernels_npu_vec_aic_device-prefix/src/ascendc_kernels_npu_vec_aic_device-stamp/ascendc_kernels_npu_vec_aic_device-mkdir.rule
+/home/ma-user/work/OddFFT/build/ascendc_kernels_npu_vec_aic_device-prefix/src/ascendc_kernels_npu_vec_aic_device-stamp/ascendc_kernels_npu_vec_aic_device-download.rule
+/home/ma-user/work/OddFFT/build/ascendc_kernels_npu_vec_aic_device-prefix/src/ascendc_kernels_npu_vec_aic_device-stamp/ascendc_kernels_npu_vec_aic_device-update.rule
+/home/ma-user/work/OddFFT/build/ascendc_kernels_npu_vec_aic_device-prefix/src/ascendc_kernels_npu_vec_aic_device-stamp/ascendc_kernels_npu_vec_aic_device-patch.rule
+/home/ma-user/work/OddFFT/build/ascendc_kernels_npu_vec_aic_device-prefix/src/ascendc_kernels_npu_vec_aic_device-stamp/ascendc_kernels_npu_vec_aic_device-configure.rule
+/home/ma-user/work/OddFFT/build/ascendc_kernels_npu_vec_aic_device-prefix/src/ascendc_kernels_npu_vec_aic_device-stamp/ascendc_kernels_npu_vec_aic_device-build.rule

@@ -1,0 +1,560 @@
+[INFO] run_matrix.sh started, log=./logs/matrix_20261021_143941.log
+[INFO] ASCEND install path: /usr/local/Ascend/ascend-toolkit/latest
+find: ‘/usr/local/Ascend/ascend-toolkit/latest/opp/vendors’: Permission denied
+find: ‘/usr/local/Ascend/ascend-toolkit/latest/opp/framework/custom’: Permission denied
+find: ‘/usr/local/Ascend/ascend-toolkit/latest/opp/test-ops/script’: Permission denied
+find: ‘/usr/local/Ascend/ascend-toolkit/latest/opp/op_impl/custom’: Permission denied
+find: ‘/usr/local/Ascend/ascend-toolkit/latest/opp/op_proto/custom’: Permission denied
+[INFO]: /usr/local/Ascend/ascend-toolkit/latest/opp/op_impl/custom/ is empty
+find: ‘/usr/local/Ascend/ascend-toolkit/latest/opp/vendors’: Permission denied
+find: ‘/usr/local/Ascend/ascend-toolkit/latest/opp/framework/custom’: Permission denied
+find: ‘/usr/local/Ascend/ascend-toolkit/latest/opp/test-ops/script’: Permission denied
+find: ‘/usr/local/Ascend/ascend-toolkit/latest/opp/op_impl/custom’: Permission denied
+find: ‘/usr/local/Ascend/ascend-toolkit/latest/opp/op_proto/custom’: Permission denied
+[INFO]: /usr/local/Ascend/ascend-toolkit/latest/opp/op_proto/custom/ is empty
+find: ‘/usr/local/Ascend/ascend-toolkit/latest/opp/vendors’: Permission denied
+find: ‘/usr/local/Ascend/ascend-toolkit/latest/opp/framework/custom’: Permission denied
+find: ‘/usr/local/Ascend/ascend-toolkit/latest/opp/test-ops/script’: Permission denied
+find: ‘/usr/local/Ascend/ascend-toolkit/latest/opp/op_impl/custom’: Permission denied
+find: ‘/usr/local/Ascend/ascend-toolkit/latest/opp/op_proto/custom’: Permission denied
+[INFO]: / is empty
+find: ‘/usr/local/Ascend/ascend-toolkit/latest/opp/vendors’: Permission denied
+find: ‘/usr/local/Ascend/ascend-toolkit/latest/opp/framework/custom’: Permission denied
+find: ‘/usr/local/Ascend/ascend-toolkit/latest/opp/test-ops/script’: Permission denied
+find: ‘/usr/local/Ascend/ascend-toolkit/latest/opp/op_impl/custom’: Permission denied
+find: ‘/usr/local/Ascend/ascend-toolkit/latest/opp/op_proto/custom’: Permission denied
+[INFO]: / is empty
+find: ‘/usr/local/Ascend/ascend-toolkit/latest/opp/vendors’: Permission denied
+find: ‘/usr/local/Ascend/ascend-toolkit/latest/opp/framework/custom’: Permission denied
+find: ‘/usr/local/Ascend/ascend-toolkit/latest/opp/test-ops/script’: Permission denied
+find: ‘/usr/local/Ascend/ascend-toolkit/latest/opp/op_impl/custom’: Permission denied
+find: ‘/usr/local/Ascend/ascend-toolkit/latest/opp/op_proto/custom’: Permission denied
+[INFO]: /usr/local/Ascend/ascend-toolkit/latest/opp/framework/custom/ is empty
+find: ‘/usr/local/Ascend/ascend-toolkit/8.0.RC3/opp/vendors’: Permission denied
+find: ‘/usr/local/Ascend/ascend-toolkit/8.0.RC3/opp/framework/custom’: Permission denied
+find: ‘/usr/local/Ascend/ascend-toolkit/8.0.RC3/opp/test-ops/script’: Permission denied
+find: ‘/usr/local/Ascend/ascend-toolkit/8.0.RC3/opp/op_impl/custom’: Permission denied
+find: ‘/usr/local/Ascend/ascend-toolkit/8.0.RC3/opp/op_proto/custom’: Permission denied
+find: ‘/usr/local/Ascend/ascend-toolkit/8.0.RC3/opp/vendors’: Permission denied
+find: ‘/usr/local/Ascend/ascend-toolkit/8.0.RC3/opp/framework/custom’: Permission denied
+find: ‘/usr/local/Ascend/ascend-toolkit/8.0.RC3/opp/test-ops/script’: Permission denied
+find: ‘/usr/local/Ascend/ascend-toolkit/8.0.RC3/opp/op_impl/custom’: Permission denied
+find: ‘/usr/local/Ascend/ascend-toolkit/8.0.RC3/opp/op_proto/custom’: Permission denied
+find: ‘/usr/local/Ascend/ascend-toolkit/latest/opp/vendors’: Permission denied
+find: ‘/usr/local/Ascend/ascend-toolkit/latest/opp/framework/custom’: Permission denied
+find: ‘/usr/local/Ascend/ascend-toolkit/latest/opp/test-ops/script’: Permission denied
+find: ‘/usr/local/Ascend/ascend-toolkit/latest/opp/op_impl/custom’: Permission denied
+find: ‘/usr/local/Ascend/ascend-toolkit/latest/opp/op_proto/custom’: Permission denied
+[INFO]: /usr/local/Ascend/ascend-toolkit/latest/opp/op_impl/custom/ is empty
+find: ‘/usr/local/Ascend/ascend-toolkit/latest/opp/vendors’: Permission denied
+find: ‘/usr/local/Ascend/ascend-toolkit/latest/opp/framework/custom’: Permission denied
+find: ‘/usr/local/Ascend/ascend-toolkit/latest/opp/test-ops/script’: Permission denied
+find: ‘/usr/local/Ascend/ascend-toolkit/latest/opp/op_impl/custom’: Permission denied
+find: ‘/usr/local/Ascend/ascend-toolkit/latest/opp/op_proto/custom’: Permission denied
+[INFO]: /usr/local/Ascend/ascend-toolkit/latest/opp/op_proto/custom/ is empty
+find: ‘/usr/local/Ascend/ascend-toolkit/latest/opp/vendors’: Permission denied
+find: ‘/usr/local/Ascend/ascend-toolkit/latest/opp/framework/custom’: Permission denied
+find: ‘/usr/local/Ascend/ascend-toolkit/latest/opp/test-ops/script’: Permission denied
+find: ‘/usr/local/Ascend/ascend-toolkit/latest/opp/op_impl/custom’: Permission denied
+find: ‘/usr/local/Ascend/ascend-toolkit/latest/opp/op_proto/custom’: Permission denied
+[INFO]: / is empty
+find: ‘/usr/local/Ascend/ascend-toolkit/latest/opp/vendors’: Permission denied
+find: ‘/usr/local/Ascend/ascend-toolkit/latest/opp/framework/custom’: Permission denied
+find: ‘/usr/local/Ascend/ascend-toolkit/latest/opp/test-ops/script’: Permission denied
+find: ‘/usr/local/Ascend/ascend-toolkit/latest/opp/op_impl/custom’: Permission denied
+find: ‘/usr/local/Ascend/ascend-toolkit/latest/opp/op_proto/custom’: Permission denied
+[INFO]: / is empty
+find: ‘/usr/local/Ascend/ascend-toolkit/latest/opp/vendors’: Permission denied
+find: ‘/usr/local/Ascend/ascend-toolkit/latest/opp/framework/custom’: Permission denied
+find: ‘/usr/local/Ascend/ascend-toolkit/latest/opp/test-ops/script’: Permission denied
+find: ‘/usr/local/Ascend/ascend-toolkit/latest/opp/op_impl/custom’: Permission denied
+find: ‘/usr/local/Ascend/ascend-toolkit/latest/opp/op_proto/custom’: Permission denied
+[INFO]: /usr/local/Ascend/ascend-toolkit/latest/opp/framework/custom/ is empty
+[INFO] building once (RUN_MODE=npu)
+[INFO] variants: blu/bluestein_r2_ps_xs blu/bluestein_r2_psm_xs blu/bluestein_r4_ps_xs blu/bluestein_r4_psm_xs rad/rader_r2_ps_xs rad/rader_r2_psm_xs rad/rader_r4_ps_xs rad/rader_r4_psm_xs 
+[INFO] tiles:    8 64 352
+[INFO] minT:     1 8 64
+[INFO] N  r2=256 4096 32768 | r3=243 2187 19683 | r4=256 4096 65536
+[INFO] N  r5=125 3125 15625 | r7=343 2401 16807 | mix=720 3600 30240 100800
+[INFO] N  blu=720 3600 1331 10007 | rad=101 211 1009 10007
+[CELL ] blu/bluestein_r2_ps_xs radix=0 N=720     tile=8    minT=1   ... PASS
+[CELL ] blu/bluestein_r2_ps_xs radix=0 N=720     tile=8    minT=8   ... PASS
+[CELL ] blu/bluestein_r2_ps_xs radix=0 N=720     tile=8    minT=64  ... PASS
+[CELL ] blu/bluestein_r2_ps_xs radix=0 N=720     tile=64   minT=1   ... PASS
+[CELL ] blu/bluestein_r2_ps_xs radix=0 N=720     tile=64   minT=8   ... PASS
+[CELL ] blu/bluestein_r2_ps_xs radix=0 N=720     tile=64   minT=64  ... PASS
+[CELL ] blu/bluestein_r2_ps_xs radix=0 N=720     tile=352  minT=1   ... PASS
+[CELL ] blu/bluestein_r2_ps_xs radix=0 N=720     tile=352  minT=8   ... PASS
+[CELL ] blu/bluestein_r2_ps_xs radix=0 N=720     tile=352  minT=64  ... PASS
+[CELL ] blu/bluestein_r2_ps_xs radix=0 N=3600    tile=8    minT=1   ... PASS
+[CELL ] blu/bluestein_r2_ps_xs radix=0 N=3600    tile=8    minT=8   ... PASS
+[CELL ] blu/bluestein_r2_ps_xs radix=0 N=3600    tile=8    minT=64  ... PASS
+[CELL ] blu/bluestein_r2_ps_xs radix=0 N=3600    tile=64   minT=1   ... PASS
+[CELL ] blu/bluestein_r2_ps_xs radix=0 N=3600    tile=64   minT=8   ... PASS
+[CELL ] blu/bluestein_r2_ps_xs radix=0 N=3600    tile=64   minT=64  ... PASS
+[CELL ] blu/bluestein_r2_ps_xs radix=0 N=3600    tile=352  minT=1   ... PASS
+[CELL ] blu/bluestein_r2_ps_xs radix=0 N=3600    tile=352  minT=8   ... PASS
+[CELL ] blu/bluestein_r2_ps_xs radix=0 N=3600    tile=352  minT=64  ... PASS
+[CELL ] blu/bluestein_r2_ps_xs radix=0 N=1331    tile=8    minT=1   ... PASS
+[CELL ] blu/bluestein_r2_ps_xs radix=0 N=1331    tile=8    minT=8   ... PASS
+[CELL ] blu/bluestein_r2_ps_xs radix=0 N=1331    tile=8    minT=64  ... PASS
+[CELL ] blu/bluestein_r2_ps_xs radix=0 N=1331    tile=64   minT=1   ... PASS
+[CELL ] blu/bluestein_r2_ps_xs radix=0 N=1331    tile=64   minT=8   ... PASS
+[CELL ] blu/bluestein_r2_ps_xs radix=0 N=1331    tile=64   minT=64  ... PASS
+[CELL ] blu/bluestein_r2_ps_xs radix=0 N=1331    tile=352  minT=1   ... PASS
+[CELL ] blu/bluestein_r2_ps_xs radix=0 N=1331    tile=352  minT=8   ... PASS
+[CELL ] blu/bluestein_r2_ps_xs radix=0 N=1331    tile=352  minT=64  ... PASS
+[CELL ] blu/bluestein_r2_ps_xs radix=0 N=10007   tile=8    minT=1   ... PASS
+[CELL ] blu/bluestein_r2_ps_xs radix=0 N=10007   tile=8    minT=8   ... PASS
+[CELL ] blu/bluestein_r2_ps_xs radix=0 N=10007   tile=8    minT=64  ... PASS
+[CELL ] blu/bluestein_r2_ps_xs radix=0 N=10007   tile=64   minT=1   ... PASS
+[CELL ] blu/bluestein_r2_ps_xs radix=0 N=10007   tile=64   minT=8   ... PASS
+[CELL ] blu/bluestein_r2_ps_xs radix=0 N=10007   tile=64   minT=64  ... PASS
+[CELL ] blu/bluestein_r2_ps_xs radix=0 N=10007   tile=352  minT=1   ... PASS
+[CELL ] blu/bluestein_r2_ps_xs radix=0 N=10007   tile=352  minT=8   ... PASS
+[CELL ] blu/bluestein_r2_ps_xs radix=0 N=10007   tile=352  minT=64  ... PASS
+[CELL ] blu/bluestein_r2_psm_xs radix=0 N=720     tile=8    minT=1   ... PASS
+[CELL ] blu/bluestein_r2_psm_xs radix=0 N=720     tile=8    minT=8   ... PASS
+[CELL ] blu/bluestein_r2_psm_xs radix=0 N=720     tile=8    minT=64  ... PASS
+[CELL ] blu/bluestein_r2_psm_xs radix=0 N=720     tile=64   minT=1   ... PASS
+[CELL ] blu/bluestein_r2_psm_xs radix=0 N=720     tile=64   minT=8   ... PASS
+[CELL ] blu/bluestein_r2_psm_xs radix=0 N=720     tile=64   minT=64  ... PASS
+[CELL ] blu/bluestein_r2_psm_xs radix=0 N=720     tile=352  minT=1   ... PASS
+[CELL ] blu/bluestein_r2_psm_xs radix=0 N=720     tile=352  minT=8   ... PASS
+[CELL ] blu/bluestein_r2_psm_xs radix=0 N=720     tile=352  minT=64  ... PASS
+[CELL ] blu/bluestein_r2_psm_xs radix=0 N=3600    tile=8    minT=1   ... PASS
+[CELL ] blu/bluestein_r2_psm_xs radix=0 N=3600    tile=8    minT=8   ... PASS
+[CELL ] blu/bluestein_r2_psm_xs radix=0 N=3600    tile=8    minT=64  ... PASS
+[CELL ] blu/bluestein_r2_psm_xs radix=0 N=3600    tile=64   minT=1   ... PASS
+[CELL ] blu/bluestein_r2_psm_xs radix=0 N=3600    tile=64   minT=8   ... PASS
+[CELL ] blu/bluestein_r2_psm_xs radix=0 N=3600    tile=64   minT=64  ... PASS
+[CELL ] blu/bluestein_r2_psm_xs radix=0 N=3600    tile=352  minT=1   ... PASS
+[CELL ] blu/bluestein_r2_psm_xs radix=0 N=3600    tile=352  minT=8   ... PASS
+[CELL ] blu/bluestein_r2_psm_xs radix=0 N=3600    tile=352  minT=64  ... PASS
+[CELL ] blu/bluestein_r2_psm_xs radix=0 N=1331    tile=8    minT=1   ... PASS
+[CELL ] blu/bluestein_r2_psm_xs radix=0 N=1331    tile=8    minT=8   ... PASS
+[CELL ] blu/bluestein_r2_psm_xs radix=0 N=1331    tile=8    minT=64  ... PASS
+[CELL ] blu/bluestein_r2_psm_xs radix=0 N=1331    tile=64   minT=1   ... PASS
+[CELL ] blu/bluestein_r2_psm_xs radix=0 N=1331    tile=64   minT=8   ... PASS
+[CELL ] blu/bluestein_r2_psm_xs radix=0 N=1331    tile=64   minT=64  ... PASS
+[CELL ] blu/bluestein_r2_psm_xs radix=0 N=1331    tile=352  minT=1   ... PASS
+[CELL ] blu/bluestein_r2_psm_xs radix=0 N=1331    tile=352  minT=8   ... PASS
+[CELL ] blu/bluestein_r2_psm_xs radix=0 N=1331    tile=352  minT=64  ... PASS
+[CELL ] blu/bluestein_r2_psm_xs radix=0 N=10007   tile=8    minT=1   ... PASS
+[CELL ] blu/bluestein_r2_psm_xs radix=0 N=10007   tile=8    minT=8   ... PASS
+[CELL ] blu/bluestein_r2_psm_xs radix=0 N=10007   tile=8    minT=64  ... PASS
+[CELL ] blu/bluestein_r2_psm_xs radix=0 N=10007   tile=64   minT=1   ... PASS
+[CELL ] blu/bluestein_r2_psm_xs radix=0 N=10007   tile=64   minT=8   ... PASS
+[CELL ] blu/bluestein_r2_psm_xs radix=0 N=10007   tile=64   minT=64  ... PASS
+[CELL ] blu/bluestein_r2_psm_xs radix=0 N=10007   tile=352  minT=1   ... PASS
+[CELL ] blu/bluestein_r2_psm_xs radix=0 N=10007   tile=352  minT=8   ... PASS
+[CELL ] blu/bluestein_r2_psm_xs radix=0 N=10007   tile=352  minT=64  ... PASS
+[CELL ] blu/bluestein_r4_ps_xs radix=0 N=720     tile=8    minT=1   ... PASS
+[CELL ] blu/bluestein_r4_ps_xs radix=0 N=720     tile=8    minT=8   ... PASS
+[CELL ] blu/bluestein_r4_ps_xs radix=0 N=720     tile=8    minT=64  ... PASS
+[CELL ] blu/bluestein_r4_ps_xs radix=0 N=720     tile=64   minT=1   ... PASS
+[CELL ] blu/bluestein_r4_ps_xs radix=0 N=720     tile=64   minT=8   ... PASS
+[CELL ] blu/bluestein_r4_ps_xs radix=0 N=720     tile=64   minT=64  ... PASS
+[CELL ] blu/bluestein_r4_ps_xs radix=0 N=720     tile=352  minT=1   ... PASS
+[CELL ] blu/bluestein_r4_ps_xs radix=0 N=720     tile=352  minT=8   ... PASS
+[CELL ] blu/bluestein_r4_ps_xs radix=0 N=720     tile=352  minT=64  ... PASS
+[CELL ] blu/bluestein_r4_ps_xs radix=0 N=3600    tile=8    minT=1   ... PASS
+[CELL ] blu/bluestein_r4_ps_xs radix=0 N=3600    tile=8    minT=8   ... PASS
+[CELL ] blu/bluestein_r4_ps_xs radix=0 N=3600    tile=8    minT=64  ... PASS
+[CELL ] blu/bluestein_r4_ps_xs radix=0 N=3600    tile=64   minT=1   ... PASS
+[CELL ] blu/bluestein_r4_ps_xs radix=0 N=3600    tile=64   minT=8   ... PASS
+[CELL ] blu/bluestein_r4_ps_xs radix=0 N=3600    tile=64   minT=64  ... PASS
+[CELL ] blu/bluestein_r4_ps_xs radix=0 N=3600    tile=352  minT=1   ... PASS
+[CELL ] blu/bluestein_r4_ps_xs radix=0 N=3600    tile=352  minT=8   ... PASS
+[CELL ] blu/bluestein_r4_ps_xs radix=0 N=3600    tile=352  minT=64  ... PASS
+[CELL ] blu/bluestein_r4_ps_xs radix=0 N=1331    tile=8    minT=1   ... PASS
+[CELL ] blu/bluestein_r4_ps_xs radix=0 N=1331    tile=8    minT=8   ... PASS
+[CELL ] blu/bluestein_r4_ps_xs radix=0 N=1331    tile=8    minT=64  ... PASS
+[CELL ] blu/bluestein_r4_ps_xs radix=0 N=1331    tile=64   minT=1   ... PASS
+[CELL ] blu/bluestein_r4_ps_xs radix=0 N=1331    tile=64   minT=8   ... PASS
+[CELL ] blu/bluestein_r4_ps_xs radix=0 N=1331    tile=64   minT=64  ... PASS
+[CELL ] blu/bluestein_r4_ps_xs radix=0 N=1331    tile=352  minT=1   ... PASS
+[CELL ] blu/bluestein_r4_ps_xs radix=0 N=1331    tile=352  minT=8   ... PASS
+[CELL ] blu/bluestein_r4_ps_xs radix=0 N=1331    tile=352  minT=64  ... PASS
+[CELL ] blu/bluestein_r4_ps_xs radix=0 N=10007   tile=8    minT=1   ... PASS
+[CELL ] blu/bluestein_r4_ps_xs radix=0 N=10007   tile=8    minT=8   ... PASS
+[CELL ] blu/bluestein_r4_ps_xs radix=0 N=10007   tile=8    minT=64  ... PASS
+[CELL ] blu/bluestein_r4_ps_xs radix=0 N=10007   tile=64   minT=1   ... PASS
+[CELL ] blu/bluestein_r4_ps_xs radix=0 N=10007   tile=64   minT=8   ... PASS
+[CELL ] blu/bluestein_r4_ps_xs radix=0 N=10007   tile=64   minT=64  ... PASS
+[CELL ] blu/bluestein_r4_ps_xs radix=0 N=10007   tile=352  minT=1   ... PASS
+[CELL ] blu/bluestein_r4_ps_xs radix=0 N=10007   tile=352  minT=8   ... PASS
+[CELL ] blu/bluestein_r4_ps_xs radix=0 N=10007   tile=352  minT=64  ... PASS
+[CELL ] blu/bluestein_r4_psm_xs radix=0 N=720     tile=8    minT=1   ... PASS
+[CELL ] blu/bluestein_r4_psm_xs radix=0 N=720     tile=8    minT=8   ... PASS
+[CELL ] blu/bluestein_r4_psm_xs radix=0 N=720     tile=8    minT=64  ... PASS
+[CELL ] blu/bluestein_r4_psm_xs radix=0 N=720     tile=64   minT=1   ... PASS
+[CELL ] blu/bluestein_r4_psm_xs radix=0 N=720     tile=64   minT=8   ... PASS
+[CELL ] blu/bluestein_r4_psm_xs radix=0 N=720     tile=64   minT=64  ... PASS
+[CELL ] blu/bluestein_r4_psm_xs radix=0 N=720     tile=352  minT=1   ... PASS
+[CELL ] blu/bluestein_r4_psm_xs radix=0 N=720     tile=352  minT=8   ... PASS
+[CELL ] blu/bluestein_r4_psm_xs radix=0 N=720     tile=352  minT=64  ... PASS
+[CELL ] blu/bluestein_r4_psm_xs radix=0 N=3600    tile=8    minT=1   ... PASS
+[CELL ] blu/bluestein_r4_psm_xs radix=0 N=3600    tile=8    minT=8   ... PASS
+[CELL ] blu/bluestein_r4_psm_xs radix=0 N=3600    tile=8    minT=64  ... PASS
+[CELL ] blu/bluestein_r4_psm_xs radix=0 N=3600    tile=64   minT=1   ... PASS
+[CELL ] blu/bluestein_r4_psm_xs radix=0 N=3600    tile=64   minT=8   ... PASS
+[CELL ] blu/bluestein_r4_psm_xs radix=0 N=3600    tile=64   minT=64  ... PASS
+[CELL ] blu/bluestein_r4_psm_xs radix=0 N=3600    tile=352  minT=1   ... PASS
+[CELL ] blu/bluestein_r4_psm_xs radix=0 N=3600    tile=352  minT=8   ... PASS
+[CELL ] blu/bluestein_r4_psm_xs radix=0 N=3600    tile=352  minT=64  ... PASS
+[CELL ] blu/bluestein_r4_psm_xs radix=0 N=1331    tile=8    minT=1   ... PASS
+[CELL ] blu/bluestein_r4_psm_xs radix=0 N=1331    tile=8    minT=8   ... PASS
+[CELL ] blu/bluestein_r4_psm_xs radix=0 N=1331    tile=8    minT=64  ... PASS
+[CELL ] blu/bluestein_r4_psm_xs radix=0 N=1331    tile=64   minT=1   ... PASS
+[CELL ] blu/bluestein_r4_psm_xs radix=0 N=1331    tile=64   minT=8   ... PASS
+[CELL ] blu/bluestein_r4_psm_xs radix=0 N=1331    tile=64   minT=64  ... PASS
+[CELL ] blu/bluestein_r4_psm_xs radix=0 N=1331    tile=352  minT=1   ... PASS
+[CELL ] blu/bluestein_r4_psm_xs radix=0 N=1331    tile=352  minT=8   ... PASS
+[CELL ] blu/bluestein_r4_psm_xs radix=0 N=1331    tile=352  minT=64  ... PASS
+[CELL ] blu/bluestein_r4_psm_xs radix=0 N=10007   tile=8    minT=1   ... PASS
+[CELL ] blu/bluestein_r4_psm_xs radix=0 N=10007   tile=8    minT=8   ... PASS
+[CELL ] blu/bluestein_r4_psm_xs radix=0 N=10007   tile=8    minT=64  ... PASS
+[CELL ] blu/bluestein_r4_psm_xs radix=0 N=10007   tile=64   minT=1   ... PASS
+[CELL ] blu/bluestein_r4_psm_xs radix=0 N=10007   tile=64   minT=8   ... PASS
+[CELL ] blu/bluestein_r4_psm_xs radix=0 N=10007   tile=64   minT=64  ... PASS
+[CELL ] blu/bluestein_r4_psm_xs radix=0 N=10007   tile=352  minT=1   ... PASS
+[CELL ] blu/bluestein_r4_psm_xs radix=0 N=10007   tile=352  minT=8   ... PASS
+[CELL ] blu/bluestein_r4_psm_xs radix=0 N=10007   tile=352  minT=64  ... PASS
+[CELL ] rad/rader_r2_ps_xs radix=0 N=101     tile=8    minT=1   ... PASS
+[CELL ] rad/rader_r2_ps_xs radix=0 N=101     tile=8    minT=8   ... PASS
+[CELL ] rad/rader_r2_ps_xs radix=0 N=101     tile=8    minT=64  ... PASS
+[CELL ] rad/rader_r2_ps_xs radix=0 N=101     tile=64   minT=1   ... PASS
+[CELL ] rad/rader_r2_ps_xs radix=0 N=101     tile=64   minT=8   ... PASS
+[CELL ] rad/rader_r2_ps_xs radix=0 N=101     tile=64   minT=64  ... PASS
+[CELL ] rad/rader_r2_ps_xs radix=0 N=101     tile=352  minT=1   ... PASS
+[CELL ] rad/rader_r2_ps_xs radix=0 N=101     tile=352  minT=8   ... PASS
+[CELL ] rad/rader_r2_ps_xs radix=0 N=101     tile=352  minT=64  ... PASS
+[CELL ] rad/rader_r2_ps_xs radix=0 N=211     tile=8    minT=1   ... PASS
+[CELL ] rad/rader_r2_ps_xs radix=0 N=211     tile=8    minT=8   ... PASS
+[CELL ] rad/rader_r2_ps_xs radix=0 N=211     tile=8    minT=64  ... PASS
+[CELL ] rad/rader_r2_ps_xs radix=0 N=211     tile=64   minT=1   ... PASS
+[CELL ] rad/rader_r2_ps_xs radix=0 N=211     tile=64   minT=8   ... PASS
+[CELL ] rad/rader_r2_ps_xs radix=0 N=211     tile=64   minT=64  ... PASS
+[CELL ] rad/rader_r2_ps_xs radix=0 N=211     tile=352  minT=1   ... PASS
+[CELL ] rad/rader_r2_ps_xs radix=0 N=211     tile=352  minT=8   ... PASS
+[CELL ] rad/rader_r2_ps_xs radix=0 N=211     tile=352  minT=64  ... PASS
+[CELL ] rad/rader_r2_ps_xs radix=0 N=1009    tile=8    minT=1   ... PASS
+[CELL ] rad/rader_r2_ps_xs radix=0 N=1009    tile=8    minT=8   ... PASS
+[CELL ] rad/rader_r2_ps_xs radix=0 N=1009    tile=8    minT=64  ... PASS
+[CELL ] rad/rader_r2_ps_xs radix=0 N=1009    tile=64   minT=1   ... PASS
+[CELL ] rad/rader_r2_ps_xs radix=0 N=1009    tile=64   minT=8   ... PASS
+[CELL ] rad/rader_r2_ps_xs radix=0 N=1009    tile=64   minT=64  ... PASS
+[CELL ] rad/rader_r2_ps_xs radix=0 N=1009    tile=352  minT=1   ... PASS
+[CELL ] rad/rader_r2_ps_xs radix=0 N=1009    tile=352  minT=8   ... PASS
+[CELL ] rad/rader_r2_ps_xs radix=0 N=1009    tile=352  minT=64  ... PASS
+[CELL ] rad/rader_r2_ps_xs radix=0 N=10007   tile=8    minT=1   ... PASS
+[CELL ] rad/rader_r2_ps_xs radix=0 N=10007   tile=8    minT=8   ... PASS
+[CELL ] rad/rader_r2_ps_xs radix=0 N=10007   tile=8    minT=64  ... PASS
+[CELL ] rad/rader_r2_ps_xs radix=0 N=10007   tile=64   minT=1   ... PASS
+[CELL ] rad/rader_r2_ps_xs radix=0 N=10007   tile=64   minT=8   ... PASS
+[CELL ] rad/rader_r2_ps_xs radix=0 N=10007   tile=64   minT=64  ... PASS
+[CELL ] rad/rader_r2_ps_xs radix=0 N=10007   tile=352  minT=1   ... PASS
+[CELL ] rad/rader_r2_ps_xs radix=0 N=10007   tile=352  minT=8   ... PASS
+[CELL ] rad/rader_r2_ps_xs radix=0 N=10007   tile=352  minT=64  ... PASS
+[CELL ] rad/rader_r2_psm_xs radix=0 N=101     tile=8    minT=1   ... PASS
+[CELL ] rad/rader_r2_psm_xs radix=0 N=101     tile=8    minT=8   ... PASS
+[CELL ] rad/rader_r2_psm_xs radix=0 N=101     tile=8    minT=64  ... PASS
+[CELL ] rad/rader_r2_psm_xs radix=0 N=101     tile=64   minT=1   ... PASS
+[CELL ] rad/rader_r2_psm_xs radix=0 N=101     tile=64   minT=8   ... PASS
+[CELL ] rad/rader_r2_psm_xs radix=0 N=101     tile=64   minT=64  ... PASS
+[CELL ] rad/rader_r2_psm_xs radix=0 N=101     tile=352  minT=1   ... PASS
+[CELL ] rad/rader_r2_psm_xs radix=0 N=101     tile=352  minT=8   ... PASS
+[CELL ] rad/rader_r2_psm_xs radix=0 N=101     tile=352  minT=64  ... PASS
+[CELL ] rad/rader_r2_psm_xs radix=0 N=211     tile=8    minT=1   ... PASS
+[CELL ] rad/rader_r2_psm_xs radix=0 N=211     tile=8    minT=8   ... PASS
+[CELL ] rad/rader_r2_psm_xs radix=0 N=211     tile=8    minT=64  ... PASS
+[CELL ] rad/rader_r2_psm_xs radix=0 N=211     tile=64   minT=1   ... PASS
+[CELL ] rad/rader_r2_psm_xs radix=0 N=211     tile=64   minT=8   ... PASS
+[CELL ] rad/rader_r2_psm_xs radix=0 N=211     tile=64   minT=64  ... PASS
+[CELL ] rad/rader_r2_psm_xs radix=0 N=211     tile=352  minT=1   ... PASS
+[CELL ] rad/rader_r2_psm_xs radix=0 N=211     tile=352  minT=8   ... PASS
+[CELL ] rad/rader_r2_psm_xs radix=0 N=211     tile=352  minT=64  ... PASS
+[CELL ] rad/rader_r2_psm_xs radix=0 N=1009    tile=8    minT=1   ... PASS
+[CELL ] rad/rader_r2_psm_xs radix=0 N=1009    tile=8    minT=8   ... PASS
+[CELL ] rad/rader_r2_psm_xs radix=0 N=1009    tile=8    minT=64  ... PASS
+[CELL ] rad/rader_r2_psm_xs radix=0 N=1009    tile=64   minT=1   ... PASS
+[CELL ] rad/rader_r2_psm_xs radix=0 N=1009    tile=64   minT=8   ... PASS
+[CELL ] rad/rader_r2_psm_xs radix=0 N=1009    tile=64   minT=64  ... PASS
+[CELL ] rad/rader_r2_psm_xs radix=0 N=1009    tile=352  minT=1   ... PASS
+[CELL ] rad/rader_r2_psm_xs radix=0 N=1009    tile=352  minT=8   ... PASS
+[CELL ] rad/rader_r2_psm_xs radix=0 N=1009    tile=352  minT=64  ... PASS
+[CELL ] rad/rader_r2_psm_xs radix=0 N=10007   tile=8    minT=1   ... PASS
+[CELL ] rad/rader_r2_psm_xs radix=0 N=10007   tile=8    minT=8   ... PASS
+[CELL ] rad/rader_r2_psm_xs radix=0 N=10007   tile=8    minT=64  ... PASS
+[CELL ] rad/rader_r2_psm_xs radix=0 N=10007   tile=64   minT=1   ... PASS
+[CELL ] rad/rader_r2_psm_xs radix=0 N=10007   tile=64   minT=8   ... PASS
+[CELL ] rad/rader_r2_psm_xs radix=0 N=10007   tile=64   minT=64  ... PASS
+[CELL ] rad/rader_r2_psm_xs radix=0 N=10007   tile=352  minT=1   ... PASS
+[CELL ] rad/rader_r2_psm_xs radix=0 N=10007   tile=352  minT=8   ... PASS
+[CELL ] rad/rader_r2_psm_xs radix=0 N=10007   tile=352  minT=64  ... PASS
+[CELL ] rad/rader_r4_ps_xs radix=0 N=101     tile=8    minT=1   ... PASS
+[CELL ] rad/rader_r4_ps_xs radix=0 N=101     tile=8    minT=8   ... PASS
+[CELL ] rad/rader_r4_ps_xs radix=0 N=101     tile=8    minT=64  ... PASS
+[CELL ] rad/rader_r4_ps_xs radix=0 N=101     tile=64   minT=1   ... PASS
+[CELL ] rad/rader_r4_ps_xs radix=0 N=101     tile=64   minT=8   ... PASS
+[CELL ] rad/rader_r4_ps_xs radix=0 N=101     tile=64   minT=64  ... PASS
+[CELL ] rad/rader_r4_ps_xs radix=0 N=101     tile=352  minT=1   ... PASS
+[CELL ] rad/rader_r4_ps_xs radix=0 N=101     tile=352  minT=8   ... PASS
+[CELL ] rad/rader_r4_ps_xs radix=0 N=101     tile=352  minT=64  ... PASS
+[CELL ] rad/rader_r4_ps_xs radix=0 N=211     tile=8    minT=1   ... PASS
+[CELL ] rad/rader_r4_ps_xs radix=0 N=211     tile=8    minT=8   ... PASS
+[CELL ] rad/rader_r4_ps_xs radix=0 N=211     tile=8    minT=64  ... PASS
+[CELL ] rad/rader_r4_ps_xs radix=0 N=211     tile=64   minT=1   ... PASS
+[CELL ] rad/rader_r4_ps_xs radix=0 N=211     tile=64   minT=8   ... PASS
+[CELL ] rad/rader_r4_ps_xs radix=0 N=211     tile=64   minT=64  ... PASS
+[CELL ] rad/rader_r4_ps_xs radix=0 N=211     tile=352  minT=1   ... PASS
+[CELL ] rad/rader_r4_ps_xs radix=0 N=211     tile=352  minT=8   ... PASS
+[CELL ] rad/rader_r4_ps_xs radix=0 N=211     tile=352  minT=64  ... PASS
+[CELL ] rad/rader_r4_ps_xs radix=0 N=1009    tile=8    minT=1   ... PASS
+[CELL ] rad/rader_r4_ps_xs radix=0 N=1009    tile=8    minT=8   ... PASS
+[CELL ] rad/rader_r4_ps_xs radix=0 N=1009    tile=8    minT=64  ... PASS
+[CELL ] rad/rader_r4_ps_xs radix=0 N=1009    tile=64   minT=1   ... PASS
+[CELL ] rad/rader_r4_ps_xs radix=0 N=1009    tile=64   minT=8   ... PASS
+[CELL ] rad/rader_r4_ps_xs radix=0 N=1009    tile=64   minT=64  ... PASS
+[CELL ] rad/rader_r4_ps_xs radix=0 N=1009    tile=352  minT=1   ... PASS
+[CELL ] rad/rader_r4_ps_xs radix=0 N=1009    tile=352  minT=8   ... PASS
+[CELL ] rad/rader_r4_ps_xs radix=0 N=1009    tile=352  minT=64  ... PASS
+[CELL ] rad/rader_r4_ps_xs radix=0 N=10007   tile=8    minT=1   ... PASS
+[CELL ] rad/rader_r4_ps_xs radix=0 N=10007   tile=8    minT=8   ... PASS
+[CELL ] rad/rader_r4_ps_xs radix=0 N=10007   tile=8    minT=64  ... PASS
+[CELL ] rad/rader_r4_ps_xs radix=0 N=10007   tile=64   minT=1   ... PASS
+[CELL ] rad/rader_r4_ps_xs radix=0 N=10007   tile=64   minT=8   ... PASS
+[CELL ] rad/rader_r4_ps_xs radix=0 N=10007   tile=64   minT=64  ... PASS
+[CELL ] rad/rader_r4_ps_xs radix=0 N=10007   tile=352  minT=1   ... PASS
+[CELL ] rad/rader_r4_ps_xs radix=0 N=10007   tile=352  minT=8   ... PASS
+[CELL ] rad/rader_r4_ps_xs radix=0 N=10007   tile=352  minT=64  ... PASS
+[CELL ] rad/rader_r4_psm_xs radix=0 N=101     tile=8    minT=1   ... PASS
+[CELL ] rad/rader_r4_psm_xs radix=0 N=101     tile=8    minT=8   ... PASS
+[CELL ] rad/rader_r4_psm_xs radix=0 N=101     tile=8    minT=64  ... PASS
+[CELL ] rad/rader_r4_psm_xs radix=0 N=101     tile=64   minT=1   ... PASS
+[CELL ] rad/rader_r4_psm_xs radix=0 N=101     tile=64   minT=8   ... PASS
+[CELL ] rad/rader_r4_psm_xs radix=0 N=101     tile=64   minT=64  ... PASS
+[CELL ] rad/rader_r4_psm_xs radix=0 N=101     tile=352  minT=1   ... PASS
+[CELL ] rad/rader_r4_psm_xs radix=0 N=101     tile=352  minT=8   ... PASS
+[CELL ] rad/rader_r4_psm_xs radix=0 N=101     tile=352  minT=64  ... PASS
+[CELL ] rad/rader_r4_psm_xs radix=0 N=211     tile=8    minT=1   ... PASS
+[CELL ] rad/rader_r4_psm_xs radix=0 N=211     tile=8    minT=8   ... PASS
+[CELL ] rad/rader_r4_psm_xs radix=0 N=211     tile=8    minT=64  ... PASS
+[CELL ] rad/rader_r4_psm_xs radix=0 N=211     tile=64   minT=1   ... PASS
+[CELL ] rad/rader_r4_psm_xs radix=0 N=211     tile=64   minT=8   ... PASS
+[CELL ] rad/rader_r4_psm_xs radix=0 N=211     tile=64   minT=64  ... PASS
+[CELL ] rad/rader_r4_psm_xs radix=0 N=211     tile=352  minT=1   ... PASS
+[CELL ] rad/rader_r4_psm_xs radix=0 N=211     tile=352  minT=8   ... PASS
+[CELL ] rad/rader_r4_psm_xs radix=0 N=211     tile=352  minT=64  ... PASS
+[CELL ] rad/rader_r4_psm_xs radix=0 N=1009    tile=8    minT=1   ... PASS
+[CELL ] rad/rader_r4_psm_xs radix=0 N=1009    tile=8    minT=8   ... PASS
+[CELL ] rad/rader_r4_psm_xs radix=0 N=1009    tile=8    minT=64  ... PASS
+[CELL ] rad/rader_r4_psm_xs radix=0 N=1009    tile=64   minT=1   ... PASS
+[CELL ] rad/rader_r4_psm_xs radix=0 N=1009    tile=64   minT=8   ... PASS
+[CELL ] rad/rader_r4_psm_xs radix=0 N=1009    tile=64   minT=64  ... PASS
+[CELL ] rad/rader_r4_psm_xs radix=0 N=1009    tile=352  minT=1   ... PASS
+[CELL ] rad/rader_r4_psm_xs radix=0 N=1009    tile=352  minT=8   ... PASS
+[CELL ] rad/rader_r4_psm_xs radix=0 N=1009    tile=352  minT=64  ... PASS
+[CELL ] rad/rader_r4_psm_xs radix=0 N=10007   tile=8    minT=1   ... PASS
+[CELL ] rad/rader_r4_psm_xs radix=0 N=10007   tile=8    minT=8   ... PASS
+[CELL ] rad/rader_r4_psm_xs radix=0 N=10007   tile=8    minT=64  ... PASS
+[CELL ] rad/rader_r4_psm_xs radix=0 N=10007   tile=64   minT=1   ... PASS
+[CELL ] rad/rader_r4_psm_xs radix=0 N=10007   tile=64   minT=8   ... PASS
+[CELL ] rad/rader_r4_psm_xs radix=0 N=10007   tile=64   minT=64  ... PASS
+[CELL ] rad/rader_r4_psm_xs radix=0 N=10007   tile=352  minT=1   ... PASS
+[CELL ] rad/rader_r4_psm_xs radix=0 N=10007   tile=352  minT=8   ... PASS
+[CELL ] rad/rader_r4_psm_xs radix=0 N=10007   tile=352  minT=64  ... PASS
+
+[INFO] NumPy baselines for every N that was used
+
+================================================================
+[DONE ] cells=288  PASS=288  FAIL=0  SKIP=0  TIMEOUT=0  ERROR=0
+[DONE ] table: output/matrix.csv   log: ./logs/matrix_20261021_143941.log
+================================================================
+
+===== OddFFT: matrix summary (metric: TOTAL_us) =====
+cells: 288   PASS=288  FAIL=0  no result=0
+
+--- N=101 (NumPy: 18.83 us) ---
+impl/variant         tile  B  cores  NPU_us  CPU_us  TOTAL_us  tot/NumPy  st.NPU  st.CPU  max_abs     
+-------------------  ----  -  -----  ------  ------  --------  ---------  ------  ------  ------------
+rad/rader_r4_psm_xs  64    2  40     361.33  103.66  464.99    24.69x     2       2       2.697398e-06
+rad/rader_r4_ps_xs   64    3  1      338.49  147.33  485.82    25.80x     1       3       3.015783e-06
+rad/rader_r2_psm_xs  64    3  40     469.06  106.75  575.80    30.58x     5       3       3.440587e-06
+rad/rader_r2_ps_xs   64    6  1      400.96  199.54  600.50    31.89x     2       6       3.099442e-06
+
+--- N=211 (NumPy: 30.10 us) ---
+impl/variant         tile  B  cores  NPU_us  CPU_us  TOTAL_us  tot/NumPy  st.NPU  st.CPU  max_abs     
+-------------------  ----  -  -----  ------  ------  --------  ---------  ------  ------  ------------
+rad/rader_r4_psm_xs  64    2  40     421.32  177.26  598.58    19.89x     3       2       5.722046e-06
+rad/rader_r4_ps_xs   352   2  1      474.39  175.50  649.89    21.59x     3       2       5.722046e-06
+rad/rader_r2_psm_xs  64    3  40     481.49  210.73  692.21    23.00x     6       3       6.397442e-06
+rad/rader_r2_ps_xs   64    3  1      566.26  212.55  778.81    25.87x     6       3       6.397442e-06
+
+--- N=720 (NumPy: 19.77 us) ---
+impl/variant             tile  B  cores  NPU_us   CPU_us  TOTAL_us  tot/NumPy  st.NPU  st.CPU  max_abs     
+-----------------------  ----  -  -----  -------  ------  --------  ---------  ------  ------  ------------
+blu/bluestein_r4_psm_xs  64    0  40     1019.53  99.18   1118.71   56.59x     6       0       1.221299e-05
+blu/bluestein_r2_psm_xs  64    0  40     1231.71  93.71   1325.42   67.04x     11      0       1.430511e-05
+blu/bluestein_r4_ps_xs   352   2  1      678.88   676.53  1355.41   68.56x     4       2       1.221299e-05
+blu/bluestein_r2_ps_xs   352   3  1      953.65   813.75  1767.39   89.40x     8       3       1.489687e-05
+
+--- N=1009 (NumPy: 164.43 us) ---
+impl/variant         tile  B  cores  NPU_us   CPU_us  TOTAL_us  tot/NumPy  st.NPU  st.CPU  max_abs     
+-------------------  ----  -  -----  -------  ------  --------  ---------  ------  ------  ------------
+rad/rader_r4_psm_xs  352   0  40     954.27   119.23  1073.50   6.53x      6       0       1.544393e-05
+rad/rader_r4_ps_xs   352   2  1      650.80   710.96  1361.76   8.28x      4       2       1.556503e-05
+rad/rader_r2_psm_xs  64    0  40     1255.12  111.87  1366.99   8.31x      11      0       1.716614e-05
+rad/rader_r2_ps_xs   352   3  1      894.22   841.52  1735.74   10.56x     8       3       2.037049e-05
+
+--- N=1331 (NumPy: 44.90 us) ---
+impl/variant             tile  B  cores  NPU_us   CPU_us   TOTAL_us  tot/NumPy  st.NPU  st.CPU  max_abs     
+-----------------------  ----  -  -----  -------  -------  --------  ---------  ------  ------  ------------
+blu/bluestein_r4_psm_xs  64    0  40     1349.13  167.42   1516.55   33.78x     6       0       1.705984e-05
+blu/bluestein_r2_psm_xs  352   0  40     1599.82  204.04   1803.86   40.18x     12      0       2.020800e-05
+blu/bluestein_r4_ps_xs   352   2  1      727.09   1604.26  2331.35   51.92x     4       2       1.537754e-05
+blu/bluestein_r2_ps_xs   352   3  1      1106.40  1630.96  2737.36   60.97x     9       3       2.132481e-05
+
+--- N=3600 (NumPy: 100.98 us) ---
+impl/variant             tile  B  cores  NPU_us   CPU_us   TOTAL_us  tot/NumPy  st.NPU  st.CPU  max_abs     
+-----------------------  ----  -  -----  -------  -------  --------  ---------  ------  ------  ------------
+blu/bluestein_r4_psm_xs  352   0  40     1881.40  395.65   2277.04   22.55x     7       0       3.857374e-05
+blu/bluestein_r2_psm_xs  352   0  40     2260.66  420.26   2680.92   26.55x     13      0       4.019417e-05
+blu/bluestein_r4_ps_xs   352   2  1      1247.14  2710.80  3957.94   39.20x     5       2       3.281527e-05
+blu/bluestein_r2_ps_xs   352   3  1      1648.23  3267.67  4915.90   48.68x     10      3       3.683702e-05
+
+--- N=10007 (NumPy: 4140.22 us) ---
+impl/variant             tile  B  cores  NPU_us   CPU_us    TOTAL_us  tot/NumPy  st.NPU  st.CPU  max_abs     
+-----------------------  ----  -  -----  -------  --------  --------  ---------  ------  ------  ------------
+blu/bluestein_r4_psm_xs  64    0  40     5368.18  1737.78   7105.96   1.72x      8       0       6.394598e-05
+rad/rader_r4_psm_xs      352   0  40     5161.83  2025.18   7187.01   1.74x      8       0       6.103516e-05
+blu/bluestein_r2_psm_xs  352   0  40     5579.13  1858.32   7437.45   1.80x      15      0       6.518558e-05
+rad/rader_r2_psm_xs      352   0  40     5678.58  2006.10   7684.68   1.86x      15      0       6.473756e-05
+blu/bluestein_r4_ps_xs   352   2  1      2909.99  11315.86  14225.84  3.44x      6       2       6.115425e-05
+rad/rader_r4_ps_xs       352   2  1      2814.25  11686.04  14500.29  3.50x      6       2       5.501635e-05
+blu/bluestein_r2_ps_xs   352   3  1      3616.99  13568.76  17185.74  4.15x      12      3       6.518558e-05
+rad/rader_r2_ps_xs       352   3  1      3569.12  13830.63  17399.75  4.20x      12      3       6.291360e-05
+
+============================================================================
+PAIRED COMPARISONS ALONG THE AXES — the cells compared differ in
+EXACTLY one axis (the rest is held fixed). Make decisions by these.
+Metric: TOTAL_us.
+============================================================================
+
+--- axis: butterfly algorithm — there are no paired comparisons
+    (there are no two cells differing only in this axis: for
+     instance xi is implemented for radix-2 only, while tile/batch
+     have to be run in at least two values — run_matrix.sh -t / -B)
+
+--- axis: scheme (DIT/Stockham) --- comparisons: 144   wins: dit_r4: 144   speedup: 1.01–1.41x
+held fixed                                                 times, us                         conclusion            
+---------------------------------------------------------  --------------------------------  ----------------------
+blu bluestein perstage xs 1cores N=10007 tile=352 minT=1   dit_r4=20372.79, dit_r2=21589.15  dit_r4 faster by 1.06x
+blu bluestein perstage xs 1cores N=10007 tile=352 minT=64  dit_r4=23925.42, dit_r2=27020.08  dit_r4 faster by 1.13x
+blu bluestein perstage xs 1cores N=10007 tile=352 minT=8   dit_r4=14225.84, dit_r2=17185.74  dit_r4 faster by 1.21x
+blu bluestein perstage xs 1cores N=10007 tile=64 minT=1    dit_r4=21156.70, dit_r2=22605.15  dit_r4 faster by 1.07x
+blu bluestein perstage xs 1cores N=10007 tile=64 minT=64   dit_r4=24880.79, dit_r2=28202.10  dit_r4 faster by 1.13x
+blu bluestein perstage xs 1cores N=10007 tile=64 minT=8    dit_r4=14912.09, dit_r2=18083.48  dit_r4 faster by 1.21x
+    ... 138 more comparisons (--all-pairs, to show them all)
+
+--- axis: granularity — there are no paired comparisons
+    (there are no two cells differing only in this axis: for
+     instance xi is implemented for radix-2 only, while tile/batch
+     have to be run in at least two values — run_matrix.sh -t / -B)
+
+--- axis: layout — there are no paired comparisons
+    (there are no two cells differing only in this axis: for
+     instance xi is implemented for radix-2 only, while tile/batch
+     have to be run in at least two values — run_matrix.sh -t / -B)
+
+--- axis: compute unit — there are no paired comparisons
+    (there are no two cells differing only in this axis: for
+     instance xi is implemented for radix-2 only, while tile/batch
+     have to be run in at least two values — run_matrix.sh -t / -B)
+
+--- axis: terms — there are no paired comparisons
+    (there are no two cells differing only in this axis: for
+     instance xi is implemented for radix-2 only, while tile/batch
+     have to be run in at least two values — run_matrix.sh -t / -B)
+
+--- axis: matmuls — there are no paired comparisons
+    (there are no two cells differing only in this axis: for
+     instance xi is implemented for radix-2 only, while tile/batch
+     have to be run in at least two values — run_matrix.sh -t / -B)
+
+--- axis: cores --- comparisons: 144   wins: 40: 139, 1: 5   speedup: 1.00–4.11x
+held fixed                                                 times, us                conclusion        
+---------------------------------------------------------  -----------------------  ------------------
+blu bluestein dit_r2 perstage xs N=10007 tile=352 minT=1   40=7437.45, 1=21589.15   40 faster by 2.90x
+blu bluestein dit_r2 perstage xs N=10007 tile=352 minT=64  40=26693.35, 1=27020.08  40 faster by 1.01x
+blu bluestein dit_r2 perstage xs N=10007 tile=352 minT=8   40=15736.44, 1=17185.74  40 faster by 1.09x
+blu bluestein dit_r2 perstage xs N=10007 tile=64 minT=1    40=8188.95, 1=22605.15   40 faster by 2.76x
+blu bluestein dit_r2 perstage xs N=10007 tile=64 minT=64   40=26687.15, 1=28202.10  40 faster by 1.06x
+blu bluestein dit_r2 perstage xs N=10007 tile=64 minT=8    40=15993.17, 1=18083.48  40 faster by 1.13x
+    ... 138 more comparisons (--all-pairs, to show them all)
+
+--- axis: tile width --- comparisons: 96   wins: 352: 67, 64: 27, 8: 2   speedup: 1.02–1.73x
+held fixed                                               times, us                              conclusion         
+-------------------------------------------------------  -------------------------------------  -------------------
+blu bluestein dit_r2 perstage xs 1cores N=10007 minT=1   352=21589.15, 64=22605.15, 8=34340.18  352 faster by 1.59x
+blu bluestein dit_r2 perstage xs 1cores N=10007 minT=64  352=27020.08, 64=28202.10, 8=38675.13  352 faster by 1.43x
+blu bluestein dit_r2 perstage xs 1cores N=10007 minT=8   352=17185.74, 64=18083.48, 8=29753.22  352 faster by 1.73x
+blu bluestein dit_r2 perstage xs 1cores N=1331 minT=1    352=3582.87, 64=4096.00, 8=5156.80     352 faster by 1.44x
+blu bluestein dit_r2 perstage xs 1cores N=1331 minT=64   352=3756.43, 64=4054.28, 8=5120.67     352 faster by 1.36x
+blu bluestein dit_r2 perstage xs 1cores N=1331 minT=8    352=2737.36, 64=3165.09, 8=4222.82     352 faster by 1.54x
+    ... 90 more comparisons (--all-pairs, to show them all)
+
+--- axis: host-prefix threshold --- comparisons: 96   wins: 8: 50, 1: 35, 64: 11   speedup: 1.11–3.59x
+held fixed                                                times, us                            conclusion       
+--------------------------------------------------------  -----------------------------------  -----------------
+blu bluestein dit_r2 perstage xs 1cores N=10007 tile=352  8=17185.74, 1=21589.15, 64=27020.08  8 faster by 1.57x
+blu bluestein dit_r2 perstage xs 1cores N=10007 tile=64   8=18083.48, 1=22605.15, 64=28202.10  8 faster by 1.56x
+blu bluestein dit_r2 perstage xs 1cores N=10007 tile=8    8=29753.22, 1=34340.18, 64=38675.13  8 faster by 1.30x
+blu bluestein dit_r2 perstage xs 1cores N=1331 tile=352   8=2737.36, 1=3582.87, 64=3756.43     8 faster by 1.37x
+blu bluestein dit_r2 perstage xs 1cores N=1331 tile=64    8=3165.09, 64=4054.28, 1=4096.00     8 faster by 1.29x
+blu bluestein dit_r2 perstage xs 1cores N=1331 tile=8     8=4222.82, 64=5120.67, 1=5156.80     8 faster by 1.22x
+    ... 90 more comparisons (--all-pairs, to show them all)
+
+--- axis: Cube batch — there are no paired comparisons
+    (there are no two cells differing only in this axis: for
+     instance xi is implemented for radix-2 only, while tile/batch
+     have to be run in at least two values — run_matrix.sh -t / -B)
+
+============================================================================
+CROSS-RADIX — 3 vs 5 vs 7. These are NOT paired comparisons at equal
+N, because no N is a power of all three. Each row holds every axis but
+the radix fixed, takes the nearest size per radix, and compares
+ns_per_pt = total_us*1000 / (N*log2 N). The N spread is printed with
+each verdict and is the limit on what the row is worth.
+============================================================================
+
+--- no cross-radix rows yet: that needs at least two radices run at
+    the matching sizes (small 243/125/343, mid 2187/3125/2401,
+    large 19683/15625/16807) with the same butterfly, scheme,
+    granularity, layout and tile.
+
+============================================================================
+OVERVIEW (NOT paired, metric TOTAL_us): the best time per value of an axis
+in the matrix. No good for conclusions — see the paired block above.
+============================================================================
+axis                   value      best TOTAL_us  achieved by                          
+---------------------  ---------  -------------  -------------------------------------
+butterfly algorithm    rader      464.99         rad/rader_r4_psm_xs N=101 tile=64    
+butterfly algorithm    bluestein  1118.71        blu/bluestein_r4_psm_xs N=720 tile=64
+scheme (DIT/Stockham)  dit_r2     575.80         rad/rader_r2_psm_xs N=101 tile=64    
+scheme (DIT/Stockham)  dit_r4     464.99         rad/rader_r4_psm_xs N=101 tile=64    
+granularity            perstage   464.99         rad/rader_r4_psm_xs N=101 tile=64    
+layout                 xs         464.99         rad/rader_r4_psm_xs N=101 tile=64    
+compute unit           vector     464.99         rad/rader_r4_psm_xs N=101 tile=64    
+terms                  0          464.99         rad/rader_r4_psm_xs N=101 tile=64    
+matmuls                0          464.99         rad/rader_r4_psm_xs N=101 tile=64    
+cores                  1          485.82         rad/rader_r4_ps_xs N=101 tile=64     
+cores                  40         464.99         rad/rader_r4_psm_xs N=101 tile=64    
+tile width             8          499.03         rad/rader_r4_psm_xs N=101 tile=8     
+tile width             64         464.99         rad/rader_r4_psm_xs N=101 tile=64    
+tile width             352        484.01         rad/rader_r4_psm_xs N=101 tile=352   
+host-prefix threshold  1          557.39         rad/rader_r4_psm_xs N=101 tile=8     
+host-prefix threshold  8          464.99         rad/rader_r4_psm_xs N=101 tile=64    
+host-prefix threshold  64         470.45         rad/rader_r4_psm_xs N=101 tile=64    
+Cube batch             0          464.99         rad/rader_r4_psm_xs N=101 tile=64    

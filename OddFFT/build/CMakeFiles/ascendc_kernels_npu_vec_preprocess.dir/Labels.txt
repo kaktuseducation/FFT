@@ -1,0 +1,13 @@
+# Target labels
+ ascendc_kernels_npu_vec_preprocess
+# Source files and their labels
+/home/ma-user/work/OddFFT/build/CMakeFiles/ascendc_kernels_npu_vec_preprocess
+/home/ma-user/work/OddFFT/build/CMakeFiles/ascendc_kernels_npu_vec_preprocess.rule
+/home/ma-user/work/OddFFT/build/CMakeFiles/ascendc_kernels_npu_vec_preprocess-complete.rule
+/home/ma-user/work/OddFFT/build/ascendc_kernels_npu_vec_preprocess-prefix/src/ascendc_kernels_npu_vec_preprocess-stamp/ascendc_kernels_npu_vec_preprocess-install.rule
+/home/ma-user/work/OddFFT/build/ascendc_kernels_npu_vec_preprocess-prefix/src/ascendc_kernels_npu_vec_preprocess-stamp/ascendc_kernels_npu_vec_preprocess-mkdir.rule
+/home/ma-user/work/OddFFT/build/ascendc_kernels_npu_vec_preprocess-prefix/src/ascendc_kernels_npu_vec_preprocess-stamp/ascendc_kernels_npu_vec_preprocess-download.rule
+/home/ma-user/work/OddFFT/build/ascendc_kernels_npu_vec_preprocess-prefix/src/ascendc_kernels_npu_vec_preprocess-stamp/ascendc_kernels_npu_vec_preprocess-update.rule
+/home/ma-user/work/OddFFT/build/ascendc_kernels_npu_vec_preprocess-prefix/src/ascendc_kernels_npu_vec_preprocess-stamp/ascendc_kernels_npu_vec_preprocess-patch.rule
+/home/ma-user/work/OddFFT/build/ascendc_kernels_npu_vec_preprocess-prefix/src/ascendc_kernels_npu_vec_preprocess-stamp/ascendc_kernels_npu_vec_preprocess-configure.rule
+/home/ma-user/work/OddFFT/build/ascendc_kernels_npu_vec_preprocess-prefix/src/ascendc_kernels_npu_vec_preprocess-stamp/ascendc_kernels_npu_vec_preprocess-build.rule

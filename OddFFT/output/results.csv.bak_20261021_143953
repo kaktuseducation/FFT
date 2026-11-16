@@ -1,0 +1,3 @@
+variant,N,tile_size,npu_avg_us,cpu_avg_us,total_avg_us,total_min_us,total_max_us
+blu/bluestein_r4_ps_xs,720,64,1999.61,87.06,2086.67,2086.67,2086.67
+rad/rader_r4_ps_xs,211,64,949.81,27.80,977.61,977.61,977.61

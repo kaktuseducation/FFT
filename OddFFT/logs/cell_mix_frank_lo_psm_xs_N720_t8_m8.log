@@ -1,0 +1,25 @@
+[INFO] ACL initialized, deviceId=0
+================================================================
+[BENCH ] impl=mix/frank_lo_psm_xs  N=720  tile=8  warmup=2  runs=5
+[BENCH ] twiddles=precomputed (npu=table, cpu=table:2 stage(s)) — the trigonometry is outside the timing on both sides
+----------------------------------------------------------------
+[FRANK ] N=720  stages=5  order=small-radix-first  host_prefix=2
+[FRANK ] plan: 3/sym 3/sym 4/direct 4/direct 5/sym
+[FRANK ] predicted 180.3 us  (launch=40.962 us/stage, data=0.000731 us/point/stage, host=0.03876 us/point/host-stage, 40-core fit)
+[FRANK ] coefficients MEASURED from output/matrix.csv; magnitude good to ~31% out of sample; no tile term; the stage ORDER above is forced by the caller, not chosen by the model (it would be right 71% of the time)
+[WARMUP] 1/2 done
+[WARMUP] 2/2 done
+[RUN   ] 1/5  npu_us=    121.71  cpu_us=     31.78  total_us=    153.49
+[RUN   ] 2/5  npu_us=     88.66  cpu_us=     29.43  total_us=    118.09
+[RUN   ] 3/5  npu_us=    116.42  cpu_us=     28.77  total_us=    145.19
+[RUN   ] 4/5  npu_us=     89.50  cpu_us=     27.86  total_us=    117.36
+[RUN   ] 5/5  npu_us=    118.56  cpu_us=    460.65  total_us=    579.22
+----------------------------------------------------------------
+NPU:   avg=106.97 us  min=88.66 us  max=121.71 us
+CPU:   avg=115.70 us  min=27.86 us  max=460.65 us
+Total: avg=222.67 us  min=117.36 us  max=579.22 us
+[RESULT] impl=mix/frank_lo_psm_xs N=720 tile=8 npu_us=106.97 cpu_us=115.70 total_us=222.67 min_us=117.36 max_us=579.22 stages_npu=3 stages_cpu=2
+================================================================
+[VERIFY] impl=mix/frank_lo_psm_xs N=720 tile=8 status=PASS mismatches=0/720 err_ratio=0.000000 tol=1.0e-03 max_abs=7.689e-06 max_rel=1.148e-05
+[PLAN  ] stages_npu=3 stages_cpu=2 (the leading 2 stage(s) have t below the 32-byte DataCopy floor and run on the host)
+test pass

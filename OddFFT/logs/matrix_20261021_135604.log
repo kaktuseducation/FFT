@@ -1,0 +1,114 @@
+[INFO] run_matrix.sh started, log=./logs/matrix_20261021_135604.log
+[INFO] ASCEND install path: /usr/local/Ascend/ascend-toolkit/latest
+find: ‘/usr/local/Ascend/ascend-toolkit/latest/opp/vendors’: Permission denied
+find: ‘/usr/local/Ascend/ascend-toolkit/latest/opp/framework/custom’: Permission denied
+find: ‘/usr/local/Ascend/ascend-toolkit/latest/opp/test-ops/script’: Permission denied
+find: ‘/usr/local/Ascend/ascend-toolkit/latest/opp/op_impl/custom’: Permission denied
+find: ‘/usr/local/Ascend/ascend-toolkit/latest/opp/op_proto/custom’: Permission denied
+[INFO]: /usr/local/Ascend/ascend-toolkit/latest/opp/op_impl/custom/ is empty
+find: ‘/usr/local/Ascend/ascend-toolkit/latest/opp/vendors’: Permission denied
+find: ‘/usr/local/Ascend/ascend-toolkit/latest/opp/framework/custom’: Permission denied
+find: ‘/usr/local/Ascend/ascend-toolkit/latest/opp/test-ops/script’: Permission denied
+find: ‘/usr/local/Ascend/ascend-toolkit/latest/opp/op_impl/custom’: Permission denied
+find: ‘/usr/local/Ascend/ascend-toolkit/latest/opp/op_proto/custom’: Permission denied
+[INFO]: /usr/local/Ascend/ascend-toolkit/latest/opp/op_proto/custom/ is empty
+find: ‘/usr/local/Ascend/ascend-toolkit/latest/opp/vendors’: Permission denied
+find: ‘/usr/local/Ascend/ascend-toolkit/latest/opp/framework/custom’: Permission denied
+find: ‘/usr/local/Ascend/ascend-toolkit/latest/opp/test-ops/script’: Permission denied
+find: ‘/usr/local/Ascend/ascend-toolkit/latest/opp/op_impl/custom’: Permission denied
+find: ‘/usr/local/Ascend/ascend-toolkit/latest/opp/op_proto/custom’: Permission denied
+[INFO]: / is empty
+find: ‘/usr/local/Ascend/ascend-toolkit/latest/opp/vendors’: Permission denied
+find: ‘/usr/local/Ascend/ascend-toolkit/latest/opp/framework/custom’: Permission denied
+find: ‘/usr/local/Ascend/ascend-toolkit/latest/opp/test-ops/script’: Permission denied
+find: ‘/usr/local/Ascend/ascend-toolkit/latest/opp/op_impl/custom’: Permission denied
+find: ‘/usr/local/Ascend/ascend-toolkit/latest/opp/op_proto/custom’: Permission denied
+[INFO]: / is empty
+find: ‘/usr/local/Ascend/ascend-toolkit/latest/opp/vendors’: Permission denied
+find: ‘/usr/local/Ascend/ascend-toolkit/latest/opp/framework/custom’: Permission denied
+find: ‘/usr/local/Ascend/ascend-toolkit/latest/opp/test-ops/script’: Permission denied
+find: ‘/usr/local/Ascend/ascend-toolkit/latest/opp/op_impl/custom’: Permission denied
+find: ‘/usr/local/Ascend/ascend-toolkit/latest/opp/op_proto/custom’: Permission denied
+[INFO]: /usr/local/Ascend/ascend-toolkit/latest/opp/framework/custom/ is empty
+find: ‘/usr/local/Ascend/ascend-toolkit/8.0.RC3/opp/vendors’: Permission denied
+find: ‘/usr/local/Ascend/ascend-toolkit/8.0.RC3/opp/framework/custom’: Permission denied
+find: ‘/usr/local/Ascend/ascend-toolkit/8.0.RC3/opp/test-ops/script’: Permission denied
+find: ‘/usr/local/Ascend/ascend-toolkit/8.0.RC3/opp/op_impl/custom’: Permission denied
+find: ‘/usr/local/Ascend/ascend-toolkit/8.0.RC3/opp/op_proto/custom’: Permission denied
+find: ‘/usr/local/Ascend/ascend-toolkit/8.0.RC3/opp/vendors’: Permission denied
+find: ‘/usr/local/Ascend/ascend-toolkit/8.0.RC3/opp/framework/custom’: Permission denied
+find: ‘/usr/local/Ascend/ascend-toolkit/8.0.RC3/opp/test-ops/script’: Permission denied
+find: ‘/usr/local/Ascend/ascend-toolkit/8.0.RC3/opp/op_impl/custom’: Permission denied
+find: ‘/usr/local/Ascend/ascend-toolkit/8.0.RC3/opp/op_proto/custom’: Permission denied
+find: ‘/usr/local/Ascend/ascend-toolkit/latest/opp/vendors’: Permission denied
+find: ‘/usr/local/Ascend/ascend-toolkit/latest/opp/framework/custom’: Permission denied
+find: ‘/usr/local/Ascend/ascend-toolkit/latest/opp/test-ops/script’: Permission denied
+find: ‘/usr/local/Ascend/ascend-toolkit/latest/opp/op_impl/custom’: Permission denied
+find: ‘/usr/local/Ascend/ascend-toolkit/latest/opp/op_proto/custom’: Permission denied
+[INFO]: /usr/local/Ascend/ascend-toolkit/latest/opp/op_impl/custom/ is empty
+find: ‘/usr/local/Ascend/ascend-toolkit/latest/opp/vendors’: Permission denied
+find: ‘/usr/local/Ascend/ascend-toolkit/latest/opp/framework/custom’: Permission denied
+find: ‘/usr/local/Ascend/ascend-toolkit/latest/opp/test-ops/script’: Permission denied
+find: ‘/usr/local/Ascend/ascend-toolkit/latest/opp/op_impl/custom’: Permission denied
+find: ‘/usr/local/Ascend/ascend-toolkit/latest/opp/op_proto/custom’: Permission denied
+[INFO]: /usr/local/Ascend/ascend-toolkit/latest/opp/op_proto/custom/ is empty
+find: ‘/usr/local/Ascend/ascend-toolkit/latest/opp/vendors’: Permission denied
+find: ‘/usr/local/Ascend/ascend-toolkit/latest/opp/framework/custom’: Permission denied
+find: ‘/usr/local/Ascend/ascend-toolkit/latest/opp/test-ops/script’: Permission denied
+find: ‘/usr/local/Ascend/ascend-toolkit/latest/opp/op_impl/custom’: Permission denied
+find: ‘/usr/local/Ascend/ascend-toolkit/latest/opp/op_proto/custom’: Permission denied
+[INFO]: / is empty
+find: ‘/usr/local/Ascend/ascend-toolkit/latest/opp/vendors’: Permission denied
+find: ‘/usr/local/Ascend/ascend-toolkit/latest/opp/framework/custom’: Permission denied
+find: ‘/usr/local/Ascend/ascend-toolkit/latest/opp/test-ops/script’: Permission denied
+find: ‘/usr/local/Ascend/ascend-toolkit/latest/opp/op_impl/custom’: Permission denied
+find: ‘/usr/local/Ascend/ascend-toolkit/latest/opp/op_proto/custom’: Permission denied
+[INFO]: / is empty
+find: ‘/usr/local/Ascend/ascend-toolkit/latest/opp/vendors’: Permission denied
+find: ‘/usr/local/Ascend/ascend-toolkit/latest/opp/framework/custom’: Permission denied
+find: ‘/usr/local/Ascend/ascend-toolkit/latest/opp/test-ops/script’: Permission denied
+find: ‘/usr/local/Ascend/ascend-toolkit/latest/opp/op_impl/custom’: Permission denied
+find: ‘/usr/local/Ascend/ascend-toolkit/latest/opp/op_proto/custom’: Permission denied
+[INFO]: /usr/local/Ascend/ascend-toolkit/latest/opp/framework/custom/ is empty
+[INFO] building once (RUN_MODE=npu)
+[ERROR] build failed — see logs/cmake_build.log
+recompile: /usr/bin/c++ -fPIC -g -Wl,-z,relro -Wl,-z,now -Wl,-z,noexecstack -shared -Wl,-soname,libascendc_kernels_npu_vec.so -o lib/libascendc_kernels_npu_vec.so CMakeFiles/ascendc_kernels_npu_vec_host_stub_obj.dir/auto_gen/ascendc_kernels_npu_vec/host_stub.cpp.o /home/ma-user/work/OddFFT/build/ascendc_kernels_npu_vec_host_dir/objects-Debug/host_bisheng_obj/home/ma-user/work/OddFFT/kernels/arb_cmul.cpp.o /home/ma-user/work/OddFFT/build/ascendc_kernels_npu_vec_host_dir/objects-Debug/host_bisheng_obj/home/ma-user/work/OddFFT/kernels/arb_cscale.cpp.o /home/ma-user/work/OddFFT/build/ascendc_kernels_npu_vec_host_dir/objects-Debug/host_bisheng_obj/home/ma-user/work/OddFFT/kernels/r2_direct_dit_perstage_xs.cpp.o /home/ma-user/work/OddFFT/build/ascendc_kernels_npu_vec_host_dir/objects-Debug/host_bisheng_obj/home/ma-user/work/OddFFT/kernels/r3_direct_dit_perstage_xs.cpp.o /home/ma-user/work/OddFFT/build/ascendc_kernels_npu_vec_host_dir/objects-Debug/host_bisheng_obj/home/ma-user/work/OddFFT/kernels/r3_rader_dit_perstage_xs.cpp.o /home/ma-user/work/OddFFT/build/ascendc_kernels_npu_vec_host_dir/objects-Debug/host_bisheng_obj/home/ma-user/work/OddFFT/kernels/r3_sym_dit_perstage_xs.cpp.o /home/ma-user/work/OddFFT/build/ascendc_kernels_npu_vec_host_dir/objects-Debug/host_bisheng_obj/home/ma-user/work/OddFFT/kernels/r3_winograd_dit_perstage_xs.cpp.o /home/ma-user/work/OddFFT/build/ascendc_kernels_npu_vec_host_dir/objects-Debug/host_bisheng_obj/home/ma-user/work/OddFFT/kernels/r4_direct_dit_perstage_xs.cpp.o /home/ma-user/work/OddFFT/build/ascendc_kernels_npu_vec_host_dir/objects-Debug/host_bisheng_obj/home/ma-user/work/OddFFT/kernels/r5_direct_dit_perstage_xs.cpp.o /home/ma-user/work/OddFFT/build/ascendc_kernels_npu_vec_host_dir/objects-Debug/host_bisheng_obj/home/ma-user/work/OddFFT/kernels/r5_rader_dit_perstage_xs.cpp.o /home/ma-user/work/OddFFT/build/ascendc_kernels_npu_vec_host_dir/objects-Debug/host_bisheng_obj/home/ma-user/work/OddFFT/kernels/r5_sym_dit_perstage_xs.cpp.o /home/ma-user/work/OddFFT/build/ascendc_kernels_npu_vec_host_dir/objects-Debug/host_bisheng_obj/home/ma-user/work/OddFFT/kernels/r5_winograd_dit_perstage_xs.cpp.o /home/ma-user/work/OddFFT/build/ascendc_kernels_npu_vec_host_dir/objects-Debug/host_bisheng_obj/home/ma-user/work/OddFFT/kernels/r7_direct_dit_perstage_xs.cpp.o /home/ma-user/work/OddFFT/build/ascendc_kernels_npu_vec_host_dir/objects-Debug/host_bisheng_obj/home/ma-user/work/OddFFT/kernels/r7_rader_dit_perstage_xs.cpp.o /home/ma-user/work/OddFFT/build/ascendc_kernels_npu_vec_host_dir/objects-Debug/host_bisheng_obj/home/ma-user/work/OddFFT/kernels/r7_sym_dit_perstage_xs.cpp.o /home/ma-user/work/OddFFT/build/ascendc_kernels_npu_vec_host_dir/objects-Debug/host_bisheng_obj/home/ma-user/work/OddFFT/kernels/r7_winograd_dit_perstage_xs.cpp.o    -L/usr/local/Ascend/ascend-toolkit/latest/lib64  -L/usr/local/Ascend/ascend-toolkit/latest/tools/simulator/Ascend910B4/lib  /usr/local/Ascend/ascend-toolkit/latest/lib64/libascendc_runtime.a -lascend_dump -lc_sec
+gmake[2]: Leaving directory '/home/ma-user/work/OddFFT/build'
+[ 89%] Built target ascendc_kernels_npu_vec
+gmake[2]: Entering directory '/home/ma-user/work/OddFFT/build'
+Scanning dependencies of target oddfft
+gmake[2]: Leaving directory '/home/ma-user/work/OddFFT/build'
+gmake[2]: Entering directory '/home/ma-user/work/OddFFT/build'
+[ 92%] Building CXX object CMakeFiles/oddfft.dir/host/main.cpp.o
+[ 94%] Building CXX object CMakeFiles/oddfft.dir/host/impl_odd.cpp.o
+[ 97%] Building CXX object CMakeFiles/oddfft.dir/host/impl_arblen.cpp.o
+/home/ma-user/work/OddFFT/host/impl_arblen.cpp: In function ‘void run_blue(uint32_t, uint32_t, const std::vector<float>&, uint32_t, uint32_t, const string&, uint32_t, bool)’:
+/home/ma-user/work/OddFFT/host/impl_arblen.cpp:341:69: error: no matching function for call to ‘DevCtx::DevCtx(<brace-enclosed initializer list>)’
+     DevCtx ctx{stream, xrDev, xiDev, twDev, xrHost, xiHost, bd, tile};
+                                                                     ^
+/home/ma-user/work/OddFFT/host/impl_arblen.cpp:77:8: note: candidate: DevCtx::DevCtx()
+ struct DevCtx {
+        ^~~~~~
+/home/ma-user/work/OddFFT/host/impl_arblen.cpp:77:8: note:   candidate expects 0 arguments, 8 provided
+/home/ma-user/work/OddFFT/host/impl_arblen.cpp:77:8: note: candidate: constexpr DevCtx::DevCtx(const DevCtx&)
+/home/ma-user/work/OddFFT/host/impl_arblen.cpp:77:8: note:   candidate expects 1 argument, 8 provided
+/home/ma-user/work/OddFFT/host/impl_arblen.cpp:77:8: note: candidate: constexpr DevCtx::DevCtx(DevCtx&&)
+/home/ma-user/work/OddFFT/host/impl_arblen.cpp:77:8: note:   candidate expects 1 argument, 8 provided
+/home/ma-user/work/OddFFT/host/impl_arblen.cpp: In function ‘void run_rader(uint32_t, uint32_t, const std::vector<float>&, uint32_t, uint32_t, const string&, uint32_t, bool)’:
+/home/ma-user/work/OddFFT/host/impl_arblen.cpp:495:69: error: no matching function for call to ‘DevCtx::DevCtx(<brace-enclosed initializer list>)’
+     DevCtx ctx{stream, xrDev, xiDev, twDev, xrHost, xiHost, bd, tile};
+                                                                     ^
+/home/ma-user/work/OddFFT/host/impl_arblen.cpp:77:8: note: candidate: DevCtx::DevCtx()
+ struct DevCtx {
+        ^~~~~~
+/home/ma-user/work/OddFFT/host/impl_arblen.cpp:77:8: note:   candidate expects 0 arguments, 8 provided
+/home/ma-user/work/OddFFT/host/impl_arblen.cpp:77:8: note: candidate: constexpr DevCtx::DevCtx(const DevCtx&)
+/home/ma-user/work/OddFFT/host/impl_arblen.cpp:77:8: note:   candidate expects 1 argument, 8 provided
+/home/ma-user/work/OddFFT/host/impl_arblen.cpp:77:8: note: candidate: constexpr DevCtx::DevCtx(DevCtx&&)
+/home/ma-user/work/OddFFT/host/impl_arblen.cpp:77:8: note:   candidate expects 1 argument, 8 provided
+gmake[2]: *** [CMakeFiles/oddfft.dir/build.make:89: CMakeFiles/oddfft.dir/host/impl_arblen.cpp.o] Error 1
+gmake[2]: *** Waiting for unfinished jobs....
+gmake[2]: Leaving directory '/home/ma-user/work/OddFFT/build'
+gmake[1]: *** [CMakeFiles/Makefile2:91: CMakeFiles/oddfft.dir/all] Error 2
+gmake[1]: Leaving directory '/home/ma-user/work/OddFFT/build'
+gmake: *** [Makefile:130: all] Error 2

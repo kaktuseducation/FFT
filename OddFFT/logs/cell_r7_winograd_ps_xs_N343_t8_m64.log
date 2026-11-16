@@ -1,0 +1,21 @@
+[INFO] ACL initialized, deviceId=0
+================================================================
+[BENCH ] impl=r7/winograd_ps_xs  N=343  tile=8  warmup=2  runs=5
+[BENCH ] twiddles=precomputed (npu=table, cpu=table:3 stage(s)) — the trigonometry is outside the timing on both sides
+----------------------------------------------------------------
+[WARMUP] 1/2 done
+[WARMUP] 2/2 done
+[RUN   ] 1/5  npu_us=      0.23  cpu_us=     49.28  total_us=     49.51
+[RUN   ] 2/5  npu_us=      0.22  cpu_us=     49.08  total_us=     49.30
+[RUN   ] 3/5  npu_us=      0.20  cpu_us=     49.02  total_us=     49.22
+[RUN   ] 4/5  npu_us=      0.19  cpu_us=     49.02  total_us=     49.21
+[RUN   ] 5/5  npu_us=      0.23  cpu_us=     50.18  total_us=     50.41
+----------------------------------------------------------------
+NPU:   avg=0.21 us  min=0.19 us  max=0.23 us
+CPU:   avg=49.32 us  min=49.02 us  max=50.18 us
+Total: avg=49.53 us  min=49.21 us  max=50.41 us
+[RESULT] impl=r7/winograd_ps_xs N=343 tile=8 npu_us=0.21 cpu_us=49.32 total_us=49.53 min_us=49.21 max_us=50.41 stages_npu=0 stages_cpu=3
+================================================================
+[VERIFY] impl=r7/winograd_ps_xs N=343 tile=8 status=PASS mismatches=0/343 err_ratio=0.000000 tol=1.0e-03 max_abs=4.396e-06 max_rel=2.082e-06
+[PLAN  ] stages_npu=0 stages_cpu=3 (the leading 3 stage(s) have t below the 32-byte DataCopy floor and run on the host)
+test pass

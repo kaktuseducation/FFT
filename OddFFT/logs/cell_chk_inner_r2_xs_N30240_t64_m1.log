@@ -1,0 +1,29 @@
+[INFO] ACL initialized, deviceId=0
+================================================================
+[BENCH ] impl=chk/inner_r2_xs  N=30240  tile=64  warmup=2  runs=5
+[BENCH ] twiddles=precomputed (npu=table, cpu=table:0 stage(s)) — the trigonometry is outside the timing on both sides
+----------------------------------------------------------------
+================================================================
+[DIAG  ] N=30240 -> M=65536  inner radix=2  tile=64  minT=1
+[DIAG  ] inner plan: 16 stages, first 0 on the host
+[DIAG 1] arb_cmul      max_rel=0.000e+00 worst=0 nan=0  OK
+[DIAG 2] arb_cscale    max_rel=0.000e+00 worst=0 nan=0  OK
+[DIAG 3] stage 0  r=2 t=1      block=2      nBlk=32768 wOff=0       rowLen=8    tiles=32768 bd=40  max_rel=3.176e-08 nan=0 OK
+[DIAG 3] stage 1  r=2 t=2      block=4      nBlk=16384 wOff=16      rowLen=8    tiles=16384 bd=40  max_rel=5.676e-08 nan=0 OK
+[DIAG 3] stage 2  r=2 t=4      block=8      nBlk=8192  wOff=32      rowLen=8    tiles=8192  bd=40  max_rel=8.046e-08 nan=0 OK
+[DIAG 3] stage 3  r=2 t=8      block=16     nBlk=4096  wOff=48      rowLen=8    tiles=4096  bd=40  max_rel=8.498e-08 nan=0 OK
+[DIAG 3] stage 4  r=2 t=16     block=32     nBlk=2048  wOff=64      rowLen=16   tiles=2048  bd=40  max_rel=1.101e-07 nan=0 OK
+[DIAG 3] stage 5  r=2 t=32     block=64     nBlk=1024  wOff=96      rowLen=32   tiles=1024  bd=40  max_rel=1.169e-07 nan=0 OK
+[DIAG 3] stage 6  r=2 t=64     block=128    nBlk=512   wOff=160     rowLen=64   tiles=512   bd=40  max_rel=1.244e-07 nan=0 OK
+[DIAG 3] stage 7  r=2 t=128    block=256    nBlk=256   wOff=288     rowLen=128  tiles=512   bd=40  max_rel=1.063e-07 nan=0 OK
+[DIAG 3] stage 8  r=2 t=256    block=512    nBlk=128   wOff=544     rowLen=256  tiles=512   bd=40  max_rel=1.126e-07 nan=0 OK
+[DIAG 3] stage 9  r=2 t=512    block=1024   nBlk=64    wOff=1056    rowLen=512  tiles=512   bd=40  max_rel=1.184e-07 nan=0 OK
+[DIAG 3] stage 10 r=2 t=1024   block=2048   nBlk=32    wOff=2080    rowLen=1024 tiles=512   bd=40  max_rel=1.361e-07 nan=0 OK
+[DIAG 3] stage 11 r=2 t=2048   block=4096   nBlk=16    wOff=4128    rowLen=2048 tiles=512   bd=40  max_rel=1.209e-07 nan=0 OK
+[DIAG 3] stage 12 r=2 t=4096   block=8192   nBlk=8     wOff=8224    rowLen=4096 tiles=512   bd=40  max_rel=1.679e-07 nan=0 OK
+[DIAG 3] stage 13 r=2 t=8192   block=16384  nBlk=4     wOff=16416   rowLen=8192 tiles=512   bd=40  max_rel=1.714e-07 nan=0 OK
+[DIAG 3] stage 14 r=2 t=16384  block=32768  nBlk=2     wOff=32800   rowLen=16384 tiles=512   bd=40  max_rel=1.642e-07 nan=0 OK
+[DIAG 3] stage 15 r=2 t=32768  block=65536  nBlk=1     wOff=65568   rowLen=32768 tiles=512   bd=40  max_rel=1.679e-07 nan=0 OK
+[DIAG  ] all three pieces agree with the host
+================================================================
+[VERIFY] impl=chk/inner_r2_xs N=30240 tile=64 status=NO_OUTPUT (output_x.bin not read) — the variant gave no result

@@ -1,0 +1,15 @@
+/home/ma-user/work/OddFFT/build/CMakeFiles/install/strip.dir
+/home/ma-user/work/OddFFT/build/CMakeFiles/install/local.dir
+/home/ma-user/work/OddFFT/build/CMakeFiles/rebuild_cache.dir
+/home/ma-user/work/OddFFT/build/CMakeFiles/edit_cache.dir
+/home/ma-user/work/OddFFT/build/CMakeFiles/oddfft.dir
+/home/ma-user/work/OddFFT/build/CMakeFiles/ascendc_kernels_npu_vec.dir
+/home/ma-user/work/OddFFT/build/CMakeFiles/ascendc_kernels_npu_vec_host_stub_obj.dir
+/home/ma-user/work/OddFFT/build/CMakeFiles/ascendc_kernels_npu_vec_interface.dir
+/home/ma-user/work/OddFFT/build/CMakeFiles/list_install_components.dir
+/home/ma-user/work/OddFFT/build/CMakeFiles/ascendc_kernels_npu_vec_host.dir
+/home/ma-user/work/OddFFT/build/CMakeFiles/ascendc_kernels_npu_vec_preprocess.dir
+/home/ma-user/work/OddFFT/build/CMakeFiles/ascendc_kernels_npu_vec_aic_device.dir
+/home/ma-user/work/OddFFT/build/CMakeFiles/ascendc_kernels_npu_vec_aiv_device.dir
+/home/ma-user/work/OddFFT/build/CMakeFiles/install.dir
+/home/ma-user/work/OddFFT/build/CMakeFiles/ascendc_kernels_npu_vec_merge_obj.dir

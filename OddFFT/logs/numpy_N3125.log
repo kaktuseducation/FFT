@@ -1,0 +1,32 @@
+================================================================
+[BENCH ] impl=numpy/fft  N=3125  tile=0  warmup=5  runs=20
+[BENCH ] twiddles=internal (numpy) — baseline
+----------------------------------------------------------------
+[WARMUP] 5/5 done
+[RUN   ] 1/20  npu_us=      0.00  cpu_us=     95.90  total_us=     95.90
+[RUN   ] 2/20  npu_us=      0.00  cpu_us=    120.71  total_us=    120.71
+[RUN   ] 3/20  npu_us=      0.00  cpu_us=     97.51  total_us=     97.51
+[RUN   ] 4/20  npu_us=      0.00  cpu_us=     94.26  total_us=     94.26
+[RUN   ] 5/20  npu_us=      0.00  cpu_us=     94.34  total_us=     94.34
+[RUN   ] 6/20  npu_us=      0.00  cpu_us=     94.24  total_us=     94.24
+[RUN   ] 7/20  npu_us=      0.00  cpu_us=     94.74  total_us=     94.74
+[RUN   ] 8/20  npu_us=      0.00  cpu_us=     93.72  total_us=     93.72
+[RUN   ] 9/20  npu_us=      0.00  cpu_us=     96.53  total_us=     96.53
+[RUN   ] 10/20  npu_us=      0.00  cpu_us=     94.61  total_us=     94.61
+[RUN   ] 11/20  npu_us=      0.00  cpu_us=     93.63  total_us=     93.63
+[RUN   ] 12/20  npu_us=      0.00  cpu_us=     93.36  total_us=     93.36
+[RUN   ] 13/20  npu_us=      0.00  cpu_us=     93.62  total_us=     93.62
+[RUN   ] 14/20  npu_us=      0.00  cpu_us=     93.16  total_us=     93.16
+[RUN   ] 15/20  npu_us=      0.00  cpu_us=     93.02  total_us=     93.02
+[RUN   ] 16/20  npu_us=      0.00  cpu_us=     93.18  total_us=     93.18
+[RUN   ] 17/20  npu_us=      0.00  cpu_us=     93.46  total_us=     93.46
+[RUN   ] 18/20  npu_us=      0.00  cpu_us=     93.28  total_us=     93.28
+[RUN   ] 19/20  npu_us=      0.00  cpu_us=     93.54  total_us=     93.54
+[RUN   ] 20/20  npu_us=      0.00  cpu_us=     93.22  total_us=     93.22
+----------------------------------------------------------------
+NPU:   avg=0.00 us  min=0.00 us  max=0.00 us
+CPU:   avg=95.50 us  min=93.02 us  max=120.71 us
+Total: avg=95.50 us  min=93.02 us  max=120.71 us
+[RESULT] impl=numpy/fft N=3125 tile=0 npu_us=0.00 cpu_us=95.50 total_us=95.50 min_us=93.02 max_us=120.71 stages_npu=0 stages_cpu=0
+[VERIFY] impl=numpy/fft N=3125 tile=0 status=PASS mismatches=0/3125 err_ratio=0.000000 tol=1.0e-03 max_abs=7.443e-06 max_rel=3.549e-06
+================================================================

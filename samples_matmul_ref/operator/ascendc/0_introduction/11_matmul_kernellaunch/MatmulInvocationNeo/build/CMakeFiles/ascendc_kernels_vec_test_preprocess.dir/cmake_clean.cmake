@@ -1,0 +1,16 @@
+file(REMOVE_RECURSE
+  "CMakeFiles/ascendc_kernels_vec_test_preprocess"
+  "CMakeFiles/ascendc_kernels_vec_test_preprocess-complete"
+  "ascendc_kernels_vec_test_preprocess-prefix/src/ascendc_kernels_vec_test_preprocess-stamp/ascendc_kernels_vec_test_preprocess-build"
+  "ascendc_kernels_vec_test_preprocess-prefix/src/ascendc_kernels_vec_test_preprocess-stamp/ascendc_kernels_vec_test_preprocess-configure"
+  "ascendc_kernels_vec_test_preprocess-prefix/src/ascendc_kernels_vec_test_preprocess-stamp/ascendc_kernels_vec_test_preprocess-download"
+  "ascendc_kernels_vec_test_preprocess-prefix/src/ascendc_kernels_vec_test_preprocess-stamp/ascendc_kernels_vec_test_preprocess-install"
+  "ascendc_kernels_vec_test_preprocess-prefix/src/ascendc_kernels_vec_test_preprocess-stamp/ascendc_kernels_vec_test_preprocess-mkdir"
+  "ascendc_kernels_vec_test_preprocess-prefix/src/ascendc_kernels_vec_test_preprocess-stamp/ascendc_kernels_vec_test_preprocess-patch"
+  "ascendc_kernels_vec_test_preprocess-prefix/src/ascendc_kernels_vec_test_preprocess-stamp/ascendc_kernels_vec_test_preprocess-update"
+)
+
+# Per-language clean rules from dependency scanning.
+foreach(lang )
+  include(CMakeFiles/ascendc_kernels_vec_test_preprocess.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()

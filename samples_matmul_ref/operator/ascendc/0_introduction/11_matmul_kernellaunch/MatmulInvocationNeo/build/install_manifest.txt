@@ -1,0 +1,11 @@
+/home/ma-user/work/samples_matmul_ref/operator/ascendc/0_introduction/11_matmul_kernellaunch/MatmulInvocationNeo/out/lib64/libascendc_kernels_npu.so
+/home/ma-user/work/samples_matmul_ref/operator/ascendc/0_introduction/11_matmul_kernellaunch/MatmulInvocationNeo/out/include/ascendc_kernels_npu/aclrtlaunch_triple_chevrons_func.h
+/home/ma-user/work/samples_matmul_ref/operator/ascendc/0_introduction/11_matmul_kernellaunch/MatmulInvocationNeo/out/include/ascendc_kernels_npu/aclrtlaunch_fft8_cube1_matmul.h
+/home/ma-user/work/samples_matmul_ref/operator/ascendc/0_introduction/11_matmul_kernellaunch/MatmulInvocationNeo/out/include/ascendc_kernels_vec_test/aclrtlaunch_triple_chevrons_func.h
+/home/ma-user/work/samples_matmul_ref/operator/ascendc/0_introduction/11_matmul_kernellaunch/MatmulInvocationNeo/out/include/ascendc_kernels_vec_test/aclrtlaunch_fft8_cube1_repack.h
+/home/ma-user/work/samples_matmul_ref/operator/ascendc/0_introduction/11_matmul_kernellaunch/MatmulInvocationNeo/out/lib64/libascendc_kernels_vec_test.so
+/home/ma-user/work/samples_matmul_ref/operator/ascendc/0_introduction/11_matmul_kernellaunch/MatmulInvocationNeo/out/include/ascendc_kernels_npu/aclrtlaunch_triple_chevrons_func.h
+/home/ma-user/work/samples_matmul_ref/operator/ascendc/0_introduction/11_matmul_kernellaunch/MatmulInvocationNeo/out/include/ascendc_kernels_npu/aclrtlaunch_fft8_cube1_matmul.h
+/home/ma-user/work/samples_matmul_ref/operator/ascendc/0_introduction/11_matmul_kernellaunch/MatmulInvocationNeo/out/include/ascendc_kernels_vec_test/aclrtlaunch_triple_chevrons_func.h
+/home/ma-user/work/samples_matmul_ref/operator/ascendc/0_introduction/11_matmul_kernellaunch/MatmulInvocationNeo/out/include/ascendc_kernels_vec_test/aclrtlaunch_fft8_cube1_repack.h
+/home/ma-user/work/samples_matmul_ref/operator/ascendc/0_introduction/11_matmul_kernellaunch/MatmulInvocationNeo/out/bin/ascendc_kernels_bbit

@@ -1,0 +1,24 @@
+[INFO] ACL initialized, deviceId=0
+================================================================
+[BENCH ] impl=chk/inner_r2_xs  N=720  tile=64  warmup=2  runs=5
+[BENCH ] twiddles=precomputed (npu=table, cpu=table:0 stage(s)) — the trigonometry is outside the timing on both sides
+----------------------------------------------------------------
+================================================================
+[DIAG  ] N=720 -> M=2048  inner radix=2  tile=64  minT=1
+[DIAG  ] inner plan: 11 stages, first 0 on the host
+[DIAG 1] arb_cmul      max_rel=0.000e+00 worst=0 nan=0  OK
+[DIAG 2] arb_cscale    max_rel=0.000e+00 worst=0 nan=0  OK
+[DIAG 3] stage 0  r=2 t=1      block=2      nBlk=1024  wOff=0       rowLen=8    tiles=1024  bd=40  max_rel=1.819e-08 nan=0 OK
+[DIAG 3] stage 1  r=2 t=2      block=4      nBlk=512   wOff=16      rowLen=8    tiles=512   bd=40  max_rel=2.535e-08 nan=0 OK
+[DIAG 3] stage 2  r=2 t=4      block=8      nBlk=256   wOff=32      rowLen=8    tiles=256   bd=40  max_rel=5.504e-08 nan=0 OK
+[DIAG 3] stage 3  r=2 t=8      block=16     nBlk=128   wOff=48      rowLen=8    tiles=128   bd=40  max_rel=7.189e-08 nan=0 OK
+[DIAG 3] stage 4  r=2 t=16     block=32     nBlk=64    wOff=64      rowLen=16   tiles=64    bd=40  max_rel=6.336e-08 nan=0 OK
+[DIAG 3] stage 5  r=2 t=32     block=64     nBlk=32    wOff=96      rowLen=32   tiles=32    bd=32  max_rel=7.551e-08 nan=0 OK
+[DIAG 3] stage 6  r=2 t=64     block=128    nBlk=16    wOff=160     rowLen=64   tiles=16    bd=16  max_rel=7.529e-08 nan=0 OK
+[DIAG 3] stage 7  r=2 t=128    block=256    nBlk=8     wOff=288     rowLen=128  tiles=16    bd=16  max_rel=6.865e-08 nan=0 OK
+[DIAG 3] stage 8  r=2 t=256    block=512    nBlk=4     wOff=544     rowLen=256  tiles=16    bd=16  max_rel=9.364e-08 nan=0 OK
+[DIAG 3] stage 9  r=2 t=512    block=1024   nBlk=2     wOff=1056    rowLen=512  tiles=16    bd=16  max_rel=1.048e-07 nan=0 OK
+[DIAG 3] stage 10 r=2 t=1024   block=2048   nBlk=1     wOff=2080    rowLen=1024 tiles=16    bd=16  max_rel=1.054e-07 nan=0 OK
+[DIAG  ] all three pieces agree with the host
+================================================================
+[VERIFY] impl=chk/inner_r2_xs N=720 tile=64 status=NO_OUTPUT (output_x.bin not read) — the variant gave no result

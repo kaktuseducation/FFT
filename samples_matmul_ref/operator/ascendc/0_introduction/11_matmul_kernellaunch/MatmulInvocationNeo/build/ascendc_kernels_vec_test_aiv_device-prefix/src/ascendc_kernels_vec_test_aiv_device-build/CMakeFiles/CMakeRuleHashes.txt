@@ -1,0 +1,2 @@
+# Hashes of file build rules.
+ad562387378760dc917963b7fc7bbd4a CMakeFiles/merge_aiv_device_obj

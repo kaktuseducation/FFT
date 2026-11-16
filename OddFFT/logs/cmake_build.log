@@ -1,0 +1,333 @@
+gmake[1]: Entering directory '/home/ma-user/work/OddFFT/build'
+gmake[2]: Entering directory '/home/ma-user/work/OddFFT/build'
+Scanning dependencies of target ascendc_kernels_npu_vec_preprocess
+gmake[2]: Leaving directory '/home/ma-user/work/OddFFT/build'
+gmake[2]: Entering directory '/home/ma-user/work/OddFFT/build'
+[  2%] Creating directories for 'ascendc_kernels_npu_vec_preprocess'
+[  5%] No download step for 'ascendc_kernels_npu_vec_preprocess'
+[  7%] No patch step for 'ascendc_kernels_npu_vec_preprocess'
+[ 10%] No update step for 'ascendc_kernels_npu_vec_preprocess'
+[ 13%] Performing configure step for 'ascendc_kernels_npu_vec_preprocess'
+-- The C compiler identification is GNU 7.3.0
+-- The CXX compiler identification is GNU 7.3.0
+-- Check for working C compiler: /usr/bin/cc
+-- Check for working C compiler: /usr/bin/cc -- works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Check for working CXX compiler: /usr/bin/c++
+-- Check for working CXX compiler: /usr/bin/c++ -- works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/ma-user/work/OddFFT/build/ascendc_kernels_npu_vec_preprocess-prefix/src/ascendc_kernels_npu_vec_preprocess-build
+[ 15%] Performing build step for 'ascendc_kernels_npu_vec_preprocess'
+gmake[3]: Entering directory '/home/ma-user/work/OddFFT/build/ascendc_kernels_npu_vec_preprocess-prefix/src/ascendc_kernels_npu_vec_preprocess-build'
+gmake[4]: Entering directory '/home/ma-user/work/OddFFT/build/ascendc_kernels_npu_vec_preprocess-prefix/src/ascendc_kernels_npu_vec_preprocess-build'
+gmake[5]: Entering directory '/home/ma-user/work/OddFFT/build/ascendc_kernels_npu_vec_preprocess-prefix/src/ascendc_kernels_npu_vec_preprocess-build'
+gmake[5]: Entering directory '/home/ma-user/work/OddFFT/build/ascendc_kernels_npu_vec_preprocess-prefix/src/ascendc_kernels_npu_vec_preprocess-build'
+gmake[5]: Entering directory '/home/ma-user/work/OddFFT/build/ascendc_kernels_npu_vec_preprocess-prefix/src/ascendc_kernels_npu_vec_preprocess-build'
+Scanning dependencies of target preprocess_obj
+gmake[5]: Leaving directory '/home/ma-user/work/OddFFT/build/ascendc_kernels_npu_vec_preprocess-prefix/src/ascendc_kernels_npu_vec_preprocess-build'
+Scanning dependencies of target aiv_obj
+Scanning dependencies of target aic_obj
+gmake[5]: Leaving directory '/home/ma-user/work/OddFFT/build/ascendc_kernels_npu_vec_preprocess-prefix/src/ascendc_kernels_npu_vec_preprocess-build'
+gmake[5]: Leaving directory '/home/ma-user/work/OddFFT/build/ascendc_kernels_npu_vec_preprocess-prefix/src/ascendc_kernels_npu_vec_preprocess-build'
+gmake[5]: Entering directory '/home/ma-user/work/OddFFT/build/ascendc_kernels_npu_vec_preprocess-prefix/src/ascendc_kernels_npu_vec_preprocess-build'
+gmake[5]: Entering directory '/home/ma-user/work/OddFFT/build/ascendc_kernels_npu_vec_preprocess-prefix/src/ascendc_kernels_npu_vec_preprocess-build'
+gmake[5]: Entering directory '/home/ma-user/work/OddFFT/build/ascendc_kernels_npu_vec_preprocess-prefix/src/ascendc_kernels_npu_vec_preprocess-build'
+[  2%] Building CXX object CMakeFiles/aiv_obj.dir/home/ma-user/work/OddFFT/kernels/arb_cscale.cpp.o
+[  4%] Building CXX object CMakeFiles/aic_obj.dir/home/ma-user/work/OddFFT/kernels/r3_rader_dit_perstage_xs.cpp.o
+[  6%] Building CXX object CMakeFiles/aiv_obj.dir/home/ma-user/work/OddFFT/kernels/r3_direct_dit_perstage_xs.cpp.o
+[  8%] Building CXX object CMakeFiles/aic_obj.dir/home/ma-user/work/OddFFT/kernels/r7_direct_dit_perstage_xs.cpp.o
+[ 10%] Building CXX object CMakeFiles/aiv_obj.dir/home/ma-user/work/OddFFT/kernels/r5_winograd_dit_perstage_xs.cpp.o
+[ 12%] Building CXX object CMakeFiles/preprocess_obj.dir/home/ma-user/work/OddFFT/kernels/r7_winograd_dit_perstage_xs.cpp.o
+[ 14%] Building CXX object CMakeFiles/aiv_obj.dir/home/ma-user/work/OddFFT/kernels/r7_sym_dit_perstage_xs.cpp.o
+[ 16%] Building CXX object CMakeFiles/preprocess_obj.dir/home/ma-user/work/OddFFT/kernels/r4_direct_dit_perstage_xs.cpp.o
+[ 18%] Building CXX object CMakeFiles/aic_obj.dir/home/ma-user/work/OddFFT/kernels/r2_direct_dit_perstage_xs.cpp.o
+[ 20%] Building CXX object CMakeFiles/preprocess_obj.dir/home/ma-user/work/OddFFT/kernels/arb_cscale.cpp.o
+[ 22%] Building CXX object CMakeFiles/aic_obj.dir/home/ma-user/work/OddFFT/kernels/r3_direct_dit_perstage_xs.cpp.o
+[ 25%] Building CXX object CMakeFiles/aiv_obj.dir/home/ma-user/work/OddFFT/kernels/r2_direct_dit_perstage_xs.cpp.o
+[ 29%] Building CXX object CMakeFiles/aic_obj.dir/home/ma-user/work/OddFFT/kernels/r5_winograd_dit_perstage_xs.cpp.o
+[ 29%] Building CXX object CMakeFiles/aiv_obj.dir/home/ma-user/work/OddFFT/kernels/r3_sym_dit_perstage_xs.cpp.o
+[ 31%] Building CXX object CMakeFiles/aiv_obj.dir/home/ma-user/work/OddFFT/kernels/r7_rader_dit_perstage_xs.cpp.o
+[ 33%] Building CXX object CMakeFiles/aiv_obj.dir/home/ma-user/work/OddFFT/kernels/r7_winograd_dit_perstage_xs.cpp.o
+[ 35%] Building CXX object CMakeFiles/preprocess_obj.dir/home/ma-user/work/OddFFT/kernels/arb_cmul.cpp.o
+[ 39%] Building CXX object CMakeFiles/aiv_obj.dir/home/ma-user/work/OddFFT/kernels/r7_direct_dit_perstage_xs.cpp.o
+[ 39%] Building CXX object CMakeFiles/aic_obj.dir/home/ma-user/work/OddFFT/kernels/r7_rader_dit_perstage_xs.cpp.o
+[ 41%] Building CXX object CMakeFiles/aic_obj.dir/home/ma-user/work/OddFFT/kernels/r7_winograd_dit_perstage_xs.cpp.o
+[ 45%] Building CXX object CMakeFiles/aiv_obj.dir/home/ma-user/work/OddFFT/kernels/r5_sym_dit_perstage_xs.cpp.o
+[ 45%] Building CXX object CMakeFiles/aiv_obj.dir/home/ma-user/work/OddFFT/kernels/r3_rader_dit_perstage_xs.cpp.o
+[ 47%] Building CXX object CMakeFiles/aic_obj.dir/home/ma-user/work/OddFFT/kernels/arb_cscale.cpp.o
+[ 50%] Building CXX object CMakeFiles/preprocess_obj.dir/home/ma-user/work/OddFFT/kernels/r2_direct_dit_perstage_xs.cpp.o
+[ 52%] Building CXX object CMakeFiles/preprocess_obj.dir/home/ma-user/work/OddFFT/kernels/r3_sym_dit_perstage_xs.cpp.o
+[ 54%] Building CXX object CMakeFiles/preprocess_obj.dir/home/ma-user/work/OddFFT/kernels/r3_direct_dit_perstage_xs.cpp.o
+[ 56%] Building CXX object CMakeFiles/preprocess_obj.dir/home/ma-user/work/OddFFT/kernels/r3_winograd_dit_perstage_xs.cpp.o
+[ 58%] Building CXX object CMakeFiles/preprocess_obj.dir/home/ma-user/work/OddFFT/kernels/r3_rader_dit_perstage_xs.cpp.o
+[ 62%] Building CXX object CMakeFiles/preprocess_obj.dir/home/ma-user/work/OddFFT/kernels/r7_direct_dit_perstage_xs.cpp.o
+[ 62%] Building CXX object CMakeFiles/preprocess_obj.dir/home/ma-user/work/OddFFT/kernels/r5_winograd_dit_perstage_xs.cpp.o
+[ 68%] Building CXX object CMakeFiles/aic_obj.dir/home/ma-user/work/OddFFT/kernels/arb_cmul.cpp.o
+[ 68%] Building CXX object CMakeFiles/preprocess_obj.dir/home/ma-user/work/OddFFT/kernels/r7_sym_dit_perstage_xs.cpp.o
+[ 68%] Building CXX object CMakeFiles/aic_obj.dir/home/ma-user/work/OddFFT/kernels/r3_winograd_dit_perstage_xs.cpp.o
+[ 70%] Building CXX object CMakeFiles/preprocess_obj.dir/home/ma-user/work/OddFFT/kernels/r5_rader_dit_perstage_xs.cpp.o
+[ 72%] Building CXX object CMakeFiles/aic_obj.dir/home/ma-user/work/OddFFT/kernels/r3_sym_dit_perstage_xs.cpp.o
+[ 75%] Building CXX object CMakeFiles/preprocess_obj.dir/home/ma-user/work/OddFFT/kernels/r5_sym_dit_perstage_xs.cpp.o
+[ 77%] Building CXX object CMakeFiles/aiv_obj.dir/home/ma-user/work/OddFFT/kernels/r3_winograd_dit_perstage_xs.cpp.o
+[ 79%] Building CXX object CMakeFiles/aic_obj.dir/home/ma-user/work/OddFFT/kernels/r5_sym_dit_perstage_xs.cpp.o
+[ 81%] Building CXX object CMakeFiles/preprocess_obj.dir/home/ma-user/work/OddFFT/kernels/r5_direct_dit_perstage_xs.cpp.o
+[ 83%] Building CXX object CMakeFiles/preprocess_obj.dir/home/ma-user/work/OddFFT/kernels/r7_rader_dit_perstage_xs.cpp.o
+[ 85%] Building CXX object CMakeFiles/aic_obj.dir/home/ma-user/work/OddFFT/kernels/r4_direct_dit_perstage_xs.cpp.o
+[ 87%] Building CXX object CMakeFiles/aiv_obj.dir/home/ma-user/work/OddFFT/kernels/arb_cmul.cpp.o
+[ 89%] Building CXX object CMakeFiles/aiv_obj.dir/home/ma-user/work/OddFFT/kernels/r4_direct_dit_perstage_xs.cpp.o
+[ 91%] Building CXX object CMakeFiles/aic_obj.dir/home/ma-user/work/OddFFT/kernels/r5_rader_dit_perstage_xs.cpp.o
+[ 93%] Building CXX object CMakeFiles/aiv_obj.dir/home/ma-user/work/OddFFT/kernels/r5_rader_dit_perstage_xs.cpp.o
+[ 95%] Building CXX object CMakeFiles/aic_obj.dir/home/ma-user/work/OddFFT/kernels/r5_direct_dit_perstage_xs.cpp.o
+[ 97%] Building CXX object CMakeFiles/aiv_obj.dir/home/ma-user/work/OddFFT/kernels/r5_direct_dit_perstage_xs.cpp.o
+[100%] Building CXX object CMakeFiles/aic_obj.dir/home/ma-user/work/OddFFT/kernels/r7_sym_dit_perstage_xs.cpp.o
+gmake[5]: Leaving directory '/home/ma-user/work/OddFFT/build/ascendc_kernels_npu_vec_preprocess-prefix/src/ascendc_kernels_npu_vec_preprocess-build'
+[100%] Built target preprocess_obj
+gmake[5]: Leaving directory '/home/ma-user/work/OddFFT/build/ascendc_kernels_npu_vec_preprocess-prefix/src/ascendc_kernels_npu_vec_preprocess-build'
+[100%] Built target aic_obj
+gmake[5]: Leaving directory '/home/ma-user/work/OddFFT/build/ascendc_kernels_npu_vec_preprocess-prefix/src/ascendc_kernels_npu_vec_preprocess-build'
+[100%] Built target aiv_obj
+gmake[5]: Entering directory '/home/ma-user/work/OddFFT/build/ascendc_kernels_npu_vec_preprocess-prefix/src/ascendc_kernels_npu_vec_preprocess-build'
+Scanning dependencies of target _host_cpp
+gmake[5]: Leaving directory '/home/ma-user/work/OddFFT/build/ascendc_kernels_npu_vec_preprocess-prefix/src/ascendc_kernels_npu_vec_preprocess-build'
+gmake[5]: Entering directory '/home/ma-user/work/OddFFT/build/ascendc_kernels_npu_vec_preprocess-prefix/src/ascendc_kernels_npu_vec_preprocess-build'
+gmake[5]: Leaving directory '/home/ma-user/work/OddFFT/build/ascendc_kernels_npu_vec_preprocess-prefix/src/ascendc_kernels_npu_vec_preprocess-build'
+[100%] Built target _host_cpp
+gmake[4]: Leaving directory '/home/ma-user/work/OddFFT/build/ascendc_kernels_npu_vec_preprocess-prefix/src/ascendc_kernels_npu_vec_preprocess-build'
+gmake[3]: Leaving directory '/home/ma-user/work/OddFFT/build/ascendc_kernels_npu_vec_preprocess-prefix/src/ascendc_kernels_npu_vec_preprocess-build'
+[ 18%] No install step for 'ascendc_kernels_npu_vec_preprocess'
+[ 21%] Completed 'ascendc_kernels_npu_vec_preprocess'
+gmake[2]: Leaving directory '/home/ma-user/work/OddFFT/build'
+[ 21%] Built target ascendc_kernels_npu_vec_preprocess
+gmake[2]: Entering directory '/home/ma-user/work/OddFFT/build'
+gmake[2]: Entering directory '/home/ma-user/work/OddFFT/build'
+gmake[2]: Entering directory '/home/ma-user/work/OddFFT/build'
+Scanning dependencies of target ascendc_kernels_npu_vec_aic_device
+Scanning dependencies of target ascendc_kernels_npu_vec_host
+gmake[2]: Leaving directory '/home/ma-user/work/OddFFT/build'
+gmake[2]: Leaving directory '/home/ma-user/work/OddFFT/build'
+Scanning dependencies of target ascendc_kernels_npu_vec_aiv_device
+gmake[2]: Leaving directory '/home/ma-user/work/OddFFT/build'
+gmake[2]: Entering directory '/home/ma-user/work/OddFFT/build'
+gmake[2]: Entering directory '/home/ma-user/work/OddFFT/build'
+gmake[2]: Entering directory '/home/ma-user/work/OddFFT/build'
+[ 28%] Creating directories for 'ascendc_kernels_npu_vec_aiv_device'
+[ 28%] Creating directories for 'ascendc_kernels_npu_vec_host'
+[ 28%] Creating directories for 'ascendc_kernels_npu_vec_aic_device'
+[ 31%] No download step for 'ascendc_kernels_npu_vec_host'
+[ 36%] No download step for 'ascendc_kernels_npu_vec_aiv_device'
+[ 36%] No download step for 'ascendc_kernels_npu_vec_aic_device'
+[ 42%] No update step for 'ascendc_kernels_npu_vec_host'
+[ 42%] No patch step for 'ascendc_kernels_npu_vec_host'
+[ 47%] No update step for 'ascendc_kernels_npu_vec_aic_device'
+[ 47%] No patch step for 'ascendc_kernels_npu_vec_aic_device'
+[ 52%] No patch step for 'ascendc_kernels_npu_vec_aiv_device'
+[ 52%] No update step for 'ascendc_kernels_npu_vec_aiv_device'
+[ 55%] Performing configure step for 'ascendc_kernels_npu_vec_host'
+[ 57%] Performing configure step for 'ascendc_kernels_npu_vec_aic_device'
+[ 60%] Performing configure step for 'ascendc_kernels_npu_vec_aiv_device'
+-- The C compiler identification is GNU 7.3.0
+-- The C compiler identification is GNU 7.3.0
+-- The C compiler identification is GNU 7.3.0
+-- The CXX compiler identification is GNU 7.3.0
+-- Check for working C compiler: /usr/bin/cc
+-- The CXX compiler identification is GNU 7.3.0
+-- Check for working C compiler: /usr/bin/cc
+-- The CXX compiler identification is GNU 7.3.0
+-- Check for working C compiler: /usr/bin/cc
+-- Check for working C compiler: /usr/bin/cc -- works
+-- Detecting C compiler ABI info
+-- Check for working C compiler: /usr/bin/cc -- works
+-- Detecting C compiler ABI info
+-- Check for working C compiler: /usr/bin/cc -- works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Check for working CXX compiler: /usr/bin/c++
+-- Detecting C compiler ABI info - done
+-- Detecting C compiler ABI info - done
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Check for working CXX compiler: /usr/bin/c++
+-- Check for working CXX compiler: /usr/bin/c++
+-- Check for working CXX compiler: /usr/bin/c++ -- works
+-- Detecting CXX compiler ABI info
+-- Check for working CXX compiler: /usr/bin/c++ -- works
+-- Detecting CXX compiler ABI info
+-- Check for working CXX compiler: /usr/bin/c++ -- works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Configuring done
+-- Generating done
+CMake Warning:
+  Manually-specified variables were not used by the project:
+
+    ASCEND_PYTHON_EXECUTABLE
+
+
+-- Build files have been written to: /home/ma-user/work/OddFFT/build/ascendc_kernels_npu_vec_host-prefix/src/ascendc_kernels_npu_vec_host-build
+-- Detecting CXX compiler ABI info - done
+[ 63%] Performing build step for 'ascendc_kernels_npu_vec_host'
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Configuring done
+-- Detecting CXX compiler ABI info - done
+gmake[3]: Entering directory '/home/ma-user/work/OddFFT/build/ascendc_kernels_npu_vec_host-prefix/src/ascendc_kernels_npu_vec_host-build'
+-- Generating done
+-- Build files have been written to: /home/ma-user/work/OddFFT/build/ascendc_kernels_npu_vec_aiv_device-prefix/src/ascendc_kernels_npu_vec_aiv_device-build
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Configuring done
+-- Generating done
+CMake Warning:
+  Manually-specified variables were not used by the project:
+
+    BUILD_MODE
+
+
+-- Build files have been written to: /home/ma-user/work/OddFFT/build/ascendc_kernels_npu_vec_aic_device-prefix/src/ascendc_kernels_npu_vec_aic_device-build
+[ 65%] Performing build step for 'ascendc_kernels_npu_vec_aiv_device'
+gmake[4]: Entering directory '/home/ma-user/work/OddFFT/build/ascendc_kernels_npu_vec_host-prefix/src/ascendc_kernels_npu_vec_host-build'
+gmake[5]: Entering directory '/home/ma-user/work/OddFFT/build/ascendc_kernels_npu_vec_host-prefix/src/ascendc_kernels_npu_vec_host-build'
+gmake[3]: Entering directory '/home/ma-user/work/OddFFT/build/ascendc_kernels_npu_vec_aiv_device-prefix/src/ascendc_kernels_npu_vec_aiv_device-build'
+[ 68%] Performing build step for 'ascendc_kernels_npu_vec_aic_device'
+gmake[3]: Entering directory '/home/ma-user/work/OddFFT/build/ascendc_kernels_npu_vec_aic_device-prefix/src/ascendc_kernels_npu_vec_aic_device-build'
+gmake[4]: Entering directory '/home/ma-user/work/OddFFT/build/ascendc_kernels_npu_vec_aiv_device-prefix/src/ascendc_kernels_npu_vec_aiv_device-build'
+gmake[5]: Entering directory '/home/ma-user/work/OddFFT/build/ascendc_kernels_npu_vec_aiv_device-prefix/src/ascendc_kernels_npu_vec_aiv_device-build'
+gmake[3]: Leaving directory '/home/ma-user/work/OddFFT/build/ascendc_kernels_npu_vec_aic_device-prefix/src/ascendc_kernels_npu_vec_aic_device-build'
+[ 71%] No install step for 'ascendc_kernels_npu_vec_aic_device'
+[ 73%] Completed 'ascendc_kernels_npu_vec_aic_device'
+gmake[2]: Leaving directory '/home/ma-user/work/OddFFT/build'
+[ 73%] Built target ascendc_kernels_npu_vec_aic_device
+Scanning dependencies of target host_bisheng_obj
+gmake[5]: Leaving directory '/home/ma-user/work/OddFFT/build/ascendc_kernels_npu_vec_host-prefix/src/ascendc_kernels_npu_vec_host-build'
+gmake[5]: Entering directory '/home/ma-user/work/OddFFT/build/ascendc_kernels_npu_vec_host-prefix/src/ascendc_kernels_npu_vec_host-build'
+Scanning dependencies of target device_aiv_obj
+gmake[5]: Leaving directory '/home/ma-user/work/OddFFT/build/ascendc_kernels_npu_vec_aiv_device-prefix/src/ascendc_kernels_npu_vec_aiv_device-build'
+gmake[5]: Entering directory '/home/ma-user/work/OddFFT/build/ascendc_kernels_npu_vec_aiv_device-prefix/src/ascendc_kernels_npu_vec_aiv_device-build'
+[ 12%] Building CXX object CMakeFiles/host_bisheng_obj.dir/home/ma-user/work/OddFFT/kernels/r2_direct_dit_perstage_xs.cpp.o
+[ 12%] Building CXX object CMakeFiles/host_bisheng_obj.dir/home/ma-user/work/OddFFT/kernels/arb_cmul.cpp.o
+[ 18%] Building CXX object CMakeFiles/host_bisheng_obj.dir/home/ma-user/work/OddFFT/kernels/r3_direct_dit_perstage_xs.cpp.o
+[ 25%] Building CXX object CMakeFiles/host_bisheng_obj.dir/home/ma-user/work/OddFFT/kernels/arb_cscale.cpp.o
+[ 31%] Building CXX object CMakeFiles/host_bisheng_obj.dir/home/ma-user/work/OddFFT/kernels/r3_rader_dit_perstage_xs.cpp.o
+[ 37%] Building CXX object CMakeFiles/host_bisheng_obj.dir/home/ma-user/work/OddFFT/kernels/r3_sym_dit_perstage_xs.cpp.o
+[ 68%] Building CXX object CMakeFiles/host_bisheng_obj.dir/home/ma-user/work/OddFFT/kernels/r7_winograd_dit_perstage_xs.cpp.o
+[ 68%] Building CXX object CMakeFiles/host_bisheng_obj.dir/home/ma-user/work/OddFFT/kernels/r7_sym_dit_perstage_xs.cpp.o
+[ 68%] Building CXX object CMakeFiles/host_bisheng_obj.dir/home/ma-user/work/OddFFT/kernels/r7_rader_dit_perstage_xs.cpp.o
+[ 68%] Building CXX object CMakeFiles/host_bisheng_obj.dir/home/ma-user/work/OddFFT/kernels/r7_direct_dit_perstage_xs.cpp.o
+[ 68%] Building CXX object CMakeFiles/host_bisheng_obj.dir/home/ma-user/work/OddFFT/kernels/r5_sym_dit_perstage_xs.cpp.o
+[ 75%] Building CXX object CMakeFiles/host_bisheng_obj.dir/home/ma-user/work/OddFFT/kernels/r3_winograd_dit_perstage_xs.cpp.o
+[ 81%] Building CXX object CMakeFiles/host_bisheng_obj.dir/home/ma-user/work/OddFFT/kernels/r4_direct_dit_perstage_xs.cpp.o
+[ 87%] Building CXX object CMakeFiles/host_bisheng_obj.dir/home/ma-user/work/OddFFT/kernels/r5_direct_dit_perstage_xs.cpp.o
+[ 93%] Building CXX object CMakeFiles/host_bisheng_obj.dir/home/ma-user/work/OddFFT/kernels/r5_rader_dit_perstage_xs.cpp.o
+[100%] Building CXX object CMakeFiles/host_bisheng_obj.dir/home/ma-user/work/OddFFT/kernels/r5_winograd_dit_perstage_xs.cpp.o
+[  6%] Building CXX object CMakeFiles/device_aiv_obj.dir/home/ma-user/work/OddFFT/build/auto_gen/ascendc_kernels_npu_vec/auto_gen_r7_rader_dit_perstage_xs.cpp.o
+[ 12%] Building CXX object CMakeFiles/device_aiv_obj.dir/home/ma-user/work/OddFFT/build/auto_gen/ascendc_kernels_npu_vec/auto_gen_r5_sym_dit_perstage_xs.cpp.o
+[ 18%] Building CXX object CMakeFiles/device_aiv_obj.dir/home/ma-user/work/OddFFT/build/auto_gen/ascendc_kernels_npu_vec/auto_gen_r3_direct_dit_perstage_xs.cpp.o
+[ 37%] Building CXX object CMakeFiles/device_aiv_obj.dir/home/ma-user/work/OddFFT/build/auto_gen/ascendc_kernels_npu_vec/auto_gen_r7_sym_dit_perstage_xs.cpp.o
+[ 37%] Building CXX object CMakeFiles/device_aiv_obj.dir/home/ma-user/work/OddFFT/build/auto_gen/ascendc_kernels_npu_vec/auto_gen_r7_direct_dit_perstage_xs.cpp.o
+[ 37%] Building CXX object CMakeFiles/device_aiv_obj.dir/home/ma-user/work/OddFFT/build/auto_gen/ascendc_kernels_npu_vec/auto_gen_r5_rader_dit_perstage_xs.cpp.o
+[ 43%] Building CXX object CMakeFiles/device_aiv_obj.dir/home/ma-user/work/OddFFT/build/auto_gen/ascendc_kernels_npu_vec/auto_gen_r7_winograd_dit_perstage_xs.cpp.o
+[ 50%] Building CXX object CMakeFiles/device_aiv_obj.dir/home/ma-user/work/OddFFT/build/auto_gen/ascendc_kernels_npu_vec/auto_gen_r5_winograd_dit_perstage_xs.cpp.o
+[ 62%] Building CXX object CMakeFiles/device_aiv_obj.dir/home/ma-user/work/OddFFT/build/auto_gen/ascendc_kernels_npu_vec/auto_gen_r3_sym_dit_perstage_xs.cpp.o
+[ 62%] Building CXX object CMakeFiles/device_aiv_obj.dir/home/ma-user/work/OddFFT/build/auto_gen/ascendc_kernels_npu_vec/auto_gen_r3_rader_dit_perstage_xs.cpp.o
+[ 68%] Building CXX object CMakeFiles/device_aiv_obj.dir/home/ma-user/work/OddFFT/build/auto_gen/ascendc_kernels_npu_vec/auto_gen_r2_direct_dit_perstage_xs.cpp.o
+[ 75%] Building CXX object CMakeFiles/device_aiv_obj.dir/home/ma-user/work/OddFFT/build/auto_gen/ascendc_kernels_npu_vec/auto_gen_arb_cscale.cpp.o
+[ 81%] Building CXX object CMakeFiles/device_aiv_obj.dir/home/ma-user/work/OddFFT/build/auto_gen/ascendc_kernels_npu_vec/auto_gen_arb_cmul.cpp.o
+[ 93%] Building CXX object CMakeFiles/device_aiv_obj.dir/home/ma-user/work/OddFFT/build/auto_gen/ascendc_kernels_npu_vec/auto_gen_r5_direct_dit_perstage_xs.cpp.o
+[ 93%] Building CXX object CMakeFiles/device_aiv_obj.dir/home/ma-user/work/OddFFT/build/auto_gen/ascendc_kernels_npu_vec/auto_gen_r4_direct_dit_perstage_xs.cpp.o
+[100%] Building CXX object CMakeFiles/device_aiv_obj.dir/home/ma-user/work/OddFFT/build/auto_gen/ascendc_kernels_npu_vec/auto_gen_r3_winograd_dit_perstage_xs.cpp.o
+gmake[5]: Leaving directory '/home/ma-user/work/OddFFT/build/ascendc_kernels_npu_vec_host-prefix/src/ascendc_kernels_npu_vec_host-build'
+[100%] Built target host_bisheng_obj
+gmake[4]: Leaving directory '/home/ma-user/work/OddFFT/build/ascendc_kernels_npu_vec_host-prefix/src/ascendc_kernels_npu_vec_host-build'
+gmake[3]: Leaving directory '/home/ma-user/work/OddFFT/build/ascendc_kernels_npu_vec_host-prefix/src/ascendc_kernels_npu_vec_host-build'
+[ 76%] Performing install step for 'ascendc_kernels_npu_vec_host'
+gmake[3]: Entering directory '/home/ma-user/work/OddFFT/build/ascendc_kernels_npu_vec_host-prefix/src/ascendc_kernels_npu_vec_host-build'
+gmake[4]: Entering directory '/home/ma-user/work/OddFFT/build/ascendc_kernels_npu_vec_host-prefix/src/ascendc_kernels_npu_vec_host-build'
+gmake[5]: Entering directory '/home/ma-user/work/OddFFT/build/ascendc_kernels_npu_vec_host-prefix/src/ascendc_kernels_npu_vec_host-build'
+gmake[5]: Leaving directory '/home/ma-user/work/OddFFT/build/ascendc_kernels_npu_vec_host-prefix/src/ascendc_kernels_npu_vec_host-build'
+[100%] Built target host_bisheng_obj
+gmake[4]: Leaving directory '/home/ma-user/work/OddFFT/build/ascendc_kernels_npu_vec_host-prefix/src/ascendc_kernels_npu_vec_host-build'
+Install the project...
+-- Install configuration: "Debug"
+-- Installing: /home/ma-user/work/OddFFT/build/ascendc_kernels_npu_vec_host_dir/./objects-Debug/host_bisheng_obj/home/ma-user/work/OddFFT/kernels/arb_cmul.cpp.o
+-- Installing: /home/ma-user/work/OddFFT/build/ascendc_kernels_npu_vec_host_dir/./objects-Debug/host_bisheng_obj/home/ma-user/work/OddFFT/kernels/arb_cscale.cpp.o
+-- Installing: /home/ma-user/work/OddFFT/build/ascendc_kernels_npu_vec_host_dir/./objects-Debug/host_bisheng_obj/home/ma-user/work/OddFFT/kernels/r2_direct_dit_perstage_xs.cpp.o
+-- Installing: /home/ma-user/work/OddFFT/build/ascendc_kernels_npu_vec_host_dir/./objects-Debug/host_bisheng_obj/home/ma-user/work/OddFFT/kernels/r3_direct_dit_perstage_xs.cpp.o
+-- Installing: /home/ma-user/work/OddFFT/build/ascendc_kernels_npu_vec_host_dir/./objects-Debug/host_bisheng_obj/home/ma-user/work/OddFFT/kernels/r3_rader_dit_perstage_xs.cpp.o
+-- Installing: /home/ma-user/work/OddFFT/build/ascendc_kernels_npu_vec_host_dir/./objects-Debug/host_bisheng_obj/home/ma-user/work/OddFFT/kernels/r3_sym_dit_perstage_xs.cpp.o
+-- Installing: /home/ma-user/work/OddFFT/build/ascendc_kernels_npu_vec_host_dir/./objects-Debug/host_bisheng_obj/home/ma-user/work/OddFFT/kernels/r3_winograd_dit_perstage_xs.cpp.o
+-- Installing: /home/ma-user/work/OddFFT/build/ascendc_kernels_npu_vec_host_dir/./objects-Debug/host_bisheng_obj/home/ma-user/work/OddFFT/kernels/r4_direct_dit_perstage_xs.cpp.o
+-- Installing: /home/ma-user/work/OddFFT/build/ascendc_kernels_npu_vec_host_dir/./objects-Debug/host_bisheng_obj/home/ma-user/work/OddFFT/kernels/r5_direct_dit_perstage_xs.cpp.o
+-- Installing: /home/ma-user/work/OddFFT/build/ascendc_kernels_npu_vec_host_dir/./objects-Debug/host_bisheng_obj/home/ma-user/work/OddFFT/kernels/r5_rader_dit_perstage_xs.cpp.o
+-- Installing: /home/ma-user/work/OddFFT/build/ascendc_kernels_npu_vec_host_dir/./objects-Debug/host_bisheng_obj/home/ma-user/work/OddFFT/kernels/r5_sym_dit_perstage_xs.cpp.o
+-- Installing: /home/ma-user/work/OddFFT/build/ascendc_kernels_npu_vec_host_dir/./objects-Debug/host_bisheng_obj/home/ma-user/work/OddFFT/kernels/r5_winograd_dit_perstage_xs.cpp.o
+-- Installing: /home/ma-user/work/OddFFT/build/ascendc_kernels_npu_vec_host_dir/./objects-Debug/host_bisheng_obj/home/ma-user/work/OddFFT/kernels/r7_direct_dit_perstage_xs.cpp.o
+-- Installing: /home/ma-user/work/OddFFT/build/ascendc_kernels_npu_vec_host_dir/./objects-Debug/host_bisheng_obj/home/ma-user/work/OddFFT/kernels/r7_rader_dit_perstage_xs.cpp.o
+-- Installing: /home/ma-user/work/OddFFT/build/ascendc_kernels_npu_vec_host_dir/./objects-Debug/host_bisheng_obj/home/ma-user/work/OddFFT/kernels/r7_sym_dit_perstage_xs.cpp.o
+-- Installing: /home/ma-user/work/OddFFT/build/ascendc_kernels_npu_vec_host_dir/./objects-Debug/host_bisheng_obj/home/ma-user/work/OddFFT/kernels/r7_winograd_dit_perstage_xs.cpp.o
+gmake[3]: Leaving directory '/home/ma-user/work/OddFFT/build/ascendc_kernels_npu_vec_host-prefix/src/ascendc_kernels_npu_vec_host-build'
+[ 78%] Completed 'ascendc_kernels_npu_vec_host'
+gmake[2]: Leaving directory '/home/ma-user/work/OddFFT/build'
+[ 78%] Built target ascendc_kernels_npu_vec_host
+gmake[5]: Leaving directory '/home/ma-user/work/OddFFT/build/ascendc_kernels_npu_vec_aiv_device-prefix/src/ascendc_kernels_npu_vec_aiv_device-build'
+[100%] Built target device_aiv_obj
+gmake[5]: Entering directory '/home/ma-user/work/OddFFT/build/ascendc_kernels_npu_vec_aiv_device-prefix/src/ascendc_kernels_npu_vec_aiv_device-build'
+Scanning dependencies of target merge_aiv_device_obj
+gmake[5]: Leaving directory '/home/ma-user/work/OddFFT/build/ascendc_kernels_npu_vec_aiv_device-prefix/src/ascendc_kernels_npu_vec_aiv_device-build'
+gmake[5]: Entering directory '/home/ma-user/work/OddFFT/build/ascendc_kernels_npu_vec_aiv_device-prefix/src/ascendc_kernels_npu_vec_aiv_device-build'
+/usr/local/Ascend/ascend-toolkit/latest/tools/ccec_compiler/bin/ld.lld  -m aicorelinux -r  -Ttext=0 /home/ma-user/work/OddFFT/build/ascendc_kernels_npu_vec_aiv_device-prefix/src/ascendc_kernels_npu_vec_aiv_device-build/CMakeFiles/device_aiv_obj.dir/home/ma-user/work/OddFFT/build/auto_gen/ascendc_kernels_npu_vec/auto_gen_arb_cmul.cpp.o /home/ma-user/work/OddFFT/build/ascendc_kernels_npu_vec_aiv_device-prefix/src/ascendc_kernels_npu_vec_aiv_device-build/CMakeFiles/device_aiv_obj.dir/home/ma-user/work/OddFFT/build/auto_gen/ascendc_kernels_npu_vec/auto_gen_arb_cscale.cpp.o /home/ma-user/work/OddFFT/build/ascendc_kernels_npu_vec_aiv_device-prefix/src/ascendc_kernels_npu_vec_aiv_device-build/CMakeFiles/device_aiv_obj.dir/home/ma-user/work/OddFFT/build/auto_gen/ascendc_kernels_npu_vec/auto_gen_r2_direct_dit_perstage_xs.cpp.o /home/ma-user/work/OddFFT/build/ascendc_kernels_npu_vec_aiv_device-prefix/src/ascendc_kernels_npu_vec_aiv_device-build/CMakeFiles/device_aiv_obj.dir/home/ma-user/work/OddFFT/build/auto_gen/ascendc_kernels_npu_vec/auto_gen_r3_direct_dit_perstage_xs.cpp.o /home/ma-user/work/OddFFT/build/ascendc_kernels_npu_vec_aiv_device-prefix/src/ascendc_kernels_npu_vec_aiv_device-build/CMakeFiles/device_aiv_obj.dir/home/ma-user/work/OddFFT/build/auto_gen/ascendc_kernels_npu_vec/auto_gen_r3_rader_dit_perstage_xs.cpp.o /home/ma-user/work/OddFFT/build/ascendc_kernels_npu_vec_aiv_device-prefix/src/ascendc_kernels_npu_vec_aiv_device-build/CMakeFiles/device_aiv_obj.dir/home/ma-user/work/OddFFT/build/auto_gen/ascendc_kernels_npu_vec/auto_gen_r3_sym_dit_perstage_xs.cpp.o /home/ma-user/work/OddFFT/build/ascendc_kernels_npu_vec_aiv_device-prefix/src/ascendc_kernels_npu_vec_aiv_device-build/CMakeFiles/device_aiv_obj.dir/home/ma-user/work/OddFFT/build/auto_gen/ascendc_kernels_npu_vec/auto_gen_r3_winograd_dit_perstage_xs.cpp.o /home/ma-user/work/OddFFT/build/ascendc_kernels_npu_vec_aiv_device-prefix/src/ascendc_kernels_npu_vec_aiv_device-build/CMakeFiles/device_aiv_obj.dir/home/ma-user/work/OddFFT/build/auto_gen/ascendc_kernels_npu_vec/auto_gen_r4_direct_dit_perstage_xs.cpp.o /home/ma-user/work/OddFFT/build/ascendc_kernels_npu_vec_aiv_device-prefix/src/ascendc_kernels_npu_vec_aiv_device-build/CMakeFiles/device_aiv_obj.dir/home/ma-user/work/OddFFT/build/auto_gen/ascendc_kernels_npu_vec/auto_gen_r5_direct_dit_perstage_xs.cpp.o /home/ma-user/work/OddFFT/build/ascendc_kernels_npu_vec_aiv_device-prefix/src/ascendc_kernels_npu_vec_aiv_device-build/CMakeFiles/device_aiv_obj.dir/home/ma-user/work/OddFFT/build/auto_gen/ascendc_kernels_npu_vec/auto_gen_r5_rader_dit_perstage_xs.cpp.o /home/ma-user/work/OddFFT/build/ascendc_kernels_npu_vec_aiv_device-prefix/src/ascendc_kernels_npu_vec_aiv_device-build/CMakeFiles/device_aiv_obj.dir/home/ma-user/work/OddFFT/build/auto_gen/ascendc_kernels_npu_vec/auto_gen_r5_sym_dit_perstage_xs.cpp.o /home/ma-user/work/OddFFT/build/ascendc_kernels_npu_vec_aiv_device-prefix/src/ascendc_kernels_npu_vec_aiv_device-build/CMakeFiles/device_aiv_obj.dir/home/ma-user/work/OddFFT/build/auto_gen/ascendc_kernels_npu_vec/auto_gen_r5_winograd_dit_perstage_xs.cpp.o /home/ma-user/work/OddFFT/build/ascendc_kernels_npu_vec_aiv_device-prefix/src/ascendc_kernels_npu_vec_aiv_device-build/CMakeFiles/device_aiv_obj.dir/home/ma-user/work/OddFFT/build/auto_gen/ascendc_kernels_npu_vec/auto_gen_r7_direct_dit_perstage_xs.cpp.o /home/ma-user/work/OddFFT/build/ascendc_kernels_npu_vec_aiv_device-prefix/src/ascendc_kernels_npu_vec_aiv_device-build/CMakeFiles/device_aiv_obj.dir/home/ma-user/work/OddFFT/build/auto_gen/ascendc_kernels_npu_vec/auto_gen_r7_rader_dit_perstage_xs.cpp.o /home/ma-user/work/OddFFT/build/ascendc_kernels_npu_vec_aiv_device-prefix/src/ascendc_kernels_npu_vec_aiv_device-build/CMakeFiles/device_aiv_obj.dir/home/ma-user/work/OddFFT/build/auto_gen/ascendc_kernels_npu_vec/auto_gen_r7_sym_dit_perstage_xs.cpp.o /home/ma-user/work/OddFFT/build/ascendc_kernels_npu_vec_aiv_device-prefix/src/ascendc_kernels_npu_vec_aiv_device-build/CMakeFiles/device_aiv_obj.dir/home/ma-user/work/OddFFT/build/auto_gen/ascendc_kernels_npu_vec/auto_gen_r7_winograd_dit_perstage_xs.cpp.o -static -o /home/ma-user/work/OddFFT/build/ascendc_kernels_npu_vec_aiv_device_dir/device_aiv.o
+gmake[5]: Leaving directory '/home/ma-user/work/OddFFT/build/ascendc_kernels_npu_vec_aiv_device-prefix/src/ascendc_kernels_npu_vec_aiv_device-build'
+[100%] Built target merge_aiv_device_obj
+gmake[4]: Leaving directory '/home/ma-user/work/OddFFT/build/ascendc_kernels_npu_vec_aiv_device-prefix/src/ascendc_kernels_npu_vec_aiv_device-build'
+gmake[3]: Leaving directory '/home/ma-user/work/OddFFT/build/ascendc_kernels_npu_vec_aiv_device-prefix/src/ascendc_kernels_npu_vec_aiv_device-build'
+[ 81%] No install step for 'ascendc_kernels_npu_vec_aiv_device'
+[ 84%] Completed 'ascendc_kernels_npu_vec_aiv_device'
+gmake[2]: Leaving directory '/home/ma-user/work/OddFFT/build'
+[ 84%] Built target ascendc_kernels_npu_vec_aiv_device
+gmake[2]: Entering directory '/home/ma-user/work/OddFFT/build'
+Scanning dependencies of target ascendc_kernels_npu_vec_merge_obj
+gmake[2]: Leaving directory '/home/ma-user/work/OddFFT/build'
+gmake[2]: Entering directory '/home/ma-user/work/OddFFT/build'
+/usr/local/Ascend/ascend-toolkit/latest/tools/ccec_compiler/bin/ld.lld  -m aicorelinux   -Ttext=0 /home/ma-user/work/OddFFT/build/ascendc_kernels_npu_vec_aiv_device_dir/device_aiv.o -static -o /home/ma-user/work/OddFFT/build/ascendc_kernels_npu_vec_merge_obj_dir/device_aiv.o
+gmake[2]: Leaving directory '/home/ma-user/work/OddFFT/build'
+[ 84%] Built target ascendc_kernels_npu_vec_merge_obj
+gmake[2]: Entering directory '/home/ma-user/work/OddFFT/build'
+Scanning dependencies of target ascendc_kernels_npu_vec_host_stub_obj
+gmake[2]: Leaving directory '/home/ma-user/work/OddFFT/build'
+gmake[2]: Entering directory '/home/ma-user/work/OddFFT/build'
+[ 86%] Building CXX object CMakeFiles/ascendc_kernels_npu_vec_host_stub_obj.dir/auto_gen/ascendc_kernels_npu_vec/host_stub.cpp.o
+gmake[2]: Leaving directory '/home/ma-user/work/OddFFT/build'
+[ 86%] Built target ascendc_kernels_npu_vec_host_stub_obj
+gmake[2]: Entering directory '/home/ma-user/work/OddFFT/build'
+Scanning dependencies of target ascendc_kernels_npu_vec
+gmake[2]: Leaving directory '/home/ma-user/work/OddFFT/build'
+gmake[2]: Entering directory '/home/ma-user/work/OddFFT/build'
+[ 89%] Linking CXX shared library lib/libascendc_kernels_npu_vec.so
+/usr/local/Ascend/ascend-toolkit/latest/bin/ascendc_pack_kernel /home/ma-user/work/OddFFT/build/CMakeFiles/ascendc_kernels_npu_vec_host_stub_obj.dir/auto_gen/ascendc_kernels_npu_vec/host_stub.cpp.o /home/ma-user/work/OddFFT/build/ascendc_kernels_npu_vec_merge_obj_dir/device_aiv.o 1 /home/ma-user/work/OddFFT/build/CMakeFiles/ascendc_kernels_npu_vec_host_stub_obj.dir/auto_gen/ascendc_kernels_npu_vec/host_stub.cpp.o
+recompile: /usr/bin/c++ -fPIC -g -Wl,-z,relro -Wl,-z,now -Wl,-z,noexecstack -shared -Wl,-soname,libascendc_kernels_npu_vec.so -o lib/libascendc_kernels_npu_vec.so CMakeFiles/ascendc_kernels_npu_vec_host_stub_obj.dir/auto_gen/ascendc_kernels_npu_vec/host_stub.cpp.o /home/ma-user/work/OddFFT/build/ascendc_kernels_npu_vec_host_dir/objects-Debug/host_bisheng_obj/home/ma-user/work/OddFFT/kernels/arb_cmul.cpp.o /home/ma-user/work/OddFFT/build/ascendc_kernels_npu_vec_host_dir/objects-Debug/host_bisheng_obj/home/ma-user/work/OddFFT/kernels/arb_cscale.cpp.o /home/ma-user/work/OddFFT/build/ascendc_kernels_npu_vec_host_dir/objects-Debug/host_bisheng_obj/home/ma-user/work/OddFFT/kernels/r2_direct_dit_perstage_xs.cpp.o /home/ma-user/work/OddFFT/build/ascendc_kernels_npu_vec_host_dir/objects-Debug/host_bisheng_obj/home/ma-user/work/OddFFT/kernels/r3_direct_dit_perstage_xs.cpp.o /home/ma-user/work/OddFFT/build/ascendc_kernels_npu_vec_host_dir/objects-Debug/host_bisheng_obj/home/ma-user/work/OddFFT/kernels/r3_rader_dit_perstage_xs.cpp.o /home/ma-user/work/OddFFT/build/ascendc_kernels_npu_vec_host_dir/objects-Debug/host_bisheng_obj/home/ma-user/work/OddFFT/kernels/r3_sym_dit_perstage_xs.cpp.o /home/ma-user/work/OddFFT/build/ascendc_kernels_npu_vec_host_dir/objects-Debug/host_bisheng_obj/home/ma-user/work/OddFFT/kernels/r3_winograd_dit_perstage_xs.cpp.o /home/ma-user/work/OddFFT/build/ascendc_kernels_npu_vec_host_dir/objects-Debug/host_bisheng_obj/home/ma-user/work/OddFFT/kernels/r4_direct_dit_perstage_xs.cpp.o /home/ma-user/work/OddFFT/build/ascendc_kernels_npu_vec_host_dir/objects-Debug/host_bisheng_obj/home/ma-user/work/OddFFT/kernels/r5_direct_dit_perstage_xs.cpp.o /home/ma-user/work/OddFFT/build/ascendc_kernels_npu_vec_host_dir/objects-Debug/host_bisheng_obj/home/ma-user/work/OddFFT/kernels/r5_rader_dit_perstage_xs.cpp.o /home/ma-user/work/OddFFT/build/ascendc_kernels_npu_vec_host_dir/objects-Debug/host_bisheng_obj/home/ma-user/work/OddFFT/kernels/r5_sym_dit_perstage_xs.cpp.o /home/ma-user/work/OddFFT/build/ascendc_kernels_npu_vec_host_dir/objects-Debug/host_bisheng_obj/home/ma-user/work/OddFFT/kernels/r5_winograd_dit_perstage_xs.cpp.o /home/ma-user/work/OddFFT/build/ascendc_kernels_npu_vec_host_dir/objects-Debug/host_bisheng_obj/home/ma-user/work/OddFFT/kernels/r7_direct_dit_perstage_xs.cpp.o /home/ma-user/work/OddFFT/build/ascendc_kernels_npu_vec_host_dir/objects-Debug/host_bisheng_obj/home/ma-user/work/OddFFT/kernels/r7_rader_dit_perstage_xs.cpp.o /home/ma-user/work/OddFFT/build/ascendc_kernels_npu_vec_host_dir/objects-Debug/host_bisheng_obj/home/ma-user/work/OddFFT/kernels/r7_sym_dit_perstage_xs.cpp.o /home/ma-user/work/OddFFT/build/ascendc_kernels_npu_vec_host_dir/objects-Debug/host_bisheng_obj/home/ma-user/work/OddFFT/kernels/r7_winograd_dit_perstage_xs.cpp.o    -L/usr/local/Ascend/ascend-toolkit/latest/lib64  -L/usr/local/Ascend/ascend-toolkit/latest/tools/simulator/Ascend910B4/lib  /usr/local/Ascend/ascend-toolkit/latest/lib64/libascendc_runtime.a -lascend_dump -lc_sec
+gmake[2]: Leaving directory '/home/ma-user/work/OddFFT/build'
+[ 89%] Built target ascendc_kernels_npu_vec
+gmake[2]: Entering directory '/home/ma-user/work/OddFFT/build'
+Scanning dependencies of target oddfft
+gmake[2]: Leaving directory '/home/ma-user/work/OddFFT/build'
+gmake[2]: Entering directory '/home/ma-user/work/OddFFT/build'
+[ 97%] Building CXX object CMakeFiles/oddfft.dir/host/impl_arblen.cpp.o
+[ 97%] Building CXX object CMakeFiles/oddfft.dir/host/main.cpp.o
+[ 97%] Building CXX object CMakeFiles/oddfft.dir/host/impl_odd.cpp.o
+[100%] Linking CXX executable oddfft
+gmake[2]: Leaving directory '/home/ma-user/work/OddFFT/build'
+[100%] Built target oddfft
+gmake[1]: Leaving directory '/home/ma-user/work/OddFFT/build'

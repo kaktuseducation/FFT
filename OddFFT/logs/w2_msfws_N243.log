@@ -1,0 +1,36 @@
+/home/ma-user/anaconda3/envs/MindSpore/lib/python3.9/site-packages/numpy/core/getlimits.py:499: UserWarning: The value of the smallest subnormal for <class 'numpy.float64'> type is zero.
+  setattr(self, word, getattr(machar, word).flat[0])
+/home/ma-user/anaconda3/envs/MindSpore/lib/python3.9/site-packages/numpy/core/getlimits.py:89: UserWarning: The value of the smallest subnormal for <class 'numpy.float64'> type is zero.
+  return self._float_to_str(self.smallest_subnormal)
+/home/ma-user/anaconda3/envs/MindSpore/lib/python3.9/site-packages/numpy/core/getlimits.py:499: UserWarning: The value of the smallest subnormal for <class 'numpy.float32'> type is zero.
+  setattr(self, word, getattr(machar, word).flat[0])
+/home/ma-user/anaconda3/envs/MindSpore/lib/python3.9/site-packages/numpy/core/getlimits.py:89: UserWarning: The value of the smallest subnormal for <class 'numpy.float32'> type is zero.
+  return self._float_to_str(self.smallest_subnormal)
+[WARNING] CORE(19524,ffff84dcb010,python3):2026-11-12-15:37:39.795.997 [mindspore/core/utils/ms_context.cc:530] GetJitLevel] Set jit level to O2 for rank table startup method.
+================================================================
+[BENCH ] impl=mindspore/fft  N=243  tile=0  warmup=5  runs=10
+[BENCH ] op=mindspore.ops.FFTWithSize  device=Ascend:0  dtype=complex64
+[BENCH ] barrier=mindspore.hal.synchronize
+[BENCH ] twiddles=internal (mindspore) - vendor baseline
+----------------------------------------------------------------
+[WARNING] GE_ADPT(19524,fffee455b1e0,python3):2026-11-12-15:37:44.943.674 [mindspore/ccsrc/transform/acl_ir/acl_convert.cc:347] GetValueSequenceDataTypeAndShape] value sequence is empty, failed to get data type
+[WARMUP] 5/5 done
+[RUN   ] 1/10  npu_us=    668.58  cpu_us=    889.41  total_us=   1557.98
+[RUN   ] 2/10  npu_us=    614.57  cpu_us=    363.73  total_us=    978.30
+[RUN   ] 3/10  npu_us=    633.75  cpu_us=    323.03  total_us=    956.78
+[RUN   ] 4/10  npu_us=    570.20  cpu_us=    327.94  total_us=    898.14
+[RUN   ] 5/10  npu_us=    590.70  cpu_us=    324.46  total_us=    915.16
+[RUN   ] 6/10  npu_us=    566.65  cpu_us=    308.86  total_us=    875.51
+[RUN   ] 7/10  npu_us=    602.15  cpu_us=    323.51  total_us=    925.66
+[RUN   ] 8/10  npu_us=    579.44  cpu_us=    319.20  total_us=    898.64
+[RUN   ] 9/10  npu_us=    576.57  cpu_us=    315.51  total_us=    892.08
+[RUN   ] 10/10  npu_us=    547.19  cpu_us=    311.06  total_us=    858.25
+----------------------------------------------------------------
+H2D:   avg=125.27 us  min=118.83 us  max=145.99 us
+NPU:   avg=594.98 us  min=547.19 us  max=668.58 us
+D2H:   avg=255.40 us  min=187.54 us  max=768.62 us
+CPU:   avg=380.67 us  (h2d+d2h)
+Total: avg=975.65 us  min=858.25 us  max=1557.98 us  sd=207.73
+[RESULT] impl=mindspore/fft N=243 tile=0 npu_us=594.98 cpu_us=380.67 total_us=975.65 min_us=858.25 max_us=1557.98 stages_npu=0 stages_cpu=0
+[VERIFY] impl=mindspore/fft N=243 tile=0 status=PASS mismatches=0/243 err_ratio=0.000000 tol=1.0e-03 max_abs=1.270e-04 max_rel=6.242e-05
+================================================================

@@ -1,0 +1,21 @@
+[INFO] ACL initialized, deviceId=0
+================================================================
+[BENCH ] impl=r7/rader_ps_xs  N=2401  tile=352  warmup=2  runs=5
+[BENCH ] twiddles=precomputed (npu=table, cpu=table:2 stage(s)) — the trigonometry is outside the timing on both sides
+----------------------------------------------------------------
+[WARMUP] 1/2 done
+[WARMUP] 2/2 done
+[RUN   ] 1/5  npu_us=    145.98  cpu_us=     31.48  total_us=    177.46
+[RUN   ] 2/5  npu_us=    152.15  cpu_us=     27.59  total_us=    179.74
+[RUN   ] 3/5  npu_us=    151.78  cpu_us=     32.39  total_us=    184.17
+[RUN   ] 4/5  npu_us=    142.93  cpu_us=     30.36  total_us=    173.29
+[RUN   ] 5/5  npu_us=    166.18  cpu_us=     31.35  total_us=    197.53
+----------------------------------------------------------------
+NPU:   avg=151.81 us  min=142.93 us  max=166.18 us
+CPU:   avg=30.63 us  min=27.59 us  max=32.39 us
+Total: avg=182.44 us  min=173.29 us  max=197.53 us
+[RESULT] impl=r7/rader_ps_xs N=2401 tile=352 npu_us=151.81 cpu_us=30.63 total_us=182.44 min_us=173.29 max_us=197.53 stages_npu=2 stages_cpu=2
+================================================================
+[VERIFY] impl=r7/rader_ps_xs N=2401 tile=352 status=PASS mismatches=0/2401 err_ratio=0.000000 tol=1.0e-03 max_abs=1.907e-05 max_rel=1.787e-05
+[PLAN  ] stages_npu=2 stages_cpu=2 (the leading 2 stage(s) have t below the 32-byte DataCopy floor and run on the host)
+test pass

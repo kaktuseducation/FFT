@@ -1,0 +1,17 @@
+# Build artifacts
+build/
+out/
+*.so
+*.o
+*.a
+
+# Binary data
+*.bin
+
+# Backups
+*.bak
+*.bak2
+
+# Python
+__pycache__/
+*.pyc

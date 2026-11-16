@@ -1,0 +1,20 @@
+[INFO] ACL initialized, deviceId=0
+================================================================
+[BENCH ] impl=chk/inner_r4_xs  N=3600  tile=8  warmup=2  runs=5
+[BENCH ] twiddles=precomputed (npu=table, cpu=table:0 stage(s)) — the trigonometry is outside the timing on both sides
+----------------------------------------------------------------
+================================================================
+[DIAG  ] N=3600 -> M=8192  inner radix=4  tile=8  minT=1
+[DIAG  ] inner plan: 7 stages, first 0 on the host
+[DIAG 1] arb_cmul      max_rel=0.000e+00 worst=0 nan=0  OK
+[DIAG 2] arb_cscale    max_rel=0.000e+00 worst=0 nan=0  OK
+[DIAG 3] stage 0  r=2 t=1      block=2      nBlk=4096  wOff=0       rowLen=8    tiles=4096  bd=40  max_rel=1.585e-08 nan=0 OK
+[DIAG 3] stage 1  r=4 t=2      block=8      nBlk=1024  wOff=16      rowLen=8    tiles=1024  bd=40  max_rel=8.336e-08 nan=0 OK
+[DIAG 3] stage 2  r=4 t=8      block=32     nBlk=256   wOff=64      rowLen=8    tiles=256   bd=40  max_rel=1.268e-07 nan=0 OK
+[DIAG 3] stage 3  r=4 t=32     block=128    nBlk=64    wOff=112     rowLen=32   tiles=256   bd=40  max_rel=9.849e-08 nan=0 OK
+[DIAG 3] stage 4  r=4 t=128    block=512    nBlk=16    wOff=304     rowLen=128  tiles=256   bd=40  max_rel=1.187e-07 nan=0 OK
+[DIAG 3] stage 5  r=4 t=512    block=2048   nBlk=4     wOff=1072    rowLen=512  tiles=256   bd=40  max_rel=1.286e-07 nan=0 OK
+[DIAG 3] stage 6  r=4 t=2048   block=8192   nBlk=1     wOff=4144    rowLen=2048 tiles=256   bd=40  max_rel=1.282e-07 nan=0 OK
+[DIAG  ] all three pieces agree with the host
+================================================================
+[VERIFY] impl=chk/inner_r4_xs N=3600 tile=8 status=NO_OUTPUT (output_x.bin not read) — the variant gave no result

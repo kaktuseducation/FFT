@@ -1,0 +1,22 @@
+[INFO] ACL initialized, deviceId=0
+================================================================
+[BENCH ] impl=blu/bluestein_r2_ps_xs  N=10007  tile=64  warmup=2  runs=5
+[BENCH ] twiddles=precomputed (npu=table, cpu=table:3 stage(s)) — the trigonometry is outside the timing on both sides
+----------------------------------------------------------------
+[BLUE  ] N=10007  M=32768 (=next_pow2(2N-1))  inner radix=2  inner stages=15 (npu=12 cpu=3) x2 per call
+[WARMUP] 1/2 done
+[WARMUP] 2/2 done
+[RUN   ] 1/5  npu_us=   4458.36  cpu_us=   5260.14  total_us=   9718.50
+[RUN   ] 2/5  npu_us=   4426.38  cpu_us=   5365.57  total_us=   9791.95
+[RUN   ] 3/5  npu_us=   4456.43  cpu_us=   7730.89  total_us=  12187.32
+[RUN   ] 4/5  npu_us=   4444.56  cpu_us=   5313.87  total_us=   9758.43
+[RUN   ] 5/5  npu_us=   4478.20  cpu_us=   5263.72  total_us=   9741.92
+----------------------------------------------------------------
+NPU:   avg=4452.79 us  min=4426.38 us  max=4478.20 us
+CPU:   avg=5786.84 us  min=5260.14 us  max=7730.89 us
+Total: avg=10239.63 us  min=9718.50 us  max=12187.32 us
+[RESULT] impl=blu/bluestein_r2_ps_xs N=10007 tile=64 npu_us=4452.79 cpu_us=5786.84 total_us=10239.63 min_us=9718.50 max_us=12187.32 stages_npu=12 stages_cpu=3
+================================================================
+[VERIFY] impl=blu/bluestein_r2_ps_xs N=10007 tile=64 status=PASS mismatches=0/10007 err_ratio=0.000000 tol=1.0e-03 max_abs=6.519e-05 max_rel=3.535e-05
+[PLAN  ] stages_npu=12 stages_cpu=3 (the leading 3 stage(s) have t below the 32-byte DataCopy floor and run on the host)
+test pass

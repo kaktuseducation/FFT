@@ -1,0 +1,25 @@
+[INFO] ACL initialized, deviceId=0
+================================================================
+[BENCH ] impl=mix/frank_hi_ps_xs  N=100800  tile=352  warmup=2  runs=5
+[BENCH ] twiddles=precomputed (npu=table, cpu=table:3 stage(s)) — the trigonometry is outside the timing on both sides
+----------------------------------------------------------------
+[FRANK ] N=100800  stages=8  order=large-radix-first  host_prefix=3
+[FRANK ] plan: 7/sym 5/sym 5/sym 4/direct 4/direct 4/direct 3/sym 3/sym
+[FRANK ] predicted 13568.9 us  (launch=49.410 us/stage, data=0.003148 us/point/stage, host=0.03881 us/point/host-stage, 1-core fit)
+[FRANK ] coefficients MEASURED from output/matrix.csv; magnitude good to ~31% out of sample; no tile term; the stage ORDER above is forced by the caller, not chosen by the model (it would be right 71% of the time)
+[WARMUP] 1/2 done
+[WARMUP] 2/2 done
+[RUN   ] 1/5  npu_us=    616.23  cpu_us=   6410.03  total_us=   7026.26
+[RUN   ] 2/5  npu_us=    605.37  cpu_us=    847.72  total_us=   1453.08
+[RUN   ] 3/5  npu_us=    615.24  cpu_us=    819.17  total_us=   1434.40
+[RUN   ] 4/5  npu_us=    630.03  cpu_us=    878.33  total_us=   1508.36
+[RUN   ] 5/5  npu_us=    611.24  cpu_us=    836.41  total_us=   1447.64
+----------------------------------------------------------------
+NPU:   avg=615.62 us  min=605.37 us  max=630.03 us
+CPU:   avg=1958.33 us  min=819.17 us  max=6410.03 us
+Total: avg=2573.95 us  min=1434.40 us  max=7026.26 us
+[RESULT] impl=mix/frank_hi_ps_xs N=100800 tile=352 npu_us=615.62 cpu_us=1958.33 total_us=2573.95 min_us=1434.40 max_us=7026.26 stages_npu=5 stages_cpu=3
+================================================================
+[VERIFY] impl=mix/frank_hi_ps_xs N=100800 tile=352 status=PASS mismatches=0/100800 err_ratio=0.000000 tol=1.0e-03 max_abs=1.526e-04 max_rel=6.215e-05
+[PLAN  ] stages_npu=5 stages_cpu=3 (the leading 3 stage(s) have t below the 32-byte DataCopy floor and run on the host)
+test pass

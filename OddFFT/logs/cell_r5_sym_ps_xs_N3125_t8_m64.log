@@ -1,0 +1,21 @@
+[INFO] ACL initialized, deviceId=0
+================================================================
+[BENCH ] impl=r5/sym_ps_xs  N=3125  tile=8  warmup=2  runs=5
+[BENCH ] twiddles=precomputed (npu=table, cpu=table:3 stage(s)) — the trigonometry is outside the timing on both sides
+----------------------------------------------------------------
+[WARMUP] 1/2 done
+[WARMUP] 2/2 done
+[RUN   ] 1/5  npu_us=    252.69  cpu_us=    109.29  total_us=    361.98
+[RUN   ] 2/5  npu_us=    248.20  cpu_us=    102.88  total_us=    351.08
+[RUN   ] 3/5  npu_us=    248.89  cpu_us=    104.12  total_us=    353.01
+[RUN   ] 4/5  npu_us=    248.01  cpu_us=    100.44  total_us=    348.45
+[RUN   ] 5/5  npu_us=    246.50  cpu_us=     99.47  total_us=    345.97
+----------------------------------------------------------------
+NPU:   avg=248.86 us  min=246.50 us  max=252.69 us
+CPU:   avg=103.24 us  min=99.47 us  max=109.29 us
+Total: avg=352.10 us  min=345.97 us  max=361.98 us
+[RESULT] impl=r5/sym_ps_xs N=3125 tile=8 npu_us=248.86 cpu_us=103.24 total_us=352.10 min_us=345.97 max_us=361.98 stages_npu=2 stages_cpu=3
+================================================================
+[VERIFY] impl=r5/sym_ps_xs N=3125 tile=8 status=PASS mismatches=0/3125 err_ratio=0.000000 tol=1.0e-03 max_abs=1.799e-05 max_rel=2.063e-05
+[PLAN  ] stages_npu=2 stages_cpu=3 (the leading 3 stage(s) have t below the 32-byte DataCopy floor and run on the host)
+test pass

@@ -1,0 +1,1793 @@
+[INFO] run_matrix.sh started, log=./logs/matrix_20261022_133330.log
+[INFO] ASCEND install path: /usr/local/Ascend/ascend-toolkit/latest
+find: ‘/usr/local/Ascend/ascend-toolkit/latest/opp/framework/custom’: Permission denied
+find: ‘/usr/local/Ascend/ascend-toolkit/latest/opp/op_impl/custom’: Permission denied
+find: ‘/usr/local/Ascend/ascend-toolkit/latest/opp/op_proto/custom’: Permission denied
+find: ‘/usr/local/Ascend/ascend-toolkit/latest/opp/vendors’: Permission denied
+find: ‘/usr/local/Ascend/ascend-toolkit/latest/opp/test-ops/script’: Permission denied
+[INFO]: /usr/local/Ascend/ascend-toolkit/latest/opp/op_impl/custom/ is empty
+find: ‘/usr/local/Ascend/ascend-toolkit/latest/opp/framework/custom’: Permission denied
+find: ‘/usr/local/Ascend/ascend-toolkit/latest/opp/op_impl/custom’: Permission denied
+find: ‘/usr/local/Ascend/ascend-toolkit/latest/opp/op_proto/custom’: Permission denied
+find: ‘/usr/local/Ascend/ascend-toolkit/latest/opp/vendors’: Permission denied
+find: ‘/usr/local/Ascend/ascend-toolkit/latest/opp/test-ops/script’: Permission denied
+[INFO]: /usr/local/Ascend/ascend-toolkit/latest/opp/op_proto/custom/ is empty
+find: ‘/usr/local/Ascend/ascend-toolkit/latest/opp/framework/custom’: Permission denied
+find: ‘/usr/local/Ascend/ascend-toolkit/latest/opp/op_impl/custom’: Permission denied
+find: ‘/usr/local/Ascend/ascend-toolkit/latest/opp/op_proto/custom’: Permission denied
+find: ‘/usr/local/Ascend/ascend-toolkit/latest/opp/vendors’: Permission denied
+find: ‘/usr/local/Ascend/ascend-toolkit/latest/opp/test-ops/script’: Permission denied
+[INFO]: / is empty
+find: ‘/usr/local/Ascend/ascend-toolkit/latest/opp/framework/custom’: Permission denied
+find: ‘/usr/local/Ascend/ascend-toolkit/latest/opp/op_impl/custom’: Permission denied
+find: ‘/usr/local/Ascend/ascend-toolkit/latest/opp/op_proto/custom’: Permission denied
+find: ‘/usr/local/Ascend/ascend-toolkit/latest/opp/vendors’: Permission denied
+find: ‘/usr/local/Ascend/ascend-toolkit/latest/opp/test-ops/script’: Permission denied
+[INFO]: / is empty
+find: ‘/usr/local/Ascend/ascend-toolkit/latest/opp/framework/custom’: Permission denied
+find: ‘/usr/local/Ascend/ascend-toolkit/latest/opp/op_impl/custom’: Permission denied
+find: ‘/usr/local/Ascend/ascend-toolkit/latest/opp/op_proto/custom’: Permission denied
+find: ‘/usr/local/Ascend/ascend-toolkit/latest/opp/vendors’: Permission denied
+find: ‘/usr/local/Ascend/ascend-toolkit/latest/opp/test-ops/script’: Permission denied
+[INFO]: /usr/local/Ascend/ascend-toolkit/latest/opp/framework/custom/ is empty
+find: ‘/usr/local/Ascend/ascend-toolkit/8.0.RC3/opp/framework/custom’: Permission denied
+find: ‘/usr/local/Ascend/ascend-toolkit/8.0.RC3/opp/op_impl/custom’: Permission denied
+find: ‘/usr/local/Ascend/ascend-toolkit/8.0.RC3/opp/op_proto/custom’: Permission denied
+find: ‘/usr/local/Ascend/ascend-toolkit/8.0.RC3/opp/vendors’: Permission denied
+find: ‘/usr/local/Ascend/ascend-toolkit/8.0.RC3/opp/test-ops/script’: Permission denied
+find: ‘/usr/local/Ascend/ascend-toolkit/8.0.RC3/opp/framework/custom’: Permission denied
+find: ‘/usr/local/Ascend/ascend-toolkit/8.0.RC3/opp/op_impl/custom’: Permission denied
+find: ‘/usr/local/Ascend/ascend-toolkit/8.0.RC3/opp/op_proto/custom’: Permission denied
+find: ‘/usr/local/Ascend/ascend-toolkit/8.0.RC3/opp/vendors’: Permission denied
+find: ‘/usr/local/Ascend/ascend-toolkit/8.0.RC3/opp/test-ops/script’: Permission denied
+find: ‘/usr/local/Ascend/ascend-toolkit/latest/opp/framework/custom’: Permission denied
+find: ‘/usr/local/Ascend/ascend-toolkit/latest/opp/op_impl/custom’: Permission denied
+find: ‘/usr/local/Ascend/ascend-toolkit/latest/opp/op_proto/custom’: Permission denied
+find: ‘/usr/local/Ascend/ascend-toolkit/latest/opp/vendors’: Permission denied
+find: ‘/usr/local/Ascend/ascend-toolkit/latest/opp/test-ops/script’: Permission denied
+[INFO]: /usr/local/Ascend/ascend-toolkit/latest/opp/op_impl/custom/ is empty
+find: ‘/usr/local/Ascend/ascend-toolkit/latest/opp/framework/custom’: Permission denied
+find: ‘/usr/local/Ascend/ascend-toolkit/latest/opp/op_impl/custom’: Permission denied
+find: ‘/usr/local/Ascend/ascend-toolkit/latest/opp/op_proto/custom’: Permission denied
+find: ‘/usr/local/Ascend/ascend-toolkit/latest/opp/vendors’: Permission denied
+find: ‘/usr/local/Ascend/ascend-toolkit/latest/opp/test-ops/script’: Permission denied
+[INFO]: /usr/local/Ascend/ascend-toolkit/latest/opp/op_proto/custom/ is empty
+find: ‘/usr/local/Ascend/ascend-toolkit/latest/opp/framework/custom’: Permission denied
+find: ‘/usr/local/Ascend/ascend-toolkit/latest/opp/op_impl/custom’: Permission denied
+find: ‘/usr/local/Ascend/ascend-toolkit/latest/opp/op_proto/custom’: Permission denied
+find: ‘/usr/local/Ascend/ascend-toolkit/latest/opp/vendors’: Permission denied
+find: ‘/usr/local/Ascend/ascend-toolkit/latest/opp/test-ops/script’: Permission denied
+[INFO]: / is empty
+find: ‘/usr/local/Ascend/ascend-toolkit/latest/opp/framework/custom’: Permission denied
+find: ‘/usr/local/Ascend/ascend-toolkit/latest/opp/op_impl/custom’: Permission denied
+find: ‘/usr/local/Ascend/ascend-toolkit/latest/opp/op_proto/custom’: Permission denied
+find: ‘/usr/local/Ascend/ascend-toolkit/latest/opp/vendors’: Permission denied
+find: ‘/usr/local/Ascend/ascend-toolkit/latest/opp/test-ops/script’: Permission denied
+[INFO]: / is empty
+find: ‘/usr/local/Ascend/ascend-toolkit/latest/opp/framework/custom’: Permission denied
+find: ‘/usr/local/Ascend/ascend-toolkit/latest/opp/op_impl/custom’: Permission denied
+find: ‘/usr/local/Ascend/ascend-toolkit/latest/opp/op_proto/custom’: Permission denied
+find: ‘/usr/local/Ascend/ascend-toolkit/latest/opp/vendors’: Permission denied
+find: ‘/usr/local/Ascend/ascend-toolkit/latest/opp/test-ops/script’: Permission denied
+[INFO]: /usr/local/Ascend/ascend-toolkit/latest/opp/framework/custom/ is empty
+[INFO] building once (RUN_MODE=npu)
+[INFO] variants: r2/direct_ps_xs r2/direct_psm_xs r4/direct_ps_xs r4/direct_psm_xs r3/direct_ps_xs r3/direct_psm_xs r3/sym_ps_xs r3/sym_psm_xs r3/winograd_ps_xs r3/winograd_psm_xs r3/rader_ps_xs r3/rader_psm_xs r5/direct_ps_xs r5/direct_psm_xs r5/sym_ps_xs r5/sym_psm_xs r5/winograd_ps_xs r5/winograd_psm_xs r5/rader_ps_xs r5/rader_psm_xs r7/direct_ps_xs r7/direct_psm_xs r7/sym_ps_xs r7/sym_psm_xs r7/winograd_ps_xs r7/winograd_psm_xs r7/rader_ps_xs r7/rader_psm_xs mix/frank_hi_ps_xs mix/frank_hi_psm_xs mix/frank_lo_ps_xs mix/frank_lo_psm_xs blu/bluestein_r2_ps_xs blu/bluestein_r2_psm_xs blu/bluestein_r4_ps_xs blu/bluestein_r4_psm_xs rad/rader_r2_ps_xs rad/rader_r2_psm_xs rad/rader_r4_ps_xs rad/rader_r4_psm_xs chk/inner_r2_xs chk/inner_r4_xs 
+[INFO] tiles:    8 64 352
+[INFO] minT:     1 8 64
+[INFO] N  r2=256 4096 32768 | r3=243 2187 19683 | r4=256 4096 65536
+[INFO] N  r5=125 3125 15625 | r7=343 2401 16807 | mix=720 3600 30240 100800
+[INFO] N  blu=720 3600 1331 10007 | rad=101 211 1009 10007
+[INFO] OpenMP: threads=24 (nproc=24, count from the  cgroup quota unless -O given); binding decided below by measurement
+[CALIB] r2/direct_ps_xs N=32768 tile=64 minT=8: unbound=6502.55 us  bound=3953.29 us
+[CALIB] -> OMP_PROC_BIND=close
+[INFO] OpenMP as used for this table: threads=24  bind=close places=cores
+[CELL ] r2/direct_ps_xs    radix=2 N=256     tile=8    minT=1   ... PASS
+[CELL ] r2/direct_ps_xs    radix=2 N=256     tile=8    minT=8   ... PASS
+[CELL ] r2/direct_ps_xs    radix=2 N=256     tile=8    minT=64  ... PASS
+[CELL ] r2/direct_ps_xs    radix=2 N=256     tile=64   minT=1   ... PASS
+[CELL ] r2/direct_ps_xs    radix=2 N=256     tile=64   minT=8   ... PASS
+[CELL ] r2/direct_ps_xs    radix=2 N=256     tile=64   minT=64  ... PASS
+[CELL ] r2/direct_ps_xs    radix=2 N=256     tile=352  minT=1   ... PASS
+[CELL ] r2/direct_ps_xs    radix=2 N=256     tile=352  minT=8   ... PASS
+[CELL ] r2/direct_ps_xs    radix=2 N=256     tile=352  minT=64  ... PASS
+[CELL ] r2/direct_ps_xs    radix=2 N=4096    tile=8    minT=1   ... PASS
+[CELL ] r2/direct_ps_xs    radix=2 N=4096    tile=8    minT=8   ... PASS
+[CELL ] r2/direct_ps_xs    radix=2 N=4096    tile=8    minT=64  ... PASS
+[CELL ] r2/direct_ps_xs    radix=2 N=4096    tile=64   minT=1   ... PASS
+[CELL ] r2/direct_ps_xs    radix=2 N=4096    tile=64   minT=8   ... PASS
+[CELL ] r2/direct_ps_xs    radix=2 N=4096    tile=64   minT=64  ... PASS
+[CELL ] r2/direct_ps_xs    radix=2 N=4096    tile=352  minT=1   ... PASS
+[CELL ] r2/direct_ps_xs    radix=2 N=4096    tile=352  minT=8   ... PASS
+[CELL ] r2/direct_ps_xs    radix=2 N=4096    tile=352  minT=64  ... PASS
+[CELL ] r2/direct_ps_xs    radix=2 N=32768   tile=8    minT=1   ... PASS
+[CELL ] r2/direct_ps_xs    radix=2 N=32768   tile=8    minT=8   ... PASS
+[CELL ] r2/direct_ps_xs    radix=2 N=32768   tile=8    minT=64  ... PASS
+[CELL ] r2/direct_ps_xs    radix=2 N=32768   tile=64   minT=1   ... PASS
+[CELL ] r2/direct_ps_xs    radix=2 N=32768   tile=64   minT=8   ... PASS
+[CELL ] r2/direct_ps_xs    radix=2 N=32768   tile=64   minT=64  ... PASS
+[CELL ] r2/direct_ps_xs    radix=2 N=32768   tile=352  minT=1   ... PASS
+[CELL ] r2/direct_ps_xs    radix=2 N=32768   tile=352  minT=8   ... PASS
+[CELL ] r2/direct_ps_xs    radix=2 N=32768   tile=352  minT=64  ... PASS
+[CELL ] r2/direct_psm_xs   radix=2 N=256     tile=8    minT=1   ... PASS
+[CELL ] r2/direct_psm_xs   radix=2 N=256     tile=8    minT=8   ... PASS
+[CELL ] r2/direct_psm_xs   radix=2 N=256     tile=8    minT=64  ... PASS
+[CELL ] r2/direct_psm_xs   radix=2 N=256     tile=64   minT=1   ... PASS
+[CELL ] r2/direct_psm_xs   radix=2 N=256     tile=64   minT=8   ... PASS
+[CELL ] r2/direct_psm_xs   radix=2 N=256     tile=64   minT=64  ... PASS
+[CELL ] r2/direct_psm_xs   radix=2 N=256     tile=352  minT=1   ... PASS
+[CELL ] r2/direct_psm_xs   radix=2 N=256     tile=352  minT=8   ... PASS
+[CELL ] r2/direct_psm_xs   radix=2 N=256     tile=352  minT=64  ... PASS
+[CELL ] r2/direct_psm_xs   radix=2 N=4096    tile=8    minT=1   ... PASS
+[CELL ] r2/direct_psm_xs   radix=2 N=4096    tile=8    minT=8   ... PASS
+[CELL ] r2/direct_psm_xs   radix=2 N=4096    tile=8    minT=64  ... PASS
+[CELL ] r2/direct_psm_xs   radix=2 N=4096    tile=64   minT=1   ... PASS
+[CELL ] r2/direct_psm_xs   radix=2 N=4096    tile=64   minT=8   ... PASS
+[CELL ] r2/direct_psm_xs   radix=2 N=4096    tile=64   minT=64  ... PASS
+[CELL ] r2/direct_psm_xs   radix=2 N=4096    tile=352  minT=1   ... PASS
+[CELL ] r2/direct_psm_xs   radix=2 N=4096    tile=352  minT=8   ... PASS
+[CELL ] r2/direct_psm_xs   radix=2 N=4096    tile=352  minT=64  ... PASS
+[CELL ] r2/direct_psm_xs   radix=2 N=32768   tile=8    minT=1   ... PASS
+[CELL ] r2/direct_psm_xs   radix=2 N=32768   tile=8    minT=8   ... PASS
+[CELL ] r2/direct_psm_xs   radix=2 N=32768   tile=8    minT=64  ... PASS
+[CELL ] r2/direct_psm_xs   radix=2 N=32768   tile=64   minT=1   ... PASS
+[CELL ] r2/direct_psm_xs   radix=2 N=32768   tile=64   minT=8   ... PASS
+[CELL ] r2/direct_psm_xs   radix=2 N=32768   tile=64   minT=64  ... PASS
+[CELL ] r2/direct_psm_xs   radix=2 N=32768   tile=352  minT=1   ... PASS
+[CELL ] r2/direct_psm_xs   radix=2 N=32768   tile=352  minT=8   ... PASS
+[CELL ] r2/direct_psm_xs   radix=2 N=32768   tile=352  minT=64  ... PASS
+[CELL ] r4/direct_ps_xs    radix=4 N=256     tile=8    minT=1   ... PASS
+[CELL ] r4/direct_ps_xs    radix=4 N=256     tile=8    minT=8   ... PASS
+[CELL ] r4/direct_ps_xs    radix=4 N=256     tile=8    minT=64  ... PASS
+[CELL ] r4/direct_ps_xs    radix=4 N=256     tile=64   minT=1   ... PASS
+[CELL ] r4/direct_ps_xs    radix=4 N=256     tile=64   minT=8   ... PASS
+[CELL ] r4/direct_ps_xs    radix=4 N=256     tile=64   minT=64  ... PASS
+[CELL ] r4/direct_ps_xs    radix=4 N=256     tile=352  minT=1   ... PASS
+[CELL ] r4/direct_ps_xs    radix=4 N=256     tile=352  minT=8   ... PASS
+[CELL ] r4/direct_ps_xs    radix=4 N=256     tile=352  minT=64  ... PASS
+[CELL ] r4/direct_ps_xs    radix=4 N=4096    tile=8    minT=1   ... PASS
+[CELL ] r4/direct_ps_xs    radix=4 N=4096    tile=8    minT=8   ... PASS
+[CELL ] r4/direct_ps_xs    radix=4 N=4096    tile=8    minT=64  ... PASS
+[CELL ] r4/direct_ps_xs    radix=4 N=4096    tile=64   minT=1   ... PASS
+[CELL ] r4/direct_ps_xs    radix=4 N=4096    tile=64   minT=8   ... PASS
+[CELL ] r4/direct_ps_xs    radix=4 N=4096    tile=64   minT=64  ... PASS
+[CELL ] r4/direct_ps_xs    radix=4 N=4096    tile=352  minT=1   ... PASS
+[CELL ] r4/direct_ps_xs    radix=4 N=4096    tile=352  minT=8   ... PASS
+[CELL ] r4/direct_ps_xs    radix=4 N=4096    tile=352  minT=64  ... PASS
+[CELL ] r4/direct_ps_xs    radix=4 N=65536   tile=8    minT=1   ... PASS
+[CELL ] r4/direct_ps_xs    radix=4 N=65536   tile=8    minT=8   ... PASS
+[CELL ] r4/direct_ps_xs    radix=4 N=65536   tile=8    minT=64  ... PASS
+[CELL ] r4/direct_ps_xs    radix=4 N=65536   tile=64   minT=1   ... PASS
+[CELL ] r4/direct_ps_xs    radix=4 N=65536   tile=64   minT=8   ... PASS
+[CELL ] r4/direct_ps_xs    radix=4 N=65536   tile=64   minT=64  ... PASS
+[CELL ] r4/direct_ps_xs    radix=4 N=65536   tile=352  minT=1   ... PASS
+[CELL ] r4/direct_ps_xs    radix=4 N=65536   tile=352  minT=8   ... PASS
+[CELL ] r4/direct_ps_xs    radix=4 N=65536   tile=352  minT=64  ... PASS
+[CELL ] r4/direct_psm_xs   radix=4 N=256     tile=8    minT=1   ... PASS
+[CELL ] r4/direct_psm_xs   radix=4 N=256     tile=8    minT=8   ... PASS
+[CELL ] r4/direct_psm_xs   radix=4 N=256     tile=8    minT=64  ... PASS
+[CELL ] r4/direct_psm_xs   radix=4 N=256     tile=64   minT=1   ... PASS
+[CELL ] r4/direct_psm_xs   radix=4 N=256     tile=64   minT=8   ... PASS
+[CELL ] r4/direct_psm_xs   radix=4 N=256     tile=64   minT=64  ... PASS
+[CELL ] r4/direct_psm_xs   radix=4 N=256     tile=352  minT=1   ... PASS
+[CELL ] r4/direct_psm_xs   radix=4 N=256     tile=352  minT=8   ... PASS
+[CELL ] r4/direct_psm_xs   radix=4 N=256     tile=352  minT=64  ... PASS
+[CELL ] r4/direct_psm_xs   radix=4 N=4096    tile=8    minT=1   ... PASS
+[CELL ] r4/direct_psm_xs   radix=4 N=4096    tile=8    minT=8   ... PASS
+[CELL ] r4/direct_psm_xs   radix=4 N=4096    tile=8    minT=64  ... PASS
+[CELL ] r4/direct_psm_xs   radix=4 N=4096    tile=64   minT=1   ... PASS
+[CELL ] r4/direct_psm_xs   radix=4 N=4096    tile=64   minT=8   ... PASS
+[CELL ] r4/direct_psm_xs   radix=4 N=4096    tile=64   minT=64  ... PASS
+[CELL ] r4/direct_psm_xs   radix=4 N=4096    tile=352  minT=1   ... PASS
+[CELL ] r4/direct_psm_xs   radix=4 N=4096    tile=352  minT=8   ... PASS
+[CELL ] r4/direct_psm_xs   radix=4 N=4096    tile=352  minT=64  ... PASS
+[CELL ] r4/direct_psm_xs   radix=4 N=65536   tile=8    minT=1   ... PASS
+[CELL ] r4/direct_psm_xs   radix=4 N=65536   tile=8    minT=8   ... PASS
+[CELL ] r4/direct_psm_xs   radix=4 N=65536   tile=8    minT=64  ... PASS
+[CELL ] r4/direct_psm_xs   radix=4 N=65536   tile=64   minT=1   ... PASS
+[CELL ] r4/direct_psm_xs   radix=4 N=65536   tile=64   minT=8   ... PASS
+[CELL ] r4/direct_psm_xs   radix=4 N=65536   tile=64   minT=64  ... PASS
+[CELL ] r4/direct_psm_xs   radix=4 N=65536   tile=352  minT=1   ... PASS
+[CELL ] r4/direct_psm_xs   radix=4 N=65536   tile=352  minT=8   ... PASS
+[CELL ] r4/direct_psm_xs   radix=4 N=65536   tile=352  minT=64  ... PASS
+[CELL ] r3/direct_ps_xs    radix=3 N=243     tile=8    minT=1   ... PASS
+[CELL ] r3/direct_ps_xs    radix=3 N=243     tile=8    minT=8   ... PASS
+[CELL ] r3/direct_ps_xs    radix=3 N=243     tile=8    minT=64  ... PASS
+[CELL ] r3/direct_ps_xs    radix=3 N=243     tile=64   minT=1   ... PASS
+[CELL ] r3/direct_ps_xs    radix=3 N=243     tile=64   minT=8   ... PASS
+[CELL ] r3/direct_ps_xs    radix=3 N=243     tile=64   minT=64  ... PASS
+[CELL ] r3/direct_ps_xs    radix=3 N=243     tile=352  minT=1   ... PASS
+[CELL ] r3/direct_ps_xs    radix=3 N=243     tile=352  minT=8   ... PASS
+[CELL ] r3/direct_ps_xs    radix=3 N=243     tile=352  minT=64  ... PASS
+[CELL ] r3/direct_ps_xs    radix=3 N=2187    tile=8    minT=1   ... PASS
+[CELL ] r3/direct_ps_xs    radix=3 N=2187    tile=8    minT=8   ... PASS
+[CELL ] r3/direct_ps_xs    radix=3 N=2187    tile=8    minT=64  ... PASS
+[CELL ] r3/direct_ps_xs    radix=3 N=2187    tile=64   minT=1   ... PASS
+[CELL ] r3/direct_ps_xs    radix=3 N=2187    tile=64   minT=8   ... PASS
+[CELL ] r3/direct_ps_xs    radix=3 N=2187    tile=64   minT=64  ... PASS
+[CELL ] r3/direct_ps_xs    radix=3 N=2187    tile=352  minT=1   ... PASS
+[CELL ] r3/direct_ps_xs    radix=3 N=2187    tile=352  minT=8   ... PASS
+[CELL ] r3/direct_ps_xs    radix=3 N=2187    tile=352  minT=64  ... PASS
+[CELL ] r3/direct_ps_xs    radix=3 N=19683   tile=8    minT=1   ... PASS
+[CELL ] r3/direct_ps_xs    radix=3 N=19683   tile=8    minT=8   ... PASS
+[CELL ] r3/direct_ps_xs    radix=3 N=19683   tile=8    minT=64  ... PASS
+[CELL ] r3/direct_ps_xs    radix=3 N=19683   tile=64   minT=1   ... PASS
+[CELL ] r3/direct_ps_xs    radix=3 N=19683   tile=64   minT=8   ... PASS
+[CELL ] r3/direct_ps_xs    radix=3 N=19683   tile=64   minT=64  ... PASS
+[CELL ] r3/direct_ps_xs    radix=3 N=19683   tile=352  minT=1   ... PASS
+[CELL ] r3/direct_ps_xs    radix=3 N=19683   tile=352  minT=8   ... PASS
+[CELL ] r3/direct_ps_xs    radix=3 N=19683   tile=352  minT=64  ... PASS
+[CELL ] r3/direct_psm_xs   radix=3 N=243     tile=8    minT=1   ... PASS
+[CELL ] r3/direct_psm_xs   radix=3 N=243     tile=8    minT=8   ... PASS
+[CELL ] r3/direct_psm_xs   radix=3 N=243     tile=8    minT=64  ... PASS
+[CELL ] r3/direct_psm_xs   radix=3 N=243     tile=64   minT=1   ... PASS
+[CELL ] r3/direct_psm_xs   radix=3 N=243     tile=64   minT=8   ... PASS
+[CELL ] r3/direct_psm_xs   radix=3 N=243     tile=64   minT=64  ... PASS
+[CELL ] r3/direct_psm_xs   radix=3 N=243     tile=352  minT=1   ... PASS
+[CELL ] r3/direct_psm_xs   radix=3 N=243     tile=352  minT=8   ... PASS
+[CELL ] r3/direct_psm_xs   radix=3 N=243     tile=352  minT=64  ... PASS
+[CELL ] r3/direct_psm_xs   radix=3 N=2187    tile=8    minT=1   ... PASS
+[CELL ] r3/direct_psm_xs   radix=3 N=2187    tile=8    minT=8   ... PASS
+[CELL ] r3/direct_psm_xs   radix=3 N=2187    tile=8    minT=64  ... PASS
+[CELL ] r3/direct_psm_xs   radix=3 N=2187    tile=64   minT=1   ... PASS
+[CELL ] r3/direct_psm_xs   radix=3 N=2187    tile=64   minT=8   ... PASS
+[CELL ] r3/direct_psm_xs   radix=3 N=2187    tile=64   minT=64  ... PASS
+[CELL ] r3/direct_psm_xs   radix=3 N=2187    tile=352  minT=1   ... PASS
+[CELL ] r3/direct_psm_xs   radix=3 N=2187    tile=352  minT=8   ... PASS
+[CELL ] r3/direct_psm_xs   radix=3 N=2187    tile=352  minT=64  ... PASS
+[CELL ] r3/direct_psm_xs   radix=3 N=19683   tile=8    minT=1   ... PASS
+[CELL ] r3/direct_psm_xs   radix=3 N=19683   tile=8    minT=8   ... PASS
+[CELL ] r3/direct_psm_xs   radix=3 N=19683   tile=8    minT=64  ... PASS
+[CELL ] r3/direct_psm_xs   radix=3 N=19683   tile=64   minT=1   ... PASS
+[CELL ] r3/direct_psm_xs   radix=3 N=19683   tile=64   minT=8   ... PASS
+[CELL ] r3/direct_psm_xs   radix=3 N=19683   tile=64   minT=64  ... PASS
+[CELL ] r3/direct_psm_xs   radix=3 N=19683   tile=352  minT=1   ... PASS
+[CELL ] r3/direct_psm_xs   radix=3 N=19683   tile=352  minT=8   ... PASS
+[CELL ] r3/direct_psm_xs   radix=3 N=19683   tile=352  minT=64  ... PASS
+[CELL ] r3/sym_ps_xs       radix=3 N=243     tile=8    minT=1   ... PASS
+[CELL ] r3/sym_ps_xs       radix=3 N=243     tile=8    minT=8   ... PASS
+[CELL ] r3/sym_ps_xs       radix=3 N=243     tile=8    minT=64  ... PASS
+[CELL ] r3/sym_ps_xs       radix=3 N=243     tile=64   minT=1   ... PASS
+[CELL ] r3/sym_ps_xs       radix=3 N=243     tile=64   minT=8   ... PASS
+[CELL ] r3/sym_ps_xs       radix=3 N=243     tile=64   minT=64  ... PASS
+[CELL ] r3/sym_ps_xs       radix=3 N=243     tile=352  minT=1   ... PASS
+[CELL ] r3/sym_ps_xs       radix=3 N=243     tile=352  minT=8   ... PASS
+[CELL ] r3/sym_ps_xs       radix=3 N=243     tile=352  minT=64  ... PASS
+[CELL ] r3/sym_ps_xs       radix=3 N=2187    tile=8    minT=1   ... PASS
+[CELL ] r3/sym_ps_xs       radix=3 N=2187    tile=8    minT=8   ... PASS
+[CELL ] r3/sym_ps_xs       radix=3 N=2187    tile=8    minT=64  ... PASS
+[CELL ] r3/sym_ps_xs       radix=3 N=2187    tile=64   minT=1   ... PASS
+[CELL ] r3/sym_ps_xs       radix=3 N=2187    tile=64   minT=8   ... PASS
+[CELL ] r3/sym_ps_xs       radix=3 N=2187    tile=64   minT=64  ... PASS
+[CELL ] r3/sym_ps_xs       radix=3 N=2187    tile=352  minT=1   ... PASS
+[CELL ] r3/sym_ps_xs       radix=3 N=2187    tile=352  minT=8   ... PASS
+[CELL ] r3/sym_ps_xs       radix=3 N=2187    tile=352  minT=64  ... PASS
+[CELL ] r3/sym_ps_xs       radix=3 N=19683   tile=8    minT=1   ... PASS
+[CELL ] r3/sym_ps_xs       radix=3 N=19683   tile=8    minT=8   ... PASS
+[CELL ] r3/sym_ps_xs       radix=3 N=19683   tile=8    minT=64  ... PASS
+[CELL ] r3/sym_ps_xs       radix=3 N=19683   tile=64   minT=1   ... PASS
+[CELL ] r3/sym_ps_xs       radix=3 N=19683   tile=64   minT=8   ... PASS
+[CELL ] r3/sym_ps_xs       radix=3 N=19683   tile=64   minT=64  ... PASS
+[CELL ] r3/sym_ps_xs       radix=3 N=19683   tile=352  minT=1   ... PASS
+[CELL ] r3/sym_ps_xs       radix=3 N=19683   tile=352  minT=8   ... PASS
+[CELL ] r3/sym_ps_xs       radix=3 N=19683   tile=352  minT=64  ... PASS
+[CELL ] r3/sym_psm_xs      radix=3 N=243     tile=8    minT=1   ... PASS
+[CELL ] r3/sym_psm_xs      radix=3 N=243     tile=8    minT=8   ... PASS
+[CELL ] r3/sym_psm_xs      radix=3 N=243     tile=8    minT=64  ... PASS
+[CELL ] r3/sym_psm_xs      radix=3 N=243     tile=64   minT=1   ... PASS
+[CELL ] r3/sym_psm_xs      radix=3 N=243     tile=64   minT=8   ... PASS
+[CELL ] r3/sym_psm_xs      radix=3 N=243     tile=64   minT=64  ... PASS
+[CELL ] r3/sym_psm_xs      radix=3 N=243     tile=352  minT=1   ... PASS
+[CELL ] r3/sym_psm_xs      radix=3 N=243     tile=352  minT=8   ... PASS
+[CELL ] r3/sym_psm_xs      radix=3 N=243     tile=352  minT=64  ... PASS
+[CELL ] r3/sym_psm_xs      radix=3 N=2187    tile=8    minT=1   ... PASS
+[CELL ] r3/sym_psm_xs      radix=3 N=2187    tile=8    minT=8   ... PASS
+[CELL ] r3/sym_psm_xs      radix=3 N=2187    tile=8    minT=64  ... PASS
+[CELL ] r3/sym_psm_xs      radix=3 N=2187    tile=64   minT=1   ... PASS
+[CELL ] r3/sym_psm_xs      radix=3 N=2187    tile=64   minT=8   ... PASS
+[CELL ] r3/sym_psm_xs      radix=3 N=2187    tile=64   minT=64  ... PASS
+[CELL ] r3/sym_psm_xs      radix=3 N=2187    tile=352  minT=1   ... PASS
+[CELL ] r3/sym_psm_xs      radix=3 N=2187    tile=352  minT=8   ... PASS
+[CELL ] r3/sym_psm_xs      radix=3 N=2187    tile=352  minT=64  ... PASS
+[CELL ] r3/sym_psm_xs      radix=3 N=19683   tile=8    minT=1   ... PASS
+[CELL ] r3/sym_psm_xs      radix=3 N=19683   tile=8    minT=8   ... PASS
+[CELL ] r3/sym_psm_xs      radix=3 N=19683   tile=8    minT=64  ... PASS
+[CELL ] r3/sym_psm_xs      radix=3 N=19683   tile=64   minT=1   ... PASS
+[CELL ] r3/sym_psm_xs      radix=3 N=19683   tile=64   minT=8   ... PASS
+[CELL ] r3/sym_psm_xs      radix=3 N=19683   tile=64   minT=64  ... PASS
+[CELL ] r3/sym_psm_xs      radix=3 N=19683   tile=352  minT=1   ... PASS
+[CELL ] r3/sym_psm_xs      radix=3 N=19683   tile=352  minT=8   ... PASS
+[CELL ] r3/sym_psm_xs      radix=3 N=19683   tile=352  minT=64  ... PASS
+[CELL ] r3/winograd_ps_xs  radix=3 N=243     tile=8    minT=1   ... PASS
+[CELL ] r3/winograd_ps_xs  radix=3 N=243     tile=8    minT=8   ... PASS
+[CELL ] r3/winograd_ps_xs  radix=3 N=243     tile=8    minT=64  ... PASS
+[CELL ] r3/winograd_ps_xs  radix=3 N=243     tile=64   minT=1   ... PASS
+[CELL ] r3/winograd_ps_xs  radix=3 N=243     tile=64   minT=8   ... PASS
+[CELL ] r3/winograd_ps_xs  radix=3 N=243     tile=64   minT=64  ... PASS
+[CELL ] r3/winograd_ps_xs  radix=3 N=243     tile=352  minT=1   ... PASS
+[CELL ] r3/winograd_ps_xs  radix=3 N=243     tile=352  minT=8   ... PASS
+[CELL ] r3/winograd_ps_xs  radix=3 N=243     tile=352  minT=64  ... PASS
+[CELL ] r3/winograd_ps_xs  radix=3 N=2187    tile=8    minT=1   ... PASS
+[CELL ] r3/winograd_ps_xs  radix=3 N=2187    tile=8    minT=8   ... PASS
+[CELL ] r3/winograd_ps_xs  radix=3 N=2187    tile=8    minT=64  ... PASS
+[CELL ] r3/winograd_ps_xs  radix=3 N=2187    tile=64   minT=1   ... PASS
+[CELL ] r3/winograd_ps_xs  radix=3 N=2187    tile=64   minT=8   ... PASS
+[CELL ] r3/winograd_ps_xs  radix=3 N=2187    tile=64   minT=64  ... PASS
+[CELL ] r3/winograd_ps_xs  radix=3 N=2187    tile=352  minT=1   ... PASS
+[CELL ] r3/winograd_ps_xs  radix=3 N=2187    tile=352  minT=8   ... PASS
+[CELL ] r3/winograd_ps_xs  radix=3 N=2187    tile=352  minT=64  ... PASS
+[CELL ] r3/winograd_ps_xs  radix=3 N=19683   tile=8    minT=1   ... PASS
+[CELL ] r3/winograd_ps_xs  radix=3 N=19683   tile=8    minT=8   ... PASS
+[CELL ] r3/winograd_ps_xs  radix=3 N=19683   tile=8    minT=64  ... PASS
+[CELL ] r3/winograd_ps_xs  radix=3 N=19683   tile=64   minT=1   ... PASS
+[CELL ] r3/winograd_ps_xs  radix=3 N=19683   tile=64   minT=8   ... PASS
+[CELL ] r3/winograd_ps_xs  radix=3 N=19683   tile=64   minT=64  ... PASS
+[CELL ] r3/winograd_ps_xs  radix=3 N=19683   tile=352  minT=1   ... PASS
+[CELL ] r3/winograd_ps_xs  radix=3 N=19683   tile=352  minT=8   ... PASS
+[CELL ] r3/winograd_ps_xs  radix=3 N=19683   tile=352  minT=64  ... PASS
+[CELL ] r3/winograd_psm_xs radix=3 N=243     tile=8    minT=1   ... PASS
+[CELL ] r3/winograd_psm_xs radix=3 N=243     tile=8    minT=8   ... PASS
+[CELL ] r3/winograd_psm_xs radix=3 N=243     tile=8    minT=64  ... PASS
+[CELL ] r3/winograd_psm_xs radix=3 N=243     tile=64   minT=1   ... PASS
+[CELL ] r3/winograd_psm_xs radix=3 N=243     tile=64   minT=8   ... PASS
+[CELL ] r3/winograd_psm_xs radix=3 N=243     tile=64   minT=64  ... PASS
+[CELL ] r3/winograd_psm_xs radix=3 N=243     tile=352  minT=1   ... PASS
+[CELL ] r3/winograd_psm_xs radix=3 N=243     tile=352  minT=8   ... PASS
+[CELL ] r3/winograd_psm_xs radix=3 N=243     tile=352  minT=64  ... PASS
+[CELL ] r3/winograd_psm_xs radix=3 N=2187    tile=8    minT=1   ... PASS
+[CELL ] r3/winograd_psm_xs radix=3 N=2187    tile=8    minT=8   ... PASS
+[CELL ] r3/winograd_psm_xs radix=3 N=2187    tile=8    minT=64  ... PASS
+[CELL ] r3/winograd_psm_xs radix=3 N=2187    tile=64   minT=1   ... PASS
+[CELL ] r3/winograd_psm_xs radix=3 N=2187    tile=64   minT=8   ... PASS
+[CELL ] r3/winograd_psm_xs radix=3 N=2187    tile=64   minT=64  ... PASS
+[CELL ] r3/winograd_psm_xs radix=3 N=2187    tile=352  minT=1   ... PASS
+[CELL ] r3/winograd_psm_xs radix=3 N=2187    tile=352  minT=8   ... PASS
+[CELL ] r3/winograd_psm_xs radix=3 N=2187    tile=352  minT=64  ... PASS
+[CELL ] r3/winograd_psm_xs radix=3 N=19683   tile=8    minT=1   ... PASS
+[CELL ] r3/winograd_psm_xs radix=3 N=19683   tile=8    minT=8   ... PASS
+[CELL ] r3/winograd_psm_xs radix=3 N=19683   tile=8    minT=64  ... PASS
+[CELL ] r3/winograd_psm_xs radix=3 N=19683   tile=64   minT=1   ... PASS
+[CELL ] r3/winograd_psm_xs radix=3 N=19683   tile=64   minT=8   ... PASS
+[CELL ] r3/winograd_psm_xs radix=3 N=19683   tile=64   minT=64  ... PASS
+[CELL ] r3/winograd_psm_xs radix=3 N=19683   tile=352  minT=1   ... PASS
+[CELL ] r3/winograd_psm_xs radix=3 N=19683   tile=352  minT=8   ... PASS
+[CELL ] r3/winograd_psm_xs radix=3 N=19683   tile=352  minT=64  ... PASS
+[CELL ] r3/rader_ps_xs     radix=3 N=243     tile=8    minT=1   ... PASS
+[CELL ] r3/rader_ps_xs     radix=3 N=243     tile=8    minT=8   ... PASS
+[CELL ] r3/rader_ps_xs     radix=3 N=243     tile=8    minT=64  ... PASS
+[CELL ] r3/rader_ps_xs     radix=3 N=243     tile=64   minT=1   ... PASS
+[CELL ] r3/rader_ps_xs     radix=3 N=243     tile=64   minT=8   ... PASS
+[CELL ] r3/rader_ps_xs     radix=3 N=243     tile=64   minT=64  ... PASS
+[CELL ] r3/rader_ps_xs     radix=3 N=243     tile=352  minT=1   ... PASS
+[CELL ] r3/rader_ps_xs     radix=3 N=243     tile=352  minT=8   ... PASS
+[CELL ] r3/rader_ps_xs     radix=3 N=243     tile=352  minT=64  ... PASS
+[CELL ] r3/rader_ps_xs     radix=3 N=2187    tile=8    minT=1   ... PASS
+[CELL ] r3/rader_ps_xs     radix=3 N=2187    tile=8    minT=8   ... PASS
+[CELL ] r3/rader_ps_xs     radix=3 N=2187    tile=8    minT=64  ... PASS
+[CELL ] r3/rader_ps_xs     radix=3 N=2187    tile=64   minT=1   ... PASS
+[CELL ] r3/rader_ps_xs     radix=3 N=2187    tile=64   minT=8   ... PASS
+[CELL ] r3/rader_ps_xs     radix=3 N=2187    tile=64   minT=64  ... PASS
+[CELL ] r3/rader_ps_xs     radix=3 N=2187    tile=352  minT=1   ... PASS
+[CELL ] r3/rader_ps_xs     radix=3 N=2187    tile=352  minT=8   ... PASS
+[CELL ] r3/rader_ps_xs     radix=3 N=2187    tile=352  minT=64  ... PASS
+[CELL ] r3/rader_ps_xs     radix=3 N=19683   tile=8    minT=1   ... PASS
+[CELL ] r3/rader_ps_xs     radix=3 N=19683   tile=8    minT=8   ... PASS
+[CELL ] r3/rader_ps_xs     radix=3 N=19683   tile=8    minT=64  ... PASS
+[CELL ] r3/rader_ps_xs     radix=3 N=19683   tile=64   minT=1   ... PASS
+[CELL ] r3/rader_ps_xs     radix=3 N=19683   tile=64   minT=8   ... PASS
+[CELL ] r3/rader_ps_xs     radix=3 N=19683   tile=64   minT=64  ... PASS
+[CELL ] r3/rader_ps_xs     radix=3 N=19683   tile=352  minT=1   ... PASS
+[CELL ] r3/rader_ps_xs     radix=3 N=19683   tile=352  minT=8   ... PASS
+[CELL ] r3/rader_ps_xs     radix=3 N=19683   tile=352  minT=64  ... PASS
+[CELL ] r3/rader_psm_xs    radix=3 N=243     tile=8    minT=1   ... PASS
+[CELL ] r3/rader_psm_xs    radix=3 N=243     tile=8    minT=8   ... PASS
+[CELL ] r3/rader_psm_xs    radix=3 N=243     tile=8    minT=64  ... PASS
+[CELL ] r3/rader_psm_xs    radix=3 N=243     tile=64   minT=1   ... PASS
+[CELL ] r3/rader_psm_xs    radix=3 N=243     tile=64   minT=8   ... PASS
+[CELL ] r3/rader_psm_xs    radix=3 N=243     tile=64   minT=64  ... PASS
+[CELL ] r3/rader_psm_xs    radix=3 N=243     tile=352  minT=1   ... PASS
+[CELL ] r3/rader_psm_xs    radix=3 N=243     tile=352  minT=8   ... PASS
+[CELL ] r3/rader_psm_xs    radix=3 N=243     tile=352  minT=64  ... PASS
+[CELL ] r3/rader_psm_xs    radix=3 N=2187    tile=8    minT=1   ... PASS
+[CELL ] r3/rader_psm_xs    radix=3 N=2187    tile=8    minT=8   ... PASS
+[CELL ] r3/rader_psm_xs    radix=3 N=2187    tile=8    minT=64  ... PASS
+[CELL ] r3/rader_psm_xs    radix=3 N=2187    tile=64   minT=1   ... PASS
+[CELL ] r3/rader_psm_xs    radix=3 N=2187    tile=64   minT=8   ... PASS
+[CELL ] r3/rader_psm_xs    radix=3 N=2187    tile=64   minT=64  ... PASS
+[CELL ] r3/rader_psm_xs    radix=3 N=2187    tile=352  minT=1   ... PASS
+[CELL ] r3/rader_psm_xs    radix=3 N=2187    tile=352  minT=8   ... PASS
+[CELL ] r3/rader_psm_xs    radix=3 N=2187    tile=352  minT=64  ... PASS
+[CELL ] r3/rader_psm_xs    radix=3 N=19683   tile=8    minT=1   ... PASS
+[CELL ] r3/rader_psm_xs    radix=3 N=19683   tile=8    minT=8   ... PASS
+[CELL ] r3/rader_psm_xs    radix=3 N=19683   tile=8    minT=64  ... PASS
+[CELL ] r3/rader_psm_xs    radix=3 N=19683   tile=64   minT=1   ... PASS
+[CELL ] r3/rader_psm_xs    radix=3 N=19683   tile=64   minT=8   ... PASS
+[CELL ] r3/rader_psm_xs    radix=3 N=19683   tile=64   minT=64  ... PASS
+[CELL ] r3/rader_psm_xs    radix=3 N=19683   tile=352  minT=1   ... PASS
+[CELL ] r3/rader_psm_xs    radix=3 N=19683   tile=352  minT=8   ... PASS
+[CELL ] r3/rader_psm_xs    radix=3 N=19683   tile=352  minT=64  ... PASS
+[CELL ] r5/direct_ps_xs    radix=5 N=125     tile=8    minT=1   ... PASS
+[CELL ] r5/direct_ps_xs    radix=5 N=125     tile=8    minT=8   ... PASS
+[CELL ] r5/direct_ps_xs    radix=5 N=125     tile=8    minT=64  ... PASS
+[CELL ] r5/direct_ps_xs    radix=5 N=125     tile=64   minT=1   ... PASS
+[CELL ] r5/direct_ps_xs    radix=5 N=125     tile=64   minT=8   ... PASS
+[CELL ] r5/direct_ps_xs    radix=5 N=125     tile=64   minT=64  ... PASS
+[CELL ] r5/direct_ps_xs    radix=5 N=125     tile=352  minT=1   ... PASS
+[CELL ] r5/direct_ps_xs    radix=5 N=125     tile=352  minT=8   ... PASS
+[CELL ] r5/direct_ps_xs    radix=5 N=125     tile=352  minT=64  ... PASS
+[CELL ] r5/direct_ps_xs    radix=5 N=3125    tile=8    minT=1   ... PASS
+[CELL ] r5/direct_ps_xs    radix=5 N=3125    tile=8    minT=8   ... PASS
+[CELL ] r5/direct_ps_xs    radix=5 N=3125    tile=8    minT=64  ... PASS
+[CELL ] r5/direct_ps_xs    radix=5 N=3125    tile=64   minT=1   ... PASS
+[CELL ] r5/direct_ps_xs    radix=5 N=3125    tile=64   minT=8   ... PASS
+[CELL ] r5/direct_ps_xs    radix=5 N=3125    tile=64   minT=64  ... PASS
+[CELL ] r5/direct_ps_xs    radix=5 N=3125    tile=352  minT=1   ... PASS
+[CELL ] r5/direct_ps_xs    radix=5 N=3125    tile=352  minT=8   ... PASS
+[CELL ] r5/direct_ps_xs    radix=5 N=3125    tile=352  minT=64  ... PASS
+[CELL ] r5/direct_ps_xs    radix=5 N=15625   tile=8    minT=1   ... PASS
+[CELL ] r5/direct_ps_xs    radix=5 N=15625   tile=8    minT=8   ... PASS
+[CELL ] r5/direct_ps_xs    radix=5 N=15625   tile=8    minT=64  ... PASS
+[CELL ] r5/direct_ps_xs    radix=5 N=15625   tile=64   minT=1   ... PASS
+[CELL ] r5/direct_ps_xs    radix=5 N=15625   tile=64   minT=8   ... PASS
+[CELL ] r5/direct_ps_xs    radix=5 N=15625   tile=64   minT=64  ... PASS
+[CELL ] r5/direct_ps_xs    radix=5 N=15625   tile=352  minT=1   ... PASS
+[CELL ] r5/direct_ps_xs    radix=5 N=15625   tile=352  minT=8   ... PASS
+[CELL ] r5/direct_ps_xs    radix=5 N=15625   tile=352  minT=64  ... PASS
+[CELL ] r5/direct_psm_xs   radix=5 N=125     tile=8    minT=1   ... PASS
+[CELL ] r5/direct_psm_xs   radix=5 N=125     tile=8    minT=8   ... PASS
+[CELL ] r5/direct_psm_xs   radix=5 N=125     tile=8    minT=64  ... PASS
+[CELL ] r5/direct_psm_xs   radix=5 N=125     tile=64   minT=1   ... PASS
+[CELL ] r5/direct_psm_xs   radix=5 N=125     tile=64   minT=8   ... PASS
+[CELL ] r5/direct_psm_xs   radix=5 N=125     tile=64   minT=64  ... PASS
+[CELL ] r5/direct_psm_xs   radix=5 N=125     tile=352  minT=1   ... PASS
+[CELL ] r5/direct_psm_xs   radix=5 N=125     tile=352  minT=8   ... PASS
+[CELL ] r5/direct_psm_xs   radix=5 N=125     tile=352  minT=64  ... PASS
+[CELL ] r5/direct_psm_xs   radix=5 N=3125    tile=8    minT=1   ... PASS
+[CELL ] r5/direct_psm_xs   radix=5 N=3125    tile=8    minT=8   ... PASS
+[CELL ] r5/direct_psm_xs   radix=5 N=3125    tile=8    minT=64  ... PASS
+[CELL ] r5/direct_psm_xs   radix=5 N=3125    tile=64   minT=1   ... PASS
+[CELL ] r5/direct_psm_xs   radix=5 N=3125    tile=64   minT=8   ... PASS
+[CELL ] r5/direct_psm_xs   radix=5 N=3125    tile=64   minT=64  ... PASS
+[CELL ] r5/direct_psm_xs   radix=5 N=3125    tile=352  minT=1   ... PASS
+[CELL ] r5/direct_psm_xs   radix=5 N=3125    tile=352  minT=8   ... PASS
+[CELL ] r5/direct_psm_xs   radix=5 N=3125    tile=352  minT=64  ... PASS
+[CELL ] r5/direct_psm_xs   radix=5 N=15625   tile=8    minT=1   ... PASS
+[CELL ] r5/direct_psm_xs   radix=5 N=15625   tile=8    minT=8   ... PASS
+[CELL ] r5/direct_psm_xs   radix=5 N=15625   tile=8    minT=64  ... PASS
+[CELL ] r5/direct_psm_xs   radix=5 N=15625   tile=64   minT=1   ... PASS
+[CELL ] r5/direct_psm_xs   radix=5 N=15625   tile=64   minT=8   ... PASS
+[CELL ] r5/direct_psm_xs   radix=5 N=15625   tile=64   minT=64  ... PASS
+[CELL ] r5/direct_psm_xs   radix=5 N=15625   tile=352  minT=1   ... PASS
+[CELL ] r5/direct_psm_xs   radix=5 N=15625   tile=352  minT=8   ... PASS
+[CELL ] r5/direct_psm_xs   radix=5 N=15625   tile=352  minT=64  ... PASS
+[CELL ] r5/sym_ps_xs       radix=5 N=125     tile=8    minT=1   ... PASS
+[CELL ] r5/sym_ps_xs       radix=5 N=125     tile=8    minT=8   ... PASS
+[CELL ] r5/sym_ps_xs       radix=5 N=125     tile=8    minT=64  ... PASS
+[CELL ] r5/sym_ps_xs       radix=5 N=125     tile=64   minT=1   ... PASS
+[CELL ] r5/sym_ps_xs       radix=5 N=125     tile=64   minT=8   ... PASS
+[CELL ] r5/sym_ps_xs       radix=5 N=125     tile=64   minT=64  ... PASS
+[CELL ] r5/sym_ps_xs       radix=5 N=125     tile=352  minT=1   ... PASS
+[CELL ] r5/sym_ps_xs       radix=5 N=125     tile=352  minT=8   ... PASS
+[CELL ] r5/sym_ps_xs       radix=5 N=125     tile=352  minT=64  ... PASS
+[CELL ] r5/sym_ps_xs       radix=5 N=3125    tile=8    minT=1   ... PASS
+[CELL ] r5/sym_ps_xs       radix=5 N=3125    tile=8    minT=8   ... PASS
+[CELL ] r5/sym_ps_xs       radix=5 N=3125    tile=8    minT=64  ... PASS
+[CELL ] r5/sym_ps_xs       radix=5 N=3125    tile=64   minT=1   ... PASS
+[CELL ] r5/sym_ps_xs       radix=5 N=3125    tile=64   minT=8   ... PASS
+[CELL ] r5/sym_ps_xs       radix=5 N=3125    tile=64   minT=64  ... PASS
+[CELL ] r5/sym_ps_xs       radix=5 N=3125    tile=352  minT=1   ... PASS
+[CELL ] r5/sym_ps_xs       radix=5 N=3125    tile=352  minT=8   ... PASS
+[CELL ] r5/sym_ps_xs       radix=5 N=3125    tile=352  minT=64  ... PASS
+[CELL ] r5/sym_ps_xs       radix=5 N=15625   tile=8    minT=1   ... PASS
+[CELL ] r5/sym_ps_xs       radix=5 N=15625   tile=8    minT=8   ... PASS
+[CELL ] r5/sym_ps_xs       radix=5 N=15625   tile=8    minT=64  ... PASS
+[CELL ] r5/sym_ps_xs       radix=5 N=15625   tile=64   minT=1   ... PASS
+[CELL ] r5/sym_ps_xs       radix=5 N=15625   tile=64   minT=8   ... PASS
+[CELL ] r5/sym_ps_xs       radix=5 N=15625   tile=64   minT=64  ... PASS
+[CELL ] r5/sym_ps_xs       radix=5 N=15625   tile=352  minT=1   ... PASS
+[CELL ] r5/sym_ps_xs       radix=5 N=15625   tile=352  minT=8   ... PASS
+[CELL ] r5/sym_ps_xs       radix=5 N=15625   tile=352  minT=64  ... PASS
+[CELL ] r5/sym_psm_xs      radix=5 N=125     tile=8    minT=1   ... PASS
+[CELL ] r5/sym_psm_xs      radix=5 N=125     tile=8    minT=8   ... PASS
+[CELL ] r5/sym_psm_xs      radix=5 N=125     tile=8    minT=64  ... PASS
+[CELL ] r5/sym_psm_xs      radix=5 N=125     tile=64   minT=1   ... PASS
+[CELL ] r5/sym_psm_xs      radix=5 N=125     tile=64   minT=8   ... PASS
+[CELL ] r5/sym_psm_xs      radix=5 N=125     tile=64   minT=64  ... PASS
+[CELL ] r5/sym_psm_xs      radix=5 N=125     tile=352  minT=1   ... PASS
+[CELL ] r5/sym_psm_xs      radix=5 N=125     tile=352  minT=8   ... PASS
+[CELL ] r5/sym_psm_xs      radix=5 N=125     tile=352  minT=64  ... PASS
+[CELL ] r5/sym_psm_xs      radix=5 N=3125    tile=8    minT=1   ... PASS
+[CELL ] r5/sym_psm_xs      radix=5 N=3125    tile=8    minT=8   ... PASS
+[CELL ] r5/sym_psm_xs      radix=5 N=3125    tile=8    minT=64  ... PASS
+[CELL ] r5/sym_psm_xs      radix=5 N=3125    tile=64   minT=1   ... PASS
+[CELL ] r5/sym_psm_xs      radix=5 N=3125    tile=64   minT=8   ... PASS
+[CELL ] r5/sym_psm_xs      radix=5 N=3125    tile=64   minT=64  ... PASS
+[CELL ] r5/sym_psm_xs      radix=5 N=3125    tile=352  minT=1   ... PASS
+[CELL ] r5/sym_psm_xs      radix=5 N=3125    tile=352  minT=8   ... PASS
+[CELL ] r5/sym_psm_xs      radix=5 N=3125    tile=352  minT=64  ... PASS
+[CELL ] r5/sym_psm_xs      radix=5 N=15625   tile=8    minT=1   ... PASS
+[CELL ] r5/sym_psm_xs      radix=5 N=15625   tile=8    minT=8   ... PASS
+[CELL ] r5/sym_psm_xs      radix=5 N=15625   tile=8    minT=64  ... PASS
+[CELL ] r5/sym_psm_xs      radix=5 N=15625   tile=64   minT=1   ... PASS
+[CELL ] r5/sym_psm_xs      radix=5 N=15625   tile=64   minT=8   ... PASS
+[CELL ] r5/sym_psm_xs      radix=5 N=15625   tile=64   minT=64  ... PASS
+[CELL ] r5/sym_psm_xs      radix=5 N=15625   tile=352  minT=1   ... PASS
+[CELL ] r5/sym_psm_xs      radix=5 N=15625   tile=352  minT=8   ... PASS
+[CELL ] r5/sym_psm_xs      radix=5 N=15625   tile=352  minT=64  ... PASS
+[CELL ] r5/winograd_ps_xs  radix=5 N=125     tile=8    minT=1   ... PASS
+[CELL ] r5/winograd_ps_xs  radix=5 N=125     tile=8    minT=8   ... PASS
+[CELL ] r5/winograd_ps_xs  radix=5 N=125     tile=8    minT=64  ... PASS
+[CELL ] r5/winograd_ps_xs  radix=5 N=125     tile=64   minT=1   ... PASS
+[CELL ] r5/winograd_ps_xs  radix=5 N=125     tile=64   minT=8   ... PASS
+[CELL ] r5/winograd_ps_xs  radix=5 N=125     tile=64   minT=64  ... PASS
+[CELL ] r5/winograd_ps_xs  radix=5 N=125     tile=352  minT=1   ... PASS
+[CELL ] r5/winograd_ps_xs  radix=5 N=125     tile=352  minT=8   ... PASS
+[CELL ] r5/winograd_ps_xs  radix=5 N=125     tile=352  minT=64  ... PASS
+[CELL ] r5/winograd_ps_xs  radix=5 N=3125    tile=8    minT=1   ... PASS
+[CELL ] r5/winograd_ps_xs  radix=5 N=3125    tile=8    minT=8   ... PASS
+[CELL ] r5/winograd_ps_xs  radix=5 N=3125    tile=8    minT=64  ... PASS
+[CELL ] r5/winograd_ps_xs  radix=5 N=3125    tile=64   minT=1   ... PASS
+[CELL ] r5/winograd_ps_xs  radix=5 N=3125    tile=64   minT=8   ... PASS
+[CELL ] r5/winograd_ps_xs  radix=5 N=3125    tile=64   minT=64  ... PASS
+[CELL ] r5/winograd_ps_xs  radix=5 N=3125    tile=352  minT=1   ... PASS
+[CELL ] r5/winograd_ps_xs  radix=5 N=3125    tile=352  minT=8   ... PASS
+[CELL ] r5/winograd_ps_xs  radix=5 N=3125    tile=352  minT=64  ... PASS
+[CELL ] r5/winograd_ps_xs  radix=5 N=15625   tile=8    minT=1   ... PASS
+[CELL ] r5/winograd_ps_xs  radix=5 N=15625   tile=8    minT=8   ... PASS
+[CELL ] r5/winograd_ps_xs  radix=5 N=15625   tile=8    minT=64  ... PASS
+[CELL ] r5/winograd_ps_xs  radix=5 N=15625   tile=64   minT=1   ... PASS
+[CELL ] r5/winograd_ps_xs  radix=5 N=15625   tile=64   minT=8   ... PASS
+[CELL ] r5/winograd_ps_xs  radix=5 N=15625   tile=64   minT=64  ... PASS
+[CELL ] r5/winograd_ps_xs  radix=5 N=15625   tile=352  minT=1   ... PASS
+[CELL ] r5/winograd_ps_xs  radix=5 N=15625   tile=352  minT=8   ... PASS
+[CELL ] r5/winograd_ps_xs  radix=5 N=15625   tile=352  minT=64  ... PASS
+[CELL ] r5/winograd_psm_xs radix=5 N=125     tile=8    minT=1   ... PASS
+[CELL ] r5/winograd_psm_xs radix=5 N=125     tile=8    minT=8   ... PASS
+[CELL ] r5/winograd_psm_xs radix=5 N=125     tile=8    minT=64  ... PASS
+[CELL ] r5/winograd_psm_xs radix=5 N=125     tile=64   minT=1   ... PASS
+[CELL ] r5/winograd_psm_xs radix=5 N=125     tile=64   minT=8   ... PASS
+[CELL ] r5/winograd_psm_xs radix=5 N=125     tile=64   minT=64  ... PASS
+[CELL ] r5/winograd_psm_xs radix=5 N=125     tile=352  minT=1   ... PASS
+[CELL ] r5/winograd_psm_xs radix=5 N=125     tile=352  minT=8   ... PASS
+[CELL ] r5/winograd_psm_xs radix=5 N=125     tile=352  minT=64  ... PASS
+[CELL ] r5/winograd_psm_xs radix=5 N=3125    tile=8    minT=1   ... PASS
+[CELL ] r5/winograd_psm_xs radix=5 N=3125    tile=8    minT=8   ... PASS
+[CELL ] r5/winograd_psm_xs radix=5 N=3125    tile=8    minT=64  ... PASS
+[CELL ] r5/winograd_psm_xs radix=5 N=3125    tile=64   minT=1   ... PASS
+[CELL ] r5/winograd_psm_xs radix=5 N=3125    tile=64   minT=8   ... PASS
+[CELL ] r5/winograd_psm_xs radix=5 N=3125    tile=64   minT=64  ... PASS
+[CELL ] r5/winograd_psm_xs radix=5 N=3125    tile=352  minT=1   ... PASS
+[CELL ] r5/winograd_psm_xs radix=5 N=3125    tile=352  minT=8   ... PASS
+[CELL ] r5/winograd_psm_xs radix=5 N=3125    tile=352  minT=64  ... PASS
+[CELL ] r5/winograd_psm_xs radix=5 N=15625   tile=8    minT=1   ... PASS
+[CELL ] r5/winograd_psm_xs radix=5 N=15625   tile=8    minT=8   ... PASS
+[CELL ] r5/winograd_psm_xs radix=5 N=15625   tile=8    minT=64  ... PASS
+[CELL ] r5/winograd_psm_xs radix=5 N=15625   tile=64   minT=1   ... PASS
+[CELL ] r5/winograd_psm_xs radix=5 N=15625   tile=64   minT=8   ... PASS
+[CELL ] r5/winograd_psm_xs radix=5 N=15625   tile=64   minT=64  ... PASS
+[CELL ] r5/winograd_psm_xs radix=5 N=15625   tile=352  minT=1   ... PASS
+[CELL ] r5/winograd_psm_xs radix=5 N=15625   tile=352  minT=8   ... PASS
+[CELL ] r5/winograd_psm_xs radix=5 N=15625   tile=352  minT=64  ... PASS
+[CELL ] r5/rader_ps_xs     radix=5 N=125     tile=8    minT=1   ... PASS
+[CELL ] r5/rader_ps_xs     radix=5 N=125     tile=8    minT=8   ... PASS
+[CELL ] r5/rader_ps_xs     radix=5 N=125     tile=8    minT=64  ... PASS
+[CELL ] r5/rader_ps_xs     radix=5 N=125     tile=64   minT=1   ... PASS
+[CELL ] r5/rader_ps_xs     radix=5 N=125     tile=64   minT=8   ... PASS
+[CELL ] r5/rader_ps_xs     radix=5 N=125     tile=64   minT=64  ... PASS
+[CELL ] r5/rader_ps_xs     radix=5 N=125     tile=352  minT=1   ... PASS
+[CELL ] r5/rader_ps_xs     radix=5 N=125     tile=352  minT=8   ... PASS
+[CELL ] r5/rader_ps_xs     radix=5 N=125     tile=352  minT=64  ... PASS
+[CELL ] r5/rader_ps_xs     radix=5 N=3125    tile=8    minT=1   ... PASS
+[CELL ] r5/rader_ps_xs     radix=5 N=3125    tile=8    minT=8   ... PASS
+[CELL ] r5/rader_ps_xs     radix=5 N=3125    tile=8    minT=64  ... PASS
+[CELL ] r5/rader_ps_xs     radix=5 N=3125    tile=64   minT=1   ... PASS
+[CELL ] r5/rader_ps_xs     radix=5 N=3125    tile=64   minT=8   ... PASS
+[CELL ] r5/rader_ps_xs     radix=5 N=3125    tile=64   minT=64  ... PASS
+[CELL ] r5/rader_ps_xs     radix=5 N=3125    tile=352  minT=1   ... PASS
+[CELL ] r5/rader_ps_xs     radix=5 N=3125    tile=352  minT=8   ... PASS
+[CELL ] r5/rader_ps_xs     radix=5 N=3125    tile=352  minT=64  ... PASS
+[CELL ] r5/rader_ps_xs     radix=5 N=15625   tile=8    minT=1   ... PASS
+[CELL ] r5/rader_ps_xs     radix=5 N=15625   tile=8    minT=8   ... PASS
+[CELL ] r5/rader_ps_xs     radix=5 N=15625   tile=8    minT=64  ... PASS
+[CELL ] r5/rader_ps_xs     radix=5 N=15625   tile=64   minT=1   ... PASS
+[CELL ] r5/rader_ps_xs     radix=5 N=15625   tile=64   minT=8   ... PASS
+[CELL ] r5/rader_ps_xs     radix=5 N=15625   tile=64   minT=64  ... PASS
+[CELL ] r5/rader_ps_xs     radix=5 N=15625   tile=352  minT=1   ... PASS
+[CELL ] r5/rader_ps_xs     radix=5 N=15625   tile=352  minT=8   ... PASS
+[CELL ] r5/rader_ps_xs     radix=5 N=15625   tile=352  minT=64  ... PASS
+[CELL ] r5/rader_psm_xs    radix=5 N=125     tile=8    minT=1   ... PASS
+[CELL ] r5/rader_psm_xs    radix=5 N=125     tile=8    minT=8   ... PASS
+[CELL ] r5/rader_psm_xs    radix=5 N=125     tile=8    minT=64  ... PASS
+[CELL ] r5/rader_psm_xs    radix=5 N=125     tile=64   minT=1   ... PASS
+[CELL ] r5/rader_psm_xs    radix=5 N=125     tile=64   minT=8   ... PASS
+[CELL ] r5/rader_psm_xs    radix=5 N=125     tile=64   minT=64  ... PASS
+[CELL ] r5/rader_psm_xs    radix=5 N=125     tile=352  minT=1   ... PASS
+[CELL ] r5/rader_psm_xs    radix=5 N=125     tile=352  minT=8   ... PASS
+[CELL ] r5/rader_psm_xs    radix=5 N=125     tile=352  minT=64  ... PASS
+[CELL ] r5/rader_psm_xs    radix=5 N=3125    tile=8    minT=1   ... PASS
+[CELL ] r5/rader_psm_xs    radix=5 N=3125    tile=8    minT=8   ... PASS
+[CELL ] r5/rader_psm_xs    radix=5 N=3125    tile=8    minT=64  ... PASS
+[CELL ] r5/rader_psm_xs    radix=5 N=3125    tile=64   minT=1   ... PASS
+[CELL ] r5/rader_psm_xs    radix=5 N=3125    tile=64   minT=8   ... PASS
+[CELL ] r5/rader_psm_xs    radix=5 N=3125    tile=64   minT=64  ... PASS
+[CELL ] r5/rader_psm_xs    radix=5 N=3125    tile=352  minT=1   ... PASS
+[CELL ] r5/rader_psm_xs    radix=5 N=3125    tile=352  minT=8   ... PASS
+[CELL ] r5/rader_psm_xs    radix=5 N=3125    tile=352  minT=64  ... PASS
+[CELL ] r5/rader_psm_xs    radix=5 N=15625   tile=8    minT=1   ... PASS
+[CELL ] r5/rader_psm_xs    radix=5 N=15625   tile=8    minT=8   ... PASS
+[CELL ] r5/rader_psm_xs    radix=5 N=15625   tile=8    minT=64  ... PASS
+[CELL ] r5/rader_psm_xs    radix=5 N=15625   tile=64   minT=1   ... PASS
+[CELL ] r5/rader_psm_xs    radix=5 N=15625   tile=64   minT=8   ... PASS
+[CELL ] r5/rader_psm_xs    radix=5 N=15625   tile=64   minT=64  ... PASS
+[CELL ] r5/rader_psm_xs    radix=5 N=15625   tile=352  minT=1   ... PASS
+[CELL ] r5/rader_psm_xs    radix=5 N=15625   tile=352  minT=8   ... PASS
+[CELL ] r5/rader_psm_xs    radix=5 N=15625   tile=352  minT=64  ... PASS
+[CELL ] r7/direct_ps_xs    radix=7 N=343     tile=8    minT=1   ... PASS
+[CELL ] r7/direct_ps_xs    radix=7 N=343     tile=8    minT=8   ... PASS
+[CELL ] r7/direct_ps_xs    radix=7 N=343     tile=8    minT=64  ... PASS
+[CELL ] r7/direct_ps_xs    radix=7 N=343     tile=64   minT=1   ... PASS
+[CELL ] r7/direct_ps_xs    radix=7 N=343     tile=64   minT=8   ... PASS
+[CELL ] r7/direct_ps_xs    radix=7 N=343     tile=64   minT=64  ... PASS
+[CELL ] r7/direct_ps_xs    radix=7 N=343     tile=352  minT=1   ... PASS
+[CELL ] r7/direct_ps_xs    radix=7 N=343     tile=352  minT=8   ... PASS
+[CELL ] r7/direct_ps_xs    radix=7 N=343     tile=352  minT=64  ... PASS
+[CELL ] r7/direct_ps_xs    radix=7 N=2401    tile=8    minT=1   ... PASS
+[CELL ] r7/direct_ps_xs    radix=7 N=2401    tile=8    minT=8   ... PASS
+[CELL ] r7/direct_ps_xs    radix=7 N=2401    tile=8    minT=64  ... PASS
+[CELL ] r7/direct_ps_xs    radix=7 N=2401    tile=64   minT=1   ... PASS
+[CELL ] r7/direct_ps_xs    radix=7 N=2401    tile=64   minT=8   ... PASS
+[CELL ] r7/direct_ps_xs    radix=7 N=2401    tile=64   minT=64  ... PASS
+[CELL ] r7/direct_ps_xs    radix=7 N=2401    tile=352  minT=1   ... PASS
+[CELL ] r7/direct_ps_xs    radix=7 N=2401    tile=352  minT=8   ... PASS
+[CELL ] r7/direct_ps_xs    radix=7 N=2401    tile=352  minT=64  ... PASS
+[CELL ] r7/direct_ps_xs    radix=7 N=16807   tile=8    minT=1   ... PASS
+[CELL ] r7/direct_ps_xs    radix=7 N=16807   tile=8    minT=8   ... PASS
+[CELL ] r7/direct_ps_xs    radix=7 N=16807   tile=8    minT=64  ... PASS
+[CELL ] r7/direct_ps_xs    radix=7 N=16807   tile=64   minT=1   ... PASS
+[CELL ] r7/direct_ps_xs    radix=7 N=16807   tile=64   minT=8   ... PASS
+[CELL ] r7/direct_ps_xs    radix=7 N=16807   tile=64   minT=64  ... PASS
+[CELL ] r7/direct_ps_xs    radix=7 N=16807   tile=352  minT=1   ... PASS
+[CELL ] r7/direct_ps_xs    radix=7 N=16807   tile=352  minT=8   ... PASS
+[CELL ] r7/direct_ps_xs    radix=7 N=16807   tile=352  minT=64  ... PASS
+[CELL ] r7/direct_psm_xs   radix=7 N=343     tile=8    minT=1   ... PASS
+[CELL ] r7/direct_psm_xs   radix=7 N=343     tile=8    minT=8   ... PASS
+[CELL ] r7/direct_psm_xs   radix=7 N=343     tile=8    minT=64  ... PASS
+[CELL ] r7/direct_psm_xs   radix=7 N=343     tile=64   minT=1   ... PASS
+[CELL ] r7/direct_psm_xs   radix=7 N=343     tile=64   minT=8   ... PASS
+[CELL ] r7/direct_psm_xs   radix=7 N=343     tile=64   minT=64  ... PASS
+[CELL ] r7/direct_psm_xs   radix=7 N=343     tile=352  minT=1   ... PASS
+[CELL ] r7/direct_psm_xs   radix=7 N=343     tile=352  minT=8   ... PASS
+[CELL ] r7/direct_psm_xs   radix=7 N=343     tile=352  minT=64  ... PASS
+[CELL ] r7/direct_psm_xs   radix=7 N=2401    tile=8    minT=1   ... PASS
+[CELL ] r7/direct_psm_xs   radix=7 N=2401    tile=8    minT=8   ... PASS
+[CELL ] r7/direct_psm_xs   radix=7 N=2401    tile=8    minT=64  ... PASS
+[CELL ] r7/direct_psm_xs   radix=7 N=2401    tile=64   minT=1   ... PASS
+[CELL ] r7/direct_psm_xs   radix=7 N=2401    tile=64   minT=8   ... PASS
+[CELL ] r7/direct_psm_xs   radix=7 N=2401    tile=64   minT=64  ... PASS
+[CELL ] r7/direct_psm_xs   radix=7 N=2401    tile=352  minT=1   ... PASS
+[CELL ] r7/direct_psm_xs   radix=7 N=2401    tile=352  minT=8   ... PASS
+[CELL ] r7/direct_psm_xs   radix=7 N=2401    tile=352  minT=64  ... PASS
+[CELL ] r7/direct_psm_xs   radix=7 N=16807   tile=8    minT=1   ... PASS
+[CELL ] r7/direct_psm_xs   radix=7 N=16807   tile=8    minT=8   ... PASS
+[CELL ] r7/direct_psm_xs   radix=7 N=16807   tile=8    minT=64  ... PASS
+[CELL ] r7/direct_psm_xs   radix=7 N=16807   tile=64   minT=1   ... PASS
+[CELL ] r7/direct_psm_xs   radix=7 N=16807   tile=64   minT=8   ... PASS
+[CELL ] r7/direct_psm_xs   radix=7 N=16807   tile=64   minT=64  ... PASS
+[CELL ] r7/direct_psm_xs   radix=7 N=16807   tile=352  minT=1   ... PASS
+[CELL ] r7/direct_psm_xs   radix=7 N=16807   tile=352  minT=8   ... PASS
+[CELL ] r7/direct_psm_xs   radix=7 N=16807   tile=352  minT=64  ... PASS
+[CELL ] r7/sym_ps_xs       radix=7 N=343     tile=8    minT=1   ... PASS
+[CELL ] r7/sym_ps_xs       radix=7 N=343     tile=8    minT=8   ... PASS
+[CELL ] r7/sym_ps_xs       radix=7 N=343     tile=8    minT=64  ... PASS
+[CELL ] r7/sym_ps_xs       radix=7 N=343     tile=64   minT=1   ... PASS
+[CELL ] r7/sym_ps_xs       radix=7 N=343     tile=64   minT=8   ... PASS
+[CELL ] r7/sym_ps_xs       radix=7 N=343     tile=64   minT=64  ... PASS
+[CELL ] r7/sym_ps_xs       radix=7 N=343     tile=352  minT=1   ... PASS
+[CELL ] r7/sym_ps_xs       radix=7 N=343     tile=352  minT=8   ... PASS
+[CELL ] r7/sym_ps_xs       radix=7 N=343     tile=352  minT=64  ... PASS
+[CELL ] r7/sym_ps_xs       radix=7 N=2401    tile=8    minT=1   ... PASS
+[CELL ] r7/sym_ps_xs       radix=7 N=2401    tile=8    minT=8   ... PASS
+[CELL ] r7/sym_ps_xs       radix=7 N=2401    tile=8    minT=64  ... PASS
+[CELL ] r7/sym_ps_xs       radix=7 N=2401    tile=64   minT=1   ... PASS
+[CELL ] r7/sym_ps_xs       radix=7 N=2401    tile=64   minT=8   ... PASS
+[CELL ] r7/sym_ps_xs       radix=7 N=2401    tile=64   minT=64  ... PASS
+[CELL ] r7/sym_ps_xs       radix=7 N=2401    tile=352  minT=1   ... PASS
+[CELL ] r7/sym_ps_xs       radix=7 N=2401    tile=352  minT=8   ... PASS
+[CELL ] r7/sym_ps_xs       radix=7 N=2401    tile=352  minT=64  ... PASS
+[CELL ] r7/sym_ps_xs       radix=7 N=16807   tile=8    minT=1   ... PASS
+[CELL ] r7/sym_ps_xs       radix=7 N=16807   tile=8    minT=8   ... PASS
+[CELL ] r7/sym_ps_xs       radix=7 N=16807   tile=8    minT=64  ... PASS
+[CELL ] r7/sym_ps_xs       radix=7 N=16807   tile=64   minT=1   ... PASS
+[CELL ] r7/sym_ps_xs       radix=7 N=16807   tile=64   minT=8   ... PASS
+[CELL ] r7/sym_ps_xs       radix=7 N=16807   tile=64   minT=64  ... PASS
+[CELL ] r7/sym_ps_xs       radix=7 N=16807   tile=352  minT=1   ... PASS
+[CELL ] r7/sym_ps_xs       radix=7 N=16807   tile=352  minT=8   ... PASS
+[CELL ] r7/sym_ps_xs       radix=7 N=16807   tile=352  minT=64  ... PASS
+[CELL ] r7/sym_psm_xs      radix=7 N=343     tile=8    minT=1   ... PASS
+[CELL ] r7/sym_psm_xs      radix=7 N=343     tile=8    minT=8   ... PASS
+[CELL ] r7/sym_psm_xs      radix=7 N=343     tile=8    minT=64  ... PASS
+[CELL ] r7/sym_psm_xs      radix=7 N=343     tile=64   minT=1   ... PASS
+[CELL ] r7/sym_psm_xs      radix=7 N=343     tile=64   minT=8   ... PASS
+[CELL ] r7/sym_psm_xs      radix=7 N=343     tile=64   minT=64  ... PASS
+[CELL ] r7/sym_psm_xs      radix=7 N=343     tile=352  minT=1   ... PASS
+[CELL ] r7/sym_psm_xs      radix=7 N=343     tile=352  minT=8   ... PASS
+[CELL ] r7/sym_psm_xs      radix=7 N=343     tile=352  minT=64  ... PASS
+[CELL ] r7/sym_psm_xs      radix=7 N=2401    tile=8    minT=1   ... PASS
+[CELL ] r7/sym_psm_xs      radix=7 N=2401    tile=8    minT=8   ... PASS
+[CELL ] r7/sym_psm_xs      radix=7 N=2401    tile=8    minT=64  ... PASS
+[CELL ] r7/sym_psm_xs      radix=7 N=2401    tile=64   minT=1   ... PASS
+[CELL ] r7/sym_psm_xs      radix=7 N=2401    tile=64   minT=8   ... PASS
+[CELL ] r7/sym_psm_xs      radix=7 N=2401    tile=64   minT=64  ... PASS
+[CELL ] r7/sym_psm_xs      radix=7 N=2401    tile=352  minT=1   ... PASS
+[CELL ] r7/sym_psm_xs      radix=7 N=2401    tile=352  minT=8   ... PASS
+[CELL ] r7/sym_psm_xs      radix=7 N=2401    tile=352  minT=64  ... PASS
+[CELL ] r7/sym_psm_xs      radix=7 N=16807   tile=8    minT=1   ... PASS
+[CELL ] r7/sym_psm_xs      radix=7 N=16807   tile=8    minT=8   ... PASS
+[CELL ] r7/sym_psm_xs      radix=7 N=16807   tile=8    minT=64  ... PASS
+[CELL ] r7/sym_psm_xs      radix=7 N=16807   tile=64   minT=1   ... PASS
+[CELL ] r7/sym_psm_xs      radix=7 N=16807   tile=64   minT=8   ... PASS
+[CELL ] r7/sym_psm_xs      radix=7 N=16807   tile=64   minT=64  ... PASS
+[CELL ] r7/sym_psm_xs      radix=7 N=16807   tile=352  minT=1   ... PASS
+[CELL ] r7/sym_psm_xs      radix=7 N=16807   tile=352  minT=8   ... PASS
+[CELL ] r7/sym_psm_xs      radix=7 N=16807   tile=352  minT=64  ... PASS
+[CELL ] r7/winograd_ps_xs  radix=7 N=343     tile=8    minT=1   ... PASS
+[CELL ] r7/winograd_ps_xs  radix=7 N=343     tile=8    minT=8   ... PASS
+[CELL ] r7/winograd_ps_xs  radix=7 N=343     tile=8    minT=64  ... PASS
+[CELL ] r7/winograd_ps_xs  radix=7 N=343     tile=64   minT=1   ... PASS
+[CELL ] r7/winograd_ps_xs  radix=7 N=343     tile=64   minT=8   ... PASS
+[CELL ] r7/winograd_ps_xs  radix=7 N=343     tile=64   minT=64  ... PASS
+[CELL ] r7/winograd_ps_xs  radix=7 N=343     tile=352  minT=1   ... PASS
+[CELL ] r7/winograd_ps_xs  radix=7 N=343     tile=352  minT=8   ... PASS
+[CELL ] r7/winograd_ps_xs  radix=7 N=343     tile=352  minT=64  ... PASS
+[CELL ] r7/winograd_ps_xs  radix=7 N=2401    tile=8    minT=1   ... PASS
+[CELL ] r7/winograd_ps_xs  radix=7 N=2401    tile=8    minT=8   ... PASS
+[CELL ] r7/winograd_ps_xs  radix=7 N=2401    tile=8    minT=64  ... PASS
+[CELL ] r7/winograd_ps_xs  radix=7 N=2401    tile=64   minT=1   ... PASS
+[CELL ] r7/winograd_ps_xs  radix=7 N=2401    tile=64   minT=8   ... PASS
+[CELL ] r7/winograd_ps_xs  radix=7 N=2401    tile=64   minT=64  ... PASS
+[CELL ] r7/winograd_ps_xs  radix=7 N=2401    tile=352  minT=1   ... PASS
+[CELL ] r7/winograd_ps_xs  radix=7 N=2401    tile=352  minT=8   ... PASS
+[CELL ] r7/winograd_ps_xs  radix=7 N=2401    tile=352  minT=64  ... PASS
+[CELL ] r7/winograd_ps_xs  radix=7 N=16807   tile=8    minT=1   ... PASS
+[CELL ] r7/winograd_ps_xs  radix=7 N=16807   tile=8    minT=8   ... PASS
+[CELL ] r7/winograd_ps_xs  radix=7 N=16807   tile=8    minT=64  ... PASS
+[CELL ] r7/winograd_ps_xs  radix=7 N=16807   tile=64   minT=1   ... PASS
+[CELL ] r7/winograd_ps_xs  radix=7 N=16807   tile=64   minT=8   ... PASS
+[CELL ] r7/winograd_ps_xs  radix=7 N=16807   tile=64   minT=64  ... PASS
+[CELL ] r7/winograd_ps_xs  radix=7 N=16807   tile=352  minT=1   ... PASS
+[CELL ] r7/winograd_ps_xs  radix=7 N=16807   tile=352  minT=8   ... PASS
+[CELL ] r7/winograd_ps_xs  radix=7 N=16807   tile=352  minT=64  ... PASS
+[CELL ] r7/winograd_psm_xs radix=7 N=343     tile=8    minT=1   ... PASS
+[CELL ] r7/winograd_psm_xs radix=7 N=343     tile=8    minT=8   ... PASS
+[CELL ] r7/winograd_psm_xs radix=7 N=343     tile=8    minT=64  ... PASS
+[CELL ] r7/winograd_psm_xs radix=7 N=343     tile=64   minT=1   ... PASS
+[CELL ] r7/winograd_psm_xs radix=7 N=343     tile=64   minT=8   ... PASS
+[CELL ] r7/winograd_psm_xs radix=7 N=343     tile=64   minT=64  ... PASS
+[CELL ] r7/winograd_psm_xs radix=7 N=343     tile=352  minT=1   ... PASS
+[CELL ] r7/winograd_psm_xs radix=7 N=343     tile=352  minT=8   ... PASS
+[CELL ] r7/winograd_psm_xs radix=7 N=343     tile=352  minT=64  ... PASS
+[CELL ] r7/winograd_psm_xs radix=7 N=2401    tile=8    minT=1   ... PASS
+[CELL ] r7/winograd_psm_xs radix=7 N=2401    tile=8    minT=8   ... PASS
+[CELL ] r7/winograd_psm_xs radix=7 N=2401    tile=8    minT=64  ... PASS
+[CELL ] r7/winograd_psm_xs radix=7 N=2401    tile=64   minT=1   ... PASS
+[CELL ] r7/winograd_psm_xs radix=7 N=2401    tile=64   minT=8   ... PASS
+[CELL ] r7/winograd_psm_xs radix=7 N=2401    tile=64   minT=64  ... PASS
+[CELL ] r7/winograd_psm_xs radix=7 N=2401    tile=352  minT=1   ... PASS
+[CELL ] r7/winograd_psm_xs radix=7 N=2401    tile=352  minT=8   ... PASS
+[CELL ] r7/winograd_psm_xs radix=7 N=2401    tile=352  minT=64  ... PASS
+[CELL ] r7/winograd_psm_xs radix=7 N=16807   tile=8    minT=1   ... PASS
+[CELL ] r7/winograd_psm_xs radix=7 N=16807   tile=8    minT=8   ... PASS
+[CELL ] r7/winograd_psm_xs radix=7 N=16807   tile=8    minT=64  ... PASS
+[CELL ] r7/winograd_psm_xs radix=7 N=16807   tile=64   minT=1   ... PASS
+[CELL ] r7/winograd_psm_xs radix=7 N=16807   tile=64   minT=8   ... PASS
+[CELL ] r7/winograd_psm_xs radix=7 N=16807   tile=64   minT=64  ... PASS
+[CELL ] r7/winograd_psm_xs radix=7 N=16807   tile=352  minT=1   ... PASS
+[CELL ] r7/winograd_psm_xs radix=7 N=16807   tile=352  minT=8   ... PASS
+[CELL ] r7/winograd_psm_xs radix=7 N=16807   tile=352  minT=64  ... PASS
+[CELL ] r7/rader_ps_xs     radix=7 N=343     tile=8    minT=1   ... PASS
+[CELL ] r7/rader_ps_xs     radix=7 N=343     tile=8    minT=8   ... PASS
+[CELL ] r7/rader_ps_xs     radix=7 N=343     tile=8    minT=64  ... PASS
+[CELL ] r7/rader_ps_xs     radix=7 N=343     tile=64   minT=1   ... PASS
+[CELL ] r7/rader_ps_xs     radix=7 N=343     tile=64   minT=8   ... PASS
+[CELL ] r7/rader_ps_xs     radix=7 N=343     tile=64   minT=64  ... PASS
+[CELL ] r7/rader_ps_xs     radix=7 N=343     tile=352  minT=1   ... PASS
+[CELL ] r7/rader_ps_xs     radix=7 N=343     tile=352  minT=8   ... PASS
+[CELL ] r7/rader_ps_xs     radix=7 N=343     tile=352  minT=64  ... PASS
+[CELL ] r7/rader_ps_xs     radix=7 N=2401    tile=8    minT=1   ... PASS
+[CELL ] r7/rader_ps_xs     radix=7 N=2401    tile=8    minT=8   ... PASS
+[CELL ] r7/rader_ps_xs     radix=7 N=2401    tile=8    minT=64  ... PASS
+[CELL ] r7/rader_ps_xs     radix=7 N=2401    tile=64   minT=1   ... PASS
+[CELL ] r7/rader_ps_xs     radix=7 N=2401    tile=64   minT=8   ... PASS
+[CELL ] r7/rader_ps_xs     radix=7 N=2401    tile=64   minT=64  ... PASS
+[CELL ] r7/rader_ps_xs     radix=7 N=2401    tile=352  minT=1   ... PASS
+[CELL ] r7/rader_ps_xs     radix=7 N=2401    tile=352  minT=8   ... PASS
+[CELL ] r7/rader_ps_xs     radix=7 N=2401    tile=352  minT=64  ... PASS
+[CELL ] r7/rader_ps_xs     radix=7 N=16807   tile=8    minT=1   ... PASS
+[CELL ] r7/rader_ps_xs     radix=7 N=16807   tile=8    minT=8   ... PASS
+[CELL ] r7/rader_ps_xs     radix=7 N=16807   tile=8    minT=64  ... PASS
+[CELL ] r7/rader_ps_xs     radix=7 N=16807   tile=64   minT=1   ... PASS
+[CELL ] r7/rader_ps_xs     radix=7 N=16807   tile=64   minT=8   ... PASS
+[CELL ] r7/rader_ps_xs     radix=7 N=16807   tile=64   minT=64  ... PASS
+[CELL ] r7/rader_ps_xs     radix=7 N=16807   tile=352  minT=1   ... PASS
+[CELL ] r7/rader_ps_xs     radix=7 N=16807   tile=352  minT=8   ... PASS
+[CELL ] r7/rader_ps_xs     radix=7 N=16807   tile=352  minT=64  ... PASS
+[CELL ] r7/rader_psm_xs    radix=7 N=343     tile=8    minT=1   ... PASS
+[CELL ] r7/rader_psm_xs    radix=7 N=343     tile=8    minT=8   ... PASS
+[CELL ] r7/rader_psm_xs    radix=7 N=343     tile=8    minT=64  ... PASS
+[CELL ] r7/rader_psm_xs    radix=7 N=343     tile=64   minT=1   ... PASS
+[CELL ] r7/rader_psm_xs    radix=7 N=343     tile=64   minT=8   ... PASS
+[CELL ] r7/rader_psm_xs    radix=7 N=343     tile=64   minT=64  ... PASS
+[CELL ] r7/rader_psm_xs    radix=7 N=343     tile=352  minT=1   ... PASS
+[CELL ] r7/rader_psm_xs    radix=7 N=343     tile=352  minT=8   ... PASS
+[CELL ] r7/rader_psm_xs    radix=7 N=343     tile=352  minT=64  ... PASS
+[CELL ] r7/rader_psm_xs    radix=7 N=2401    tile=8    minT=1   ... PASS
+[CELL ] r7/rader_psm_xs    radix=7 N=2401    tile=8    minT=8   ... PASS
+[CELL ] r7/rader_psm_xs    radix=7 N=2401    tile=8    minT=64  ... PASS
+[CELL ] r7/rader_psm_xs    radix=7 N=2401    tile=64   minT=1   ... PASS
+[CELL ] r7/rader_psm_xs    radix=7 N=2401    tile=64   minT=8   ... PASS
+[CELL ] r7/rader_psm_xs    radix=7 N=2401    tile=64   minT=64  ... PASS
+[CELL ] r7/rader_psm_xs    radix=7 N=2401    tile=352  minT=1   ... PASS
+[CELL ] r7/rader_psm_xs    radix=7 N=2401    tile=352  minT=8   ... PASS
+[CELL ] r7/rader_psm_xs    radix=7 N=2401    tile=352  minT=64  ... PASS
+[CELL ] r7/rader_psm_xs    radix=7 N=16807   tile=8    minT=1   ... PASS
+[CELL ] r7/rader_psm_xs    radix=7 N=16807   tile=8    minT=8   ... PASS
+[CELL ] r7/rader_psm_xs    radix=7 N=16807   tile=8    minT=64  ... PASS
+[CELL ] r7/rader_psm_xs    radix=7 N=16807   tile=64   minT=1   ... PASS
+[CELL ] r7/rader_psm_xs    radix=7 N=16807   tile=64   minT=8   ... PASS
+[CELL ] r7/rader_psm_xs    radix=7 N=16807   tile=64   minT=64  ... PASS
+[CELL ] r7/rader_psm_xs    radix=7 N=16807   tile=352  minT=1   ... PASS
+[CELL ] r7/rader_psm_xs    radix=7 N=16807   tile=352  minT=8   ... PASS
+[CELL ] r7/rader_psm_xs    radix=7 N=16807   tile=352  minT=64  ... PASS
+[CELL ] mix/frank_hi_ps_xs radix=0 N=720     tile=8    minT=1   ... PASS
+[CELL ] mix/frank_hi_ps_xs radix=0 N=720     tile=8    minT=8   ... PASS
+[CELL ] mix/frank_hi_ps_xs radix=0 N=720     tile=8    minT=64  ... PASS
+[CELL ] mix/frank_hi_ps_xs radix=0 N=720     tile=64   minT=1   ... PASS
+[CELL ] mix/frank_hi_ps_xs radix=0 N=720     tile=64   minT=8   ... PASS
+[CELL ] mix/frank_hi_ps_xs radix=0 N=720     tile=64   minT=64  ... PASS
+[CELL ] mix/frank_hi_ps_xs radix=0 N=720     tile=352  minT=1   ... PASS
+[CELL ] mix/frank_hi_ps_xs radix=0 N=720     tile=352  minT=8   ... PASS
+[CELL ] mix/frank_hi_ps_xs radix=0 N=720     tile=352  minT=64  ... PASS
+[CELL ] mix/frank_hi_ps_xs radix=0 N=3600    tile=8    minT=1   ... PASS
+[CELL ] mix/frank_hi_ps_xs radix=0 N=3600    tile=8    minT=8   ... PASS
+[CELL ] mix/frank_hi_ps_xs radix=0 N=3600    tile=8    minT=64  ... PASS
+[CELL ] mix/frank_hi_ps_xs radix=0 N=3600    tile=64   minT=1   ... PASS
+[CELL ] mix/frank_hi_ps_xs radix=0 N=3600    tile=64   minT=8   ... PASS
+[CELL ] mix/frank_hi_ps_xs radix=0 N=3600    tile=64   minT=64  ... PASS
+[CELL ] mix/frank_hi_ps_xs radix=0 N=3600    tile=352  minT=1   ... PASS
+[CELL ] mix/frank_hi_ps_xs radix=0 N=3600    tile=352  minT=8   ... PASS
+[CELL ] mix/frank_hi_ps_xs radix=0 N=3600    tile=352  minT=64  ... PASS
+[CELL ] mix/frank_hi_ps_xs radix=0 N=30240   tile=8    minT=1   ... PASS
+[CELL ] mix/frank_hi_ps_xs radix=0 N=30240   tile=8    minT=8   ... PASS
+[CELL ] mix/frank_hi_ps_xs radix=0 N=30240   tile=8    minT=64  ... PASS
+[CELL ] mix/frank_hi_ps_xs radix=0 N=30240   tile=64   minT=1   ... PASS
+[CELL ] mix/frank_hi_ps_xs radix=0 N=30240   tile=64   minT=8   ... PASS
+[CELL ] mix/frank_hi_ps_xs radix=0 N=30240   tile=64   minT=64  ... PASS
+[CELL ] mix/frank_hi_ps_xs radix=0 N=30240   tile=352  minT=1   ... PASS
+[CELL ] mix/frank_hi_ps_xs radix=0 N=30240   tile=352  minT=8   ... PASS
+[CELL ] mix/frank_hi_ps_xs radix=0 N=30240   tile=352  minT=64  ... PASS
+[CELL ] mix/frank_hi_ps_xs radix=0 N=100800  tile=8    minT=1   ... PASS
+[CELL ] mix/frank_hi_ps_xs radix=0 N=100800  tile=8    minT=8   ... PASS
+[CELL ] mix/frank_hi_ps_xs radix=0 N=100800  tile=8    minT=64  ... PASS
+[CELL ] mix/frank_hi_ps_xs radix=0 N=100800  tile=64   minT=1   ... PASS
+[CELL ] mix/frank_hi_ps_xs radix=0 N=100800  tile=64   minT=8   ... PASS
+[CELL ] mix/frank_hi_ps_xs radix=0 N=100800  tile=64   minT=64  ... PASS
+[CELL ] mix/frank_hi_ps_xs radix=0 N=100800  tile=352  minT=1   ... PASS
+[CELL ] mix/frank_hi_ps_xs radix=0 N=100800  tile=352  minT=8   ... PASS
+[CELL ] mix/frank_hi_ps_xs radix=0 N=100800  tile=352  minT=64  ... PASS
+[CELL ] mix/frank_hi_psm_xs radix=0 N=720     tile=8    minT=1   ... PASS
+[CELL ] mix/frank_hi_psm_xs radix=0 N=720     tile=8    minT=8   ... PASS
+[CELL ] mix/frank_hi_psm_xs radix=0 N=720     tile=8    minT=64  ... PASS
+[CELL ] mix/frank_hi_psm_xs radix=0 N=720     tile=64   minT=1   ... PASS
+[CELL ] mix/frank_hi_psm_xs radix=0 N=720     tile=64   minT=8   ... PASS
+[CELL ] mix/frank_hi_psm_xs radix=0 N=720     tile=64   minT=64  ... PASS
+[CELL ] mix/frank_hi_psm_xs radix=0 N=720     tile=352  minT=1   ... PASS
+[CELL ] mix/frank_hi_psm_xs radix=0 N=720     tile=352  minT=8   ... PASS
+[CELL ] mix/frank_hi_psm_xs radix=0 N=720     tile=352  minT=64  ... PASS
+[CELL ] mix/frank_hi_psm_xs radix=0 N=3600    tile=8    minT=1   ... PASS
+[CELL ] mix/frank_hi_psm_xs radix=0 N=3600    tile=8    minT=8   ... PASS
+[CELL ] mix/frank_hi_psm_xs radix=0 N=3600    tile=8    minT=64  ... PASS
+[CELL ] mix/frank_hi_psm_xs radix=0 N=3600    tile=64   minT=1   ... PASS
+[CELL ] mix/frank_hi_psm_xs radix=0 N=3600    tile=64   minT=8   ... PASS
+[CELL ] mix/frank_hi_psm_xs radix=0 N=3600    tile=64   minT=64  ... PASS
+[CELL ] mix/frank_hi_psm_xs radix=0 N=3600    tile=352  minT=1   ... PASS
+[CELL ] mix/frank_hi_psm_xs radix=0 N=3600    tile=352  minT=8   ... PASS
+[CELL ] mix/frank_hi_psm_xs radix=0 N=3600    tile=352  minT=64  ... PASS
+[CELL ] mix/frank_hi_psm_xs radix=0 N=30240   tile=8    minT=1   ... PASS
+[CELL ] mix/frank_hi_psm_xs radix=0 N=30240   tile=8    minT=8   ... PASS
+[CELL ] mix/frank_hi_psm_xs radix=0 N=30240   tile=8    minT=64  ... PASS
+[CELL ] mix/frank_hi_psm_xs radix=0 N=30240   tile=64   minT=1   ... PASS
+[CELL ] mix/frank_hi_psm_xs radix=0 N=30240   tile=64   minT=8   ... PASS
+[CELL ] mix/frank_hi_psm_xs radix=0 N=30240   tile=64   minT=64  ... PASS
+[CELL ] mix/frank_hi_psm_xs radix=0 N=30240   tile=352  minT=1   ... PASS
+[CELL ] mix/frank_hi_psm_xs radix=0 N=30240   tile=352  minT=8   ... PASS
+[CELL ] mix/frank_hi_psm_xs radix=0 N=30240   tile=352  minT=64  ... PASS
+[CELL ] mix/frank_hi_psm_xs radix=0 N=100800  tile=8    minT=1   ... PASS
+[CELL ] mix/frank_hi_psm_xs radix=0 N=100800  tile=8    minT=8   ... PASS
+[CELL ] mix/frank_hi_psm_xs radix=0 N=100800  tile=8    minT=64  ... PASS
+[CELL ] mix/frank_hi_psm_xs radix=0 N=100800  tile=64   minT=1   ... PASS
+[CELL ] mix/frank_hi_psm_xs radix=0 N=100800  tile=64   minT=8   ... PASS
+[CELL ] mix/frank_hi_psm_xs radix=0 N=100800  tile=64   minT=64  ... PASS
+[CELL ] mix/frank_hi_psm_xs radix=0 N=100800  tile=352  minT=1   ... PASS
+[CELL ] mix/frank_hi_psm_xs radix=0 N=100800  tile=352  minT=8   ... PASS
+[CELL ] mix/frank_hi_psm_xs radix=0 N=100800  tile=352  minT=64  ... PASS
+[CELL ] mix/frank_lo_ps_xs radix=0 N=720     tile=8    minT=1   ... PASS
+[CELL ] mix/frank_lo_ps_xs radix=0 N=720     tile=8    minT=8   ... PASS
+[CELL ] mix/frank_lo_ps_xs radix=0 N=720     tile=8    minT=64  ... PASS
+[CELL ] mix/frank_lo_ps_xs radix=0 N=720     tile=64   minT=1   ... PASS
+[CELL ] mix/frank_lo_ps_xs radix=0 N=720     tile=64   minT=8   ... PASS
+[CELL ] mix/frank_lo_ps_xs radix=0 N=720     tile=64   minT=64  ... PASS
+[CELL ] mix/frank_lo_ps_xs radix=0 N=720     tile=352  minT=1   ... PASS
+[CELL ] mix/frank_lo_ps_xs radix=0 N=720     tile=352  minT=8   ... PASS
+[CELL ] mix/frank_lo_ps_xs radix=0 N=720     tile=352  minT=64  ... PASS
+[CELL ] mix/frank_lo_ps_xs radix=0 N=3600    tile=8    minT=1   ... PASS
+[CELL ] mix/frank_lo_ps_xs radix=0 N=3600    tile=8    minT=8   ... PASS
+[CELL ] mix/frank_lo_ps_xs radix=0 N=3600    tile=8    minT=64  ... PASS
+[CELL ] mix/frank_lo_ps_xs radix=0 N=3600    tile=64   minT=1   ... PASS
+[CELL ] mix/frank_lo_ps_xs radix=0 N=3600    tile=64   minT=8   ... PASS
+[CELL ] mix/frank_lo_ps_xs radix=0 N=3600    tile=64   minT=64  ... PASS
+[CELL ] mix/frank_lo_ps_xs radix=0 N=3600    tile=352  minT=1   ... PASS
+[CELL ] mix/frank_lo_ps_xs radix=0 N=3600    tile=352  minT=8   ... PASS
+[CELL ] mix/frank_lo_ps_xs radix=0 N=3600    tile=352  minT=64  ... PASS
+[CELL ] mix/frank_lo_ps_xs radix=0 N=30240   tile=8    minT=1   ... PASS
+[CELL ] mix/frank_lo_ps_xs radix=0 N=30240   tile=8    minT=8   ... PASS
+[CELL ] mix/frank_lo_ps_xs radix=0 N=30240   tile=8    minT=64  ... PASS
+[CELL ] mix/frank_lo_ps_xs radix=0 N=30240   tile=64   minT=1   ... PASS
+[CELL ] mix/frank_lo_ps_xs radix=0 N=30240   tile=64   minT=8   ... PASS
+[CELL ] mix/frank_lo_ps_xs radix=0 N=30240   tile=64   minT=64  ... PASS
+[CELL ] mix/frank_lo_ps_xs radix=0 N=30240   tile=352  minT=1   ... PASS
+[CELL ] mix/frank_lo_ps_xs radix=0 N=30240   tile=352  minT=8   ... PASS
+[CELL ] mix/frank_lo_ps_xs radix=0 N=30240   tile=352  minT=64  ... PASS
+[CELL ] mix/frank_lo_ps_xs radix=0 N=100800  tile=8    minT=1   ... PASS
+[CELL ] mix/frank_lo_ps_xs radix=0 N=100800  tile=8    minT=8   ... PASS
+[CELL ] mix/frank_lo_ps_xs radix=0 N=100800  tile=8    minT=64  ... PASS
+[CELL ] mix/frank_lo_ps_xs radix=0 N=100800  tile=64   minT=1   ... PASS
+[CELL ] mix/frank_lo_ps_xs radix=0 N=100800  tile=64   minT=8   ... PASS
+[CELL ] mix/frank_lo_ps_xs radix=0 N=100800  tile=64   minT=64  ... PASS
+[CELL ] mix/frank_lo_ps_xs radix=0 N=100800  tile=352  minT=1   ... PASS
+[CELL ] mix/frank_lo_ps_xs radix=0 N=100800  tile=352  minT=8   ... PASS
+[CELL ] mix/frank_lo_ps_xs radix=0 N=100800  tile=352  minT=64  ... PASS
+[CELL ] mix/frank_lo_psm_xs radix=0 N=720     tile=8    minT=1   ... PASS
+[CELL ] mix/frank_lo_psm_xs radix=0 N=720     tile=8    minT=8   ... PASS
+[CELL ] mix/frank_lo_psm_xs radix=0 N=720     tile=8    minT=64  ... PASS
+[CELL ] mix/frank_lo_psm_xs radix=0 N=720     tile=64   minT=1   ... PASS
+[CELL ] mix/frank_lo_psm_xs radix=0 N=720     tile=64   minT=8   ... PASS
+[CELL ] mix/frank_lo_psm_xs radix=0 N=720     tile=64   minT=64  ... PASS
+[CELL ] mix/frank_lo_psm_xs radix=0 N=720     tile=352  minT=1   ... PASS
+[CELL ] mix/frank_lo_psm_xs radix=0 N=720     tile=352  minT=8   ... PASS
+[CELL ] mix/frank_lo_psm_xs radix=0 N=720     tile=352  minT=64  ... PASS
+[CELL ] mix/frank_lo_psm_xs radix=0 N=3600    tile=8    minT=1   ... PASS
+[CELL ] mix/frank_lo_psm_xs radix=0 N=3600    tile=8    minT=8   ... PASS
+[CELL ] mix/frank_lo_psm_xs radix=0 N=3600    tile=8    minT=64  ... PASS
+[CELL ] mix/frank_lo_psm_xs radix=0 N=3600    tile=64   minT=1   ... PASS
+[CELL ] mix/frank_lo_psm_xs radix=0 N=3600    tile=64   minT=8   ... PASS
+[CELL ] mix/frank_lo_psm_xs radix=0 N=3600    tile=64   minT=64  ... PASS
+[CELL ] mix/frank_lo_psm_xs radix=0 N=3600    tile=352  minT=1   ... PASS
+[CELL ] mix/frank_lo_psm_xs radix=0 N=3600    tile=352  minT=8   ... PASS
+[CELL ] mix/frank_lo_psm_xs radix=0 N=3600    tile=352  minT=64  ... PASS
+[CELL ] mix/frank_lo_psm_xs radix=0 N=30240   tile=8    minT=1   ... PASS
+[CELL ] mix/frank_lo_psm_xs radix=0 N=30240   tile=8    minT=8   ... PASS
+[CELL ] mix/frank_lo_psm_xs radix=0 N=30240   tile=8    minT=64  ... PASS
+[CELL ] mix/frank_lo_psm_xs radix=0 N=30240   tile=64   minT=1   ... PASS
+[CELL ] mix/frank_lo_psm_xs radix=0 N=30240   tile=64   minT=8   ... PASS
+[CELL ] mix/frank_lo_psm_xs radix=0 N=30240   tile=64   minT=64  ... PASS
+[CELL ] mix/frank_lo_psm_xs radix=0 N=30240   tile=352  minT=1   ... PASS
+[CELL ] mix/frank_lo_psm_xs radix=0 N=30240   tile=352  minT=8   ... PASS
+[CELL ] mix/frank_lo_psm_xs radix=0 N=30240   tile=352  minT=64  ... PASS
+[CELL ] mix/frank_lo_psm_xs radix=0 N=100800  tile=8    minT=1   ... PASS
+[CELL ] mix/frank_lo_psm_xs radix=0 N=100800  tile=8    minT=8   ... PASS
+[CELL ] mix/frank_lo_psm_xs radix=0 N=100800  tile=8    minT=64  ... PASS
+[CELL ] mix/frank_lo_psm_xs radix=0 N=100800  tile=64   minT=1   ... PASS
+[CELL ] mix/frank_lo_psm_xs radix=0 N=100800  tile=64   minT=8   ... PASS
+[CELL ] mix/frank_lo_psm_xs radix=0 N=100800  tile=64   minT=64  ... PASS
+[CELL ] mix/frank_lo_psm_xs radix=0 N=100800  tile=352  minT=1   ... PASS
+[CELL ] mix/frank_lo_psm_xs radix=0 N=100800  tile=352  minT=8   ... PASS
+[CELL ] mix/frank_lo_psm_xs radix=0 N=100800  tile=352  minT=64  ... PASS
+[CELL ] blu/bluestein_r2_ps_xs radix=0 N=720     tile=8    minT=1   ... PASS
+[CELL ] blu/bluestein_r2_ps_xs radix=0 N=720     tile=8    minT=8   ... PASS
+[CELL ] blu/bluestein_r2_ps_xs radix=0 N=720     tile=8    minT=64  ... PASS
+[CELL ] blu/bluestein_r2_ps_xs radix=0 N=720     tile=64   minT=1   ... PASS
+[CELL ] blu/bluestein_r2_ps_xs radix=0 N=720     tile=64   minT=8   ... PASS
+[CELL ] blu/bluestein_r2_ps_xs radix=0 N=720     tile=64   minT=64  ... PASS
+[CELL ] blu/bluestein_r2_ps_xs radix=0 N=720     tile=352  minT=1   ... PASS
+[CELL ] blu/bluestein_r2_ps_xs radix=0 N=720     tile=352  minT=8   ... PASS
+[CELL ] blu/bluestein_r2_ps_xs radix=0 N=720     tile=352  minT=64  ... PASS
+[CELL ] blu/bluestein_r2_ps_xs radix=0 N=3600    tile=8    minT=1   ... PASS
+[CELL ] blu/bluestein_r2_ps_xs radix=0 N=3600    tile=8    minT=8   ... PASS
+[CELL ] blu/bluestein_r2_ps_xs radix=0 N=3600    tile=8    minT=64  ... PASS
+[CELL ] blu/bluestein_r2_ps_xs radix=0 N=3600    tile=64   minT=1   ... PASS
+[CELL ] blu/bluestein_r2_ps_xs radix=0 N=3600    tile=64   minT=8   ... PASS
+[CELL ] blu/bluestein_r2_ps_xs radix=0 N=3600    tile=64   minT=64  ... PASS
+[CELL ] blu/bluestein_r2_ps_xs radix=0 N=3600    tile=352  minT=1   ... PASS
+[CELL ] blu/bluestein_r2_ps_xs radix=0 N=3600    tile=352  minT=8   ... PASS
+[CELL ] blu/bluestein_r2_ps_xs radix=0 N=3600    tile=352  minT=64  ... PASS
+[CELL ] blu/bluestein_r2_ps_xs radix=0 N=1331    tile=8    minT=1   ... PASS
+[CELL ] blu/bluestein_r2_ps_xs radix=0 N=1331    tile=8    minT=8   ... PASS
+[CELL ] blu/bluestein_r2_ps_xs radix=0 N=1331    tile=8    minT=64  ... PASS
+[CELL ] blu/bluestein_r2_ps_xs radix=0 N=1331    tile=64   minT=1   ... PASS
+[CELL ] blu/bluestein_r2_ps_xs radix=0 N=1331    tile=64   minT=8   ... PASS
+[CELL ] blu/bluestein_r2_ps_xs radix=0 N=1331    tile=64   minT=64  ... PASS
+[CELL ] blu/bluestein_r2_ps_xs radix=0 N=1331    tile=352  minT=1   ... PASS
+[CELL ] blu/bluestein_r2_ps_xs radix=0 N=1331    tile=352  minT=8   ... PASS
+[CELL ] blu/bluestein_r2_ps_xs radix=0 N=1331    tile=352  minT=64  ... PASS
+[CELL ] blu/bluestein_r2_ps_xs radix=0 N=10007   tile=8    minT=1   ... PASS
+[CELL ] blu/bluestein_r2_ps_xs radix=0 N=10007   tile=8    minT=8   ... PASS
+[CELL ] blu/bluestein_r2_ps_xs radix=0 N=10007   tile=8    minT=64  ... PASS
+[CELL ] blu/bluestein_r2_ps_xs radix=0 N=10007   tile=64   minT=1   ... PASS
+[CELL ] blu/bluestein_r2_ps_xs radix=0 N=10007   tile=64   minT=8   ... PASS
+[CELL ] blu/bluestein_r2_ps_xs radix=0 N=10007   tile=64   minT=64  ... PASS
+[CELL ] blu/bluestein_r2_ps_xs radix=0 N=10007   tile=352  minT=1   ... PASS
+[CELL ] blu/bluestein_r2_ps_xs radix=0 N=10007   tile=352  minT=8   ... PASS
+[CELL ] blu/bluestein_r2_ps_xs radix=0 N=10007   tile=352  minT=64  ... PASS
+[CELL ] blu/bluestein_r2_psm_xs radix=0 N=720     tile=8    minT=1   ... PASS
+[CELL ] blu/bluestein_r2_psm_xs radix=0 N=720     tile=8    minT=8   ... PASS
+[CELL ] blu/bluestein_r2_psm_xs radix=0 N=720     tile=8    minT=64  ... PASS
+[CELL ] blu/bluestein_r2_psm_xs radix=0 N=720     tile=64   minT=1   ... PASS
+[CELL ] blu/bluestein_r2_psm_xs radix=0 N=720     tile=64   minT=8   ... PASS
+[CELL ] blu/bluestein_r2_psm_xs radix=0 N=720     tile=64   minT=64  ... PASS
+[CELL ] blu/bluestein_r2_psm_xs radix=0 N=720     tile=352  minT=1   ... PASS
+[CELL ] blu/bluestein_r2_psm_xs radix=0 N=720     tile=352  minT=8   ... PASS
+[CELL ] blu/bluestein_r2_psm_xs radix=0 N=720     tile=352  minT=64  ... PASS
+[CELL ] blu/bluestein_r2_psm_xs radix=0 N=3600    tile=8    minT=1   ... PASS
+[CELL ] blu/bluestein_r2_psm_xs radix=0 N=3600    tile=8    minT=8   ... PASS
+[CELL ] blu/bluestein_r2_psm_xs radix=0 N=3600    tile=8    minT=64  ... PASS
+[CELL ] blu/bluestein_r2_psm_xs radix=0 N=3600    tile=64   minT=1   ... PASS
+[CELL ] blu/bluestein_r2_psm_xs radix=0 N=3600    tile=64   minT=8   ... PASS
+[CELL ] blu/bluestein_r2_psm_xs radix=0 N=3600    tile=64   minT=64  ... PASS
+[CELL ] blu/bluestein_r2_psm_xs radix=0 N=3600    tile=352  minT=1   ... PASS
+[CELL ] blu/bluestein_r2_psm_xs radix=0 N=3600    tile=352  minT=8   ... PASS
+[CELL ] blu/bluestein_r2_psm_xs radix=0 N=3600    tile=352  minT=64  ... PASS
+[CELL ] blu/bluestein_r2_psm_xs radix=0 N=1331    tile=8    minT=1   ... PASS
+[CELL ] blu/bluestein_r2_psm_xs radix=0 N=1331    tile=8    minT=8   ... PASS
+[CELL ] blu/bluestein_r2_psm_xs radix=0 N=1331    tile=8    minT=64  ... PASS
+[CELL ] blu/bluestein_r2_psm_xs radix=0 N=1331    tile=64   minT=1   ... PASS
+[CELL ] blu/bluestein_r2_psm_xs radix=0 N=1331    tile=64   minT=8   ... PASS
+[CELL ] blu/bluestein_r2_psm_xs radix=0 N=1331    tile=64   minT=64  ... PASS
+[CELL ] blu/bluestein_r2_psm_xs radix=0 N=1331    tile=352  minT=1   ... PASS
+[CELL ] blu/bluestein_r2_psm_xs radix=0 N=1331    tile=352  minT=8   ... PASS
+[CELL ] blu/bluestein_r2_psm_xs radix=0 N=1331    tile=352  minT=64  ... PASS
+[CELL ] blu/bluestein_r2_psm_xs radix=0 N=10007   tile=8    minT=1   ... PASS
+[CELL ] blu/bluestein_r2_psm_xs radix=0 N=10007   tile=8    minT=8   ... PASS
+[CELL ] blu/bluestein_r2_psm_xs radix=0 N=10007   tile=8    minT=64  ... PASS
+[CELL ] blu/bluestein_r2_psm_xs radix=0 N=10007   tile=64   minT=1   ... PASS
+[CELL ] blu/bluestein_r2_psm_xs radix=0 N=10007   tile=64   minT=8   ... PASS
+[CELL ] blu/bluestein_r2_psm_xs radix=0 N=10007   tile=64   minT=64  ... PASS
+[CELL ] blu/bluestein_r2_psm_xs radix=0 N=10007   tile=352  minT=1   ... PASS
+[CELL ] blu/bluestein_r2_psm_xs radix=0 N=10007   tile=352  minT=8   ... PASS
+[CELL ] blu/bluestein_r2_psm_xs radix=0 N=10007   tile=352  minT=64  ... PASS
+[CELL ] blu/bluestein_r4_ps_xs radix=0 N=720     tile=8    minT=1   ... PASS
+[CELL ] blu/bluestein_r4_ps_xs radix=0 N=720     tile=8    minT=8   ... PASS
+[CELL ] blu/bluestein_r4_ps_xs radix=0 N=720     tile=8    minT=64  ... PASS
+[CELL ] blu/bluestein_r4_ps_xs radix=0 N=720     tile=64   minT=1   ... PASS
+[CELL ] blu/bluestein_r4_ps_xs radix=0 N=720     tile=64   minT=8   ... PASS
+[CELL ] blu/bluestein_r4_ps_xs radix=0 N=720     tile=64   minT=64  ... PASS
+[CELL ] blu/bluestein_r4_ps_xs radix=0 N=720     tile=352  minT=1   ... PASS
+[CELL ] blu/bluestein_r4_ps_xs radix=0 N=720     tile=352  minT=8   ... PASS
+[CELL ] blu/bluestein_r4_ps_xs radix=0 N=720     tile=352  minT=64  ... PASS
+[CELL ] blu/bluestein_r4_ps_xs radix=0 N=3600    tile=8    minT=1   ... PASS
+[CELL ] blu/bluestein_r4_ps_xs radix=0 N=3600    tile=8    minT=8   ... PASS
+[CELL ] blu/bluestein_r4_ps_xs radix=0 N=3600    tile=8    minT=64  ... PASS
+[CELL ] blu/bluestein_r4_ps_xs radix=0 N=3600    tile=64   minT=1   ... PASS
+[CELL ] blu/bluestein_r4_ps_xs radix=0 N=3600    tile=64   minT=8   ... PASS
+[CELL ] blu/bluestein_r4_ps_xs radix=0 N=3600    tile=64   minT=64  ... PASS
+[CELL ] blu/bluestein_r4_ps_xs radix=0 N=3600    tile=352  minT=1   ... PASS
+[CELL ] blu/bluestein_r4_ps_xs radix=0 N=3600    tile=352  minT=8   ... PASS
+[CELL ] blu/bluestein_r4_ps_xs radix=0 N=3600    tile=352  minT=64  ... PASS
+[CELL ] blu/bluestein_r4_ps_xs radix=0 N=1331    tile=8    minT=1   ... PASS
+[CELL ] blu/bluestein_r4_ps_xs radix=0 N=1331    tile=8    minT=8   ... PASS
+[CELL ] blu/bluestein_r4_ps_xs radix=0 N=1331    tile=8    minT=64  ... PASS
+[CELL ] blu/bluestein_r4_ps_xs radix=0 N=1331    tile=64   minT=1   ... PASS
+[CELL ] blu/bluestein_r4_ps_xs radix=0 N=1331    tile=64   minT=8   ... PASS
+[CELL ] blu/bluestein_r4_ps_xs radix=0 N=1331    tile=64   minT=64  ... PASS
+[CELL ] blu/bluestein_r4_ps_xs radix=0 N=1331    tile=352  minT=1   ... PASS
+[CELL ] blu/bluestein_r4_ps_xs radix=0 N=1331    tile=352  minT=8   ... PASS
+[CELL ] blu/bluestein_r4_ps_xs radix=0 N=1331    tile=352  minT=64  ... PASS
+[CELL ] blu/bluestein_r4_ps_xs radix=0 N=10007   tile=8    minT=1   ... PASS
+[CELL ] blu/bluestein_r4_ps_xs radix=0 N=10007   tile=8    minT=8   ... PASS
+[CELL ] blu/bluestein_r4_ps_xs radix=0 N=10007   tile=8    minT=64  ... PASS
+[CELL ] blu/bluestein_r4_ps_xs radix=0 N=10007   tile=64   minT=1   ... PASS
+[CELL ] blu/bluestein_r4_ps_xs radix=0 N=10007   tile=64   minT=8   ... PASS
+[CELL ] blu/bluestein_r4_ps_xs radix=0 N=10007   tile=64   minT=64  ... PASS
+[CELL ] blu/bluestein_r4_ps_xs radix=0 N=10007   tile=352  minT=1   ... PASS
+[CELL ] blu/bluestein_r4_ps_xs radix=0 N=10007   tile=352  minT=8   ... PASS
+[CELL ] blu/bluestein_r4_ps_xs radix=0 N=10007   tile=352  minT=64  ... PASS
+[CELL ] blu/bluestein_r4_psm_xs radix=0 N=720     tile=8    minT=1   ... PASS
+[CELL ] blu/bluestein_r4_psm_xs radix=0 N=720     tile=8    minT=8   ... PASS
+[CELL ] blu/bluestein_r4_psm_xs radix=0 N=720     tile=8    minT=64  ... PASS
+[CELL ] blu/bluestein_r4_psm_xs radix=0 N=720     tile=64   minT=1   ... PASS
+[CELL ] blu/bluestein_r4_psm_xs radix=0 N=720     tile=64   minT=8   ... PASS
+[CELL ] blu/bluestein_r4_psm_xs radix=0 N=720     tile=64   minT=64  ... PASS
+[CELL ] blu/bluestein_r4_psm_xs radix=0 N=720     tile=352  minT=1   ... PASS
+[CELL ] blu/bluestein_r4_psm_xs radix=0 N=720     tile=352  minT=8   ... PASS
+[CELL ] blu/bluestein_r4_psm_xs radix=0 N=720     tile=352  minT=64  ... PASS
+[CELL ] blu/bluestein_r4_psm_xs radix=0 N=3600    tile=8    minT=1   ... PASS
+[CELL ] blu/bluestein_r4_psm_xs radix=0 N=3600    tile=8    minT=8   ... PASS
+[CELL ] blu/bluestein_r4_psm_xs radix=0 N=3600    tile=8    minT=64  ... PASS
+[CELL ] blu/bluestein_r4_psm_xs radix=0 N=3600    tile=64   minT=1   ... PASS
+[CELL ] blu/bluestein_r4_psm_xs radix=0 N=3600    tile=64   minT=8   ... PASS
+[CELL ] blu/bluestein_r4_psm_xs radix=0 N=3600    tile=64   minT=64  ... PASS
+[CELL ] blu/bluestein_r4_psm_xs radix=0 N=3600    tile=352  minT=1   ... PASS
+[CELL ] blu/bluestein_r4_psm_xs radix=0 N=3600    tile=352  minT=8   ... PASS
+[CELL ] blu/bluestein_r4_psm_xs radix=0 N=3600    tile=352  minT=64  ... PASS
+[CELL ] blu/bluestein_r4_psm_xs radix=0 N=1331    tile=8    minT=1   ... PASS
+[CELL ] blu/bluestein_r4_psm_xs radix=0 N=1331    tile=8    minT=8   ... PASS
+[CELL ] blu/bluestein_r4_psm_xs radix=0 N=1331    tile=8    minT=64  ... PASS
+[CELL ] blu/bluestein_r4_psm_xs radix=0 N=1331    tile=64   minT=1   ... PASS
+[CELL ] blu/bluestein_r4_psm_xs radix=0 N=1331    tile=64   minT=8   ... PASS
+[CELL ] blu/bluestein_r4_psm_xs radix=0 N=1331    tile=64   minT=64  ... PASS
+[CELL ] blu/bluestein_r4_psm_xs radix=0 N=1331    tile=352  minT=1   ... PASS
+[CELL ] blu/bluestein_r4_psm_xs radix=0 N=1331    tile=352  minT=8   ... PASS
+[CELL ] blu/bluestein_r4_psm_xs radix=0 N=1331    tile=352  minT=64  ... PASS
+[CELL ] blu/bluestein_r4_psm_xs radix=0 N=10007   tile=8    minT=1   ... PASS
+[CELL ] blu/bluestein_r4_psm_xs radix=0 N=10007   tile=8    minT=8   ... PASS
+[CELL ] blu/bluestein_r4_psm_xs radix=0 N=10007   tile=8    minT=64  ... PASS
+[CELL ] blu/bluestein_r4_psm_xs radix=0 N=10007   tile=64   minT=1   ... PASS
+[CELL ] blu/bluestein_r4_psm_xs radix=0 N=10007   tile=64   minT=8   ... PASS
+[CELL ] blu/bluestein_r4_psm_xs radix=0 N=10007   tile=64   minT=64  ... PASS
+[CELL ] blu/bluestein_r4_psm_xs radix=0 N=10007   tile=352  minT=1   ... PASS
+[CELL ] blu/bluestein_r4_psm_xs radix=0 N=10007   tile=352  minT=8   ... PASS
+[CELL ] blu/bluestein_r4_psm_xs radix=0 N=10007   tile=352  minT=64  ... PASS
+[CELL ] rad/rader_r2_ps_xs radix=0 N=101     tile=8    minT=1   ... PASS
+[CELL ] rad/rader_r2_ps_xs radix=0 N=101     tile=8    minT=8   ... PASS
+[CELL ] rad/rader_r2_ps_xs radix=0 N=101     tile=8    minT=64  ... PASS
+[CELL ] rad/rader_r2_ps_xs radix=0 N=101     tile=64   minT=1   ... PASS
+[CELL ] rad/rader_r2_ps_xs radix=0 N=101     tile=64   minT=8   ... PASS
+[CELL ] rad/rader_r2_ps_xs radix=0 N=101     tile=64   minT=64  ... PASS
+[CELL ] rad/rader_r2_ps_xs radix=0 N=101     tile=352  minT=1   ... PASS
+[CELL ] rad/rader_r2_ps_xs radix=0 N=101     tile=352  minT=8   ... PASS
+[CELL ] rad/rader_r2_ps_xs radix=0 N=101     tile=352  minT=64  ... PASS
+[CELL ] rad/rader_r2_ps_xs radix=0 N=211     tile=8    minT=1   ... PASS
+[CELL ] rad/rader_r2_ps_xs radix=0 N=211     tile=8    minT=8   ... PASS
+[CELL ] rad/rader_r2_ps_xs radix=0 N=211     tile=8    minT=64  ... PASS
+[CELL ] rad/rader_r2_ps_xs radix=0 N=211     tile=64   minT=1   ... PASS
+[CELL ] rad/rader_r2_ps_xs radix=0 N=211     tile=64   minT=8   ... PASS
+[CELL ] rad/rader_r2_ps_xs radix=0 N=211     tile=64   minT=64  ... PASS
+[CELL ] rad/rader_r2_ps_xs radix=0 N=211     tile=352  minT=1   ... PASS
+[CELL ] rad/rader_r2_ps_xs radix=0 N=211     tile=352  minT=8   ... PASS
+[CELL ] rad/rader_r2_ps_xs radix=0 N=211     tile=352  minT=64  ... PASS
+[CELL ] rad/rader_r2_ps_xs radix=0 N=1009    tile=8    minT=1   ... PASS
+[CELL ] rad/rader_r2_ps_xs radix=0 N=1009    tile=8    minT=8   ... PASS
+[CELL ] rad/rader_r2_ps_xs radix=0 N=1009    tile=8    minT=64  ... PASS
+[CELL ] rad/rader_r2_ps_xs radix=0 N=1009    tile=64   minT=1   ... PASS
+[CELL ] rad/rader_r2_ps_xs radix=0 N=1009    tile=64   minT=8   ... PASS
+[CELL ] rad/rader_r2_ps_xs radix=0 N=1009    tile=64   minT=64  ... PASS
+[CELL ] rad/rader_r2_ps_xs radix=0 N=1009    tile=352  minT=1   ... PASS
+[CELL ] rad/rader_r2_ps_xs radix=0 N=1009    tile=352  minT=8   ... PASS
+[CELL ] rad/rader_r2_ps_xs radix=0 N=1009    tile=352  minT=64  ... PASS
+[CELL ] rad/rader_r2_ps_xs radix=0 N=10007   tile=8    minT=1   ... PASS
+[CELL ] rad/rader_r2_ps_xs radix=0 N=10007   tile=8    minT=8   ... PASS
+[CELL ] rad/rader_r2_ps_xs radix=0 N=10007   tile=8    minT=64  ... PASS
+[CELL ] rad/rader_r2_ps_xs radix=0 N=10007   tile=64   minT=1   ... PASS
+[CELL ] rad/rader_r2_ps_xs radix=0 N=10007   tile=64   minT=8   ... PASS
+[CELL ] rad/rader_r2_ps_xs radix=0 N=10007   tile=64   minT=64  ... PASS
+[CELL ] rad/rader_r2_ps_xs radix=0 N=10007   tile=352  minT=1   ... PASS
+[CELL ] rad/rader_r2_ps_xs radix=0 N=10007   tile=352  minT=8   ... PASS
+[CELL ] rad/rader_r2_ps_xs radix=0 N=10007   tile=352  minT=64  ... PASS
+[CELL ] rad/rader_r2_psm_xs radix=0 N=101     tile=8    minT=1   ... PASS
+[CELL ] rad/rader_r2_psm_xs radix=0 N=101     tile=8    minT=8   ... PASS
+[CELL ] rad/rader_r2_psm_xs radix=0 N=101     tile=8    minT=64  ... PASS
+[CELL ] rad/rader_r2_psm_xs radix=0 N=101     tile=64   minT=1   ... PASS
+[CELL ] rad/rader_r2_psm_xs radix=0 N=101     tile=64   minT=8   ... PASS
+[CELL ] rad/rader_r2_psm_xs radix=0 N=101     tile=64   minT=64  ... PASS
+[CELL ] rad/rader_r2_psm_xs radix=0 N=101     tile=352  minT=1   ... PASS
+[CELL ] rad/rader_r2_psm_xs radix=0 N=101     tile=352  minT=8   ... PASS
+[CELL ] rad/rader_r2_psm_xs radix=0 N=101     tile=352  minT=64  ... PASS
+[CELL ] rad/rader_r2_psm_xs radix=0 N=211     tile=8    minT=1   ... PASS
+[CELL ] rad/rader_r2_psm_xs radix=0 N=211     tile=8    minT=8   ... PASS
+[CELL ] rad/rader_r2_psm_xs radix=0 N=211     tile=8    minT=64  ... PASS
+[CELL ] rad/rader_r2_psm_xs radix=0 N=211     tile=64   minT=1   ... PASS
+[CELL ] rad/rader_r2_psm_xs radix=0 N=211     tile=64   minT=8   ... PASS
+[CELL ] rad/rader_r2_psm_xs radix=0 N=211     tile=64   minT=64  ... PASS
+[CELL ] rad/rader_r2_psm_xs radix=0 N=211     tile=352  minT=1   ... PASS
+[CELL ] rad/rader_r2_psm_xs radix=0 N=211     tile=352  minT=8   ... PASS
+[CELL ] rad/rader_r2_psm_xs radix=0 N=211     tile=352  minT=64  ... PASS
+[CELL ] rad/rader_r2_psm_xs radix=0 N=1009    tile=8    minT=1   ... PASS
+[CELL ] rad/rader_r2_psm_xs radix=0 N=1009    tile=8    minT=8   ... PASS
+[CELL ] rad/rader_r2_psm_xs radix=0 N=1009    tile=8    minT=64  ... PASS
+[CELL ] rad/rader_r2_psm_xs radix=0 N=1009    tile=64   minT=1   ... PASS
+[CELL ] rad/rader_r2_psm_xs radix=0 N=1009    tile=64   minT=8   ... PASS
+[CELL ] rad/rader_r2_psm_xs radix=0 N=1009    tile=64   minT=64  ... PASS
+[CELL ] rad/rader_r2_psm_xs radix=0 N=1009    tile=352  minT=1   ... PASS
+[CELL ] rad/rader_r2_psm_xs radix=0 N=1009    tile=352  minT=8   ... PASS
+[CELL ] rad/rader_r2_psm_xs radix=0 N=1009    tile=352  minT=64  ... PASS
+[CELL ] rad/rader_r2_psm_xs radix=0 N=10007   tile=8    minT=1   ... PASS
+[CELL ] rad/rader_r2_psm_xs radix=0 N=10007   tile=8    minT=8   ... PASS
+[CELL ] rad/rader_r2_psm_xs radix=0 N=10007   tile=8    minT=64  ... PASS
+[CELL ] rad/rader_r2_psm_xs radix=0 N=10007   tile=64   minT=1   ... PASS
+[CELL ] rad/rader_r2_psm_xs radix=0 N=10007   tile=64   minT=8   ... PASS
+[CELL ] rad/rader_r2_psm_xs radix=0 N=10007   tile=64   minT=64  ... PASS
+[CELL ] rad/rader_r2_psm_xs radix=0 N=10007   tile=352  minT=1   ... PASS
+[CELL ] rad/rader_r2_psm_xs radix=0 N=10007   tile=352  minT=8   ... PASS
+[CELL ] rad/rader_r2_psm_xs radix=0 N=10007   tile=352  minT=64  ... PASS
+[CELL ] rad/rader_r4_ps_xs radix=0 N=101     tile=8    minT=1   ... PASS
+[CELL ] rad/rader_r4_ps_xs radix=0 N=101     tile=8    minT=8   ... PASS
+[CELL ] rad/rader_r4_ps_xs radix=0 N=101     tile=8    minT=64  ... PASS
+[CELL ] rad/rader_r4_ps_xs radix=0 N=101     tile=64   minT=1   ... PASS
+[CELL ] rad/rader_r4_ps_xs radix=0 N=101     tile=64   minT=8   ... PASS
+[CELL ] rad/rader_r4_ps_xs radix=0 N=101     tile=64   minT=64  ... PASS
+[CELL ] rad/rader_r4_ps_xs radix=0 N=101     tile=352  minT=1   ... PASS
+[CELL ] rad/rader_r4_ps_xs radix=0 N=101     tile=352  minT=8   ... PASS
+[CELL ] rad/rader_r4_ps_xs radix=0 N=101     tile=352  minT=64  ... PASS
+[CELL ] rad/rader_r4_ps_xs radix=0 N=211     tile=8    minT=1   ... PASS
+[CELL ] rad/rader_r4_ps_xs radix=0 N=211     tile=8    minT=8   ... PASS
+[CELL ] rad/rader_r4_ps_xs radix=0 N=211     tile=8    minT=64  ... PASS
+[CELL ] rad/rader_r4_ps_xs radix=0 N=211     tile=64   minT=1   ... PASS
+[CELL ] rad/rader_r4_ps_xs radix=0 N=211     tile=64   minT=8   ... PASS
+[CELL ] rad/rader_r4_ps_xs radix=0 N=211     tile=64   minT=64  ... PASS
+[CELL ] rad/rader_r4_ps_xs radix=0 N=211     tile=352  minT=1   ... PASS
+[CELL ] rad/rader_r4_ps_xs radix=0 N=211     tile=352  minT=8   ... PASS
+[CELL ] rad/rader_r4_ps_xs radix=0 N=211     tile=352  minT=64  ... PASS
+[CELL ] rad/rader_r4_ps_xs radix=0 N=1009    tile=8    minT=1   ... PASS
+[CELL ] rad/rader_r4_ps_xs radix=0 N=1009    tile=8    minT=8   ... PASS
+[CELL ] rad/rader_r4_ps_xs radix=0 N=1009    tile=8    minT=64  ... PASS
+[CELL ] rad/rader_r4_ps_xs radix=0 N=1009    tile=64   minT=1   ... PASS
+[CELL ] rad/rader_r4_ps_xs radix=0 N=1009    tile=64   minT=8   ... PASS
+[CELL ] rad/rader_r4_ps_xs radix=0 N=1009    tile=64   minT=64  ... PASS
+[CELL ] rad/rader_r4_ps_xs radix=0 N=1009    tile=352  minT=1   ... PASS
+[CELL ] rad/rader_r4_ps_xs radix=0 N=1009    tile=352  minT=8   ... PASS
+[CELL ] rad/rader_r4_ps_xs radix=0 N=1009    tile=352  minT=64  ... PASS
+[CELL ] rad/rader_r4_ps_xs radix=0 N=10007   tile=8    minT=1   ... PASS
+[CELL ] rad/rader_r4_ps_xs radix=0 N=10007   tile=8    minT=8   ... PASS
+[CELL ] rad/rader_r4_ps_xs radix=0 N=10007   tile=8    minT=64  ... PASS
+[CELL ] rad/rader_r4_ps_xs radix=0 N=10007   tile=64   minT=1   ... PASS
+[CELL ] rad/rader_r4_ps_xs radix=0 N=10007   tile=64   minT=8   ... PASS
+[CELL ] rad/rader_r4_ps_xs radix=0 N=10007   tile=64   minT=64  ... PASS
+[CELL ] rad/rader_r4_ps_xs radix=0 N=10007   tile=352  minT=1   ... PASS
+[CELL ] rad/rader_r4_ps_xs radix=0 N=10007   tile=352  minT=8   ... PASS
+[CELL ] rad/rader_r4_ps_xs radix=0 N=10007   tile=352  minT=64  ... PASS
+[CELL ] rad/rader_r4_psm_xs radix=0 N=101     tile=8    minT=1   ... PASS
+[CELL ] rad/rader_r4_psm_xs radix=0 N=101     tile=8    minT=8   ... PASS
+[CELL ] rad/rader_r4_psm_xs radix=0 N=101     tile=8    minT=64  ... PASS
+[CELL ] rad/rader_r4_psm_xs radix=0 N=101     tile=64   minT=1   ... PASS
+[CELL ] rad/rader_r4_psm_xs radix=0 N=101     tile=64   minT=8   ... PASS
+[CELL ] rad/rader_r4_psm_xs radix=0 N=101     tile=64   minT=64  ... PASS
+[CELL ] rad/rader_r4_psm_xs radix=0 N=101     tile=352  minT=1   ... PASS
+[CELL ] rad/rader_r4_psm_xs radix=0 N=101     tile=352  minT=8   ... PASS
+[CELL ] rad/rader_r4_psm_xs radix=0 N=101     tile=352  minT=64  ... PASS
+[CELL ] rad/rader_r4_psm_xs radix=0 N=211     tile=8    minT=1   ... PASS
+[CELL ] rad/rader_r4_psm_xs radix=0 N=211     tile=8    minT=8   ... PASS
+[CELL ] rad/rader_r4_psm_xs radix=0 N=211     tile=8    minT=64  ... PASS
+[CELL ] rad/rader_r4_psm_xs radix=0 N=211     tile=64   minT=1   ... PASS
+[CELL ] rad/rader_r4_psm_xs radix=0 N=211     tile=64   minT=8   ... PASS
+[CELL ] rad/rader_r4_psm_xs radix=0 N=211     tile=64   minT=64  ... PASS
+[CELL ] rad/rader_r4_psm_xs radix=0 N=211     tile=352  minT=1   ... PASS
+[CELL ] rad/rader_r4_psm_xs radix=0 N=211     tile=352  minT=8   ... PASS
+[CELL ] rad/rader_r4_psm_xs radix=0 N=211     tile=352  minT=64  ... PASS
+[CELL ] rad/rader_r4_psm_xs radix=0 N=1009    tile=8    minT=1   ... PASS
+[CELL ] rad/rader_r4_psm_xs radix=0 N=1009    tile=8    minT=8   ... PASS
+[CELL ] rad/rader_r4_psm_xs radix=0 N=1009    tile=8    minT=64  ... PASS
+[CELL ] rad/rader_r4_psm_xs radix=0 N=1009    tile=64   minT=1   ... PASS
+[CELL ] rad/rader_r4_psm_xs radix=0 N=1009    tile=64   minT=8   ... PASS
+[CELL ] rad/rader_r4_psm_xs radix=0 N=1009    tile=64   minT=64  ... PASS
+[CELL ] rad/rader_r4_psm_xs radix=0 N=1009    tile=352  minT=1   ... PASS
+[CELL ] rad/rader_r4_psm_xs radix=0 N=1009    tile=352  minT=8   ... PASS
+[CELL ] rad/rader_r4_psm_xs radix=0 N=1009    tile=352  minT=64  ... PASS
+[CELL ] rad/rader_r4_psm_xs radix=0 N=10007   tile=8    minT=1   ... PASS
+[CELL ] rad/rader_r4_psm_xs radix=0 N=10007   tile=8    minT=8   ... PASS
+[CELL ] rad/rader_r4_psm_xs radix=0 N=10007   tile=8    minT=64  ... PASS
+[CELL ] rad/rader_r4_psm_xs radix=0 N=10007   tile=64   minT=1   ... PASS
+[CELL ] rad/rader_r4_psm_xs radix=0 N=10007   tile=64   minT=8   ... PASS
+[CELL ] rad/rader_r4_psm_xs radix=0 N=10007   tile=64   minT=64  ... PASS
+[CELL ] rad/rader_r4_psm_xs radix=0 N=10007   tile=352  minT=1   ... PASS
+[CELL ] rad/rader_r4_psm_xs radix=0 N=10007   tile=352  minT=8   ... PASS
+[CELL ] rad/rader_r4_psm_xs radix=0 N=10007   tile=352  minT=64  ... PASS
+[CELL ] chk/inner_r2_xs    radix=0 N=720     tile=8    minT=1   ... SKIP (no output)
+[CELL ] chk/inner_r2_xs    radix=0 N=720     tile=8    minT=8   ... SKIP (no output)
+[CELL ] chk/inner_r2_xs    radix=0 N=720     tile=8    minT=64  ... SKIP (no output)
+[CELL ] chk/inner_r2_xs    radix=0 N=720     tile=64   minT=1   ... SKIP (no output)
+[CELL ] chk/inner_r2_xs    radix=0 N=720     tile=64   minT=8   ... SKIP (no output)
+[CELL ] chk/inner_r2_xs    radix=0 N=720     tile=64   minT=64  ... SKIP (no output)
+[CELL ] chk/inner_r2_xs    radix=0 N=720     tile=352  minT=1   ... SKIP (no output)
+[CELL ] chk/inner_r2_xs    radix=0 N=720     tile=352  minT=8   ... SKIP (no output)
+[CELL ] chk/inner_r2_xs    radix=0 N=720     tile=352  minT=64  ... SKIP (no output)
+[CELL ] chk/inner_r2_xs    radix=0 N=3600    tile=8    minT=1   ... SKIP (no output)
+[CELL ] chk/inner_r2_xs    radix=0 N=3600    tile=8    minT=8   ... SKIP (no output)
+[CELL ] chk/inner_r2_xs    radix=0 N=3600    tile=8    minT=64  ... SKIP (no output)
+[CELL ] chk/inner_r2_xs    radix=0 N=3600    tile=64   minT=1   ... SKIP (no output)
+[CELL ] chk/inner_r2_xs    radix=0 N=3600    tile=64   minT=8   ... SKIP (no output)
+[CELL ] chk/inner_r2_xs    radix=0 N=3600    tile=64   minT=64  ... SKIP (no output)
+[CELL ] chk/inner_r2_xs    radix=0 N=3600    tile=352  minT=1   ... SKIP (no output)
+[CELL ] chk/inner_r2_xs    radix=0 N=3600    tile=352  minT=8   ... SKIP (no output)
+[CELL ] chk/inner_r2_xs    radix=0 N=3600    tile=352  minT=64  ... SKIP (no output)
+[CELL ] chk/inner_r2_xs    radix=0 N=30240   tile=8    minT=1   ... SKIP (no output)
+[CELL ] chk/inner_r2_xs    radix=0 N=30240   tile=8    minT=8   ... SKIP (no output)
+[CELL ] chk/inner_r2_xs    radix=0 N=30240   tile=8    minT=64  ... SKIP (no output)
+[CELL ] chk/inner_r2_xs    radix=0 N=30240   tile=64   minT=1   ... SKIP (no output)
+[CELL ] chk/inner_r2_xs    radix=0 N=30240   tile=64   minT=8   ... SKIP (no output)
+[CELL ] chk/inner_r2_xs    radix=0 N=30240   tile=64   minT=64  ... SKIP (no output)
+[CELL ] chk/inner_r2_xs    radix=0 N=30240   tile=352  minT=1   ... SKIP (no output)
+[CELL ] chk/inner_r2_xs    radix=0 N=30240   tile=352  minT=8   ... SKIP (no output)
+[CELL ] chk/inner_r2_xs    radix=0 N=30240   tile=352  minT=64  ... SKIP (no output)
+[CELL ] chk/inner_r2_xs    radix=0 N=100800  tile=8    minT=1   ... SKIP (no output)
+[CELL ] chk/inner_r2_xs    radix=0 N=100800  tile=8    minT=8   ... SKIP (no output)
+[CELL ] chk/inner_r2_xs    radix=0 N=100800  tile=8    minT=64  ... SKIP (no output)
+[CELL ] chk/inner_r2_xs    radix=0 N=100800  tile=64   minT=1   ... SKIP (no output)
+[CELL ] chk/inner_r2_xs    radix=0 N=100800  tile=64   minT=8   ... SKIP (no output)
+[CELL ] chk/inner_r2_xs    radix=0 N=100800  tile=64   minT=64  ... SKIP (no output)
+[CELL ] chk/inner_r2_xs    radix=0 N=100800  tile=352  minT=1   ... SKIP (no output)
+[CELL ] chk/inner_r2_xs    radix=0 N=100800  tile=352  minT=8   ... SKIP (no output)
+[CELL ] chk/inner_r2_xs    radix=0 N=100800  tile=352  minT=64  ... SKIP (no output)
+[CELL ] chk/inner_r4_xs    radix=0 N=720     tile=8    minT=1   ... SKIP (no output)
+[CELL ] chk/inner_r4_xs    radix=0 N=720     tile=8    minT=8   ... SKIP (no output)
+[CELL ] chk/inner_r4_xs    radix=0 N=720     tile=8    minT=64  ... SKIP (no output)
+[CELL ] chk/inner_r4_xs    radix=0 N=720     tile=64   minT=1   ... SKIP (no output)
+[CELL ] chk/inner_r4_xs    radix=0 N=720     tile=64   minT=8   ... SKIP (no output)
+[CELL ] chk/inner_r4_xs    radix=0 N=720     tile=64   minT=64  ... SKIP (no output)
+[CELL ] chk/inner_r4_xs    radix=0 N=720     tile=352  minT=1   ... SKIP (no output)
+[CELL ] chk/inner_r4_xs    radix=0 N=720     tile=352  minT=8   ... SKIP (no output)
+[CELL ] chk/inner_r4_xs    radix=0 N=720     tile=352  minT=64  ... SKIP (no output)
+[CELL ] chk/inner_r4_xs    radix=0 N=3600    tile=8    minT=1   ... SKIP (no output)
+[CELL ] chk/inner_r4_xs    radix=0 N=3600    tile=8    minT=8   ... SKIP (no output)
+[CELL ] chk/inner_r4_xs    radix=0 N=3600    tile=8    minT=64  ... SKIP (no output)
+[CELL ] chk/inner_r4_xs    radix=0 N=3600    tile=64   minT=1   ... SKIP (no output)
+[CELL ] chk/inner_r4_xs    radix=0 N=3600    tile=64   minT=8   ... SKIP (no output)
+[CELL ] chk/inner_r4_xs    radix=0 N=3600    tile=64   minT=64  ... SKIP (no output)
+[CELL ] chk/inner_r4_xs    radix=0 N=3600    tile=352  minT=1   ... SKIP (no output)
+[CELL ] chk/inner_r4_xs    radix=0 N=3600    tile=352  minT=8   ... SKIP (no output)
+[CELL ] chk/inner_r4_xs    radix=0 N=3600    tile=352  minT=64  ... SKIP (no output)
+[CELL ] chk/inner_r4_xs    radix=0 N=30240   tile=8    minT=1   ... SKIP (no output)
+[CELL ] chk/inner_r4_xs    radix=0 N=30240   tile=8    minT=8   ... SKIP (no output)
+[CELL ] chk/inner_r4_xs    radix=0 N=30240   tile=8    minT=64  ... SKIP (no output)
+[CELL ] chk/inner_r4_xs    radix=0 N=30240   tile=64   minT=1   ... SKIP (no output)
+[CELL ] chk/inner_r4_xs    radix=0 N=30240   tile=64   minT=8   ... SKIP (no output)
+[CELL ] chk/inner_r4_xs    radix=0 N=30240   tile=64   minT=64  ... SKIP (no output)
+[CELL ] chk/inner_r4_xs    radix=0 N=30240   tile=352  minT=1   ... SKIP (no output)
+[CELL ] chk/inner_r4_xs    radix=0 N=30240   tile=352  minT=8   ... SKIP (no output)
+[CELL ] chk/inner_r4_xs    radix=0 N=30240   tile=352  minT=64  ... SKIP (no output)
+[CELL ] chk/inner_r4_xs    radix=0 N=100800  tile=8    minT=1   ... SKIP (no output)
+[CELL ] chk/inner_r4_xs    radix=0 N=100800  tile=8    minT=8   ... SKIP (no output)
+[CELL ] chk/inner_r4_xs    radix=0 N=100800  tile=8    minT=64  ... SKIP (no output)
+[CELL ] chk/inner_r4_xs    radix=0 N=100800  tile=64   minT=1   ... SKIP (no output)
+[CELL ] chk/inner_r4_xs    radix=0 N=100800  tile=64   minT=8   ... SKIP (no output)
+[CELL ] chk/inner_r4_xs    radix=0 N=100800  tile=64   minT=64  ... SKIP (no output)
+[CELL ] chk/inner_r4_xs    radix=0 N=100800  tile=352  minT=1   ... SKIP (no output)
+[CELL ] chk/inner_r4_xs    radix=0 N=100800  tile=352  minT=8   ... SKIP (no output)
+[CELL ] chk/inner_r4_xs    radix=0 N=100800  tile=352  minT=64  ... SKIP (no output)
+
+[INFO] NumPy baselines for every N that was used
+
+================================================================
+[DONE ] cells=1260  PASS=1188  FAIL=0  SKIP=72  TIMEOUT=0  ERROR=0
+[DONE ] table: output/matrix.csv   log: ./logs/matrix_20261022_133330.log
+================================================================
+
+===== OddFFT: matrix summary (metric: TOTAL_us) =====
+cells: 1260   PASS=1188  FAIL=0  no result=72
+
+--- N=101 (NumPy: 18.95 us) ---
+impl/variant         tile  B  cores  NPU_us  CPU_us  TOTAL_us  tot/NumPy  st.NPU  st.CPU  max_abs     
+-------------------  ----  -  -----  ------  ------  --------  ---------  ------  ------  ------------
+rad/rader_r4_psm_xs  352   3  40     345.26  126.40  471.65    24.89x     1       3       3.015783e-06
+rad/rader_r4_ps_xs   352   3  1      325.04  151.15  476.19    25.13x     1       3       3.015783e-06
+rad/rader_r2_ps_xs   352   3  1      495.54  130.26  625.80    33.02x     5       3       3.440587e-06
+rad/rader_r2_psm_xs  64    6  40     417.52  216.24  633.76    33.44x     2       6       3.099442e-06
+
+--- N=125 (NumPy: 8.46 us) ---
+impl/variant        tile  B  cores  NPU_us  CPU_us  TOTAL_us  tot/NumPy  st.NPU  st.CPU  max_abs     
+------------------  ----  -  -----  ------  ------  --------  ---------  ------  ------  ------------
+r5/direct_psm_xs    64    3  40     0.21    27.62   27.83     3.29x      0       3       1.907349e-06
+r5/sym_psm_xs       64    3  40     0.18    27.75   27.93     3.30x      0       3       1.907349e-06
+r5/winograd_psm_xs  64    3  40     0.18    27.78   27.95     3.30x      0       3       1.907349e-06
+r5/rader_psm_xs     8     3  40     0.17    27.97   28.14     3.33x      0       3       1.907349e-06
+r5/winograd_ps_xs   64    3  1      0.19    28.02   28.21     3.33x      0       3       1.907349e-06
+r5/direct_ps_xs     8     3  1      0.18    28.08   28.26     3.34x      0       3       1.907349e-06
+r5/sym_ps_xs        352   3  1      0.17    28.11   28.28     3.34x      0       3       1.907349e-06
+r5/rader_ps_xs      352   3  1      0.20    28.21   28.41     3.36x      0       3       1.907349e-06
+
+--- N=211 (NumPy: 30.22 us) ---
+impl/variant         tile  B  cores  NPU_us  CPU_us  TOTAL_us  tot/NumPy  st.NPU  st.CPU  max_abs     
+-------------------  ----  -  -----  ------  ------  --------  ---------  ------  ------  ------------
+rad/rader_r4_psm_xs  64    2  40     455.86  131.94  587.80    19.45x     3       2       5.722046e-06
+rad/rader_r4_ps_xs   64    2  1      467.64  144.67  612.31    20.26x     3       2       5.722046e-06
+rad/rader_r2_psm_xs  64    6  40     450.59  242.44  693.02    22.93x     3       6       6.106495e-06
+rad/rader_r2_ps_xs   352   6  1      467.97  256.42  724.39    23.97x     3       6       6.106495e-06
+
+--- N=243 (NumPy: 10.87 us) ---
+impl/variant        tile  B  cores  NPU_us  CPU_us  TOTAL_us  tot/NumPy  st.NPU  st.CPU  max_abs     
+------------------  ----  -  -----  ------  ------  --------  ---------  ------  ------  ------------
+r3/winograd_ps_xs   8     4  1      39.29   44.12   83.41     7.67x      1       4       3.844384e-06
+r3/direct_psm_xs    352   4  40     39.04   45.70   84.73     7.79x      1       4       3.844384e-06
+r3/winograd_psm_xs  352   4  40     42.36   43.35   85.71     7.89x      1       4       3.844384e-06
+r3/sym_ps_xs        352   4  1      39.49   53.21   92.71     8.53x      1       4       3.844384e-06
+r3/rader_ps_xs      352   4  1      39.88   55.12   95.00     8.74x      1       4       3.844384e-06
+r3/direct_ps_xs     352   4  1      38.58   57.03   95.61     8.80x      1       4       3.844384e-06
+r3/sym_psm_xs       64    4  40     43.11   52.70   95.81     8.81x      1       4       3.844384e-06
+r3/rader_psm_xs     8     4  40     40.89   55.02   95.90     8.82x      1       4       3.844384e-06
+
+--- N=256 (NumPy: 10.13 us) ---
+impl/variant      tile  B  cores  NPU_us  CPU_us  TOTAL_us  tot/NumPy  st.NPU  st.CPU  max_abs     
+----------------  ----  -  -----  ------  ------  --------  ---------  ------  ------  ------------
+r4/direct_psm_xs  8     3  40     40.73   42.66   83.39     8.23x      1       3       2.697398e-06
+r4/direct_ps_xs   352   3  1      46.44   42.42   88.86     8.77x      1       3       2.697398e-06
+r2/direct_psm_xs  352   6  40     69.17   86.10   155.27    15.33x     2       6       4.046097e-06
+r2/direct_ps_xs   352   6  1      74.30   85.15   159.46    15.74x     2       6       4.046097e-06
+
+--- N=343 (NumPy: 13.57 us) ---
+impl/variant        tile  B  cores  NPU_us  CPU_us  TOTAL_us  tot/NumPy  st.NPU  st.CPU  max_abs     
+------------------  ----  -  -----  ------  ------  --------  ---------  ------  ------  ------------
+r7/winograd_psm_xs  352   3  40     0.18    48.64   48.82     3.60x      0       3       4.396221e-06
+r7/direct_psm_xs    8     3  40     0.19    48.71   48.89     3.60x      0       3       4.396221e-06
+r7/rader_ps_xs      8     3  1      0.18    48.71   48.89     3.60x      0       3       4.396221e-06
+r7/direct_ps_xs     352   3  1      0.17    48.79   48.96     3.61x      0       3       4.396221e-06
+r7/sym_psm_xs       8     3  40     0.18    48.79   48.97     3.61x      0       3       4.396221e-06
+r7/rader_psm_xs     352   3  40     0.20    48.83   49.02     3.61x      0       3       4.396221e-06
+r7/winograd_ps_xs   352   3  1      0.18    48.90   49.08     3.62x      0       3       4.396221e-06
+r7/sym_ps_xs        352   3  1      0.19    48.92   49.12     3.62x      0       3       4.396221e-06
+
+--- N=720 (NumPy: 19.68 us) ---
+impl/variant             tile  B  cores  NPU_us  CPU_us  TOTAL_us  tot/NumPy  st.NPU  st.CPU  max_abs     
+-----------------------  ----  -  -----  ------  ------  --------  ---------  ------  ------  ------------
+mix/frank_hi_psm_xs      8     3  40     72.84   32.30   105.14    5.34x      2       3       7.864200e-06
+mix/frank_hi_ps_xs       352   3  1      74.25   32.40   106.66    5.42x      2       3       7.864200e-06
+mix/frank_lo_psm_xs      64    2  40     105.34  30.88   136.23    6.92x      3       2       7.688768e-06
+mix/frank_lo_ps_xs       64    4  1      41.92   106.01  147.93    7.52x      1       4       7.864200e-06
+blu/bluestein_r4_ps_xs   352   4  1      456.23  326.85  783.08    39.79x     2       4       1.239777e-05
+blu/bluestein_r4_psm_xs  64    4  40     468.56  355.36  823.91    41.87x     2       4       1.239777e-05
+blu/bluestein_r2_ps_xs   352   6  1      604.00  630.79  1234.79   62.74x     5       6       1.375409e-05
+blu/bluestein_r2_psm_xs  352   6  40     607.78  648.56  1256.35   63.84x     5       6       1.375409e-05
+
+--- N=1009 (NumPy: 163.60 us) ---
+impl/variant         tile  B  cores  NPU_us  CPU_us  TOTAL_us  tot/NumPy  st.NPU  st.CPU  max_abs     
+-------------------  ----  -  -----  ------  ------  --------  ---------  ------  ------  ------------
+rad/rader_r4_psm_xs  352   4  40     407.39  359.93  767.32    4.69x      2       4       1.561960e-05
+rad/rader_r4_ps_xs   352   4  1      429.46  401.78  831.24    5.08x      2       4       1.561960e-05
+rad/rader_r2_psm_xs  64    3  40     738.14  515.03  1253.17   7.66x      8       3       2.037049e-05
+rad/rader_r2_ps_xs   64    6  1      738.87  667.73  1406.60   8.60x      5       6       1.716779e-05
+
+--- N=1331 (NumPy: 44.44 us) ---
+impl/variant             tile  B  cores  NPU_us  CPU_us   TOTAL_us  tot/NumPy  st.NPU  st.CPU  max_abs     
+-----------------------  ----  -  -----  ------  -------  --------  ---------  ------  ------  ------------
+blu/bluestein_r4_ps_xs   352   3  1      528.71  392.84   921.55    20.74x     3       3       1.629639e-05
+blu/bluestein_r4_psm_xs  64    3  40     546.54  402.33   948.87    21.35x     3       3       1.629639e-05
+blu/bluestein_r2_ps_xs   352   6  1      655.04  1019.12  1674.17   37.67x     6       6       2.027539e-05
+blu/bluestein_r2_psm_xs  64    6  40     734.02  1005.77  1739.79   39.15x     6       6       2.027539e-05
+
+--- N=2187 (NumPy: 64.86 us) ---
+impl/variant        tile  B  cores  NPU_us  CPU_us  TOTAL_us  tot/NumPy  st.NPU  st.CPU  max_abs     
+------------------  ----  -  -----  ------  ------  --------  ---------  ------  ------  ------------
+r3/direct_psm_xs    64    4  40     99.52   94.78   194.30    3.00x      3       4       1.621246e-05
+r3/winograd_psm_xs  352   4  40     102.79  95.30   198.09    3.05x      3       4       1.572840e-05
+r3/sym_psm_xs       352   4  40     92.72   105.73  198.45    3.06x      3       4       1.572840e-05
+r3/rader_psm_xs     352   4  40     104.38  105.02  209.41    3.23x      3       4       1.878521e-05
+r3/winograd_ps_xs   64    4  1      118.18  91.31   209.49    3.23x      3       4       1.572840e-05
+r3/direct_ps_xs     352   4  1      109.89  105.17  215.06    3.32x      3       4       1.621246e-05
+r3/rader_ps_xs      352   4  1      120.76  106.60  227.36    3.51x      3       4       1.878521e-05
+r3/sym_ps_xs        352   4  1      127.82  107.25  235.07    3.62x      3       4       1.572840e-05
+
+--- N=2401 (NumPy: 69.59 us) ---
+impl/variant        tile  B  cores  NPU_us  CPU_us  TOTAL_us  tot/NumPy  st.NPU  st.CPU  max_abs     
+------------------  ----  -  -----  ------  ------  --------  ---------  ------  ------  ------------
+r7/winograd_psm_xs  64    2  40     70.25   31.08   101.34    1.46x      2       2       2.359260e-05
+r7/sym_psm_xs       352   2  40     76.70   30.29   106.99    1.54x      2       2       1.279488e-05
+r7/sym_ps_xs        352   2  1      82.24   30.21   112.45    1.62x      2       2       1.279488e-05
+r7/direct_psm_xs    64    2  40     87.04   29.60   116.65    1.68x      2       2       1.799389e-05
+r7/winograd_ps_xs   352   2  1      91.21   31.19   122.40    1.76x      2       2       2.359260e-05
+r7/rader_psm_xs     64    2  40     92.84   30.66   123.50    1.77x      2       2       1.907349e-05
+r7/direct_ps_xs     352   2  1      133.19  31.70   164.88    2.37x      2       2       1.799389e-05
+r7/rader_ps_xs      352   2  1      151.81  30.63   182.44    2.62x      2       2       1.907349e-05
+
+--- N=3125 (NumPy: 99.22 us) ---
+impl/variant        tile  B  cores  NPU_us  CPU_us  TOTAL_us  tot/NumPy  st.NPU  st.CPU  max_abs     
+------------------  ----  -  -----  ------  ------  --------  ---------  ------  ------  ------------
+r5/sym_psm_xs       352   3  40     69.38   60.47   129.85    1.31x      2       3       1.799389e-05
+r5/direct_psm_xs    64    3  40     68.85   62.19   131.04    1.32x      2       3       1.758489e-05
+r5/winograd_psm_xs  64    2  40     91.01   40.93   131.94    1.33x      3       2       2.157919e-05
+r5/rader_psm_xs     64    3  40     70.03   62.36   132.39    1.33x      2       3       1.825161e-05
+r5/sym_ps_xs        352   3  1      72.48   63.09   135.56    1.37x      2       3       1.799389e-05
+r5/winograd_ps_xs   352   3  1      79.98   62.41   142.39    1.44x      2       3       2.063113e-05
+r5/rader_ps_xs      352   3  1      122.28  62.32   184.60    1.86x      2       3       1.825161e-05
+r5/direct_ps_xs     352   3  1      126.88  66.18   193.06    1.95x      2       3       1.758489e-05
+
+--- N=3600 (NumPy: 99.86 us) ---
+impl/variant             tile  B  cores  NPU_us  CPU_us   TOTAL_us  tot/NumPy  st.NPU  st.CPU  max_abs     
+-----------------------  ----  -  -----  ------  -------  --------  ---------  ------  ------  ------------
+mix/frank_hi_psm_xs      352   3  40     104.51  72.10    176.61    1.77x      3       3       1.945122e-05
+mix/frank_lo_ps_xs       352   4  1      75.49   138.17   213.66    2.14x      2       4       2.359260e-05
+mix/frank_hi_ps_xs       352   3  1      109.31  107.38   216.68    2.17x      3       3       1.945122e-05
+mix/frank_lo_psm_xs      352   4  40     74.44   147.72   222.16    2.22x      2       4       2.359260e-05
+blu/bluestein_r4_psm_xs  352   4  40     516.36  948.98   1465.34   14.67x     3       4       3.236878e-05
+blu/bluestein_r4_ps_xs   352   4  1      689.89  981.79   1671.69   16.74x     3       4       3.236878e-05
+blu/bluestein_r2_psm_xs  352   6  40     753.69  1819.99  2573.68   25.77x     7       6       3.411969e-05
+blu/bluestein_r2_ps_xs   352   6  1      887.62  1806.42  2694.04   26.98x     7       6       3.411969e-05
+
+--- N=4096 (NumPy: 107.07 us) ---
+impl/variant      tile  B  cores  NPU_us  CPU_us  TOTAL_us  tot/NumPy  st.NPU  st.CPU  max_abs     
+----------------  ----  -  -----  ------  ------  --------  ---------  ------  ------  ------------
+r4/direct_psm_xs  352   3  40     107.76  91.16   198.92    1.86x      3       3       2.320390e-05
+r4/direct_ps_xs   352   3  1      131.19  99.70   230.88    2.16x      3       3       2.320390e-05
+r2/direct_psm_xs  352   6  40     157.98  409.60  567.58    5.30x      6       6       2.444459e-05
+r2/direct_ps_xs   352   6  1      214.04  403.92  617.96    5.77x      6       6       2.444459e-05
+
+--- N=10007 (NumPy: 4142.74 us) ---
+impl/variant             tile  B  cores  NPU_us   CPU_us   TOTAL_us  tot/NumPy  st.NPU  st.CPU  max_abs     
+-----------------------  ----  -  -----  -------  -------  --------  ---------  ------  ------  ------------
+blu/bluestein_r4_psm_xs  352   4  40     684.72   3274.99  3959.71   0.96x      4       4       5.764456e-05
+blu/bluestein_r4_ps_xs   352   4  1      1055.60  3177.77  4233.38   1.02x      4       4       5.764456e-05
+rad/rader_r4_psm_xs      64    4  40     658.56   3590.94  4249.50   1.03x      4       4       5.609681e-05
+rad/rader_r4_ps_xs       352   4  1      1003.33  3715.05  4718.39   1.14x      4       4       5.609681e-05
+blu/bluestein_r2_psm_xs  352   0  40     5588.63  1118.11  6706.74   1.62x      15      0       6.518558e-05
+rad/rader_r2_psm_xs      352   0  40     5525.85  1498.78  7024.63   1.70x      15      0       6.473756e-05
+blu/bluestein_r2_ps_xs   352   6  1      1646.09  6417.07  8063.16   1.95x      9       6       7.197556e-05
+rad/rader_r2_ps_xs       352   6  1      1638.81  7030.45  8669.26   2.09x      9       6       7.650822e-05
+
+--- N=15625 (NumPy: 848.14 us) ---
+impl/variant        tile  B  cores  NPU_us  CPU_us  TOTAL_us  tot/NumPy  st.NPU  st.CPU  max_abs     
+------------------  ----  -  -----  ------  ------  --------  ---------  ------  ------  ------------
+r5/winograd_psm_xs  64    2  40     146.96  130.88  277.84    0.33x      4       2       6.130279e-05
+r5/direct_psm_xs    64    2  40     152.49  132.23  284.71    0.34x      4       2       4.959106e-05
+r5/sym_psm_xs       64    2  40     148.06  140.29  288.35    0.34x      4       2       5.501635e-05
+r5/rader_psm_xs     352   2  40     171.39  147.04  318.43    0.38x      4       2       5.787154e-05
+r5/winograd_ps_xs   352   3  1      195.67  216.07  411.74    0.49x      3       3       6.163570e-05
+r5/sym_ps_xs        352   3  1      207.69  215.01  422.70    0.50x      3       3       4.718520e-05
+r5/rader_ps_xs      352   3  1      267.01  215.91  482.92    0.57x      3       3       5.035545e-05
+r5/direct_ps_xs     352   3  1      278.77  228.61  507.38    0.60x      3       3       6.518558e-05
+
+--- N=16807 (NumPy: 959.09 us) ---
+impl/variant        tile  B  cores  NPU_us  CPU_us  TOTAL_us  tot/NumPy  st.NPU  st.CPU  max_abs     
+------------------  ----  -  -----  ------  ------  --------  ---------  ------  ------  ------------
+r7/winograd_psm_xs  64    2  40     125.26  93.57   218.83    0.23x      3       2       1.001313e-04
+r7/sym_psm_xs       352   3  40     75.04   157.95  232.99    0.24x      2       3       5.017451e-05
+r7/direct_psm_xs    64    3  40     93.62   148.79  242.41    0.25x      2       3       5.501635e-05
+r7/rader_psm_xs     64    3  40     122.45  158.94  281.39    0.29x      2       3       4.979985e-05
+r7/sym_ps_xs        352   3  1      134.33  159.30  293.62    0.31x      2       3       5.017451e-05
+r7/winograd_ps_xs   352   3  1      141.03  160.24  301.27    0.31x      2       3       7.406802e-05
+r7/direct_ps_xs     352   3  1      192.56  205.35  397.91    0.41x      2       3       5.501635e-05
+r7/rader_ps_xs      352   3  1      189.48  211.23  400.71    0.42x      2       3       4.979985e-05
+
+--- N=19683 (NumPy: 1531.65 us) ---
+impl/variant        tile  B  cores  NPU_us  CPU_us  TOTAL_us  tot/NumPy  st.NPU  st.CPU  max_abs     
+------------------  ----  -  -----  ------  ------  --------  ---------  ------  ------  ------------
+r3/sym_psm_xs       352   4  40     178.20  607.96  786.17    0.51x      5       4       7.667447e-05
+r3/winograd_psm_xs  352   2  40     375.70  430.26  805.96    0.53x      7       2       6.518558e-05
+r3/rader_psm_xs     352   4  40     197.45  611.74  809.19    0.53x      5       4       6.400995e-05
+r3/direct_psm_xs    64    4  40     202.21  613.44  815.65    0.53x      5       4       6.662082e-05
+r3/winograd_ps_xs   352   4  1      317.55  626.81  944.36    0.62x      5       4       7.667447e-05
+r3/sym_ps_xs        352   4  1      346.01  628.75  974.76    0.64x      5       4       7.667447e-05
+r3/direct_ps_xs     352   4  1      381.80  627.99  1009.78   0.66x      5       4       6.662082e-05
+r3/rader_ps_xs      352   4  1      397.02  636.11  1033.13   0.67x      5       4       6.400995e-05
+
+--- N=30240 (NumPy: 2261.72 us) ---
+impl/variant         tile  B  cores  NPU_us  CPU_us   TOTAL_us  tot/NumPy  st.NPU  st.CPU  max_abs     
+-------------------  ----  -  -----  ------  -------  --------  ---------  ------  ------  ------------
+mix/frank_hi_psm_xs  352   2  40     262.82  226.81   489.63    0.22x      6       2       7.629395e-05
+mix/frank_hi_ps_xs   352   3  1      330.93  376.72   707.65    0.31x      5       3       7.629395e-05
+mix/frank_lo_psm_xs  352   5  40     130.31  1411.33  1541.63   0.68x      3       5       7.197556e-05
+mix/frank_lo_ps_xs   352   5  1      238.96  1459.77  1698.73   0.75x      3       5       7.197556e-05
+
+--- N=32768 (NumPy: 2024.91 us) ---
+impl/variant      tile  B  cores  NPU_us   CPU_us   TOTAL_us  tot/NumPy  st.NPU  st.CPU  max_abs     
+----------------  ----  -  -----  -------  -------  --------  ---------  ------  ------  ------------
+r2/direct_psm_xs  64    0  40     2701.32  0.00     2701.32   1.33x      15      0       8.110158e-05
+r2/direct_ps_xs   352   6  1      612.65   2746.22  3358.87   1.66x      9       6       9.650506e-05
+
+--- N=65536 (NumPy: 4330.60 us) ---
+impl/variant      tile  B  cores  NPU_us  CPU_us   TOTAL_us  tot/NumPy  st.NPU  st.CPU  max_abs     
+----------------  ----  -  -----  ------  -------  --------  ---------  ------  ------  ------------
+r4/direct_psm_xs  352   2  40     483.89  814.99   1298.88   0.30x      6       2       1.278920e-04
+r4/direct_ps_xs   352   3  1      568.27  1125.75  1694.02   0.39x      5       3       1.258272e-04
+
+--- N=100800 (NumPy: 8169.15 us) ---
+impl/variant         tile  B  cores  NPU_us   CPU_us   TOTAL_us  tot/NumPy  st.NPU  st.CPU  max_abs     
+-------------------  ----  -  -----  -------  -------  --------  ---------  ------  ------  ------------
+mix/frank_hi_psm_xs  352   2  40     368.36   631.36   999.72    0.12x      6       2       1.542950e-04
+mix/frank_hi_ps_xs   352   2  1      1404.36  644.13   2048.49   0.25x      6       2       1.542950e-04
+mix/frank_lo_psm_xs  352   2  40     961.60   2021.35  2982.95   0.37x      6       2       1.763447e-04
+mix/frank_lo_ps_xs   352   4  1      634.40   3021.72  3656.11   0.45x      4       4       1.433433e-04
+
+============================================================================
+PAIRED COMPARISONS ALONG THE AXES — the cells compared differ in
+EXACTLY one axis (the rest is held fixed). Make decisions by these.
+Metric: TOTAL_us.
+============================================================================
+
+--- axis: butterfly algorithm --- comparisons: 162   wins: sym: 77, winograd: 61, direct: 15, rader: 9   speedup: 1.00–126.49x
+held fixed                                          times, us                                                     conclusion              
+--------------------------------------------------  ------------------------------------------------------------  ------------------------
+r3 dit perstage xs 1cores N=19683 tile=352 minT=1   winograd=5508.73, sym=5550.02, direct=9043.49, rader=9235.59  winograd faster by 1.68x
+r3 dit perstage xs 1cores N=19683 tile=352 minT=64  winograd=944.36, sym=974.76, direct=1009.78, rader=1033.13    winograd faster by 1.09x
+r3 dit perstage xs 1cores N=19683 tile=352 minT=8   winograd=1343.53, sym=1344.86, direct=1737.19, rader=1801.95  winograd faster by 1.34x
+r3 dit perstage xs 1cores N=19683 tile=64 minT=1    sym=5643.65, winograd=5682.40, direct=9320.06, rader=9337.72  sym faster by 1.65x     
+r3 dit perstage xs 1cores N=19683 tile=64 minT=64   winograd=1105.52, sym=1133.85, rader=1264.85, direct=1277.55  winograd faster by 1.16x
+r3 dit perstage xs 1cores N=19683 tile=64 minT=8    sym=1526.27, winograd=1543.57, rader=2038.94, direct=2054.41  sym faster by 1.35x     
+    ... 156 more comparisons (--all-pairs, to show them all)
+
+--- axis: scheme / structural variant --- comparisons: 216   wins: dit_r4: 141, dit_hi: 53, dit_lo: 19, dit_r2: 3   speedup: 1.00–69.00x
+held fixed                                                 times, us                         conclusion            
+---------------------------------------------------------  --------------------------------  ----------------------
+blu bluestein perstage xs 1cores N=10007 tile=352 minT=1   dit_r4=19571.59, dit_r2=20990.77  dit_r4 faster by 1.07x
+blu bluestein perstage xs 1cores N=10007 tile=352 minT=64  dit_r4=4233.38, dit_r2=8063.16    dit_r4 faster by 1.90x
+blu bluestein perstage xs 1cores N=10007 tile=352 minT=8   dit_r4=5360.58, dit_r2=8916.75    dit_r4 faster by 1.66x
+blu bluestein perstage xs 1cores N=10007 tile=64 minT=1    dit_r4=20305.41, dit_r2=21791.38  dit_r4 faster by 1.07x
+blu bluestein perstage xs 1cores N=10007 tile=64 minT=64   dit_r4=5147.85, dit_r2=9259.61    dit_r4 faster by 1.80x
+blu bluestein perstage xs 1cores N=10007 tile=64 minT=8    dit_r4=6162.76, dit_r2=10239.63   dit_r4 faster by 1.66x
+    ... 210 more comparisons (--all-pairs, to show them all)
+
+--- axis: granularity — there are no paired comparisons
+    (there are no two cells differing only in this axis: for
+     instance xi is implemented for radix-2 only, while tile/batch
+     have to be run in at least two values — run_matrix.sh -t / -B)
+
+--- axis: layout — there are no paired comparisons
+    (there are no two cells differing only in this axis: for
+     instance xi is implemented for radix-2 only, while tile/batch
+     have to be run in at least two values — run_matrix.sh -t / -B)
+
+--- axis: compute unit — there are no paired comparisons
+    (there are no two cells differing only in this axis: for
+     instance xi is implemented for radix-2 only, while tile/batch
+     have to be run in at least two values — run_matrix.sh -t / -B)
+
+--- axis: terms — there are no paired comparisons
+    (there are no two cells differing only in this axis: for
+     instance xi is implemented for radix-2 only, while tile/batch
+     have to be run in at least two values — run_matrix.sh -t / -B)
+
+--- axis: matmuls — there are no paired comparisons
+    (there are no two cells differing only in this axis: for
+     instance xi is implemented for radix-2 only, while tile/batch
+     have to be run in at least two values — run_matrix.sh -t / -B)
+
+--- axis: cores --- comparisons: 594   wins: 40: 531, 1: 63   speedup: 1.00–176.98x
+held fixed                                                 times, us               conclusion        
+---------------------------------------------------------  ----------------------  ------------------
+blu bluestein dit_r2 perstage xs N=10007 tile=352 minT=1   40=6706.74, 1=20990.77  40 faster by 3.13x
+blu bluestein dit_r2 perstage xs N=10007 tile=352 minT=64  40=7651.73, 1=8063.16   40 faster by 1.05x
+blu bluestein dit_r2 perstage xs N=10007 tile=352 minT=8   40=7423.58, 1=8916.75   40 faster by 1.20x
+blu bluestein dit_r2 perstage xs N=10007 tile=64 minT=1    40=7247.48, 1=21791.38  40 faster by 3.01x
+blu bluestein dit_r2 perstage xs N=10007 tile=64 minT=64   40=9090.81, 1=9259.61   40 faster by 1.02x
+blu bluestein dit_r2 perstage xs N=10007 tile=64 minT=8    40=7625.54, 1=10239.63  40 faster by 1.34x
+    ... 588 more comparisons (--all-pairs, to show them all)
+
+--- axis: tile width --- comparisons: 396   wins: 352: 261, 64: 113, 8: 22   speedup: 1.00–170.81x
+held fixed                                               times, us                              conclusion         
+-------------------------------------------------------  -------------------------------------  -------------------
+blu bluestein dit_r2 perstage xs 1cores N=10007 minT=1   352=20990.77, 64=21791.38, 8=34340.61  352 faster by 1.64x
+blu bluestein dit_r2 perstage xs 1cores N=10007 minT=64  352=8063.16, 64=9259.61, 8=19693.31    352 faster by 2.44x
+blu bluestein dit_r2 perstage xs 1cores N=10007 minT=8   352=8916.75, 64=10239.63, 8=21584.85   352 faster by 2.42x
+blu bluestein dit_r2 perstage xs 1cores N=1331 minT=1    352=3717.94, 64=3828.19, 8=5082.10     352 faster by 1.37x
+blu bluestein dit_r2 perstage xs 1cores N=1331 minT=64   352=1674.17, 64=1926.28, 8=2985.10     352 faster by 1.78x
+blu bluestein dit_r2 perstage xs 1cores N=1331 minT=8    352=1948.43, 64=2166.23, 8=3492.50     352 faster by 1.79x
+    ... 390 more comparisons (--all-pairs, to show them all)
+
+--- axis: host-prefix threshold --- comparisons: 396   wins: 64: 327, 8: 60, 1: 9   speedup: 1.03–126.13x
+held fixed                                                times, us                            conclusion        
+--------------------------------------------------------  -----------------------------------  ------------------
+blu bluestein dit_r2 perstage xs 1cores N=10007 tile=352  64=8063.16, 8=8916.75, 1=20990.77    64 faster by 2.60x
+blu bluestein dit_r2 perstage xs 1cores N=10007 tile=64   64=9259.61, 8=10239.63, 1=21791.38   64 faster by 2.35x
+blu bluestein dit_r2 perstage xs 1cores N=10007 tile=8    64=19693.31, 8=21584.85, 1=34340.61  64 faster by 1.74x
+blu bluestein dit_r2 perstage xs 1cores N=1331 tile=352   64=1674.17, 8=1948.43, 1=3717.94     64 faster by 2.22x
+blu bluestein dit_r2 perstage xs 1cores N=1331 tile=64    64=1926.28, 8=2166.23, 1=3828.19     64 faster by 1.99x
+blu bluestein dit_r2 perstage xs 1cores N=1331 tile=8     64=2985.10, 8=3492.50, 1=5082.10     64 faster by 1.70x
+    ... 390 more comparisons (--all-pairs, to show them all)
+
+--- axis: Cube batch — there are no paired comparisons
+    (there are no two cells differing only in this axis: for
+     instance xi is implemented for radix-2 only, while tile/batch
+     have to be run in at least two values — run_matrix.sh -t / -B)
+
+============================================================================
+CROSS-RADIX — 3 vs 5 vs 7. These are NOT paired comparisons at equal
+N, because no N is a power of all three. Each row holds every axis but
+the radix fixed, takes the nearest size per radix, and compares
+ns_per_pt = total_us*1000 / (N*log2 N). The N spread is printed with
+each verdict and is the limit on what the row is worth.
+============================================================================
+
+--- rows: 72   wins: radix 7: 48, radix 5: 23, radix 3: 1
+held fixed                                     ns per point                                                      best                     
+---------------------------------------------  ----------------------------------------------------------------  -------------------------
+large direct dit perstage xs 1cores tile=352   r3: 3.596 (N=19683)  r5: 2.331 (N=15625)  r7: 1.687 (N=16807)     radix 7  (N spread 1.26x)
+large direct dit perstage xs 1cores tile=64    r3: 4.550 (N=19683)  r5: 3.413 (N=15625)  r7: 2.961 (N=16807)     radix 7  (N spread 1.26x)
+large direct dit perstage xs 1cores tile=8     r3: 13.339 (N=19683)  r5: 13.995 (N=15625)  r7: 19.760 (N=16807)  radix 3  (N spread 1.26x)
+large direct dit perstage xs 40cores tile=352  r3: 2.906 (N=19683)  r5: 1.359 (N=15625)  r7: 1.146 (N=16807)     radix 7  (N spread 1.26x)
+large direct dit perstage xs 40cores tile=64   r3: 2.905 (N=19683)  r5: 1.308 (N=15625)  r7: 1.028 (N=16807)     radix 7  (N spread 1.26x)
+large direct dit perstage xs 40cores tile=8    r3: 3.559 (N=19683)  r5: 1.995 (N=15625)  r7: 1.344 (N=16807)     radix 7  (N spread 1.26x)
+large rader dit perstage xs 1cores tile=352    r3: 3.680 (N=19683)  r5: 2.219 (N=15625)  r7: 1.698 (N=16807)     radix 7  (N spread 1.26x)
+large rader dit perstage xs 1cores tile=64     r3: 4.505 (N=19683)  r5: 3.290 (N=15625)  r7: 2.996 (N=16807)     radix 7  (N spread 1.26x)
+    ... 64 more rows (--all-pairs, to show them all)
+
+============================================================================
+OVERVIEW (NOT paired, metric TOTAL_us): the best time per value of an axis
+in the matrix. No good for conclusions — see the paired block above.
+============================================================================
+axis                         value      best TOTAL_us  achieved by                          
+---------------------------  ---------  -------------  -------------------------------------
+butterfly algorithm          sym        27.93          r5/sym_psm_xs N=125 tile=64          
+butterfly algorithm          mixed      105.14         mix/frank_hi_psm_xs N=720 tile=8     
+butterfly algorithm          rader      28.14          r5/rader_psm_xs N=125 tile=8         
+butterfly algorithm          direct     27.83          r5/direct_psm_xs N=125 tile=64       
+butterfly algorithm          winograd   27.95          r5/winograd_psm_xs N=125 tile=64     
+butterfly algorithm          bluestein  783.08         blu/bluestein_r4_ps_xs N=720 tile=352
+scheme / structural variant  dit        27.83          r5/direct_psm_xs N=125 tile=64       
+scheme / structural variant  dit_hi     105.14         mix/frank_hi_psm_xs N=720 tile=8     
+scheme / structural variant  dit_lo     136.23         mix/frank_lo_psm_xs N=720 tile=64    
+scheme / structural variant  dit_r2     625.80         rad/rader_r2_ps_xs N=101 tile=352    
+scheme / structural variant  dit_r4     471.65         rad/rader_r4_psm_xs N=101 tile=352   
+granularity                  perstage   27.83          r5/direct_psm_xs N=125 tile=64       
+layout                       xs         27.83          r5/direct_psm_xs N=125 tile=64       
+compute unit                 vector     27.83          r5/direct_psm_xs N=125 tile=64       
+terms                        0          27.83          r5/direct_psm_xs N=125 tile=64       
+matmuls                      0          27.83          r5/direct_psm_xs N=125 tile=64       
+cores                        1          28.21          r5/winograd_ps_xs N=125 tile=64      
+cores                        40         27.83          r5/direct_psm_xs N=125 tile=64       
+tile width                   8          28.14          r5/rader_psm_xs N=125 tile=8         
+tile width                   64         27.83          r5/direct_psm_xs N=125 tile=64       
+tile width                   352        28.28          r5/sym_ps_xs N=125 tile=352          
+host-prefix threshold        1          88.33          r5/winograd_psm_xs N=125 tile=352    
+host-prefix threshold        8          60.98          r5/rader_psm_xs N=125 tile=64        
+host-prefix threshold        64         27.83          r5/direct_psm_xs N=125 tile=64       
+Cube batch                   0          27.83          r5/direct_psm_xs N=125 tile=64       
+
+--- cells without a PASS ---
+impl/variant     N       tile  B  status     mismatches  max_abs
+---------------  ------  ----  -  ---------  ----------  -------
+chk/inner_r2_xs  720     8     0  NO_OUTPUT                     
+chk/inner_r2_xs  720     8     0  NO_OUTPUT                     
+chk/inner_r2_xs  720     8     0  NO_OUTPUT                     
+chk/inner_r2_xs  720     64    0  NO_OUTPUT                     
+chk/inner_r2_xs  720     64    0  NO_OUTPUT                     
+chk/inner_r2_xs  720     64    0  NO_OUTPUT                     
+chk/inner_r2_xs  720     352   0  NO_OUTPUT                     
+chk/inner_r2_xs  720     352   0  NO_OUTPUT                     
+chk/inner_r2_xs  720     352   0  NO_OUTPUT                     
+chk/inner_r2_xs  3600    8     0  NO_OUTPUT                     
+chk/inner_r2_xs  3600    8     0  NO_OUTPUT                     
+chk/inner_r2_xs  3600    8     0  NO_OUTPUT                     
+chk/inner_r2_xs  3600    64    0  NO_OUTPUT                     
+chk/inner_r2_xs  3600    64    0  NO_OUTPUT                     
+chk/inner_r2_xs  3600    64    0  NO_OUTPUT                     
+chk/inner_r2_xs  3600    352   0  NO_OUTPUT                     
+chk/inner_r2_xs  3600    352   0  NO_OUTPUT                     
+chk/inner_r2_xs  3600    352   0  NO_OUTPUT                     
+chk/inner_r2_xs  30240   8     0  NO_OUTPUT                     
+chk/inner_r2_xs  30240   8     0  NO_OUTPUT                     
+chk/inner_r2_xs  30240   8     0  NO_OUTPUT                     
+chk/inner_r2_xs  30240   64    0  NO_OUTPUT                     
+chk/inner_r2_xs  30240   64    0  NO_OUTPUT                     
+chk/inner_r2_xs  30240   64    0  NO_OUTPUT                     
+chk/inner_r2_xs  30240   352   0  NO_OUTPUT                     
+chk/inner_r2_xs  30240   352   0  NO_OUTPUT                     
+chk/inner_r2_xs  30240   352   0  NO_OUTPUT                     
+chk/inner_r2_xs  100800  8     0  NO_OUTPUT                     
+chk/inner_r2_xs  100800  8     0  NO_OUTPUT                     
+chk/inner_r2_xs  100800  8     0  NO_OUTPUT                     
+chk/inner_r2_xs  100800  64    0  NO_OUTPUT                     
+chk/inner_r2_xs  100800  64    0  NO_OUTPUT                     
+chk/inner_r2_xs  100800  64    0  NO_OUTPUT                     
+chk/inner_r2_xs  100800  352   0  NO_OUTPUT                     
+chk/inner_r2_xs  100800  352   0  NO_OUTPUT                     
+chk/inner_r2_xs  100800  352   0  NO_OUTPUT                     
+chk/inner_r4_xs  720     8     0  NO_OUTPUT                     
+chk/inner_r4_xs  720     8     0  NO_OUTPUT                     
+chk/inner_r4_xs  720     8     0  NO_OUTPUT                     
+chk/inner_r4_xs  720     64    0  NO_OUTPUT                     
+chk/inner_r4_xs  720     64    0  NO_OUTPUT                     
+chk/inner_r4_xs  720     64    0  NO_OUTPUT                     
+chk/inner_r4_xs  720     352   0  NO_OUTPUT                     
+chk/inner_r4_xs  720     352   0  NO_OUTPUT                     
+chk/inner_r4_xs  720     352   0  NO_OUTPUT                     
+chk/inner_r4_xs  3600    8     0  NO_OUTPUT                     
+chk/inner_r4_xs  3600    8     0  NO_OUTPUT                     
+chk/inner_r4_xs  3600    8     0  NO_OUTPUT                     
+chk/inner_r4_xs  3600    64    0  NO_OUTPUT                     
+chk/inner_r4_xs  3600    64    0  NO_OUTPUT                     
+chk/inner_r4_xs  3600    64    0  NO_OUTPUT                     
+chk/inner_r4_xs  3600    352   0  NO_OUTPUT                     
+chk/inner_r4_xs  3600    352   0  NO_OUTPUT                     
+chk/inner_r4_xs  3600    352   0  NO_OUTPUT                     
+chk/inner_r4_xs  30240   8     0  NO_OUTPUT                     
+chk/inner_r4_xs  30240   8     0  NO_OUTPUT                     
+chk/inner_r4_xs  30240   8     0  NO_OUTPUT                     
+chk/inner_r4_xs  30240   64    0  NO_OUTPUT                     
+chk/inner_r4_xs  30240   64    0  NO_OUTPUT                     
+chk/inner_r4_xs  30240   64    0  NO_OUTPUT                     
+chk/inner_r4_xs  30240   352   0  NO_OUTPUT                     
+chk/inner_r4_xs  30240   352   0  NO_OUTPUT                     
+chk/inner_r4_xs  30240   352   0  NO_OUTPUT                     
+chk/inner_r4_xs  100800  8     0  NO_OUTPUT                     
+chk/inner_r4_xs  100800  8     0  NO_OUTPUT                     
+chk/inner_r4_xs  100800  8     0  NO_OUTPUT                     
+chk/inner_r4_xs  100800  64    0  NO_OUTPUT                     
+chk/inner_r4_xs  100800  64    0  NO_OUTPUT                     
+chk/inner_r4_xs  100800  64    0  NO_OUTPUT                     
+chk/inner_r4_xs  100800  352   0  NO_OUTPUT                     
+chk/inner_r4_xs  100800  352   0  NO_OUTPUT                     
+chk/inner_r4_xs  100800  352   0  NO_OUTPUT                     

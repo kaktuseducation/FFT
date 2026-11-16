@@ -1,0 +1,7 @@
+/home/ma-user/work/OddFFT/build/ascendc_kernels_npu_vec_host-prefix/src/ascendc_kernels_npu_vec_host-build/CMakeFiles/install/strip.dir
+/home/ma-user/work/OddFFT/build/ascendc_kernels_npu_vec_host-prefix/src/ascendc_kernels_npu_vec_host-build/CMakeFiles/install/local.dir
+/home/ma-user/work/OddFFT/build/ascendc_kernels_npu_vec_host-prefix/src/ascendc_kernels_npu_vec_host-build/CMakeFiles/rebuild_cache.dir
+/home/ma-user/work/OddFFT/build/ascendc_kernels_npu_vec_host-prefix/src/ascendc_kernels_npu_vec_host-build/CMakeFiles/edit_cache.dir
+/home/ma-user/work/OddFFT/build/ascendc_kernels_npu_vec_host-prefix/src/ascendc_kernels_npu_vec_host-build/CMakeFiles/host_bisheng_obj.dir
+/home/ma-user/work/OddFFT/build/ascendc_kernels_npu_vec_host-prefix/src/ascendc_kernels_npu_vec_host-build/CMakeFiles/install.dir
+/home/ma-user/work/OddFFT/build/ascendc_kernels_npu_vec_host-prefix/src/ascendc_kernels_npu_vec_host-build/CMakeFiles/list_install_components.dir

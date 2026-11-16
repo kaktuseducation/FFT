@@ -1,0 +1,13 @@
+# Target labels
+ ascendc_kernels_npu_vec_host
+# Source files and their labels
+/home/ma-user/work/OddFFT/build/CMakeFiles/ascendc_kernels_npu_vec_host
+/home/ma-user/work/OddFFT/build/CMakeFiles/ascendc_kernels_npu_vec_host.rule
+/home/ma-user/work/OddFFT/build/CMakeFiles/ascendc_kernels_npu_vec_host-complete.rule
+/home/ma-user/work/OddFFT/build/ascendc_kernels_npu_vec_host-prefix/src/ascendc_kernels_npu_vec_host-stamp/ascendc_kernels_npu_vec_host-install.rule
+/home/ma-user/work/OddFFT/build/ascendc_kernels_npu_vec_host-prefix/src/ascendc_kernels_npu_vec_host-stamp/ascendc_kernels_npu_vec_host-mkdir.rule
+/home/ma-user/work/OddFFT/build/ascendc_kernels_npu_vec_host-prefix/src/ascendc_kernels_npu_vec_host-stamp/ascendc_kernels_npu_vec_host-download.rule
+/home/ma-user/work/OddFFT/build/ascendc_kernels_npu_vec_host-prefix/src/ascendc_kernels_npu_vec_host-stamp/ascendc_kernels_npu_vec_host-update.rule
+/home/ma-user/work/OddFFT/build/ascendc_kernels_npu_vec_host-prefix/src/ascendc_kernels_npu_vec_host-stamp/ascendc_kernels_npu_vec_host-patch.rule
+/home/ma-user/work/OddFFT/build/ascendc_kernels_npu_vec_host-prefix/src/ascendc_kernels_npu_vec_host-stamp/ascendc_kernels_npu_vec_host-configure.rule
+/home/ma-user/work/OddFFT/build/ascendc_kernels_npu_vec_host-prefix/src/ascendc_kernels_npu_vec_host-stamp/ascendc_kernels_npu_vec_host-build.rule

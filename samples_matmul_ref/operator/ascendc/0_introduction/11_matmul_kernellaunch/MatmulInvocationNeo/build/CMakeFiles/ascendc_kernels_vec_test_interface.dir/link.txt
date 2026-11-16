@@ -1,0 +1,2 @@
+/usr/bin/ar qc libascendc_kernels_vec_test_interface.a  CMakeFiles/ascendc_kernels_vec_test_interface.dir/ascendc_kernels_vec_test_stub.cpp.o
+/usr/bin/ranlib libascendc_kernels_vec_test_interface.a

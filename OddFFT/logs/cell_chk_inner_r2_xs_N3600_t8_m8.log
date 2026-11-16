@@ -1,0 +1,23 @@
+[INFO] ACL initialized, deviceId=0
+================================================================
+[BENCH ] impl=chk/inner_r2_xs  N=3600  tile=8  warmup=2  runs=5
+[BENCH ] twiddles=precomputed (npu=table, cpu=table:0 stage(s)) — the trigonometry is outside the timing on both sides
+----------------------------------------------------------------
+================================================================
+[DIAG  ] N=3600 -> M=8192  inner radix=2  tile=8  minT=8
+[DIAG  ] inner plan: 13 stages, first 3 on the host
+[DIAG 1] arb_cmul      max_rel=0.000e+00 worst=0 nan=0  OK
+[DIAG 2] arb_cscale    max_rel=0.000e+00 worst=0 nan=0  OK
+[DIAG 3] stage 3  r=2 t=8      block=16     nBlk=512   wOff=0       rowLen=8    tiles=512   bd=40  max_rel=3.816e-08 nan=0 OK
+[DIAG 3] stage 4  r=2 t=16     block=32     nBlk=256   wOff=16      rowLen=16   tiles=512   bd=40  max_rel=5.637e-08 nan=0 OK
+[DIAG 3] stage 5  r=2 t=32     block=64     nBlk=128   wOff=48      rowLen=32   tiles=512   bd=40  max_rel=9.641e-08 nan=0 OK
+[DIAG 3] stage 6  r=2 t=64     block=128    nBlk=64    wOff=112     rowLen=64   tiles=512   bd=40  max_rel=7.387e-08 nan=0 OK
+[DIAG 3] stage 7  r=2 t=128    block=256    nBlk=32    wOff=240     rowLen=128  tiles=512   bd=40  max_rel=8.839e-08 nan=0 OK
+[DIAG 3] stage 8  r=2 t=256    block=512    nBlk=16    wOff=496     rowLen=256  tiles=512   bd=40  max_rel=8.636e-08 nan=0 OK
+[DIAG 3] stage 9  r=2 t=512    block=1024   nBlk=8     wOff=1008    rowLen=512  tiles=512   bd=40  max_rel=1.035e-07 nan=0 OK
+[DIAG 3] stage 10 r=2 t=1024   block=2048   nBlk=4     wOff=2032    rowLen=1024 tiles=512   bd=40  max_rel=1.179e-07 nan=0 OK
+[DIAG 3] stage 11 r=2 t=2048   block=4096   nBlk=2     wOff=4080    rowLen=2048 tiles=512   bd=40  max_rel=1.023e-07 nan=0 OK
+[DIAG 3] stage 12 r=2 t=4096   block=8192   nBlk=1     wOff=8176    rowLen=4096 tiles=512   bd=40  max_rel=1.122e-07 nan=0 OK
+[DIAG  ] all three pieces agree with the host
+================================================================
+[VERIFY] impl=chk/inner_r2_xs N=3600 tile=8 status=NO_OUTPUT (output_x.bin not read) — the variant gave no result

@@ -1,0 +1,29 @@
+/home/ma-user/anaconda3/envs/MindSpore/lib/python3.9/site-packages/torch_npu/utils/collect_env.py:59: UserWarning: Warning: The /usr/local/Ascend/ascend-toolkit/latest owner does not match the current owner.
+  warnings.warn(f"Warning: The {path} owner does not match the current owner.")
+/home/ma-user/anaconda3/envs/MindSpore/lib/python3.9/site-packages/torch_npu/utils/collect_env.py:59: UserWarning: Warning: The /usr/local/Ascend/ascend-toolkit/8.0.RC3/aarch64-linux/ascend_toolkit_install.info owner does not match the current owner.
+  warnings.warn(f"Warning: The {path} owner does not match the current owner.")
+================================================================
+[BENCH ] impl=torch_npu/fft  N=32768  tile=0  warmup=5  runs=10
+[BENCH ] torch=2.1.0  device=npu:0  dtype=torch.complex64
+[BENCH ] twiddles=internal (torch) - vendor baseline
+----------------------------------------------------------------
+[WARMUP] 5/5 done
+[RUN   ] 1/10  npu_us=    425.97  cpu_us=   1012.63  total_us=   1438.60
+[RUN   ] 2/10  npu_us=    237.36  cpu_us=    436.06  total_us=    673.43
+[RUN   ] 3/10  npu_us=    213.32  cpu_us=    298.67  total_us=    512.00
+[RUN   ] 4/10  npu_us=    206.81  cpu_us=    325.74  total_us=    532.55
+[RUN   ] 5/10  npu_us=    207.89  cpu_us=    290.93  total_us=    498.82
+[RUN   ] 6/10  npu_us=    206.11  cpu_us=    291.77  total_us=    497.88
+[RUN   ] 7/10  npu_us=    212.20  cpu_us=    307.53  total_us=    519.74
+[RUN   ] 8/10  npu_us=    207.97  cpu_us=    291.05  total_us=    499.02
+[RUN   ] 9/10  npu_us=    209.05  cpu_us=    292.71  total_us=    501.76
+[RUN   ] 10/10  npu_us=    207.01  cpu_us=    289.18  total_us=    496.19
+----------------------------------------------------------------
+H2D:   avg=229.13 us  min=186.94 us  max=489.29 us
+NPU:   avg=233.37 us  min=206.11 us  max=425.97 us
+D2H:   avg=154.50 us  min=96.12 us  max=523.33 us
+CPU:   avg=383.63 us  (h2d+d2h)
+Total: avg=617.00 us  min=496.19 us  max=1438.60 us  sd=293.59
+[RESULT] impl=torch_npu/fft N=32768 tile=0 npu_us=233.37 cpu_us=383.63 total_us=617.00 min_us=496.19 max_us=1438.60 stages_npu=0 stages_cpu=0
+[VERIFY] impl=torch_npu/fft N=32768 tile=0 status=PASS mismatches=0/32768 err_ratio=0.000000 tol=1.0e-03 max_abs=9.163e-05 max_rel=1.762e-05
+================================================================

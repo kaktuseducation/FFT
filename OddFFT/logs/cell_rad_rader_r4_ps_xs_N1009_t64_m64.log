@@ -1,0 +1,22 @@
+[INFO] ACL initialized, deviceId=0
+================================================================
+[BENCH ] impl=rad/rader_r4_ps_xs  N=1009  tile=64  warmup=2  runs=5
+[BENCH ] twiddles=precomputed (npu=table, cpu=table:4 stage(s)) — the trigonometry is outside the timing on both sides
+----------------------------------------------------------------
+[RADER ] N=1009 (prime)  L=1008  M=2048  g=11  g^-1=367  inner radix=4  inner stages=6 (npu=2 cpu=4) x2 per call
+[WARMUP] 1/2 done
+[WARMUP] 2/2 done
+[RUN   ] 1/5  npu_us=    586.35  cpu_us=    403.99  total_us=    990.34
+[RUN   ] 2/5  npu_us=    574.86  cpu_us=    411.84  total_us=    986.71
+[RUN   ] 3/5  npu_us=    581.71  cpu_us=    389.39  total_us=    971.10
+[RUN   ] 4/5  npu_us=    492.20  cpu_us=    395.34  total_us=    887.55
+[RUN   ] 5/5  npu_us=    479.24  cpu_us=    408.23  total_us=    887.48
+----------------------------------------------------------------
+NPU:   avg=542.87 us  min=479.24 us  max=586.35 us
+CPU:   avg=401.76 us  min=389.39 us  max=411.84 us
+Total: avg=944.63 us  min=887.48 us  max=990.34 us
+[RESULT] impl=rad/rader_r4_ps_xs N=1009 tile=64 npu_us=542.87 cpu_us=401.76 total_us=944.63 min_us=887.48 max_us=990.34 stages_npu=2 stages_cpu=4
+================================================================
+[VERIFY] impl=rad/rader_r4_ps_xs N=1009 tile=64 status=PASS mismatches=0/1009 err_ratio=0.000000 tol=1.0e-03 max_abs=1.562e-05 max_rel=1.049e-05
+[PLAN  ] stages_npu=2 stages_cpu=4 (the leading 4 stage(s) have t below the 32-byte DataCopy floor and run on the host)
+test pass

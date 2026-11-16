@@ -1,0 +1,312 @@
+[INFO] run_matrix.sh started, log=./logs/matrix_20261021_140628.log
+[INFO] ASCEND install path: /usr/local/Ascend/ascend-toolkit/latest
+find: ‘/usr/local/Ascend/ascend-toolkit/latest/opp/vendors’: Permission denied
+find: ‘/usr/local/Ascend/ascend-toolkit/latest/opp/framework/custom’: Permission denied
+find: ‘/usr/local/Ascend/ascend-toolkit/latest/opp/test-ops/script’: Permission denied
+find: ‘/usr/local/Ascend/ascend-toolkit/latest/opp/op_impl/custom’: Permission denied
+find: ‘/usr/local/Ascend/ascend-toolkit/latest/opp/op_proto/custom’: Permission denied
+[INFO]: /usr/local/Ascend/ascend-toolkit/latest/opp/op_impl/custom/ is empty
+find: ‘/usr/local/Ascend/ascend-toolkit/latest/opp/vendors’: Permission denied
+find: ‘/usr/local/Ascend/ascend-toolkit/latest/opp/framework/custom’: Permission denied
+find: ‘/usr/local/Ascend/ascend-toolkit/latest/opp/test-ops/script’: Permission denied
+find: ‘/usr/local/Ascend/ascend-toolkit/latest/opp/op_impl/custom’: Permission denied
+find: ‘/usr/local/Ascend/ascend-toolkit/latest/opp/op_proto/custom’: Permission denied
+[INFO]: /usr/local/Ascend/ascend-toolkit/latest/opp/op_proto/custom/ is empty
+find: ‘/usr/local/Ascend/ascend-toolkit/latest/opp/vendors’: Permission denied
+find: ‘/usr/local/Ascend/ascend-toolkit/latest/opp/framework/custom’: Permission denied
+find: ‘/usr/local/Ascend/ascend-toolkit/latest/opp/test-ops/script’: Permission denied
+find: ‘/usr/local/Ascend/ascend-toolkit/latest/opp/op_impl/custom’: Permission denied
+find: ‘/usr/local/Ascend/ascend-toolkit/latest/opp/op_proto/custom’: Permission denied
+[INFO]: / is empty
+find: ‘/usr/local/Ascend/ascend-toolkit/latest/opp/vendors’: Permission denied
+find: ‘/usr/local/Ascend/ascend-toolkit/latest/opp/framework/custom’: Permission denied
+find: ‘/usr/local/Ascend/ascend-toolkit/latest/opp/test-ops/script’: Permission denied
+find: ‘/usr/local/Ascend/ascend-toolkit/latest/opp/op_impl/custom’: Permission denied
+find: ‘/usr/local/Ascend/ascend-toolkit/latest/opp/op_proto/custom’: Permission denied
+[INFO]: / is empty
+find: ‘/usr/local/Ascend/ascend-toolkit/latest/opp/vendors’: Permission denied
+find: ‘/usr/local/Ascend/ascend-toolkit/latest/opp/framework/custom’: Permission denied
+find: ‘/usr/local/Ascend/ascend-toolkit/latest/opp/test-ops/script’: Permission denied
+find: ‘/usr/local/Ascend/ascend-toolkit/latest/opp/op_impl/custom’: Permission denied
+find: ‘/usr/local/Ascend/ascend-toolkit/latest/opp/op_proto/custom’: Permission denied
+[INFO]: /usr/local/Ascend/ascend-toolkit/latest/opp/framework/custom/ is empty
+find: ‘/usr/local/Ascend/ascend-toolkit/8.0.RC3/opp/vendors’: Permission denied
+find: ‘/usr/local/Ascend/ascend-toolkit/8.0.RC3/opp/framework/custom’: Permission denied
+find: ‘/usr/local/Ascend/ascend-toolkit/8.0.RC3/opp/test-ops/script’: Permission denied
+find: ‘/usr/local/Ascend/ascend-toolkit/8.0.RC3/opp/op_impl/custom’: Permission denied
+find: ‘/usr/local/Ascend/ascend-toolkit/8.0.RC3/opp/op_proto/custom’: Permission denied
+find: ‘/usr/local/Ascend/ascend-toolkit/8.0.RC3/opp/vendors’: Permission denied
+find: ‘/usr/local/Ascend/ascend-toolkit/8.0.RC3/opp/framework/custom’: Permission denied
+find: ‘/usr/local/Ascend/ascend-toolkit/8.0.RC3/opp/test-ops/script’: Permission denied
+find: ‘/usr/local/Ascend/ascend-toolkit/8.0.RC3/opp/op_impl/custom’: Permission denied
+find: ‘/usr/local/Ascend/ascend-toolkit/8.0.RC3/opp/op_proto/custom’: Permission denied
+find: ‘/usr/local/Ascend/ascend-toolkit/latest/opp/vendors’: Permission denied
+find: ‘/usr/local/Ascend/ascend-toolkit/latest/opp/framework/custom’: Permission denied
+find: ‘/usr/local/Ascend/ascend-toolkit/latest/opp/test-ops/script’: Permission denied
+find: ‘/usr/local/Ascend/ascend-toolkit/latest/opp/op_impl/custom’: Permission denied
+find: ‘/usr/local/Ascend/ascend-toolkit/latest/opp/op_proto/custom’: Permission denied
+[INFO]: /usr/local/Ascend/ascend-toolkit/latest/opp/op_impl/custom/ is empty
+find: ‘/usr/local/Ascend/ascend-toolkit/latest/opp/vendors’: Permission denied
+find: ‘/usr/local/Ascend/ascend-toolkit/latest/opp/framework/custom’: Permission denied
+find: ‘/usr/local/Ascend/ascend-toolkit/latest/opp/test-ops/script’: Permission denied
+find: ‘/usr/local/Ascend/ascend-toolkit/latest/opp/op_impl/custom’: Permission denied
+find: ‘/usr/local/Ascend/ascend-toolkit/latest/opp/op_proto/custom’: Permission denied
+[INFO]: /usr/local/Ascend/ascend-toolkit/latest/opp/op_proto/custom/ is empty
+find: ‘/usr/local/Ascend/ascend-toolkit/latest/opp/vendors’: Permission denied
+find: ‘/usr/local/Ascend/ascend-toolkit/latest/opp/framework/custom’: Permission denied
+find: ‘/usr/local/Ascend/ascend-toolkit/latest/opp/test-ops/script’: Permission denied
+find: ‘/usr/local/Ascend/ascend-toolkit/latest/opp/op_impl/custom’: Permission denied
+find: ‘/usr/local/Ascend/ascend-toolkit/latest/opp/op_proto/custom’: Permission denied
+[INFO]: / is empty
+find: ‘/usr/local/Ascend/ascend-toolkit/latest/opp/vendors’: Permission denied
+find: ‘/usr/local/Ascend/ascend-toolkit/latest/opp/framework/custom’: Permission denied
+find: ‘/usr/local/Ascend/ascend-toolkit/latest/opp/test-ops/script’: Permission denied
+find: ‘/usr/local/Ascend/ascend-toolkit/latest/opp/op_impl/custom’: Permission denied
+find: ‘/usr/local/Ascend/ascend-toolkit/latest/opp/op_proto/custom’: Permission denied
+[INFO]: / is empty
+find: ‘/usr/local/Ascend/ascend-toolkit/latest/opp/vendors’: Permission denied
+find: ‘/usr/local/Ascend/ascend-toolkit/latest/opp/framework/custom’: Permission denied
+find: ‘/usr/local/Ascend/ascend-toolkit/latest/opp/test-ops/script’: Permission denied
+find: ‘/usr/local/Ascend/ascend-toolkit/latest/opp/op_impl/custom’: Permission denied
+find: ‘/usr/local/Ascend/ascend-toolkit/latest/opp/op_proto/custom’: Permission denied
+[INFO]: /usr/local/Ascend/ascend-toolkit/latest/opp/framework/custom/ is empty
+[INFO] building once (RUN_MODE=npu)
+[INFO] variants: blu/bluestein_r2_ps_xs blu/bluestein_r2_psm_xs blu/bluestein_r4_ps_xs blu/bluestein_r4_psm_xs rad/rader_r2_ps_xs rad/rader_r2_psm_xs rad/rader_r4_ps_xs rad/rader_r4_psm_xs 
+[INFO] tiles:    8 64 352
+[INFO] minT:     1 8 64
+[INFO] N  r2=256 4096 32768 | r3=243 2187 19683 | r4=256 4096 65536
+[INFO] N  r5=125 3125 15625 | r7=343 2401 16807 | mix=720 3600 30240 100800
+[INFO] N  blu=720 3600 1331 10007 | rad=101 211 1009 10007
+[CELL ] blu/bluestein_r2_ps_xs radix=0 N=720     tile=8    minT=1   ... FAIL (verification)
+[CELL ] blu/bluestein_r2_ps_xs radix=0 N=720     tile=8    minT=8   ... FAIL (verification)
+[CELL ] blu/bluestein_r2_ps_xs radix=0 N=720     tile=8    minT=64  ... FAIL (verification)
+[CELL ] blu/bluestein_r2_ps_xs radix=0 N=720     tile=64   minT=1   ... FAIL (verification)
+[CELL ] blu/bluestein_r2_ps_xs radix=0 N=720     tile=64   minT=8   ... FAIL (verification)
+[CELL ] blu/bluestein_r2_ps_xs radix=0 N=720     tile=64   minT=64  ... FAIL (verification)
+[CELL ] blu/bluestein_r2_ps_xs radix=0 N=720     tile=352  minT=1   ... FAIL (verification)
+[CELL ] blu/bluestein_r2_ps_xs radix=0 N=720     tile=352  minT=8   ... FAIL (verification)
+[CELL ] blu/bluestein_r2_ps_xs radix=0 N=720     tile=352  minT=64  ... FAIL (verification)
+[CELL ] blu/bluestein_r2_ps_xs radix=0 N=3600    tile=8    minT=1   ... FAIL (verification)
+[CELL ] blu/bluestein_r2_ps_xs radix=0 N=3600    tile=8    minT=8   ... FAIL (verification)
+[CELL ] blu/bluestein_r2_ps_xs radix=0 N=3600    tile=8    minT=64  ... FAIL (verification)
+[CELL ] blu/bluestein_r2_ps_xs radix=0 N=3600    tile=64   minT=1   ... FAIL (verification)
+[CELL ] blu/bluestein_r2_ps_xs radix=0 N=3600    tile=64   minT=8   ... FAIL (verification)
+[CELL ] blu/bluestein_r2_ps_xs radix=0 N=3600    tile=64   minT=64  ... FAIL (verification)
+[CELL ] blu/bluestein_r2_ps_xs radix=0 N=3600    tile=352  minT=1   ... FAIL (verification)
+[CELL ] blu/bluestein_r2_ps_xs radix=0 N=3600    tile=352  minT=8   ... FAIL (verification)
+[CELL ] blu/bluestein_r2_ps_xs radix=0 N=3600    tile=352  minT=64  ... FAIL (verification)
+[CELL ] blu/bluestein_r2_ps_xs radix=0 N=1331    tile=8    minT=1   ... FAIL (verification)
+[CELL ] blu/bluestein_r2_ps_xs radix=0 N=1331    tile=8    minT=8   ... FAIL (verification)
+[CELL ] blu/bluestein_r2_ps_xs radix=0 N=1331    tile=8    minT=64  ... FAIL (verification)
+[CELL ] blu/bluestein_r2_ps_xs radix=0 N=1331    tile=64   minT=1   ... FAIL (verification)
+[CELL ] blu/bluestein_r2_ps_xs radix=0 N=1331    tile=64   minT=8   ... FAIL (verification)
+[CELL ] blu/bluestein_r2_ps_xs radix=0 N=1331    tile=64   minT=64  ... FAIL (verification)
+[CELL ] blu/bluestein_r2_ps_xs radix=0 N=1331    tile=352  minT=1   ... FAIL (verification)
+[CELL ] blu/bluestein_r2_ps_xs radix=0 N=1331    tile=352  minT=8   ... FAIL (verification)
+[CELL ] blu/bluestein_r2_ps_xs radix=0 N=1331    tile=352  minT=64  ... FAIL (verification)
+[CELL ] blu/bluestein_r2_ps_xs radix=0 N=10007   tile=8    minT=1   ... FAIL (verification)
+[CELL ] blu/bluestein_r2_ps_xs radix=0 N=10007   tile=8    minT=8   ... FAIL (verification)
+[CELL ] blu/bluestein_r2_ps_xs radix=0 N=10007   tile=8    minT=64  ... FAIL (verification)
+[CELL ] blu/bluestein_r2_ps_xs radix=0 N=10007   tile=64   minT=1   ... FAIL (verification)
+[CELL ] blu/bluestein_r2_ps_xs radix=0 N=10007   tile=64   minT=8   ... FAIL (verification)
+[CELL ] blu/bluestein_r2_ps_xs radix=0 N=10007   tile=64   minT=64  ... FAIL (verification)
+[CELL ] blu/bluestein_r2_ps_xs radix=0 N=10007   tile=352  minT=1   ... FAIL (verification)
+[CELL ] blu/bluestein_r2_ps_xs radix=0 N=10007   tile=352  minT=8   ... FAIL (verification)
+[CELL ] blu/bluestein_r2_ps_xs radix=0 N=10007   tile=352  minT=64  ... FAIL (verification)
+[CELL ] blu/bluestein_r2_psm_xs radix=0 N=720     tile=8    minT=1   ... FAIL (verification)
+[CELL ] blu/bluestein_r2_psm_xs radix=0 N=720     tile=8    minT=8   ... FAIL (verification)
+[CELL ] blu/bluestein_r2_psm_xs radix=0 N=720     tile=8    minT=64  ... FAIL (verification)
+[CELL ] blu/bluestein_r2_psm_xs radix=0 N=720     tile=64   minT=1   ... FAIL (verification)
+[CELL ] blu/bluestein_r2_psm_xs radix=0 N=720     tile=64   minT=8   ... FAIL (verification)
+[CELL ] blu/bluestein_r2_psm_xs radix=0 N=720     tile=64   minT=64  ... FAIL (verification)
+[CELL ] blu/bluestein_r2_psm_xs radix=0 N=720     tile=352  minT=1   ... FAIL (verification)
+[CELL ] blu/bluestein_r2_psm_xs radix=0 N=720     tile=352  minT=8   ... FAIL (verification)
+[CELL ] blu/bluestein_r2_psm_xs radix=0 N=720     tile=352  minT=64  ... FAIL (verification)
+[CELL ] blu/bluestein_r2_psm_xs radix=0 N=3600    tile=8    minT=1   ... FAIL (verification)
+[CELL ] blu/bluestein_r2_psm_xs radix=0 N=3600    tile=8    minT=8   ... FAIL (verification)
+[CELL ] blu/bluestein_r2_psm_xs radix=0 N=3600    tile=8    minT=64  ... FAIL (verification)
+[CELL ] blu/bluestein_r2_psm_xs radix=0 N=3600    tile=64   minT=1   ... FAIL (verification)
+[CELL ] blu/bluestein_r2_psm_xs radix=0 N=3600    tile=64   minT=8   ... FAIL (verification)
+[CELL ] blu/bluestein_r2_psm_xs radix=0 N=3600    tile=64   minT=64  ... FAIL (verification)
+[CELL ] blu/bluestein_r2_psm_xs radix=0 N=3600    tile=352  minT=1   ... FAIL (verification)
+[CELL ] blu/bluestein_r2_psm_xs radix=0 N=3600    tile=352  minT=8   ... FAIL (verification)
+[CELL ] blu/bluestein_r2_psm_xs radix=0 N=3600    tile=352  minT=64  ... FAIL (verification)
+[CELL ] blu/bluestein_r2_psm_xs radix=0 N=1331    tile=8    minT=1   ... FAIL (verification)
+[CELL ] blu/bluestein_r2_psm_xs radix=0 N=1331    tile=8    minT=8   ... FAIL (verification)
+[CELL ] blu/bluestein_r2_psm_xs radix=0 N=1331    tile=8    minT=64  ... FAIL (verification)
+[CELL ] blu/bluestein_r2_psm_xs radix=0 N=1331    tile=64   minT=1   ... FAIL (verification)
+[CELL ] blu/bluestein_r2_psm_xs radix=0 N=1331    tile=64   minT=8   ... FAIL (verification)
+[CELL ] blu/bluestein_r2_psm_xs radix=0 N=1331    tile=64   minT=64  ... FAIL (verification)
+[CELL ] blu/bluestein_r2_psm_xs radix=0 N=1331    tile=352  minT=1   ... FAIL (verification)
+[CELL ] blu/bluestein_r2_psm_xs radix=0 N=1331    tile=352  minT=8   ... FAIL (verification)
+[CELL ] blu/bluestein_r2_psm_xs radix=0 N=1331    tile=352  minT=64  ... FAIL (verification)
+[CELL ] blu/bluestein_r2_psm_xs radix=0 N=10007   tile=8    minT=1   ... FAIL (verification)
+[CELL ] blu/bluestein_r2_psm_xs radix=0 N=10007   tile=8    minT=8   ... FAIL (verification)
+[CELL ] blu/bluestein_r2_psm_xs radix=0 N=10007   tile=8    minT=64  ... FAIL (verification)
+[CELL ] blu/bluestein_r2_psm_xs radix=0 N=10007   tile=64   minT=1   ... FAIL (verification)
+[CELL ] blu/bluestein_r2_psm_xs radix=0 N=10007   tile=64   minT=8   ... FAIL (verification)
+[CELL ] blu/bluestein_r2_psm_xs radix=0 N=10007   tile=64   minT=64  ... FAIL (verification)
+[CELL ] blu/bluestein_r2_psm_xs radix=0 N=10007   tile=352  minT=1   ... FAIL (verification)
+[CELL ] blu/bluestein_r2_psm_xs radix=0 N=10007   tile=352  minT=8   ... FAIL (verification)
+[CELL ] blu/bluestein_r2_psm_xs radix=0 N=10007   tile=352  minT=64  ... FAIL (verification)
+[CELL ] blu/bluestein_r4_ps_xs radix=0 N=720     tile=8    minT=1   ... FAIL (verification)
+[CELL ] blu/bluestein_r4_ps_xs radix=0 N=720     tile=8    minT=8   ... FAIL (verification)
+[CELL ] blu/bluestein_r4_ps_xs radix=0 N=720     tile=8    minT=64  ... FAIL (verification)
+[CELL ] blu/bluestein_r4_ps_xs radix=0 N=720     tile=64   minT=1   ... FAIL (verification)
+[CELL ] blu/bluestein_r4_ps_xs radix=0 N=720     tile=64   minT=8   ... FAIL (verification)
+[CELL ] blu/bluestein_r4_ps_xs radix=0 N=720     tile=64   minT=64  ... FAIL (verification)
+[CELL ] blu/bluestein_r4_ps_xs radix=0 N=720     tile=352  minT=1   ... FAIL (verification)
+[CELL ] blu/bluestein_r4_ps_xs radix=0 N=720     tile=352  minT=8   ... FAIL (verification)
+[CELL ] blu/bluestein_r4_ps_xs radix=0 N=720     tile=352  minT=64  ... FAIL (verification)
+[CELL ] blu/bluestein_r4_ps_xs radix=0 N=3600    tile=8    minT=1   ... FAIL (verification)
+[CELL ] blu/bluestein_r4_ps_xs radix=0 N=3600    tile=8    minT=8   ... FAIL (verification)
+[CELL ] blu/bluestein_r4_ps_xs radix=0 N=3600    tile=8    minT=64  ... FAIL (verification)
+[CELL ] blu/bluestein_r4_ps_xs radix=0 N=3600    tile=64   minT=1   ... FAIL (verification)
+[CELL ] blu/bluestein_r4_ps_xs radix=0 N=3600    tile=64   minT=8   ... FAIL (verification)
+[CELL ] blu/bluestein_r4_ps_xs radix=0 N=3600    tile=64   minT=64  ... FAIL (verification)
+[CELL ] blu/bluestein_r4_ps_xs radix=0 N=3600    tile=352  minT=1   ... FAIL (verification)
+[CELL ] blu/bluestein_r4_ps_xs radix=0 N=3600    tile=352  minT=8   ... FAIL (verification)
+[CELL ] blu/bluestein_r4_ps_xs radix=0 N=3600    tile=352  minT=64  ... FAIL (verification)
+[CELL ] blu/bluestein_r4_ps_xs radix=0 N=1331    tile=8    minT=1   ... FAIL (verification)
+[CELL ] blu/bluestein_r4_ps_xs radix=0 N=1331    tile=8    minT=8   ... FAIL (verification)
+[CELL ] blu/bluestein_r4_ps_xs radix=0 N=1331    tile=8    minT=64  ... FAIL (verification)
+[CELL ] blu/bluestein_r4_ps_xs radix=0 N=1331    tile=64   minT=1   ... FAIL (verification)
+[CELL ] blu/bluestein_r4_ps_xs radix=0 N=1331    tile=64   minT=8   ... FAIL (verification)
+[CELL ] blu/bluestein_r4_ps_xs radix=0 N=1331    tile=64   minT=64  ... FAIL (verification)
+[CELL ] blu/bluestein_r4_ps_xs radix=0 N=1331    tile=352  minT=1   ... FAIL (verification)
+[CELL ] blu/bluestein_r4_ps_xs radix=0 N=1331    tile=352  minT=8   ... FAIL (verification)
+[CELL ] blu/bluestein_r4_ps_xs radix=0 N=1331    tile=352  minT=64  ... FAIL (verification)
+[CELL ] blu/bluestein_r4_ps_xs radix=0 N=10007   tile=8    minT=1   ... FAIL (verification)
+[CELL ] blu/bluestein_r4_ps_xs radix=0 N=10007   tile=8    minT=8   ... FAIL (verification)
+[CELL ] blu/bluestein_r4_ps_xs radix=0 N=10007   tile=8    minT=64  ... FAIL (verification)
+[CELL ] blu/bluestein_r4_ps_xs radix=0 N=10007   tile=64   minT=1   ... FAIL (verification)
+[CELL ] blu/bluestein_r4_ps_xs radix=0 N=10007   tile=64   minT=8   ... FAIL (verification)
+[CELL ] blu/bluestein_r4_ps_xs radix=0 N=10007   tile=64   minT=64  ... FAIL (verification)
+[CELL ] blu/bluestein_r4_ps_xs radix=0 N=10007   tile=352  minT=1   ... FAIL (verification)
+[CELL ] blu/bluestein_r4_ps_xs radix=0 N=10007   tile=352  minT=8   ... FAIL (verification)
+[CELL ] blu/bluestein_r4_ps_xs radix=0 N=10007   tile=352  minT=64  ... FAIL (verification)
+[CELL ] blu/bluestein_r4_psm_xs radix=0 N=720     tile=8    minT=1   ... FAIL (verification)
+[CELL ] blu/bluestein_r4_psm_xs radix=0 N=720     tile=8    minT=8   ... FAIL (verification)
+[CELL ] blu/bluestein_r4_psm_xs radix=0 N=720     tile=8    minT=64  ... FAIL (verification)
+[CELL ] blu/bluestein_r4_psm_xs radix=0 N=720     tile=64   minT=1   ... FAIL (verification)
+[CELL ] blu/bluestein_r4_psm_xs radix=0 N=720     tile=64   minT=8   ... FAIL (verification)
+[CELL ] blu/bluestein_r4_psm_xs radix=0 N=720     tile=64   minT=64  ... FAIL (verification)
+[CELL ] blu/bluestein_r4_psm_xs radix=0 N=720     tile=352  minT=1   ... FAIL (verification)
+[CELL ] blu/bluestein_r4_psm_xs radix=0 N=720     tile=352  minT=8   ... FAIL (verification)
+[CELL ] blu/bluestein_r4_psm_xs radix=0 N=720     tile=352  minT=64  ... FAIL (verification)
+[CELL ] blu/bluestein_r4_psm_xs radix=0 N=3600    tile=8    minT=1   ... FAIL (verification)
+[CELL ] blu/bluestein_r4_psm_xs radix=0 N=3600    tile=8    minT=8   ... FAIL (verification)
+[CELL ] blu/bluestein_r4_psm_xs radix=0 N=3600    tile=8    minT=64  ... FAIL (verification)
+[CELL ] blu/bluestein_r4_psm_xs radix=0 N=3600    tile=64   minT=1   ... FAIL (verification)
+[CELL ] blu/bluestein_r4_psm_xs radix=0 N=3600    tile=64   minT=8   ... FAIL (verification)
+[CELL ] blu/bluestein_r4_psm_xs radix=0 N=3600    tile=64   minT=64  ... FAIL (verification)
+[CELL ] blu/bluestein_r4_psm_xs radix=0 N=3600    tile=352  minT=1   ... FAIL (verification)
+[CELL ] blu/bluestein_r4_psm_xs radix=0 N=3600    tile=352  minT=8   ... FAIL (verification)
+[CELL ] blu/bluestein_r4_psm_xs radix=0 N=3600    tile=352  minT=64  ... FAIL (verification)
+[CELL ] blu/bluestein_r4_psm_xs radix=0 N=1331    tile=8    minT=1   ... FAIL (verification)
+[CELL ] blu/bluestein_r4_psm_xs radix=0 N=1331    tile=8    minT=8   ... FAIL (verification)
+[CELL ] blu/bluestein_r4_psm_xs radix=0 N=1331    tile=8    minT=64  ... FAIL (verification)
+[CELL ] blu/bluestein_r4_psm_xs radix=0 N=1331    tile=64   minT=1   ... FAIL (verification)
+[CELL ] blu/bluestein_r4_psm_xs radix=0 N=1331    tile=64   minT=8   ... FAIL (verification)
+[CELL ] blu/bluestein_r4_psm_xs radix=0 N=1331    tile=64   minT=64  ... FAIL (verification)
+[CELL ] blu/bluestein_r4_psm_xs radix=0 N=1331    tile=352  minT=1   ... FAIL (verification)
+[CELL ] blu/bluestein_r4_psm_xs radix=0 N=1331    tile=352  minT=8   ... FAIL (verification)
+[CELL ] blu/bluestein_r4_psm_xs radix=0 N=1331    tile=352  minT=64  ... FAIL (verification)
+[CELL ] blu/bluestein_r4_psm_xs radix=0 N=10007   tile=8    minT=1   ... FAIL (verification)
+[CELL ] blu/bluestein_r4_psm_xs radix=0 N=10007   tile=8    minT=8   ... FAIL (verification)
+[CELL ] blu/bluestein_r4_psm_xs radix=0 N=10007   tile=8    minT=64  ... FAIL (verification)
+[CELL ] blu/bluestein_r4_psm_xs radix=0 N=10007   tile=64   minT=1   ... FAIL (verification)
+[CELL ] blu/bluestein_r4_psm_xs radix=0 N=10007   tile=64   minT=8   ... FAIL (verification)
+[CELL ] blu/bluestein_r4_psm_xs radix=0 N=10007   tile=64   minT=64  ... FAIL (verification)
+[CELL ] blu/bluestein_r4_psm_xs radix=0 N=10007   tile=352  minT=1   ... FAIL (verification)
+[CELL ] blu/bluestein_r4_psm_xs radix=0 N=10007   tile=352  minT=8   ... FAIL (verification)
+[CELL ] blu/bluestein_r4_psm_xs radix=0 N=10007   tile=352  minT=64  ... FAIL (verification)
+[CELL ] rad/rader_r2_ps_xs radix=0 N=101     tile=8    minT=1   ... FAIL (verification)
+[CELL ] rad/rader_r2_ps_xs radix=0 N=101     tile=8    minT=8   ... FAIL (verification)
+[CELL ] rad/rader_r2_ps_xs radix=0 N=101     tile=8    minT=64  ... FAIL (verification)
+[CELL ] rad/rader_r2_ps_xs radix=0 N=101     tile=64   minT=1   ... PASS
+[CELL ] rad/rader_r2_ps_xs radix=0 N=101     tile=64   minT=8   ... PASS
+[CELL ] rad/rader_r2_ps_xs radix=0 N=101     tile=64   minT=64  ... PASS
+[CELL ] rad/rader_r2_ps_xs radix=0 N=101     tile=352  minT=1   ... PASS
+[CELL ] rad/rader_r2_ps_xs radix=0 N=101     tile=352  minT=8   ... PASS
+[CELL ] rad/rader_r2_ps_xs radix=0 N=101     tile=352  minT=64  ... PASS
+[CELL ] rad/rader_r2_ps_xs radix=0 N=211     tile=8    minT=1   ... FAIL (verification)
+[CELL ] rad/rader_r2_ps_xs radix=0 N=211     tile=8    minT=8   ... FAIL (verification)
+[CELL ] rad/rader_r2_ps_xs radix=0 N=211     tile=8    minT=64  ... FAIL (verification)
+[CELL ] rad/rader_r2_ps_xs radix=0 N=211     tile=64   minT=1   ... PASS
+[CELL ] rad/rader_r2_ps_xs radix=0 N=211     tile=64   minT=8   ... FAIL (verification)
+[CELL ] rad/rader_r2_ps_xs radix=0 N=211     tile=64   minT=64  ... FAIL (verification)
+[CELL ] rad/rader_r2_ps_xs radix=0 N=211     tile=352  minT=1   ... PASS
+[CELL ] rad/rader_r2_ps_xs radix=0 N=211     tile=352  minT=8   ... PASS
+[CELL ] rad/rader_r2_ps_xs radix=0 N=211     tile=352  minT=64  ... PASS
+[CELL ] rad/rader_r2_ps_xs radix=0 N=1009    tile=8    minT=1   ... FAIL (verification)
+[CELL ] rad/rader_r2_ps_xs radix=0 N=1009    tile=8    minT=8   ... FAIL (verification)
+[CELL ] rad/rader_r2_ps_xs radix=0 N=1009    tile=8    minT=64  ... FAIL (verification)
+[CELL ] rad/rader_r2_ps_xs radix=0 N=1009    tile=64   minT=1   ... FAIL (verification)
+[CELL ] rad/rader_r2_ps_xs radix=0 N=1009    tile=64   minT=8   ... FAIL (verification)
+[CELL ] rad/rader_r2_ps_xs radix=0 N=1009    tile=64   minT=64  ... FAIL (verification)
+[CELL ] rad/rader_r2_ps_xs radix=0 N=1009    tile=352  minT=1   ... PASS
+[CELL ] rad/rader_r2_ps_xs radix=0 N=1009    tile=352  minT=8   ... PASS
+[CELL ] rad/rader_r2_ps_xs radix=0 N=1009    tile=352  minT=64  ... PASS
+[CELL ] rad/rader_r2_ps_xs radix=0 N=10007   tile=8    minT=1   ... FAIL (verification)
+[CELL ] rad/rader_r2_ps_xs radix=0 N=10007   tile=8    minT=8   ... FAIL (verification)
+[CELL ] rad/rader_r2_ps_xs radix=0 N=10007   tile=8    minT=64  ... FAIL (verification)
+[CELL ] rad/rader_r2_ps_xs radix=0 N=10007   tile=64   minT=1   ... FAIL (verification)
+[CELL ] rad/rader_r2_ps_xs radix=0 N=10007   tile=64   minT=8   ... FAIL (verification)
+[CELL ] rad/rader_r2_ps_xs radix=0 N=10007   tile=64   minT=64  ... FAIL (verification)
+[CELL ] rad/rader_r2_ps_xs radix=0 N=10007   tile=352  minT=1   ... FAIL (verification)
+[CELL ] rad/rader_r2_ps_xs radix=0 N=10007   tile=352  minT=8   ... FAIL (verification)
+[CELL ] rad/rader_r2_ps_xs radix=0 N=10007   tile=352  minT=64  ... FAIL (verification)
+[CELL ] rad/rader_r2_psm_xs radix=0 N=101     tile=8    minT=1   ... PASS
+[CELL ] rad/rader_r2_psm_xs radix=0 N=101     tile=8    minT=8   ... FAIL (verification)
+[CELL ] rad/rader_r2_psm_xs radix=0 N=101     tile=8    minT=64  ... FAIL (verification)
+[CELL ] rad/rader_r2_psm_xs radix=0 N=101     tile=64   minT=1   ... PASS
+[CELL ] rad/rader_r2_psm_xs radix=0 N=101     tile=64   minT=8   ... PASS
+[CELL ] rad/rader_r2_psm_xs radix=0 N=101     tile=64   minT=64  ... FAIL (verification)
+[CELL ] rad/rader_r2_psm_xs radix=0 N=101     tile=352  minT=1   ... PASS
+[CELL ] rad/rader_r2_psm_xs radix=0 N=101     tile=352  minT=8   ... PASS
+[CELL ] rad/rader_r2_psm_xs radix=0 N=101     tile=352  minT=64  ... FAIL (verification)
+[CELL ] rad/rader_r2_psm_xs radix=0 N=211     tile=8    minT=1   ... PASS
+[CELL ] rad/rader_r2_psm_xs radix=0 N=211     tile=8    minT=8   ... FAIL (verification)
+[CELL ] rad/rader_r2_psm_xs radix=0 N=211     tile=8    minT=64  ... FAIL (verification)
+[CELL ] rad/rader_r2_psm_xs radix=0 N=211     tile=64   minT=1   ... PASS
+[CELL ] rad/rader_r2_psm_xs radix=0 N=211     tile=64   minT=8   ... PASS
+[CELL ] rad/rader_r2_psm_xs radix=0 N=211     tile=64   minT=64  ... FAIL (verification)
+[CELL ] rad/rader_r2_psm_xs radix=0 N=211     tile=352  minT=1   ... PASS
+[CELL ] rad/rader_r2_psm_xs radix=0 N=211     tile=352  minT=8   ... PASS
+[CELL ] rad/rader_r2_psm_xs radix=0 N=211     tile=352  minT=64  ... PASS
+[CELL ] rad/rader_r2_psm_xs radix=0 N=1009    tile=8    minT=1   ... FAIL (verification)
+[CELL ] rad/rader_r2_psm_xs radix=0 N=1009    tile=8    minT=8   ... FAIL (verification)
+[CELL ] rad/rader_r2_psm_xs radix=0 N=1009    tile=8    minT=64  ... FAIL (verification)
+[CELL ] rad/rader_r2_psm_xs radix=0 N=1009    tile=64   minT=1   ... PASS
+[CELL ] rad/rader_r2_psm_xs radix=0 N=1009    tile=64   minT=8   ... PASS
+[CELL ] rad/rader_r2_psm_xs radix=0 N=1009    tile=64   minT=64  ... PASS
+[CELL ] rad/rader_r2_psm_xs radix=0 N=1009    tile=352  minT=1   ... PASS
+[CELL ] rad/rader_r2_psm_xs radix=0 N=1009    tile=352  minT=8   ... PASS
+[CELL ] rad/rader_r2_psm_xs radix=0 N=1009    tile=352  minT=64  ... PASS
+[CELL ] rad/rader_r2_psm_xs radix=0 N=10007   tile=8    minT=1   ... FAIL (verification)
+[CELL ] rad/rader_r2_psm_xs radix=0 N=10007   tile=8    minT=8   ... FAIL (verification)
+[CELL ] rad/rader_r2_psm_xs radix=0 N=10007   tile=8    minT=64  ... FAIL (verification)
+[CELL ] rad/rader_r2_psm_xs radix=0 N=10007   tile=64   minT=1   ... FAIL (verification)
+[CELL ] rad/rader_r2_psm_xs radix=0 N=10007   tile=64   minT=8   ... PASS
+[CELL ] rad/rader_r2_psm_xs radix=0 N=10007   tile=64   minT=64  ... PASS
+[CELL ] rad/rader_r2_psm_xs radix=0 N=10007   tile=352  minT=1   ... PASS
+[CELL ] rad/rader_r2_psm_xs radix=0 N=10007   tile=352  minT=8   ... PASS
+[CELL ] rad/rader_r2_psm_xs radix=0 N=10007   tile=352  minT=64  ... FAIL (verification)
+[CELL ] rad/rader_r4_ps_xs radix=0 N=101     tile=8    minT=1   ... FAIL (verification)
+[CELL ] rad/rader_r4_ps_xs radix=0 N=101     tile=8    minT=8   ... FAIL (verification)
+[CELL ] rad/rader_r4_ps_xs radix=0 N=101     tile=8    minT=64  ... FAIL (verification)
+[CELL ] rad/rader_r4_ps_xs radix=0 N=101     tile=64   minT=1   ... FAIL (verification)
+[CELL ] rad/rader_r4_ps_xs radix=0 N=101     tile=64   minT=8   ... PASS
+[CELL ] rad/rader_r4_ps_xs radix=0 N=101     tile=64   minT=64  ... FAIL (verification)
+[CELL ] rad/rader_r4_ps_xs radix=0 N=101     tile=352  minT=1   ... PASS
+[CELL ] rad/rader_r4_ps_xs radix=0 N=101     tile=352  minT=8   ... FAIL (verification)
+[CELL ] rad/rader_r4_ps_xs radix=0 N=101     tile=352  minT=64  ... FAIL (verification)
+[CELL ] rad/rader_r4_ps_xs radix=0 N=211     tile=8    minT=1   ... FAIL (verification)
+[CELL ] rad/rader_r4_ps_xs radix=0 N=211     tile=8    minT=8   ... FAIL (verification)
+[CELL ] rad/rader_r4_ps_xs radix=0 N=211     tile=8    minT=64  ... FAIL (verification)
+[CELL ] rad/rader_r4_ps_xs radix=0 N=211     tile=64   minT=1   ... FAIL (verification)
+[CELL ] rad/rader_r4_ps_xs radix=0 N=211     tile=64   minT=8   ... FAIL (verification)
+[CELL ] rad/rader_r4_ps_xs radix=0 N=211     tile=64   minT=64  ... FAIL (verification)
+[CELL ] rad/rader_r4_ps_xs radix=0 N=211     tile=352  minT=1   ... PASS
+[CELL ] rad/rader_r4_ps_xs radix=0 N=211     tile=352  minT=8   ... 

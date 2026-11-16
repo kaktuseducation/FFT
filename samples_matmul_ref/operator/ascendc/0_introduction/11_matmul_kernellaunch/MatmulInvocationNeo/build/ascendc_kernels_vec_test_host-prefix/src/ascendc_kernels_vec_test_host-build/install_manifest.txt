@@ -1,0 +1,1 @@
+/home/ma-user/work/samples_matmul_ref/operator/ascendc/0_introduction/11_matmul_kernellaunch/MatmulInvocationNeo/build/ascendc_kernels_vec_test_host_dir/./objects-Debug/host_bisheng_obj/home/ma-user/work/samples_matmul_ref/operator/ascendc/0_introduction/11_matmul_kernellaunch/MatmulInvocationNeo/cube1_repack.cpp.o

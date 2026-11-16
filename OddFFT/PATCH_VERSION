@@ -1,0 +1,30 @@
+v10  2026-10-22
+Changed from v9: run_matrix.sh only.
+
+  1. calibrate_binding() extracted the time with
+         sed -n 's/.*total_us=\([0-9.]*\).*/\1/p' | head -1
+     which returns an EMPTY STRING on every run. The harness prints total_us
+     on two kinds of line; the first is the per-run line, formatted %10.2f, so
+     `total_us=` is followed by spaces, `[0-9.]*` matches nothing, sed prints
+     an empty line and head -1 returns it. Hence the v9 log line
+         [CALIB] a calibration run produced no result -- leaving binding off
+     The two runs themselves had worked. Now the number is read off the
+     [RESULT] line only, by awk field, and a failure prints the tail of the
+     calibration log instead of just giving up quietly.
+
+  2. The calibration's two runs appended rows to output/matrix.csv, which had
+     already been rotated -- so the v9 summary read "cells: 146  PASS=146"
+     against "[DONE ] cells=144". The table sizes are now recorded before the
+     calibration and cut back to them afterwards.
+
+  3. The calibration cell is now the LARGEST N of the variant's list, not the
+     smallest. At the small end the host stages are a few per cent of the
+     runtime and the bound/unbound difference sits inside the noise, which
+     makes the 5% decision a coin flip.
+
+  4. The calibration variant now skips chk/* diagnostics, which write no
+     output and would SKIP.
+
+Nothing else changed: no kernel, no host code, no test. A v9 table is still
+readable, it just has two spurious rows at the smallest N of the first
+variant, tile=64 minT=8.

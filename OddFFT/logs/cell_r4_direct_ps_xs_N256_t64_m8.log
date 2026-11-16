@@ -1,0 +1,21 @@
+[INFO] ACL initialized, deviceId=0
+================================================================
+[BENCH ] impl=r4/direct_ps_xs  N=256  tile=64  warmup=2  runs=5
+[BENCH ] twiddles=precomputed (npu=table, cpu=table:2 stage(s)) — the trigonometry is outside the timing on both sides
+----------------------------------------------------------------
+[WARMUP] 1/2 done
+[WARMUP] 2/2 done
+[RUN   ] 1/5  npu_us=     44.08  cpu_us=   3759.78  total_us=   3803.86
+[RUN   ] 2/5  npu_us=    148.24  cpu_us=     22.42  total_us=    170.66
+[RUN   ] 3/5  npu_us=     80.04  cpu_us=     66.93  total_us=    146.97
+[RUN   ] 4/5  npu_us=     81.79  cpu_us=     20.89  total_us=    102.68
+[RUN   ] 5/5  npu_us=     71.26  cpu_us=     23.24  total_us=     94.50
+----------------------------------------------------------------
+NPU:   avg=85.08 us  min=44.08 us  max=148.24 us
+CPU:   avg=778.65 us  min=20.89 us  max=3759.78 us
+Total: avg=863.73 us  min=94.50 us  max=3803.86 us
+[RESULT] impl=r4/direct_ps_xs N=256 tile=64 npu_us=85.08 cpu_us=778.65 total_us=863.73 min_us=94.50 max_us=3803.86 stages_npu=2 stages_cpu=2
+================================================================
+[VERIFY] impl=r4/direct_ps_xs N=256 tile=64 status=PASS mismatches=0/256 err_ratio=0.000000 tol=1.0e-03 max_abs=3.016e-06 max_rel=1.135e-06
+[PLAN  ] stages_npu=2 stages_cpu=2 (the leading 2 stage(s) have t below the 32-byte DataCopy floor and run on the host)
+test pass
